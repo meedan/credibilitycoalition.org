@@ -1,14 +1,14 @@
 @import url('//fonts.googleapis.com/css?family=Roboto+Slab:700');
-@import 'shared/variables';
-@import 'shared/mixins';
-@import 'shared/layout';
-@import 'shared/colors';
-@import 'shared/typography';
-@import 'shared/buttons';
-@import 'shared/nav';
-@import 'shared/background_photo';
-@import 'shared/keyframes';
-@import 'shared/logos';
+@import './shared/variables.scss';
+@import './shared/mixins.scss';
+@import './shared/layout.scss';
+@import './shared/colors.scss';
+@import './shared/typography.scss';
+@import './shared/buttons.scss';
+@import './shared/nav.scss';
+@import './shared/background_photo.scss';
+@import './shared/keyframes.scss';
+@import './shared/logos.scss';
 
 .home {
   // Typography
@@ -93,7 +93,12 @@
     @media all and (min-width: units(70)) {
       background-position: 20% 50%;
     }
-    background: linear-gradient(rgba(#c86edf, .2), rgba(darken(#e4b7f0, 20%), .4)), url('/images/photo-1.jpg');
+    background:
+      linear-gradient(
+        rgba(#c86edf, .2),
+        rgba(darken(#e4b7f0, 20%), .4)
+      ),
+      url("../images/photo-1.jpg");
     background-size: cover;
     filter: grayscale(60%);
   }
@@ -107,7 +112,12 @@
     @media all and (min-width: units(70)) {
       background-position: 20% 50%;
     }
-    background: linear-gradient(rgba(#c86edf, .2), rgba(darken(#e4b7f0, 20%), .4)), url('/images/photo-2.jpg');
+    background:
+      linear-gradient(
+        rgba(#c86edf, .2),
+        rgba(darken(#e4b7f0, 20%), .4)
+      ),
+      url("../images/photo-2.jpg");
     background-size: cover;
     filter: grayscale(60%);
   }
