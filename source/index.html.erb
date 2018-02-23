@@ -121,7 +121,9 @@ ogp:
           <%= partial "partials/image", :locals => {
               :type => image[:type],
               :name => image[:name],
-              :url => image[:url]} %>
+              :url => image[:url],
+              :path => "logos"
+            } %>
         </li>
       <% end %>
     </ul>

@@ -4,9 +4,9 @@ USAGE:
 
 partial "partials/image", :locals => {
           :type => "svg",
-          :path => "vectors",  # defaults to `/images/logos/`
+          :path => "vectors",
           :name => "cool-image",
-          :url => "foobar.com",  # optional
+          :url => "http://foobar.com",  # optional
         }
 %>
 
@@ -19,22 +19,21 @@ partial "partials/image", :locals => {
   <% end_tag = "</a>" %>
 <% end %>
 
-<%# Define a path. Default to `logos` %>
-<% if defined?(path) %>
-  <% full_path = "/images/#{path}" %>
-<% else %>
-  <% full_path = "/images/logos" %>
-<% end %>
+<%# Define a path. %>
+<% full_path = defined?(path) ? path : '' %>
 
 <%# Render the linked image %>
 <%= start_tag %>
   <% if type == "svg" %>
-    <img width="100" class="<%= name %>" <%= "src='#{full_path}/#{name}.#{type}'" %> alt="<%= alt %>">
+    <% full_path_and_name = "#{full_path}/#{name}.#{type}" %>
   <% else %>
-    <img
-      class="<%= name %>"
-      alt="<%= alt %>"
-      <%= "src='#{full_path}/#{name}@1x.#{type}'" %>
-      <%= "srcset='#{full_path}/#{name}@2x.#{type} 2x'" %> >
+    <!-- TODO: support srcset 2018-2-22 -->
+    <% full_path_and_name = "#{full_path}/#{name}@2x.#{type}" %>
   <% end %>
+
+  <%= image_tag(full_path_and_name, {
+        :class => name,
+        :alt => alt
+      })
+    %>
 <%= end_tag %>

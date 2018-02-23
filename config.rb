@@ -36,5 +36,5 @@ configure :build do
   # For github pages staging site, without a proper domain
   # Remove this line when switching to stating url not in subdir
   # CGB 2018-2-22
-  set :http_prefix, 'credibilitycoalition.org/'
+  set :http_prefix, '/credibilitycoalition.org/'
 end
