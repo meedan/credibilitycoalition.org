@@ -1,6 +1,5 @@
 # Assets setup
 #
-set :css_dir, 'css'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :partials_dir, 'partials'
