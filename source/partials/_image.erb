@@ -10,30 +10,12 @@ partial "partials/image", :locals => {
         }
 %>
 
-<%# Make a cleaner alt tag %>
 <% alt = name.gsub("-", " ") %>
-
-<%# If there's a link, define anchor tags %>
-<% if defined?(url) %>
-  <% start_tag = "<a class='#{name}' href='#{url}'>" %>
-  <% end_tag = "</a>" %>
-<% end %>
-
-<%# Define a path. %>
 <% full_path = defined?(path) ? path : '' %>
+<% suffix = type == "svg" ? "" : "@2x" %>
 
-<%# Render the linked image %>
-<%= start_tag %>
-  <% if type == "svg" %>
-    <% full_path_and_name = "#{full_path}/#{name}.#{type}" %>
-  <% else %>
-    <!-- TODO: support srcset 2018-2-22 -->
-    <% full_path_and_name = "#{full_path}/#{name}@2x.#{type}" %>
-  <% end %>
-
-  <%= image_tag(full_path_and_name, {
-        :class => name,
-        :alt => alt
-      })
-    %>
-<%= end_tag %>
+<% if defined?(url) %>
+  <%= link_to image_tag("#{full_path}/#{name+suffix}.#{type}"), url, :class => name, :alt => alt %>
+<% else %>
+  <%= image_tag "#{full_path}/#{name+suffix}.#{type}", :class => name, :alt => alt %>
+<% end %>
