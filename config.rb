@@ -39,6 +39,6 @@ configure :build do
   set :http_prefix, '/credibilitycoalition.org/'
 
   # Other steps for hosting on github
-  activate :relative_assets
+  # activate :relative_assets
   # set :relative_links, true
 end
