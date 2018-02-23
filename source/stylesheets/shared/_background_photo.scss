@@ -1,0 +1,21 @@
+// Component: background-photo
+[class$='__background-photo'] {
+  background-color: $black-87;
+  background-image: url('/images/banners/banner-2@1x.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+  margin: 0 auto;
+  min-height: 350px;
+  padding: 4em 0;
+  text-shadow: 0 0 5px $black-54;
+  vertical-align: middle;
+  width: 100%;
+}
+
+// Home background-photo section
+//
+.home--background-photo {
+  padding-bottom: 100px;
+}

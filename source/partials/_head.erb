@@ -1,0 +1,14 @@
+<% slug = current_page.data.slug %>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# business: http://ogp.me/ns/business#">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/images/favicons/favicon.ico?v=1">
+  <title><%= slug.gsub("-", " ").split.map(&:capitalize).join(' ') %> | Credibility Coalition</title>
+
+  <%# Render OGP tags %>
+  <%- ogp_tags do |name, value| %>
+    <%= "<meta property='#{name}' content='#{value}'>" %>
+  <% end %>
+
+  <%= stylesheet_link_tag "stylesheets/page__#{current_page.data.slug.downcase}" %>
+</head>

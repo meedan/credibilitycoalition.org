@@ -1,0 +1,19 @@
+<nav class="primary-nav">
+  <%# Meedan Logo %>
+  <%= partial "partials/image", :locals => {
+      :type => "png",
+      :name => "credco-medium",
+      :url  => "/"
+    }
+  %>
+
+  <%# Pages navigation %>
+  <ul class="pages">
+    <li class="home">
+      <%= link_to "home", "/" %>
+    </li>
+    <li class="about">
+      <%= link_to "about", "/about" %>
+    </li>
+  </ul>
+</nav>

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+
+<%= partial "partials/head" %>
+
+<body class="<%= page_classes %> <%= current_page.data.slug %>">
+
+  <%= partial "partials/nav" %>
+
+  <main>
+    <%= yield %>
+  </main>
+
+  <% if build? %>
+    <%= partial "partials/ga" %>
+  <% end %>
+
+	</body>
+</html>

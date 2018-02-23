@@ -1,0 +1,94 @@
+@import 'variables';
+@import 'mixins';
+
+// Web fonts from Google
+//
+@import url('//fonts.googleapis.com/css?family=Roboto:300,500');
+
+// Default typography
+//
+// This is a language independent base theme.
+// Language specific typography is in files like `_lang__en.scss`
+//
+body {
+  color: $black-87;
+  font: $font--subheading-2;
+}
+
+// Section defaults
+//
+// The primary building blocks of the typographic rhythm.
+// Each section must have a header.
+section {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+h2,
+h3 {
+  @include when-smaller-than(large) {
+    padding: $width--large-gutter 0;
+  }
+  display: block;
+  font: $font--headline;
+  letter-spacing: .1em;
+  margin: 0;
+  padding: $width--large-gutter 0;
+  text-transform: uppercase;
+}
+
+h4 {
+  @include when-smaller-than(large) {
+    margin: $width--xsmall-gutter 0;
+    max-width: 61.8%;
+  }
+  margin: $width--xsmall-gutter 0;
+  max-width: units(70);
+}
+
+em {
+  font-style: italic;
+}
+
+ul {
+  margin: $width--xsmall-gutter 0;
+  padding: 0;
+}
+
+li {
+  @include when-smaller-than(large) {
+    display: block;
+  }
+  list-style-type: none;
+  padding: 0 0 $width--small-gutter;
+}
+
+// Paragraphs
+p {
+  // @include when-smaller-than(large) {
+//   padding: $width--small-gutter 0;
+// }
+  display: block;
+  margin: 0;
+  max-width: units(70);
+  padding: 0 0 $width--large-gutter;
+}
+
+h1,
+h2,
+h3,
+p {
+  a {
+    border-bottom: 4px solid rgba(blue, 0.1);
+  }
+}
+
+// Links
+a {
+  color: $check-blue;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($check-blue, 20%);
+  }
+}

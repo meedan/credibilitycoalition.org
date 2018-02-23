@@ -1,0 +1,40 @@
+<%# (linked) image helper for jpg, png and svg.
+
+USAGE:
+
+partial "partials/image", :locals => {
+          :type => "svg",
+          :path => "vectors",  # defaults to `/images/logos/`
+          :name => "cool-image",
+          :url => "foobar.com",  # optional
+        }
+%>
+
+<%# Make a cleaner alt tag %>
+<% alt = name.gsub("-", " ") %>
+
+<%# If there's a link, define anchor tags %>
+<% if defined?(url) %>
+  <% start_tag = "<a class='#{name}' href='#{url}'>" %>
+  <% end_tag = "</a>" %>
+<% end %>
+
+<%# Define a path. Default to `logos` %>
+<% if defined?(path) %>
+  <% full_path = "/images/#{path}" %>
+<% else %>
+  <% full_path = "/images/logos" %>
+<% end %>
+
+<%# Render the linked image %>
+<%= start_tag %>
+  <% if type == "svg" %>
+    <img width="100" class="<%= name %>" <%= "src='#{full_path}/#{name}.#{type}'" %> alt="<%= alt %>">
+  <% else %>
+    <img
+      class="<%= name %>"
+      alt="<%= alt %>"
+      <%= "src='#{full_path}/#{name}@1x.#{type}'" %>
+      <%= "srcset='#{full_path}/#{name}@2x.#{type} 2x'" %> >
+  <% end %>
+<%= end_tag %>
