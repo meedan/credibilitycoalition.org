@@ -92,3 +92,8 @@ a {
     color: darken($check-blue, 20%);
   }
 }
+
+// Utility classes
+.caption {
+  font: $font--caption;
+}

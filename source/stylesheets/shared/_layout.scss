@@ -12,7 +12,7 @@ body {
 
 .section-inner {
   @include when-smaller-than(small) {
-    padding: 0 $width--small-gutter;
+    padding: $width--small-gutter;
   }
 
   @include when-larger-than(small) {
@@ -41,6 +41,8 @@ body {
   direction: ltr;
 }
 
+// Utility classes
+//
 .layout--padding-bottom {
   padding-bottom: $width--large-gutter;
 }
@@ -63,4 +65,35 @@ body {
 
 .layout--padding-all {
   padding: $width--large-gutter;
+}
+
+.layout--margin-bottom {
+  padding-bottom: $width--large-gutter;
+}
+
+.layout--margin-top {
+  padding-top: $width--large-gutter;
+}
+
+.layout--margin-none {
+  padding: 0;
+}
+
+.layout--margin-right {
+  padding-right: $width--large-gutter;
+}
+
+.layout--margin-left {
+  padding-left: $width--large-gutter;
+}
+
+.layout--margin-all {
+  padding: $width--large-gutter;
+}
+
+// Responsive image 
+img.responsive {
+  @include when-smaller-than(medium) {
+    width: 100%;
+  }
 }

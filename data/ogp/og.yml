@@ -1,20 +1,13 @@
 # The first two are twitter only. I can't get the ogp twitter namespace to work properly, but I think twitter will fall back to use the 'og' namespace if it can't find the 'twitter' namespace. Needs more testing using the twitter and FB card testing tools. Note that these default values are overidden in the yaml frontmatter of each page template.  2017-3-19 CGB
-site: "@meedan"
+site: "@credcoalition"
 card: "summary"
-title: "Meedan"
-url: "http://meedan.com"
-type: "business.business"
-business:
-  contact_data:
-    street_address: "972 Mission St."
-    locality: "San Francisco"
-    postal_code: "94103"
-    country_name: "USA"
+title: "Credibility Coalition"
+url: "http://credibilitycoalition.org"
 image:
-  '': "http://meedan.com/images/logos/meedan-logo-600@2x.png"
-  type: "image/png"
-  width: "600"
-  height: "600"
+  '': http://meedan.com/images/credco-thumbnail.jpg
+  type: image/jpg
+  width: 386
+  height: 386
 locale:
   '': en_US
-description: "A team of designers, technologists and journalists who focus on open source investigation of digital media and crowdsourced translation of social media."
+description: 'Credibility Coalition: A diverse, interdisciplinary community committed to building better standards for credibility on the web.'
