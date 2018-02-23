@@ -32,4 +32,9 @@ configure :build do
 	activate :minify_css
 	activate :minify_javascript
   activate :autoprefixer
+
+  # For github pages staging site, without a proper domain
+  # Remove this line when switching to stating url not in subdir
+  # CGB 2018-2-22
+  set :http_prefix, 'credibilitycoalition.org/'
 end
