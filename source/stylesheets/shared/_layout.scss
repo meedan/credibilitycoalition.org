@@ -94,6 +94,7 @@ body {
 // Responsive image 
 img.responsive {
   @include when-smaller-than(medium) {
-    width: 100%;
+    max-width: 100%;
   }
+  max-width: 730px;
 }
