@@ -49,7 +49,7 @@
 }
 
 // Page navigation: current page indicator
-@each $page in about, data, process {
+@each $page in about, data, process, vocabularies {
   .#{$page} {
     .#{$page} {
       a {
