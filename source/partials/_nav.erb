@@ -1,13 +1,7 @@
 <nav class="primary-nav">
   <%# Meedan Logo %>
-  <% link_to "/", :class => "credco-medium" do %>
-    <%= partial "partials/image", :locals => {
-        :type => "png",
-        :name => "credco-medium",
-        :path => "logos"
-      }
-    %>
-  <% end %>
+
+  <%= link_to image_tag("logos/credco-medium@2x.png"), "/index.html", :class => "credco-medium", :alt => "CredCo" %>
 
   <%# Pages navigation %>
   <ul class="pages">

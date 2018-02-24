@@ -38,7 +38,7 @@ configure :build do
   # CGB 2018-2-22
   set :http_prefix, '/credibilitycoalition.org/'
 
-  # Other steps for hosting on github
+  # Testing other steps for hosting on github
   # activate :relative_assets
   # set :relative_links, true
 end
