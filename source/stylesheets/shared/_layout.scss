@@ -90,11 +90,3 @@ body {
 .layout--margin-all {
   padding: $width--large-gutter;
 }
-
-// Responsive image 
-img.responsive {
-  @include when-smaller-than(medium) {
-    max-width: 100%;
-  }
-  max-width: 730px;
-}
