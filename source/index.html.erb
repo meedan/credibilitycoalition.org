@@ -2,22 +2,20 @@
 layout: "default"
 slug: "home"
 ---
-
 <div class="credibility-coalition__section layout--padding-top">
   <div class="section-inner">
-    <h1>Can we agree on why and how some news stories are more credible than others -- <em>at scale?</em></h1>
-    <p><p><p>
-    <p>The Credibility Coalition is creating a community-driven approach to try and find out.</p>
-    Our collaborative <a href="">process</a> results in <a href="">vocabularies</a> around information quality and <a href="">data</a> for further explorations regarding the nature of “<a href="" alt="What is credibility?">credible content</a>.”
-    </div>
+    <h1>News credibility is the challenge of our time.</h1>
+    <p>Can we agree on scientific and systematic ways to assess reliable information, and whether they can be applied at scale?</p>
+    <p> Our community-driven <a href="">approach</a> is trying to find out through collaboratively structured <a href="">definitions</a> and shared <a href="">results</a> from content tests for credibility.
+    </p>
+  </div>
 </div>
-
 <section class="home__recent-press">
   <div class="section-inner">
     <h3>RECENT MENTIONS</h3>
     <ul class="blurbs layout--padding-bottom">
-  <li class="blurb__journalismdotco">
-    <a href="https://www.journalism.co.uk/news/the-credibility-coalition-is-working-to-establish-the-common-elements-of-trustworthy-articles/s2/a712487/">
+      <li class="blurb__journalismdotco">
+        <a href="https://www.journalism.co.uk/news/the-credibility-coalition-is-working-to-establish-the-common-elements-of-trustworthy-articles/s2/a712487/">
       <img 
         class="logo" 
         src="<%= image_path 'logos/journalismdotco@2x.jpg' %>" 
@@ -27,11 +25,10 @@ slug: "home"
           “As many independent projects are now working on fighting misinformation and analysing trust, a common framework is needed.”
       </p>
     </a>
-  </li>
-
-  <li class="blurb__councilofeurope">
-    <a href="https://rm.coe.int/information-disorder-report-november-2017/1680764666">
-      <img src="http://placehold.it/200x100" >
+      </li>
+      <li class="blurb__councilofeurope">
+        <a href="https://rm.coe.int/information-disorder-report-november-2017/1680764666">
+      <img src="https://placehold.it/200x100" >
       <!-- Need COE Logo -->
       <!-- <img
         class="logo"
@@ -42,12 +39,11 @@ slug: "home"
         “...to see if there can be a programmatic way for social networks use their scores to influence algorithmic rankings..”
       </p>
     </a>
-  </li>
+      </li>
+      <li class="blurb__aspeninstitute">
+        <a href="https://www.aspeninstitute.org/programs/communications-and-society-program/recap-palo-alto-ca-forum/">
 
-  <li class="blurb__aspeninstitute">
-    <a href="https://www.aspeninstitute.org/programs/communications-and-society-program/recap-palo-alto-ca-forum/">
-
-    <img src="http://placehold.it/200x100" >
+    <img src="https://placehold.it/200x100" >
       <!-- Need Aspen Logo -->
       <!-- <img
         class="logo"
@@ -59,16 +55,23 @@ slug: "home"
           “The Credibility Coalition is a diverse grassroots group of volunteers whose goals are to identify a set of credibility indicators and use cases; build cooperation around a data model; and generate and use testing data to improve the model.”
       </p>
     </a>
-  </li>
-</ul>
+      </li>
+      <li class="blurb__dataandsociety">
+        <a href="https://datasociety.net/output/dead-reckoning/">
+         <img src="https://placehold.it/200x100" >
 
+         <!-- Need D&S Logo -->
+        <p>
+      "Rather than build one stable definition that can be used to identify content, feature- or identifier-based approaches [like the Credibilty Coalition] work from the groundup, using methods drawn from content analysis or social network analysis to identify potential features associated with 'fake news,' disinformation, and spam."
+        </p>  
+       </a>
+      </li>
+    </ul>
   </div>
 </section>
-
 <div class="credibility-coalition__logos layout--padding-bottom">
   <div class="section-inner">
     <p><b>An initiative co-founded by Meedan and Hacks/Hackers.</b> The Credibility Coalition, formerly known as the Credibility Indicators Working Group, has received generous support from:</p>
-
     <ul class="logos">
       <% data.credco_logos.each do |image| %>
         <li>
@@ -79,21 +82,18 @@ slug: "home"
               :path => "logos"
             } %>
         </li>
-      <% end %>
+        <% end %>
     </ul>
   </div>
 </div>
-
 <div class="credibility-coalition__section  layout--padding-bottom">
   <div class="section-inner">
     <p>We are proud recipients of a <a href="https://knightfoundation.org/challenges/knight-prototype-fund">Knight Prototype Fund grant</a>.</p>
   </div>
 </div>
-
 <section class="contact colors--inverted">
   <div class="section-inner">
     <h3>Contact Us</h3>
     <div class="contact__write">
-        <p><a class="button" href="">hello [at] credibiltycoalition [dot] org </a></p>
-
-  </div>
+      <p><a class="button" href="mailto:hello@credibiltycoalition.org">hello@credibiltycoalition.org</a></p>
+    </div>
