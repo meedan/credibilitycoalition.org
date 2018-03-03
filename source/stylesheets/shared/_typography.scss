@@ -27,6 +27,7 @@ section {
 h1 {
   font: $font--display-2;
   font-weight: bold;
+  padding: units(6) 0;
 }
 
 h2,
@@ -99,4 +100,10 @@ a {
 // Utility classes
 .caption {
   font: $font--caption;
+}
+
+
+ul.bulleted li {
+  list-style-position: inside;
+  list-style-type: disc;
 }

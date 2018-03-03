@@ -1,0 +1,62 @@
+
+// Fancy images (color processed with CSS)
+//
+.fancy-image {
+  background-size: contain;
+  height: 30vh;
+
+  &.placeholder {
+    background-color: #f8f8f8;
+  }
+}
+
+.fancy-image-wrapper {
+  position: relative;
+}
+
+.fancy-image-1 {
+  @media all and (max-width: units(70)) {
+    background-position: 50% 50%;
+    height: 50vh;
+  }
+
+  @media all and (min-width: units(70)) {
+    background-position: 20% 50%;
+  }
+  background:
+    linear-gradient(
+      rgba(#c86edf, .2),
+      rgba(darken(#e4b7f0, 20%), .4)
+    ),
+    url("/images/photo-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%) brightness(120%) contrast(120%);
+}
+
+.fancy-image-2 {
+  @media all and (max-width: units(70)) {
+    background-position: 50% 50%;
+    height: 50vh;
+  }
+
+  @media all and (min-width: units(70)) {
+    background-position: 20% 50%;
+  }
+  background:
+    linear-gradient(
+      rgba(#c86edf, .2),
+      rgba(darken(#e4b7f0, 20%), .4)
+    ),
+    url("../images/photo-2.jpg");
+  background-size: cover;
+  filter: grayscale(100%) brightness(120%) contrast(120%);
+}
+
+// Caption on the photo
+//
+.caption {
+  color: $black-54;
+  font: $font--caption;
+  padding-top: units(2);
+}

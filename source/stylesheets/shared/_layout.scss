@@ -5,6 +5,20 @@
   box-sizing: border-box;
 }
 
+// main {
+//   animation: fadeIn .2s;
+// }
+
+
+%sticky-footer {
+  display: grid;
+  min-height: 99.9vh; // (100vh triggers scroll bar for some reason — @chris 2018-3-2)
+  grid-template-rows: units(8) auto units(28);
+  @include when-smaller-than(medium) {
+    grid-template-rows: units(18) auto units(28);
+  }
+}
+
 body {
   margin: 0;
   min-width: 280px;
@@ -24,10 +38,10 @@ body {
     padding: $width--large-gutter $width--large-gutter 0;
   }
 
-  // > * {
-  //   margin: 0;
-  //   max-width: 1440px;
-  // }
+  > * {
+    margin: 0;
+    // max-width: 1440px;
+  }
 }
 
 .row {

@@ -107,10 +107,3 @@ $duration--default: .3s;
     transition: border .2s;
   }
 }
-
-
-%sticky-footer {
-  display: grid;
-  min-height: 99.9vh; // (100vh triggers scroll bar for some reason — @chris 2018-3-2)
-  grid-template-rows: units(8) auto units(28);
-}
