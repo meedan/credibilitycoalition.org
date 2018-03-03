@@ -1,3 +1,6 @@
+# For debugging
+require 'pry'
+
 # Assets setup
 #
 set :css_dir, 'stylesheets'
@@ -32,13 +35,7 @@ configure :build do
 	activate :minify_css
 	activate :minify_javascript
   activate :autoprefixer
-
-  # For github pages staging site, without a proper domain
-  # Remove this line when switching to stating url not in subdir
-  # CGB 2018-2-22
-  # set :http_prefix, '/credibilitycoalition.org/'
-
-  # Testing other steps for hosting on github
-  # activate :relative_assets
-  # set :relative_links, true
 end
+
+require "json"
+$credco_version = JSON.parse(File.read('package.json'))['version']

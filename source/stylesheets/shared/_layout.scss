@@ -11,6 +11,7 @@ body {
 }
 
 .section-inner {
+
   @include when-smaller-than(small) {
     padding: $width--small-gutter;
   }
@@ -89,4 +90,8 @@ body {
 
 .layout--margin-all {
   padding: $width--large-gutter;
+}
+
+.layout--relative {
+  position: relative;
 }
