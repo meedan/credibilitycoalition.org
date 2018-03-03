@@ -16,6 +16,7 @@
   //
   h1 {
     line-height: 1.2;
+    padding-top: units(6);
   }
 
   h2 {
@@ -203,4 +204,22 @@ img.responsive {
     max-width: 100%;
   }
   max-width: 730px;
+}
+
+.blurbs {
+  li {
+    display: flex;
+    align-items: center;
+    font: $font--body-1;
+
+    .logo {
+      width: 120px;
+      min-width: 120px;
+      margin-right: 16px;
+    }
+  }
+}
+
+.placeholder {
+  opacity: 0.2;
 }

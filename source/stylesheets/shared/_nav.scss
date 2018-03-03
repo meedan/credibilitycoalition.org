@@ -6,6 +6,10 @@
   width: 100%;
   z-index: 3;
 
+  @include when-smaller-than(medium) {
+    display: block;
+  }
+
   .credco-medium {
     img {
       height: units(4);
@@ -17,7 +21,10 @@
     display: flex;
     flex: 3;
     justify-content: flex-end;
-    margin: 0 units(1);
+    @include when-smaller-than(medium) {
+      justify-content: flex-start;
+    }
+    margin: 0 units(2);
 
     li {
       height: units(8);
@@ -49,7 +56,7 @@
 }
 
 // Page navigation: current page indicator
-@each $page in about, data, process, vocabularies {
+@each $page in about, results, approach, vocabularies {
   .#{$page} {
     .#{$page} {
       a {

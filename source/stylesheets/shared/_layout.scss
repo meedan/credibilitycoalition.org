@@ -1,5 +1,6 @@
 @import 'variables';
 
+
 * {
   box-sizing: border-box;
 }
@@ -8,6 +9,7 @@ body {
   margin: 0;
   min-width: 280px;
   overflow-x: hidden;
+  @extend %sticky-footer;
 }
 
 .section-inner {
