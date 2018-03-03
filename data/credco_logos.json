@@ -1,7 +1,8 @@
 [{
   "name": "kf",
   "url": "http://www.knightfoundation.org",
-  "type": "svg"
+  "type": "svg",
+  "shape": "very-wide"
 },
 {
   "name": "ra",
@@ -36,6 +37,7 @@
 {
   "name": "meedan",
   "url": "https://meedan.com/",
-  "type": "svg"
+  "type": "svg",
+  "shape": "square"
 }
 ]

@@ -5,11 +5,6 @@
   box-sizing: border-box;
 }
 
-// main {
-//   animation: fadeIn .2s;
-// }
-
-
 %sticky-footer {
   display: grid;
   min-height: 99.9vh; // (100vh triggers scroll bar for some reason — @chris 2018-3-2)
@@ -34,7 +29,7 @@ body {
 
   @include when-larger-than(small) {
     margin: 0 auto;
-    max-width: 720px;
+    max-width: $width--column-primary;
     padding: $width--large-gutter $width--large-gutter 0;
   }
 

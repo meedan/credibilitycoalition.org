@@ -39,38 +39,19 @@
       max-width: units(16);
     }
 
-    // Very square
-    .meedan,
-    .first-draft,
-    .ibm,
-    .kiva,
-    .dataguild,
-    .hku,
-    .hrc {
+    .square {
       img {
         max-height: units(9);
         max-width: units(9);
       }
     }
 
-    // Very oblong
-    .kf,
-    .ff,
-    .bcu,
-    .bc,
-    .amnesty,
-    .shuttleworth,
-    .gnl {
+    .very-wide {
       img {
         max-height: units(16);
         max-width: units(20);
+        width: units(20);
       }
-    }
-
-    // Oblong svg
-    // (because by default svgs have `width: 100` inline)
-    .kf img {
-      width: units(20);
     }
   }
 }

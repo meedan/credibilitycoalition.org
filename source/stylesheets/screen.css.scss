@@ -12,112 +12,6 @@
 @import './shared/version.scss';
 @import './shared/photos.scss';
 
-
-//   h2 {
-//     color: $black;
-//     font-size: 20px;
-//     font-weight: bold;
-//     padding: 0;
-
-//     &.subtitle {
-//       color: $black-54;
-//       font-style: italic;
-//       font-weight: 200;
-//       text-transform: none;
-//     }
-//   }
-
-//   h4 {
-//     margin-bottom: units(4);
-//     margin-left: 0;
-//   }
-
-//   p {
-//     margin: 2em 0;
-//     max-width: 100%;
-//     padding: 0;
-//     text-align: left;
-//   }
-
-//   ul,
-//   li {
-//     margin-left: 0 !important;
-//     padding-left: 0;
-//   }
-
-//   ul.goals {
-//     em {
-//       font-style: normal;
-//       font-weight: 800;
-//     }
-
-//     li {
-//       list-style-type: circle;
-//       margin-bottom: units(2);
-//     }
-//   }
-
-//   ul {
-//     text-align: left;
-//   }
-
-//   body {
-//     text-align: left;
-//   }
-
-//   .credibility-coalition--logos {
-//     background-color: $black-02;
-//     margin: units(4) 0;
-//     padding: units(4) 0;
-//     text-align: center;
-
-//     .logos {
-//       display: inline-flex;
-//       flex-flow: wrap row;
-//       justify-content: center;
-//       margin: 0 auto units(4);
-//       max-width: 700px;
-
-//       li {
-//         @extend %card-flat;
-//         height: units(12);
-//         list-style-type: none;
-//         margin: units(1);
-//         padding: 0;
-//         width: units(30);
-//       }
-
-//       a {
-//         align-items: center;
-//         color: $black-87;
-//         display: flex;
-//         font-size: 14px;
-//         font-weight: 700;
-//         height: 100%;
-//         justify-content: center;
-//         padding: units(2);
-//         text-align: center;
-//         text-transform: uppercase;
-//         width: 100%;
-//       }
-
-//       img {
-//         max-height: units(6);
-//         max-width: units(16);
-//       }
-
-//       // Oblong logos
-//       .kf,
-//       .shuttleworth {
-//         img {
-//           max-height: units(16);
-//           max-width: units(20);
-//           width: units(20);
-//         }
-//       }
-//     }
-//   }
-
   ul.contributors {
     font-size: 16px;
 
@@ -130,15 +24,6 @@
     }
   }
 
-
-
-// Responsive image 
-img.responsive {
-  @include when-smaller-than(medium) {
-    max-width: 100%;
-  }
-  max-width: 730px;
-}
 
 .blurbs {
   li {

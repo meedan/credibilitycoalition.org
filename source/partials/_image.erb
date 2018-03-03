@@ -7,15 +7,17 @@ partial "partials/image", :locals => {
           :path => "vectors",
           :name => "cool-image",
           :url => "http://foobar.com",  # optional
+          :shape => "very-wide" #optional
         }
 %>
 
 <% alt = name.gsub("-", " ") %>
 <% full_path = defined?(path) ? path : '' %>
 <% suffix = type == "svg" ? "" : "@2x" %>
+<% shape = defined?(shape) ? shape : '' %>
 
 <% if defined?(url) %>
-  <%= link_to image_tag("#{full_path}/#{name+suffix}.#{type}"), url, :class => name, :alt => alt %>
+  <%= link_to image_tag("#{full_path}/#{name+suffix}.#{type}"), url, :class => "#{name} #{shape}", :alt => alt %>
 <% else %>
-  <%= image_tag "#{full_path}/#{name+suffix}.#{type}", :class => name, :alt => alt %>
+  <%= image_tag "#{full_path}/#{name+suffix}.#{type}", :class => "#{name} #{shape}", :alt => alt %>
 <% end %>

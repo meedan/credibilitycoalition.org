@@ -37,17 +37,16 @@ h3 {
   }
   display: block;
   font: $font--subheading-1;
+  font-weight: 700;
   letter-spacing: .1em;
   margin: 0;
   padding: $width--large-gutter 0;
   text-transform: uppercase;
-  font-weight: 700;
 }
 
 h4 {
   @include when-smaller-than(large) {
     margin: $width--xsmall-gutter 0;
-    max-width: 61.8%;
   }
   margin: $width--xsmall-gutter 0;
   max-width: units(70);
@@ -74,7 +73,6 @@ li {
 p {
   display: block;
   margin: 0;
-  max-width: units(70);
   padding: 0 0 $width--large-gutter;
 }
 
