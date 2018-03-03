@@ -40,6 +40,7 @@
     }
 
     // Very square
+    .meedan,
     .first-draft,
     .ibm,
     .kiva,
@@ -69,7 +70,7 @@
     // Oblong svg
     // (because by default svgs have `width: 100` inline)
     .kf img {
-      width: units(16);
+      width: units(20);
     }
   }
 }

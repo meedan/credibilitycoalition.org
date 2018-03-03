@@ -24,17 +24,23 @@ section {
   width: 100%;
 }
 
+h1 {
+  font: $font--display-2;
+  font-weight: bold;
+}
+
 h2,
 h3 {
   @include when-smaller-than(large) {
     padding: $width--large-gutter 0;
   }
   display: block;
-  font: $font--headline;
+  font: $font--subheading-1;
   letter-spacing: .1em;
   margin: 0;
   padding: $width--large-gutter 0;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 h4 {

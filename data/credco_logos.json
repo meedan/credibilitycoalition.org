@@ -32,5 +32,10 @@
   "name": "shuttleworth",
   "url": "https://www.shuttleworthfoundation.org/",
   "type": "png"
+},
+{
+  "name": "meedan",
+  "url": "https://meedan.com/",
+  "type": "svg"
 }
 ]

@@ -20,14 +20,14 @@ body {
 
   @include when-larger-than(small) {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 720px;
     padding: $width--large-gutter $width--large-gutter 0;
   }
 
-  > * {
-    margin: 0;
-    max-width: 1440px;
-  }
+  // > * {
+  //   margin: 0;
+  //   max-width: 1440px;
+  // }
 }
 
 .row {
