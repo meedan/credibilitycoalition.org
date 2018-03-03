@@ -18,18 +18,21 @@ body {
 // Section defaults
 //
 // The primary building blocks of the typographic rhythm.
-// Each section must have a header.
+// Each section should have a header.
 section {
   overflow-x: hidden;
   width: 100%;
 }
 
+// Primary header
+// There should only be one of these on a page
 h1 {
   font: $font--display-2;
   font-weight: bold;
   padding: units(6) 0;
 }
 
+// Secondary headers: single line
 h2,
 h3 {
   @include when-smaller-than(large) {
@@ -44,6 +47,7 @@ h3 {
   text-transform: uppercase;
 }
 
+// h4: multiline
 h4 {
   @include when-smaller-than(large) {
     margin: $width--xsmall-gutter 0;
@@ -87,11 +91,11 @@ p {
 
 // Links
 a {
-  color: $check-blue;
+  color: $web-blue;
   text-decoration: none;
 
   &:hover {
-    color: darken($check-blue, 20%);
+    color: darken($web-blue, 20%);
   }
 }
 

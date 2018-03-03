@@ -10,11 +10,11 @@ slug: "home"
     </p>
   </div>
 </div>
-<section class="home__recent-press">
+<section class="home__recent-press layout--padding-bottom">
   <div class="section-inner">
     <h3>RECENT MENTIONS</h3>
-    <ul class="blurbs layout--padding-bottom">
-      <li class="blurb__journalismdotco">
+    <ul class="press layout--padding-bottom">
+      <li class="press__journalismdotco">
         <a href="https://www.journalism.co.uk/news/the-credibility-coalition-is-working-to-establish-the-common-elements-of-trustworthy-articles/s2/a712487/">
     </a>
         <img class="logo" src="<%= image_path 'logos/journalismdotco@2x.jpg' %>" alt="Journalism.co.uk logo" srcset="<%= image_path 'logos/journalismdotco@2x.jpg' %> 2x">
@@ -22,7 +22,7 @@ slug: "home"
           “As many independent projects are now working on fighting misinformation and analysing trust, a common framework is needed.”
         </p>
       </li>
-      <li class="blurb__councilofeurope">
+      <li class="press__councilofeurope">
         <a href="https://rm.coe.int/information-disorder-report-november-2017/1680764666">
       <img class="logo placeholder" src="https://placehold.it/120x120" >
       <!-- Need COE Logo -->
@@ -36,7 +36,7 @@ slug: "home"
           “...to see if there can be a programmatic way for social networks use their scores to influence algorithmic rankings..”
         </p>
       </li>
-      <li class="blurb__aspeninstitute">
+      <li class="press__aspeninstitute">
         <a href="https://www.aspeninstitute.org/programs/communications-and-society-program/recap-palo-alto-ca-forum/">
 
     <img class="logo placeholder" src="https://placehold.it/120x120" >
@@ -51,7 +51,7 @@ slug: "home"
           “The Credibility Coalition is a diverse grassroots group of volunteers whose goals are to identify a set of credibility indicators and use cases; build cooperation around a data model; and generate and use testing data to improve the model.”
         </p>
       </li>
-      <li class="blurb__dataandsociety">
+      <li class="press__dataandsociety">
         <a href="https://datasociety.net/output/dead-reckoning/">
          <img class="logo placeholder" src="https://placehold.it/120x120" >
 
@@ -67,7 +67,7 @@ slug: "home"
   <div class="section-inner">
     <p>
       <h3>An initiative co-founded by <br> Meedan and Hacks/Hackers.</h3> The Credibility Coalition, formerly known as the Credibility Indicators Working Group, has received generous support from:</p>
-    <ul class="logos">
+    <ul class="logos layout--padding-bottom">
       <% data.credco_logos.each do |image| %>
         <li>
           <%= partial "partials/image", :locals => {
@@ -84,6 +84,6 @@ slug: "home"
 </div>
 <div class="credibility-coalition__section  layout--padding-bottom">
   <div class="section-inner">
-    <p>We are proud recipients of a <a href="https://knightfoundation.org/challenges/knight-prototype-fund">Knight Prototype Fund grant</a>.</p>
+    <p class="layout--padding-top">We are proud recipients of a <a href="https://knightfoundation.org/challenges/knight-prototype-fund">Knight Prototype Fund grant</a>.</p>
   </div>
 </div>

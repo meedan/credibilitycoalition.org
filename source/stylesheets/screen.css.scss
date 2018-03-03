@@ -10,35 +10,6 @@
 @import './shared/animations.scss';
 @import './shared/logos.scss';
 @import './shared/version.scss';
-@import './shared/photos.scss';
-
-  ul.contributors {
-    font-size: 16px;
-
-    li {
-      font-weight: 400;
-    }
-
-    a {
-      font-weight: 400;
-    }
-  }
-
-
-.blurbs {
-  li {
-    display: flex;
-    align-items: center;
-    font: $font--body-1;
-
-    .logo {
-      width: 120px;
-      min-width: 120px;
-      margin-right: 16px;
-    }
-  }
-}
-
-.placeholder {
-  opacity: 0.2;
-}
+@import './shared/images.scss';
+@import './shared/contributors.scss';
+@import './shared/press.scss';
