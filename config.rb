@@ -38,4 +38,4 @@ configure :build do
 end
 
 require "json"
-$credco_version = JSON.parse(File.read('package.json'))['version']
+$credco_version = `git rev-parse --short HEAD`

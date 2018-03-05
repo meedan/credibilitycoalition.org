@@ -27,6 +27,12 @@ $radius--default: 4px;
 
 $width--column-primary: units(90);
 
+$height--header-desktop: units(8);
+$height--footer-desktop: units(28);
+$height--header-mobile: units(18);
+$height--footer-mobile: units(28);
+
+
 // Font stacks
 //
 $font-stack--primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
@@ -56,6 +62,7 @@ $white: #fff;
 $black: #000;
 $dark-purple: #0c1c3e;
 $dark-soft-purple: desaturate($dark-purple, 20%);
+$adobe-red: #c11e07;
 
 // Colors with alpha channel
 //

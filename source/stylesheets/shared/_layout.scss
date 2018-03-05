@@ -7,10 +7,10 @@
 
 %sticky-footer {
   display: grid;
-  min-height: 99.9vh; // (100vh triggers scroll bar for some reason — @chris 2018-3-2)
-  grid-template-rows: units(8) auto units(28);
+  min-height: 100vh; 
+  grid-template-rows: $height--header-desktop auto $height--footer-desktop;
   @include when-smaller-than(medium) {
-    grid-template-rows: units(18) auto units(28);
+    grid-template-rows: $height--header-mobile auto $height--footer-mobile;
   }
 }
 
@@ -55,7 +55,7 @@ body {
 
 // Utility classes
 //
-.layout--padding-bottom {
+.padding--bottom {
   padding-bottom: $width--large-gutter;
 }
 

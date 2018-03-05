@@ -53,11 +53,16 @@ h4 {
     margin: $width--xsmall-gutter 0;
   }
   margin: $width--xsmall-gutter 0;
-  max-width: units(70);
+  // max-width: units(70);
 }
 
 em {
   font-style: italic;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
 }
 
 ul {
@@ -100,12 +105,46 @@ a {
 }
 
 // Utility classes
+.font--caption,
 .caption {
   font: $font--caption;
 }
 
+.font--body-1 {
+  font: $font--body-1;
+}
+
+.font--body-2 {
+  font: $font--body-2;
+}
 
 ul.bulleted li {
   list-style-position: inside;
   list-style-type: disc;
+}
+
+
+// Citations
+cite {
+  font-weight: 500;
+  font-style: italic;
+}
+
+span.pdf {
+  // border: 1px solid $light-keyboard-grey;
+  display: inline-block;
+  font: $font--caption;
+  padding: 2px 4px;
+  border-radius: 2px;
+  font-weight: 700;
+  color: $adobe-red;
+}
+
+.citations {
+  .citation {
+    font: $font--body-1;
+  }
+  .citation-description {
+    font: $font--caption;
+  }
 }
