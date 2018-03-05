@@ -57,7 +57,7 @@
 }
 
 // Page navigation: current page indicator
-@each $page in about, results, approach, vocabularies {
+@each $page in about, approach, definitions, results {
   .#{$page} {
     .#{$page} {
       a {
