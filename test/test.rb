@@ -26,14 +26,7 @@ system 'npm run build'
 text_banner 'Starting server...'
 system 'node server.js &'
 
-
-# 1. Run casper tests to ensure redirection and RTL
-#
-text_banner 'Starting test...'
-text_banner("Starting Casper route tests...")
-system 'casperjs test --log-level=error test/casper.js --engine=slimerjs'
-
-# 2. Run HTML Proofer to check for broken links
+# Run HTML Proofer to check for broken links
 #
 text_banner("Starting HTML-Proofer tests...")
 HTMLProofer.check_directory("./build", {
@@ -42,11 +35,6 @@ HTMLProofer.check_directory("./build", {
   # :check_opengraph => true,
   :only_4xx => true
   }).run
-
-# 3. Check localization of the site
-#
-text_banner("Starting localization check...")
-require_relative "./localization.rb"
 
 # 4. Check for accessibility issues
 #
