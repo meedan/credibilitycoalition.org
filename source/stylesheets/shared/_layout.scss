@@ -7,10 +7,14 @@
 
 %sticky-footer {
   display: grid;
-  min-height: 100vh; 
+  min-height: 100vh;
   grid-template-rows: $height--header-desktop auto $height--footer-desktop;
   @include when-smaller-than(medium) {
     grid-template-rows: $height--header-mobile auto $height--footer-mobile;
+  }
+
+  footer {
+    height: $height--footer-desktop;
   }
 }
 
@@ -48,7 +52,6 @@ body {
 }
 
 // English default
-// Other stylesheets (and fonts) are loaded conditionally in the html head
 :lang(en) {
   direction: ltr;
 }

@@ -71,21 +71,43 @@ slug: "home"
 </section>
 <div class="credibility-coalition__logos layout--padding-bottom">
   <div class="section-inner">
-    <p>
-      <h3>An initiative co-founded by <br> Meedan and Hacks/Hackers.</h3> The Credibility Coalition, formerly known as the Credibility Indicators Working Group, has received generous support from:</p>
+    
+    <h3>Founders</h3> 
     <ul class="logos layout--padding-bottom">
       <% data.credco_logos.each do |image| %>
-        <li>
-          <%= partial "partials/image", :locals => {
-              :type => image[:type],
-              :name => image[:name],
-              :url => image[:url],
-              :shape => image[:shape],
-              :path => "logos"
-            } %>
-        </li>
+          <% if image.role == "founder" %>
+            <li>
+              <%= partial "partials/image", :locals => {
+                  :type => image[:type],
+                  :name => image[:name],
+                  :url => image[:url],
+                  :shape => image[:shape],
+                  :path => "logos"
+                } %>
+            </li>
+          <% end %>  
         <% end %>
     </ul>
+
+    <h3>Funding support</h3> 
+
+    <p>The Credibility Coalition, formerly known as the Credibility Indicators Working Group, has received generous support from:</p>
+    <ul class="logos layout--padding-bottom">
+      <% data.credco_logos.each do |image| %>
+          <% if image.role == "funder" %>
+            <li>
+              <%= partial "partials/image", :locals => {
+                  :type => image[:type],
+                  :name => image[:name],
+                  :url => image[:url],
+                  :shape => image[:shape],
+                  :path => "logos"
+                } %>
+            </li>
+          <% end %>  
+        <% end %>
+    </ul>
+
   </div>
 </div>
 <div class="credibility-coalition__section">
