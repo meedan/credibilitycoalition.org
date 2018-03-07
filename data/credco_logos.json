@@ -6,6 +6,13 @@
   "shape": "very-wide"
 },
 {
+  "name": "cnp",
+  "role": "funder",
+  "url": "http://craignewmarkphilanthropies.org",
+  "type": "png",
+  "shape": "very-wide"
+},
+{
   "name": "ra",
   "role": "funder",
   "url": "http://ritaallen.org/",
