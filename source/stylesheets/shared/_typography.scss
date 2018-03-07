@@ -1,10 +1,6 @@
 @import 'variables';
 @import 'mixins';
 
-// Web fonts from Google
-//
-@import url('//fonts.googleapis.com/css?family=Roboto:300,500');
-
 // Default typography
 //
 // This is a language independent base theme.
@@ -78,6 +74,11 @@ li {
   padding: 0 0 $width--small-gutter;
 }
 
+ul.bulleted li {
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
 // Paragraphs
 p {
   display: block;
@@ -116,43 +117,4 @@ a {
 
 .font--body-2 {
   font: $font--body-2;
-}
-
-ul.bulleted li {
-  list-style-position: inside;
-  list-style-type: disc;
-}
-
-
-// Citations
-cite {
-  font-weight: 500;
-  font-style: italic;
-}
-
-span.pdf {
-  // border: 1px solid $light-keyboard-grey;
-  display: inline-block;
-  font: $font--caption;
-  padding: 2px 4px;
-  border-radius: 2px;
-  font-weight: 700;
-  color: $adobe-red;
-}
-
-.citations {
-  .citation {
-    font: $font--body-1;
-  }
-  .citation-description {
-    border-left: 2px solid $light-keyboard-grey;
-    font: $font--caption;
-    margin-left: 0;
-    padding-left: units(2);
-    padding-top: 0;
-    margin-top: units(2);
-    p:last-of-type {
-      padding-bottom: 0;
-    }
-  }
 }
