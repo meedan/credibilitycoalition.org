@@ -109,3 +109,10 @@ body {
 .layout--relative {
   position: relative;
 }
+
+// Responsive utility classes
+.hidden-on-mobile {
+  @include when-smaller-than(medium) {
+    display: none;
+  }
+}
