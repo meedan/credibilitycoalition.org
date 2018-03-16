@@ -26,6 +26,7 @@ body {
 }
 
 .section-inner {
+  border: 1px solid green;
 
   @include when-smaller-than(small) {
     padding: $width--small-gutter;
@@ -37,9 +38,17 @@ body {
     padding: $width--large-gutter $width--large-gutter 0;
   }
 
+  &:last-of-type {
+    padding-bottom: $width--large-gutter;
+  }
+
   > * {
     margin: 0;
-    // max-width: 1440px;
+    border: 1px solid red;
+
+    &:last-of-type {
+      padding-bottom: 0;
+    }
   }
 }
 

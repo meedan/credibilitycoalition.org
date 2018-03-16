@@ -45,6 +45,8 @@ h3 {
 
 // h4: multiline
 h4 {
+  padding-top: $width--large-gutter;
+
   @include when-smaller-than(large) {
     margin: $width--xsmall-gutter 0;
   }

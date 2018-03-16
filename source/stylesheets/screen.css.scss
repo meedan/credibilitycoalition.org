@@ -13,3 +13,7 @@
 @import './shared/contributors.scss';
 @import './shared/press.scss';
 @import './shared/citations.scss';
+
+section {
+  border-bottom: 1px solid $light-keyboard-grey;
+}
