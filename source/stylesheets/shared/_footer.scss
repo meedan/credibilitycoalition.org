@@ -1,3 +1,9 @@
-.footer a {
-  font: $font--mono;
+.footer {
+  p {
+    color: $light-keyboard-grey;
+  }
+
+  a {
+    font: $font--mono;
+  }
 }
