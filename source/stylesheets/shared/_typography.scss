@@ -69,10 +69,6 @@ ul {
 }
 
 li {
-  @include when-smaller-than(large) {
-    display: block;
-  }
-  list-style-type: none;
   padding: 0 0 $width--small-gutter;
 }
 

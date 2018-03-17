@@ -14,13 +14,18 @@ span.pdf {
 .citations {
   .citation {
     font: $font--body-1;
+    padding-bottom: $width--small-gutter;
   }
 
   .citation-description {
     border-left: 2px solid $light-keyboard-grey;
     font: $font--caption;
     margin-left: 0;
-    padding-left: units(2);
+    padding: $width--small-gutter;
+
+    h4 {
+      padding: 0;
+    }
 
     p:last-of-type {
       padding-bottom: 0;

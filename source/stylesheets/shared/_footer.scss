@@ -1,0 +1,5 @@
+.footer a {
+  @include when-smaller-than(medium) {
+    font: $font--caption;
+  }
+}

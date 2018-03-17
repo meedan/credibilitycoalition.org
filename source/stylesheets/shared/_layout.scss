@@ -25,14 +25,16 @@ body {
   @extend %sticky-footer;
 }
 
-.section-inner {
-  border: 1px solid green;
+main {
+  padding-bottom: $width--large-gutter*2;
+}
 
-  @include when-smaller-than(small) {
+.section-inner {
+  @include when-smaller-than(medium) {
     padding: $width--small-gutter;
   }
 
-  @include when-larger-than(small) {
+  @include when-larger-than(medium) {
     margin: 0 auto;
     max-width: $width--column-primary;
     padding: $width--large-gutter $width--large-gutter 0;
@@ -44,9 +46,8 @@ body {
 
   > * {
     margin: 0;
-    border: 1px solid red;
 
-    &:last-of-type {
+    &:last-child {
       padding-bottom: 0;
     }
   }

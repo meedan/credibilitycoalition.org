@@ -1,22 +1,42 @@
 ul.contributors {
-  font-size: 16px;
   display: grid;
+  font-size: 16px;
   grid-template-columns: 1fr 1fr;
+  list-style-type: none;
 
   li {
+    display: block;
     font-weight: 400;
     line-height: 1.2;
   }
 
   a {
-    font-weight: 400;
+    color: $black-87;
     display: block;
     font: $font--caption;
-    color: $black-54;
-    transition: color 0.2s;
-    &:hover, &:active {
-      color: $web-blue;
-      transition: color 0.2s;
+    font-weight: 400;
+
+    > * {
+      transition: color $duration--default;
+    }
+
+    &:hover,
+    &:active {
+      > * {
+        color: $web-blue !important;
+        transition: color $duration--default;
+      }
+    }
+
+    .organization {
+      color: $black-54;
+    }
+
+    .name {
+      color: inherit;
+      display: block;
+      font: $font--body-2;
+      font-weight: 400;
     }
   }
 }

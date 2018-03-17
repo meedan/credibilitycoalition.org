@@ -1,0 +1,137 @@
+[
+    { 
+        "name": "Dr. Nick Adams",
+        "link": "https://bids.berkeley.edu/",
+        "organization": "Berkeley Institute for Data Science"
+    },
+    {
+        "name": "Nate Angell",
+        "link": "https://web.hypothes.is/",
+        "organization": "Hypothesis"
+    },
+    {
+        "name": "Ed Bice",
+        "link": "https://meedan.com",
+        "organization": "Meedan"
+    },
+    {
+        "name": "Robyn Caplan",
+        "link": "https://datasociety.net/",
+        "organization": "Data &amp; Society Research Institute"
+    },
+    {
+        "name": "Renee DiResta",
+        "link": "http://datafordemocracy.org/",
+        "organization": "Data for Democracy"
+    },
+    {
+        "name": "Dhruv Ghulati",
+        "link": "http://factmata.com/",
+        "organization": "Factmata"
+    },
+    {
+        "name": "Vinny Green",
+        "link": "http://www.snopes.com/",
+        "organization": "Snopes.com"
+    },
+    {
+        "name": "Natalie Gyenes",
+        "link": "https://cyber.harvard.edu/",
+        "organization": "Berkman Klein Center"
+    },
+    {
+        "name": "Sandro Hawke",
+        "link": "https://www.w3.org/",
+        "organization": "W3C, MIT"
+    },
+    {
+        "name": "David Karger",
+        "link": "https://www.csail.mit.edu/",
+        "organization": "MIT CSAIL"
+    },
+    {
+        "name": "Jennifer 8. Lee",
+        "link": "https://hackshackers.com",
+        "organization": "Hacks/Hackers"
+    },
+    {
+        "name": "Dr. Emlen Metz",
+        "link": "https://bids.berkeley.edu/",
+        "organization": "Berkeley Institute for Data Science"
+    },
+    {
+        "name": "An Xiao Mina",
+        "link": "https://meedan.com/",
+        "organization": "Meedan, Berkman Klein Center"
+    },
+    {
+        "name": "Stuart Myles",
+        "link": "https://www.ap.org/en-us/",
+        "organization": "The Associated Press"
+    },
+    {
+        "name": "Aviv Ovadya",
+        "link": "https://www.si.umich.edu/research/center-social-media-responsibility",
+        "organization": "Center for Social Media Responsibility, University of Michigan School of Information"
+    },
+    {
+        "name": "Aditya Ranganathan",
+        "link": "https://bids.berkeley.edu/",
+        "organization": "Berkeley Institute for Data Science"
+    },
+    {
+        "name": "Karim Ratib",
+        "link": "https://meedan.com",
+        "organization": "Meedan"
+    },
+    {
+        "name": "Martin Robbins",
+        "link": "http://factmata.com",
+        "organization": "Factmata"
+    },
+    {
+        "name": "Evan Sandhaus",
+        "link": "https://www.nytimes.com",
+        "organization": "The New York Times"
+    },
+    {
+        "name": "Connie Moon Sehat",
+        "link": "https://globalvoices.org",
+        "organization": "Global Voices"
+    },
+    {
+        "name": "Heather Staines",
+        "link": "https://web.hypothes.is",
+        "organization": "Hypothesis"
+    },
+    {
+        "name": "Sara-Jayne Terp",
+        "link": "https://www.appnexus.com",
+        "organization": "AppNexus"
+    },
+    {
+        "name": "Jon Udell",
+        "link": "https://web.hypothes.is",
+        "organization": "Hypothesis"
+    },
+    {
+        "name": "Rick Weiss",
+        "link": "http://www.sciline.org",
+        "organization": "AAAS SciLine"
+    },
+    {
+        "name": "Dan Whaley",
+        "link": "https://web.hypothes.is",
+        "organization": "Hypothesis"
+    },
+    {
+        "name": "Emmanuel Vincent",
+        "link": "https://climatefeedback.org",
+        "organization": "Climate Feedback"
+    },
+    {
+        "name": "Amy X. Zhang",
+        "link": "https://www.csail.mit.edu",
+        "organization": "MIT CSAIL"
+    }
+]
