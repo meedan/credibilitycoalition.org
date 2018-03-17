@@ -81,7 +81,13 @@ ul {
 li {
   padding: 0 0 $width--small-gutter;
   list-style-position: inside;
-  list-style-type: disc;
+  list-style-type: none;
+}
+
+ul.bulleted {
+  li {
+    list-style-type: disc;
+  }
 }
 
 // Paragraphs
