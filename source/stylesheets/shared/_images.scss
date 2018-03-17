@@ -1,6 +1,3 @@
-
-// Fancy images (color processed with CSS)
-//
 .fancy-image {
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,8 +28,4 @@
     max-width: 100%;
   }
   max-width: $width--column-primary - ($width--large-gutter*2);
-}
-
-.placeholder {
-  opacity: 0.2;
 }

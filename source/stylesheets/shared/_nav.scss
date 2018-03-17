@@ -15,7 +15,6 @@
       height: $width--large-gutter;
       margin: ($width--small-gutter+$width--xsmall-gutter);
       margin-bottom: 0;
-      animation: fadeIn 0.4s;
 
       @include when-smaller-than(medium) {
         margin-left: $width--small-gutter;
@@ -54,11 +53,11 @@
       line-height: $width--large-gutter;
       padding: $width--small-gutter;
       text-decoration: none;
-      transition: border .2s;
+      transition: box-shadow .2s;
 
       &:hover {
         box-shadow: inset 0 -3px 0 $web-blue;
-        transition: border .2s;
+        transition: box-shadow .2s;
       }
 
       &:active {

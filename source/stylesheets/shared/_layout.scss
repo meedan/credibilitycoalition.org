@@ -1,6 +1,5 @@
 @import 'variables';
 
-
 * {
   box-sizing: border-box;
 }
@@ -25,7 +24,7 @@ body {
   @extend %sticky-footer;
 }
 
-main {
+main section:last-of-type {
   padding-bottom: $width--large-gutter*2;
 }
 

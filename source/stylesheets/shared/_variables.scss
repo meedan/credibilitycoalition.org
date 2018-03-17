@@ -35,7 +35,9 @@ $height--footer-mobile: units(28);
 
 // Font stacks
 //
-$font-stack--primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
+$font-stack--primary: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
+
+$font-stack--mono: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
 
 // Material design font size and line height
 //
@@ -49,19 +51,15 @@ $font--subheading-1: 200 20px unquote('/') 28px $font-stack--primary;
 $font--body-2: 200 16px unquote('/') 24px $font-stack--primary;
 $font--body-1: 200 16px unquote('/') 20px $font-stack--primary;
 $font--caption: 400 12px unquote('/') 16px $font-stack--primary;
+$font--mono: 400 12px unquote('/') 16px $font-stack--mono;
 
 // Colors
 //
 $check-blue: #3073fd;
-$check-blue-20: rgba($check-blue, .2);
 $web-blue: #0000EE;
-$keyboard-grey: #abb5bd;
 $light-keyboard-grey: #d1d6db;
-$bridge-orange: #ff674a;
 $white: #fff;
 $black: #000;
-$dark-purple: #0c1c3e;
-$dark-soft-purple: desaturate($dark-purple, 20%);
 $adobe-red: #c11e07;
 
 // Colors with alpha channel
