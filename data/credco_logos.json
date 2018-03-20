@@ -1,15 +1,30 @@
-[{
-  "name": "kf",
+[
+{
+  "name": "gnl",
   "role": "funder",
-  "url": "http://www.knightfoundation.org",
-  "type": "svg",
+  "url": "https://newslab.withgoogle.com",
+  "type": "png",
   "shape": "very-wide"
+},
+{
+  "name": "fbjp",
+  "role": "funder",
+  "url": "https://www.facebook.com/facebookmedia/get-started/facebook-journalism-project",
+  "type": "png",
+  "shape": "tall"
 },
 {
   "name": "cnp",
   "role": "funder",
   "url": "http://craignewmarkphilanthropies.org",
   "type": "png",
+  "shape": "very-wide"
+},
+{
+  "name": "kf",
+  "role": "funder",
+  "url": "http://www.knightfoundation.org",
+  "type": "svg",
   "shape": "very-wide"
 },
 {
@@ -46,7 +61,8 @@
   "name": "shuttleworth",
   "role": "funder",
   "url": "https://www.shuttleworthfoundation.org/",
-  "type": "png"
+  "type": "png",
+  "shape": "very-wide"
 },
 {
   "name": "meedan",
