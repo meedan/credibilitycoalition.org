@@ -5,10 +5,16 @@
   <link rel="shortcut icon" href="<%= image_path 'favicons/favicon.ico' %>" sizes="32x32">
   <title><%= current_page.data.slug.gsub("-", " ").split.map(&:capitalize).join(' ') %> | Credibility Coalition</title>
 
+  <!-- 2018-3-19 Debugging twitter cards ... Manually render tags -->
+  <meta property='twitter:site' content='@credcoalition'>
+  <meta property='twitter:image' content='https://credibilitycoalition.org/images/credco-thumbnail.jpg'>
+  <meta property='twitter:title' content='Credibility Coalition'>
+  <meta property='twitter:description' content='Credibility Coalition: A diverse, interdisciplinary community committed to building better standards for credibility on the web.'>
+
   <%# Render OGP tags %>
   <%- ogp_tags do |name, value| %>
     <%= "<meta property='#{name}' content='#{value}'>" %>
   <% end %>
-
+  
   <%= stylesheet_link_tag "screen.css" %>
 </head>
