@@ -43,6 +43,20 @@
   "type": "svg"
 },
 {
+  "name": "gnl",
+  "role": "funder",
+  "url": "https://newslab.withgoogle.com",
+  "type": "png",
+  "shape": "very-wide"
+},
+{
+  "name": "fbjp",
+  "role": "funder",
+  "url": "https://www.facebook.com/facebookmedia/get-started/facebook-journalism-project",
+  "type": "png",
+  "shape": "tall"
+},
+{
   "name": "shuttleworth",
   "role": "funder",
   "url": "https://www.shuttleworthfoundation.org/",

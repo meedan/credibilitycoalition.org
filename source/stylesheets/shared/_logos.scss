@@ -53,6 +53,12 @@
         width: units(20);
       }
     }
+
+    .tall {
+      img {
+        max-height: units(8);
+      }
+    }
   }
 }
 
