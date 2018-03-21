@@ -54,16 +54,6 @@ h4 {
   // max-width: units(70);
 }
 
-// date range under a larger h2 or h3 header
-h4.date {
-  padding-top: 0;
-  color: $black-54;
-  font-weight: 400;
-  font-style: italic;
-  font: $font--mono;
-  padding-bottom: $width--small-gutter;
-}
-
 em {
   font-style: italic;
   font-weight: 400;
@@ -128,4 +118,12 @@ a {
 
 .font--body-2 {
   font: $font--body-2;
+}
+
+.date {
+  color: $black-54;
+  font: $font--mono;
+  font-style: italic;
+  font-weight: 400;
+  padding-top: 0;
 }
