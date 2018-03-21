@@ -1,14 +1,22 @@
 .timeline {
   font: $font--body-2;
-  max-width: 520px; // custom based on line length to refine how article titles wrap; must be revisited as new articles are added. 2018-3-21 @chris
+
+  .date {
+    font-size: 12px;
+  }
+
+  li {
+    padding-bottom:0;
+  }
 
   .title {
-    font-weight: 700;
     padding-bottom: $width--xsmall-gutter;
+    font-weight: 700;
   }
 
   .attribution {
     color: $black-54;
     padding-top: 0;
+    font: $font--caption;
   }
 }
