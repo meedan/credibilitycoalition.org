@@ -30,7 +30,7 @@ slug: "about"
 
     <p>The Credibility Coalition is an initiative co-founded by Meedan and Hacks/Hackers. We were incubated at the first <a href="https://misinfocon.com/">MisinfoCon</a> in early 2017 and grew under a <a href="https://knightfoundation.org/press/releases/knight-prototype-fund-awards-1-million-to-20-projects-to-improve-the-flow-of-accurate-information">Knight Prototype Fund Grant</A> focused on improving the flow of accurate information.</p>
 
-    <p>We have presented our initiative in a number of international venues to gain feedback and partners; recent examples include the <a data-proofer-ignore href="https://mozillafestival.org/">Mozilla Festival 2017</a>, the <a href="https://iptc.org/events/autumn-meeting-2017/">International Press Telecommunications Council Autumn 2017 Meeting</a>, and <a href="http://mediax.stanford.edu/events/knight-commission-on-trust-media-and-democracy">The Knight Commission on Trust, Media and Democracy</a>.</p>
+    <p>We have presented our initiative in a number of international venues to gain feedback and partners; recent examples include the <a data-proofer-ignore href="https://mozillafestival.org/">Mozilla Festival 2017</a>, the <a href="https://iptc.org/events/autumn-meeting-2017/">International Press Telecommunications Council Autumn 2017 Meeting</a>, and <a href="https://www.aspeninstitute.org/programs/communications-and-society-program/recap-palo-alto-ca-forum/">The Knight Commission on Trust, Media and Democracy</a>.</p>
 
     <p>In March 2018 we <a href="https://misinfocon.com/whats-next-for-the-credibility-coalition-554d0588f2bf">announced the support</a> of Google News Lab, the Facebook Journalism Project, Craig Newmark Philanthropies and additional private donors.</p>
 
@@ -45,7 +45,7 @@ slug: "about"
 
 <section>
   <div class="section-inner">
-    <h3 class="layout--padding-bottom">Mentions in the Press</h3>
+    <h3 class="layout--padding-bottom">Mentions</h3>
     <ul class="timeline">
 
       <% data.timeline_press_mentions.each do |item| %>
@@ -58,15 +58,14 @@ slug: "about"
             } %>
         </li>
       <% end %>      
-
-    </div>
+    </ul>
   </div>
 </section>
 
 
 <section>
   <div class="section-inner">
-    <h3 class="layout--padding-bottom">Press Releases and Blog Posts</h3>
+    <h3 class="layout--padding-bottom">Updates</h3>
     <ul class="timeline">
       <% data.timeline_press_releases.each do |item| %>
         <li>
@@ -77,8 +76,7 @@ slug: "about"
               :attribution => item[:attribution],
             } %>
         </li>
-      <% end %>  
-    </div>
+      <% end %>
   </div>
 </section>
 
