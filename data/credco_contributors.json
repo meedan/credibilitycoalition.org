@@ -15,7 +15,7 @@
         "name": "Ed Bice",
         "link": "https://meedan.com",
         "organization": "Meedan",
-        "image": "placeholder"
+        "image": "ed-b"
     },
     {
         "name": "Robyn Caplan",
@@ -75,7 +75,7 @@
         "name": "An Xiao Mina",
         "link": "https://meedan.com/",
         "organization": "Meedan, Berkman Klein Center",
-        "image": "placeholder"
+        "image": "an-m"
     },
     {
         "name": "Stuart Myles",
@@ -88,7 +88,7 @@
         "link":
             "https://www.si.umich.edu/research/center-social-media-responsibility",
         "organization":
-            "Center for Social Media Responsibility, University of Michigan School of Information",
+            "University of Michigan School of Information",
         "image": "aviv-o"
     },
     {
@@ -101,7 +101,7 @@
         "name": "Karim Ratib",
         "link": "https://meedan.com",
         "organization": "Meedan",
-        "image": "placeholder"
+        "image": "karim-r"
     },
     {
         "name": "Martin Robbins",
