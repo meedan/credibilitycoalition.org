@@ -91,6 +91,12 @@ slug: "about"
     <% data.credco_contributors.each do |contributor| %>
       <li>
         <a href="<%= contributor[:link] %>" title="<%= contributor[:organization] %>">
+            <%= partial "partials/image", :locals => {
+                :type => "jpg",
+                :name => contributor[:image],
+                :url => image[:url],
+                :path => "contributors"
+              } %>
             <span class="name"><%= contributor[:name] %></span>
             <span class="organization"><%= contributor[:organization] %></span>
         </a>

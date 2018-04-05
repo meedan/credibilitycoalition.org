@@ -1,137 +1,166 @@
 [
-    { 
-        "name": "Dr. Nick Adams",
-        "link": "https://bids.berkeley.edu/",
-        "organization": "Berkeley Institute for Data Science"
+    {
+        name: "Dr. Nick Adams",
+        link: "https://bids.berkeley.edu/",
+        organization: "Berkeley Institute for Data Science",
+        image: "placeholder"
     },
     {
-        "name": "Nate Angell",
-        "link": "https://web.hypothes.is/",
-        "organization": "Hypothesis"
+        name: "Nate Angell",
+        link: "https://web.hypothes.is/",
+        organization: "Hypothesis",
+        image: "placeholder"
     },
     {
-        "name": "Ed Bice",
-        "link": "https://meedan.com",
-        "organization": "Meedan"
+        name: "Ed Bice",
+        link: "https://meedan.com",
+        organization: "Meedan",
+        image: "placeholder"
     },
     {
-        "name": "Robyn Caplan",
-        "link": "https://datasociety.net/",
-        "organization": "Data &amp; Society Research Institute"
+        name: "Robyn Caplan",
+        link: "https://datasociety.net/",
+        organization: "Data &amp; Society Research Institute",
+        image: "placeholder"
     },
     {
-        "name": "Renee DiResta",
-        "link": "http://datafordemocracy.org/",
-        "organization": "Data for Democracy"
+        name: "Renee DiResta",
+        link: "http://datafordemocracy.org/",
+        organization: "Data for Democracy",
+        image: "placeholder"
     },
     {
-        "name": "Dhruv Ghulati",
-        "link": "http://factmata.com/",
-        "organization": "Factmata"
+        name: "Dhruv Ghulati",
+        link: "http://factmata.com/",
+        organization: "Factmata",
+        image: "placeholder"
     },
     {
-        "name": "Vinny Green",
-        "link": "http://www.snopes.com/",
-        "organization": "Snopes.com"
+        name: "Vinny Green",
+        link: "http://www.snopes.com/",
+        organization: "Snopes.com",
+        image: "placeholder"
     },
     {
-        "name": "Natalie Gyenes",
-        "link": "https://cyber.harvard.edu/",
-        "organization": "Berkman Klein Center"
+        name: "Natalie Gyenes",
+        link: "https://cyber.harvard.edu/",
+        organization: "Berkman Klein Center",
+        image: "placeholder"
     },
     {
-        "name": "Sandro Hawke",
-        "link": "https://www.w3.org/",
-        "organization": "W3C, MIT"
+        name: "Sandro Hawke",
+        link: "https://www.w3.org/",
+        organization: "W3C, MIT",
+        image: "placeholder"
     },
     {
-        "name": "David Karger",
-        "link": "https://www.csail.mit.edu/",
-        "organization": "MIT CSAIL"
+        name: "David Karger",
+        link: "https://www.csail.mit.edu/",
+        organization: "MIT CSAIL",
+        image: "placeholder"
     },
     {
-        "name": "Jennifer 8. Lee",
-        "link": "https://hackshackers.com",
-        "organization": "Hacks/Hackers"
+        name: "Jennifer 8. Lee",
+        link: "https://hackshackers.com",
+        organization: "Hacks/Hackers",
+        image: "placeholder"
     },
     {
-        "name": "Dr. Emlen Metz",
-        "link": "https://bids.berkeley.edu/",
-        "organization": "Berkeley Institute for Data Science"
+        name: "Dr. Emlen Metz",
+        link: "https://bids.berkeley.edu/",
+        organization: "Berkeley Institute for Data Science",
+        image: "placeholder"
     },
     {
-        "name": "An Xiao Mina",
-        "link": "https://meedan.com/",
-        "organization": "Meedan, Berkman Klein Center"
+        name: "An Xiao Mina",
+        link: "https://meedan.com/",
+        organization: "Meedan, Berkman Klein Center",
+        image: "placeholder"
     },
     {
-        "name": "Stuart Myles",
-        "link": "https://www.ap.org/en-us/",
-        "organization": "The Associated Press"
+        name: "Stuart Myles",
+        link: "https://www.ap.org/en-us/",
+        organization: "The Associated Press",
+        image: "placeholder"
     },
     {
-        "name": "Aviv Ovadya",
-        "link": "https://www.si.umich.edu/research/center-social-media-responsibility",
-        "organization": "Center for Social Media Responsibility, University of Michigan School of Information"
+        name: "Aviv Ovadya",
+        link:
+            "https://www.si.umich.edu/research/center-social-media-responsibility",
+        organization:
+            "Center for Social Media Responsibility, University of Michigan School of Information",
+        image: "placeholder"
     },
     {
-        "name": "Aditya Ranganathan",
-        "link": "https://bids.berkeley.edu/",
-        "organization": "Berkeley Institute for Data Science"
+        name: "Aditya Ranganathan",
+        link: "https://bids.berkeley.edu/",
+        organization: "Berkeley Institute for Data Science",
+        image: "placeholder"
     },
     {
-        "name": "Karim Ratib",
-        "link": "https://meedan.com",
-        "organization": "Meedan"
+        name: "Karim Ratib",
+        link: "https://meedan.com",
+        organization: "Meedan",
+        image: "placeholder"
     },
     {
-        "name": "Martin Robbins",
-        "link": "http://factmata.com",
-        "organization": "Factmata"
+        name: "Martin Robbins",
+        link: "http://factmata.com",
+        organization: "Factmata",
+        image: "placeholder"
     },
     {
-        "name": "Evan Sandhaus",
-        "link": "https://www.nytimes.com",
-        "organization": "The New York Times"
+        name: "Evan Sandhaus",
+        link: "https://www.nytimes.com",
+        organization: "The New York Times",
+        image: "placeholder"
     },
     {
-        "name": "Connie Moon Sehat",
-        "link": "https://globalvoices.org",
-        "organization": "Global Voices"
+        name: "Connie Moon Sehat",
+        link: "https://globalvoices.org",
+        organization: "Global Voices",
+        image: "placeholder"
     },
     {
-        "name": "Heather Staines",
-        "link": "https://web.hypothes.is",
-        "organization": "Hypothesis"
+        name: "Heather Staines",
+        link: "https://web.hypothes.is",
+        organization: "Hypothesis",
+        image: "placeholder"
     },
     {
-        "name": "Sara-Jayne Terp",
-        "link": "https://www.appnexus.com",
-        "organization": "AppNexus"
+        name: "Sara-Jayne Terp",
+        link: "https://www.appnexus.com",
+        organization: "AppNexus",
+        image: "placeholder"
     },
     {
-        "name": "Jon Udell",
-        "link": "https://web.hypothes.is",
-        "organization": "Hypothesis"
+        name: "Jon Udell",
+        link: "https://web.hypothes.is",
+        organization: "Hypothesis",
+        image: "placeholder"
     },
     {
-        "name": "Rick Weiss",
-        "link": "http://www.sciline.org",
-        "organization": "AAAS SciLine"
+        name: "Rick Weiss",
+        link: "http://www.sciline.org",
+        organization: "AAAS SciLine",
+        image: "placeholder"
     },
     {
-        "name": "Dan Whaley",
-        "link": "https://web.hypothes.is",
-        "organization": "Hypothesis"
+        name: "Dan Whaley",
+        link: "https://web.hypothes.is",
+        organization: "Hypothesis",
+        image: "placeholder"
     },
     {
-        "name": "Emmanuel Vincent",
-        "link": "https://climatefeedback.org",
-        "organization": "Climate Feedback"
+        name: "Emmanuel Vincent",
+        link: "https://climatefeedback.org",
+        organization: "Climate Feedback",
+        image: "placeholder"
     },
     {
-        "name": "Amy X. Zhang",
-        "link": "https://www.csail.mit.edu",
-        "organization": "MIT CSAIL"
+        name: "Amy X. Zhang",
+        link: "https://www.csail.mit.edu",
+        organization: "MIT CSAIL",
+        image: "placeholder"
     }
-]
+];
