@@ -35,13 +35,14 @@
     }
 
     img {
+      filter: grayscale(100%);
       max-height: units(6);
       max-width: units(16);
     }
 
     .square {
       img {
-        max-height: units(9);
+        max-height: units(7);
         max-width: units(9);
       }
     }

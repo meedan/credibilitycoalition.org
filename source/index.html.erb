@@ -62,7 +62,30 @@ published: true
           <% end %>  
         <% end %>
     </ul>
-
+</div>
+</section>
+<section class="credibility-coalition__logos">
+<div class="section-inner">
+    <h3>Partner organizations</h3> 
+    <ul class="logos layout--padding-bottom">
+      <% data.credco_logos.each do |image| %>
+          <% if image.role == "partner" %>
+            <li>
+              <%= partial "partials/image", :locals => {
+                  :type => image[:type],
+                  :name => image[:name],
+                  :url => image[:url],
+                  :shape => image[:shape],
+                  :path => "logos"
+                } %>
+            </li>
+          <% end %>
+        <% end %>
+    </ul>
+</div>
+</section>
+<section class="credibility-coalition__logos">
+<div class="section-inner">
     <h3>Funding support</h3> 
 
     <p>The Credibility Coalition, formerly known as the Credibility Indicators Working Group, has received generous support from:</p>

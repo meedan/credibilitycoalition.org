@@ -45,12 +45,6 @@
   "type": "png"
 },
 {
-  "name": "hh",
-  "role": "founder",
-  "url": "https://hackshackers.com/",
-  "type": "png"
-},
-{
   "name": "mozilla",
   "role": "funder",
   "url": "http://mozilla.org/",
@@ -64,10 +58,70 @@
   "shape": "very-wide"
 },
 {
+  "name": "ap",
+  "role": "partner",
+  "url": "https://www.ap.org/",
+  "type": "svg",
+  "shape": "square"
+},
+{
+  "name": "climatefeedback",
+  "role": "partner",
+  "url": "https://climatefeedback.org/",
+  "type": "png",
+  "shape": "very-wide"
+},
+{
+  "name": "factmata",
+  "role": "partner",
+  "url": "https://factmata.com/",
+  "type": "svg",
+  "shape": "very-wide"
+},
+{
+  "name": "globalvoices",
+  "role": "partner",
+  "url": "https://globalvoices.org/",
+  "type": "jpg",
+  "shape": "very-wide"
+},
+{
+  "name": "hh",
+  "role": "founder",
+  "url": "https://hackshackers.com/",
+  "type": "png"
+},
+{
+  "name": "hypothesis",
+  "role": "partner",
+  "url": "https://web.hypothes.is/",
+  "type": "png"
+},
+{
+  "name": "mediacloud",
+  "role": "partner",
+  "url": "https://mediacloud.org/",
+  "type": "png",
+  "shape": "square"
+},
+{
   "name": "meedan",
   "role": "founder",
   "url": "https://meedan.com/",
   "type": "svg",
   "shape": "square"
+},
+{
+  "name": "publiceditor",
+  "role": "partner",
+  "url": "http://www.goodlylabs.org",
+  "type": "jpg",
+  "shape": "square"
+},
+{
+  "name": "snopes",
+  "role": "partner",
+  "url": "https://www.snopes.com/",
+  "type": "png"
 }
 ]
