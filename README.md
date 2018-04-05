@@ -61,6 +61,12 @@ Convert the image to a reasonably sized square aspect ratio (200x200); to do a b
 
       for i in *; do convert "$i" -geometry 200x200^ -gravity center -crop 200x200+0+0 "$i"; done
 
+Or for a single file: 
+
+      convert filename-input.jpg -geometry 200x200^ -gravity center -crop 200x200+0+0 filename-output.jpg
+
+(Those one liners require Imagemagick's `convert` command, and make sure you are using `bash` for the syntax to work.)
+
 ## Adding a new partner logo
       
     - Use an svg file if possible, and optimize it with svgo.
