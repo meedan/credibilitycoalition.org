@@ -53,6 +53,14 @@ To work on the HTML and Sass, edit the files in `./source`. `npm start` will sta
 
 If you have issues you might want to see extra logging in. To run middleman directly without the `npm start` shortcut, to see more logging details: do `bundle exec middleman --verbose`.
 
+## Adding a new member avatar
+
+Update the contributor JSON. 
+
+Convert the image to a reasonably sized square aspect ratio (200x200); to do a batch, you can use imagemagick in a bash script like this:
+
+      for i in *; do convert "$i" -geometry 200x200^ -gravity center -crop 200x200+0+0 "$i"; done
+
 ## Adding a new partner logo
       
     - Use an svg file if possible, and optimize it with svgo.
