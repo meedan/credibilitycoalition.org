@@ -10,34 +10,6 @@ slug: "updates"
     </div>
 </section>
 
-
-<section class="layout--padding-bottom">
-  <div class="section-inner">
-    <h2>Join us!</h2>
-    <p>We value a diverse and inclusive membership and encourage broad participation. We especially encourage individuals from historically underrepresented communities in technology to join our efforts, including women, people of color, people with disabilities and those who identify as LGBTQ.</p>
-
-    <p>The core contributors of our working group including the following individuals and organizations: </p>
-  
-  <ul class="contributors layout--padding-top">
-    <% data.credco_contributors.each do |contributor| %>
-      <li>
-        <a href="<%= contributor[:link] %>" title="<%= contributor[:organization] %>">
-            <%= partial "partials/image", :locals => {
-                :type => "jpg",
-                :name => contributor[:image],
-                :path => "contributors"
-              } %>
-            <span class="name"><%= contributor[:name] %></span>
-            <span class="organization"><%= contributor[:organization] %></span>
-        </a>
-      </li>
-      <% end %>
-  </ul>
-
- </div>
-</section>
-
-
 <section>
   <div class="section-inner">
     <h3 class="layout--padding-bottom">Mentions</h3>
