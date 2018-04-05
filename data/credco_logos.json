@@ -1,10 +1,9 @@
 [
 {
-  "name": "gnl",
+  "name": "gni",
   "role": "funder",
-  "url": "https://newslab.withgoogle.com",
-  "type": "png",
-  "shape": "very-wide"
+  "url": "https://newsinitiative.withgoogle.com/",
+  "type": "svg"
 },
 {
   "name": "fbjp",
