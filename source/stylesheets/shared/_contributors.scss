@@ -26,7 +26,7 @@ ul.contributors {
       transition: color $duration--default;
     }
 
-    img {
+    .image {
       $size: 62px;
       border-radius: $size;
       height: $size;
