@@ -1,0 +1,9 @@
+<% full_path = defined?(path) ? path : '' %>
+<% shape = defined?(shape) ? shape : '' %>
+<% if defined?(url) %>
+  <a href='<%= url %>'>
+    <div class='image <%= shape %>' style="background-image: url('<%= "/images/#{path}/#{name}.#{type}" %>')"></div>
+  </a>
+<% else %>
+  <div class='image <%= shape %>' style="background-image: url('<%= "/images/#{path}/#{name}.#{type}" %>'")></div>
+<% end %>

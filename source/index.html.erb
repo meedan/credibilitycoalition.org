@@ -51,7 +51,7 @@ published: true
       <% data.credco_logos.each do |image| %>
           <% if image.role == "founder" %>
             <li>
-              <%= partial "partials/image", :locals => {
+              <%= partial "partials/background_image", :locals => {
                   :type => image[:type],
                   :name => image[:name],
                   :url => image[:url],
@@ -71,7 +71,7 @@ published: true
       <% data.credco_logos.each do |image| %>
           <% if image.role == "partner" %>
             <li>
-              <%= partial "partials/image", :locals => {
+              <%= partial "partials/background_image", :locals => {
                   :type => image[:type],
                   :name => image[:name],
                   :url => image[:url],
@@ -93,7 +93,7 @@ published: true
       <% data.credco_logos.each do |image| %>
           <% if image.role == "funder" %>
             <li>
-              <%= partial "partials/image", :locals => {
+              <%= partial "partials/background_image", :locals => {
                   :type => image[:type],
                   :name => image[:name],
                   :url => image[:url],

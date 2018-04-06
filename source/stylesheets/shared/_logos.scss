@@ -34,37 +34,34 @@
       width: 100%;
     }
 
-    img {
+    .image {
       filter: grayscale(100%);
-      max-height: units(6);
-      max-width: units(16);
+      height: units(8);
+      width: units(16);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
-    .square {
-      img {
-        max-height: units(7);
-        max-width: units(9);
-      }
+    .square.image {
+      max-height: units(7);
+      max-width: units(9);
     }
 
-    .very-wide {
-      img {
-        max-height: units(16);
-        max-width: units(20);
-        width: units(20);
-      }
+    .very-wide.image {
+      max-height: units(16);
+      max-width: units(20);
+      width: units(20);
     }
 
-    .tall {
-      img {
-        max-height: units(8);
-      }
+    .tall.image {
+      max-height: units(8);
     }
   }
 }
 
 // Special Tweaks for Craig
-.cnp img {
+.image.cnp  {
   max-width: 175px!important;
   width: 175px!important;
   margin-top: 6px;

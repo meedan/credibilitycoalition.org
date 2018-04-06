@@ -68,7 +68,7 @@
   "name": "climatefeedback",
   "role": "partner",
   "url": "https://climatefeedback.org/",
-  "type": "png",
+  "type": "jpg",
   "shape": "very-wide"
 },
 {
@@ -95,13 +95,13 @@
   "name": "hypothesis",
   "role": "partner",
   "url": "https://web.hypothes.is/",
-  "type": "png"
+  "type": "jpg"
 },
 {
   "name": "mediacloud",
   "role": "partner",
   "url": "https://mediacloud.org/",
-  "type": "png",
+  "type": "jpg",
   "shape": "square"
 },
 {
@@ -122,6 +122,6 @@
   "name": "snopes",
   "role": "partner",
   "url": "https://www.snopes.com/",
-  "type": "png"
+  "type": "jpg"
 }
 ]
