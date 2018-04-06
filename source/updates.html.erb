@@ -10,9 +10,29 @@ slug: "updates"
     </div>
 </section>
 
+
 <section>
   <div class="section-inner">
-    <h3 class="layout--padding-bottom">Mentions</h3>
+    <h3 class="layout--padding-bottom">Updates from our team</h3>
+    <ul class="timeline">
+      <% data.timeline_press_releases.each do |item| %>
+        <li>
+          <%= partial "partials/timeline_entry", :locals => {
+              :link => item[:link],
+              :title => item[:title],
+              :date => item[:date],
+              :attribution => item[:attribution],
+            } %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</section>
+
+
+<section>
+  <div class="section-inner">
+    <h3 class="layout--padding-bottom">Mentions on the web</h3>
     <ul class="timeline">
 
       <% data.timeline_press_mentions.each do |item| %>
@@ -29,21 +49,3 @@ slug: "updates"
   </div>
 </section>
 
-
-<section>
-  <div class="section-inner">
-    <h3 class="layout--padding-bottom">Updates</h3>
-    <ul class="timeline">
-      <% data.timeline_press_releases.each do |item| %>
-        <li>
-          <%= partial "partials/timeline_entry", :locals => {
-              :link => item[:link],
-              :title => item[:title],
-              :date => item[:date],
-              :attribution => item[:attribution],
-            } %>
-        </li>
-      <% end %>
-    </ul>
-  </div>
-</section>
