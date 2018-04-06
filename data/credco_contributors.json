@@ -12,10 +12,22 @@
         "image": "nate-a"
     },
     {
+        "name": "Scott Appling",
+        "link": "http://www.gatech.edu",
+        "organization": "Georgia Institute of Technology",
+        "image": "scott-a"
+    },
+    {
         "name": "Ed Bice",
         "link": "https://meedan.com",
         "organization": "Meedan",
         "image": "ed-b"
+    },
+    {
+        "name": "Jeanne Brooks",
+        "link": "https://www.viragofutures.com/",
+        "organization": "Virago Futures, MisinfoCon",
+        "image": "placeholder"
     },
     {
         "name": "Robyn Caplan",
@@ -30,10 +42,28 @@
         "image": "renee-d"
     },
     {
+        "name": "James Fairbanks",
+        "link": "http://www.gatech.edu/",
+        "organization": "Georgia Tech",
+        "image": "placeholder"
+    },
+    {
+        "name": "Dan Froomkin",
+        "link": "https://web.hypothes.is/",
+        "organization": "Hypothesis",
+        "image": "dan-f"
+    },
+    {
         "name": "Dhruv Ghulati",
         "link": "http://factmata.com/",
         "organization": "Factmata",
         "image": "dhruv-g"
+    },
+    {
+        "name": "Norman Gilmore",
+        "link": "https://bids.berkeley.edu/",
+        "organization": "Berkeley Institute for Data Science",
+        "image": "norman-g"
     },
     {
         "name": "Vinny Green",
@@ -57,13 +87,13 @@
         "name": "David Karger",
         "link": "https://www.csail.mit.edu/",
         "organization": "MIT CSAIL",
-        "image": "placeholder"
+        "image": "david-k"
     },
     {
         "name": "Jennifer 8. Lee",
         "link": "https://hackshackers.com",
         "organization": "Hacks/Hackers",
-        "image": "placeholder"
+        "image": "jennifer-l"
     },
     {
         "name": "Dr. Emlen Metz",
@@ -76,6 +106,12 @@
         "link": "https://meedan.com/",
         "organization": "Meedan, Berkman Klein Center",
         "image": "an-m"
+    },
+    {
+        "name": "Tanu Mitra",
+        "link": "https://vt.edu/",
+        "organization": "Virginia Tech",
+        "image": "tanu-m"
     },
     {
         "name": "Stuart Myles",

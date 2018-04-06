@@ -3,6 +3,7 @@ ul.contributors {
   font-size: 16px;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   list-style-type: none;
+  position: relative;
 
   li {
     font-weight: 400;
@@ -18,6 +19,8 @@ ul.contributors {
     font: $font--caption;
     font-weight: 400;
     flex-direction: column;
+    position: relative;
+
 
     > * {
       transition: color $duration--default;
