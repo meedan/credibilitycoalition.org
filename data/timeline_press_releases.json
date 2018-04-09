@@ -6,6 +6,12 @@
   "attribution": "Meedan, misinfocon.com"
 },
 {
+  "date": "2018 March 20",
+  "link": "https://web.hypothes.is/blog/evaluating-credibility-on-the-web-with-annotation",
+  "title": "Evaluating Credibility on the Web With Annotation",
+  "attribution": "Nate Angell, Hypothesis"
+},
+{
   "date": "2017 June 22",
   "link": "https://misinfocon.com/knight-prototype-fund-supports-the-credibility-working-group-c3dcc6667569",
   "title": "Knight Prototype Fund Supports the Credibility Working Group",
@@ -13,7 +19,7 @@
 },
 {
   "date": "2017 March 3",
-  "link": "https://misinfocon.com/building-technical-standards-for-credibility-59ef9ee4ab73", 
+  "link": "https://misinfocon.com/building-technical-standards-for-credibility-59ef9ee4ab73",
   "title": "Building Technical Standards for Credibility",
   "attribution": "An Xiao Mina, misinfocon.com"
 }
