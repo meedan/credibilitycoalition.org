@@ -1,16 +1,19 @@
 language: ruby
 rvm:
-- 2.3.3 #reasonably recent
+- 2.3.3
 env:
-  - SLIMERJSLAUNCHER=$(which firefox) DISPLAY=:99.0 PATH=$TRAVIS_BUILD_DIR/slimerjs:$PATH #for slimer
+- SLIMERJSLAUNCHER=$(which firefox) DISPLAY=:99.0 PATH=$TRAVIS_BUILD_DIR/slimerjs:$PATH
 addons:
-  firefox: "50.0" # for slimer
-cache: bundler # Cache rubygems to speed up the build
+  firefox: '59.0'
+cache: bundler
 before_script:
-  - . $HOME/.nvm/nvm.sh # Allows us to install a more recent node
-  - nvm install stable # Install it
-  - nvm use stable # Use it
-  - npm install # Install project dependencies
-  - npm install -g casperjs slimerjs@0.10.3 a11y # Install dependencies which prefer to be global
-  - sh -e /etc/init.d/xvfb start # start xvfb for slimer
+- ". $HOME/.nvm/nvm.sh"
+- nvm install stable
+- nvm use stable
+- npm install
+- npm run build
+- sh -e /etc/init.d/xvfb start
 script: npm run test
+notifications:
+  slack:
+    secure: fwCoaqzWUzQT09K9Uhm9rNoWRzvOPyEhFsN96YSdCnkf1wGYnxLkplbGsRwDEC9XajFg5zZGq+M2e2MLsAXItMsrSM7NQd0GqjH++IFc/KIAw1B+PELo/51soFigPMfuzhZROR9UTqYl3HU/T1SNRP11leUXxOea9VBT/u1TtvMbsu8QeWMrHDXX8bHFEDoeQq/V2locgm1+iVEyyjX1/xgJBzBAibsHjucZYg3tmEnnDPgHtQH38vsRlQ4wBu39Z295XXFsfC2SzL3It/hJFB8aoeqtoWAC92Oz2bi+FpGCJgkLp0pJ/+bNXAK5VPJzUmWZz+wCKU8yN4ju+BKA5JPjefw/SFyrllbXP2ZwYzXCshTpC+vc5+goMzTUXc9CQ/4YN5N5uTsnMlOEKBTf4Au8/cslPIH6+XRR4Yau4zDlTMrtOTe9PlgCw4GkFcpV2UV9+TcdJHTIFtm16ap5UpZUCtIXDiPQGIlLkEGII8hzIjzxjD6Xp8D8NaKCrQ6CPj2myr+nec/00zEEOhde48OkUwH228vS6XA/Nsrc3sJ7O+zXPKDUIzOBJMLY4gw3CMmzo+Qlb/0TIiZdDvhMK3nPCPhJpIaRpD0zb9M+aS90wIE8Lk0YW7tzlT2rgid+mNLTaLBw6mu86dxO9mQk5xfTza83X1HQYM+20xow8fk=
