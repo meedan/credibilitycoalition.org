@@ -11,20 +11,6 @@
   }
 
   .credco-medium {
-    opacity: .8;
-    transition: opacity $duration--default;
-
-    // Darken on hover
-    &:hover {
-      opacity: 1;
-      transition: opacity $duration--default;
-    }
-
-    // Darken when on home page
-    .home & {
-      opacity: 1;
-    }
-
     img {
       height: $width--large-gutter;
       margin: ($width--small-gutter+$width--xsmall-gutter);
