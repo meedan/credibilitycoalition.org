@@ -79,6 +79,13 @@
   "shape": "very-wide"
 },
 {
+  "name": "gtri",
+  "role": "partner",
+  "url": "https://gtri.gatech.edu",
+  "type": "png",
+  "shape": "very-wide"
+},
+{
   "name": "globalvoices",
   "role": "partner",
   "url": "https://globalvoices.org/",
