@@ -72,10 +72,16 @@
         "image": "vinny-g"
     },
     {
-        "name": "Natalie Gyenes",
+        "name": "Nat Gyenes",
         "link": "https://cyber.harvard.edu/",
         "organization": "Berkman Klein Center",
         "image": "natalie-g"
+    },
+    {
+        "name": "Scott Hale",
+        "link": "http://www.ox.ac.uk",
+        "organization": "University of Oxford",
+        "image": "scott-h"
     },
     {
         "name": "Sandro Hawke",
