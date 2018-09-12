@@ -16,36 +16,31 @@ slug: "about"
     </div>
 </section>
 
-
-<section class="layout--padding-bottom">
+<section>
   <div class="section-inner">
-    <h2>Join us!</h2>
-    <p>We value a diverse and inclusive membership and encourage broad participation. We especially invite individuals from historically underrepresented communities in technology and journalism to join our efforts, including women, people of color, people with disabilities and those who identify as LGBTQ.</p>
+    <h2>Collaborative exploration is key to our mission</h2>
+    
+    <p>Together, as a coalition, we are interested in complementing these efforts by establishing ways of engagement, or <em>frameworks</em>, that encourage interdisciplinarity and cooperation.  We think that this is key given the complicated nature of the problem.</p>
 
-    <p>The core contributors of our working group including the following individuals and organizations: </p>
+    <p>Rather than jointly deciding whether an article is “credible” or “not credible” or endorsing any single index or evaluation of credibility, the Credibility Coalition fosters the development of frameworks around which credibility that foster the generation of better standards, rigorous research, and thoughtful application around information quality. More about our frameworks can be found <%= link_to 'here', '/approach.html' %>.</p>
 
-  <ul class="contributors layout--padding-top">
-    <% data.credco_contributors.each do |contributor| %>
-      <li>
-        <a href="<%= contributor[:link] %>" title="<%= contributor[:organization] %>">
-            <div class="image" style="background: url('/images/contributors/<%= contributor[:image] %>@2x.jpg') no-repeat; background-size: cover"></div>
-            <span class="name"><%= contributor[:name] %></span>
-            <span class="organization"><%= contributor[:organization] %></span>
-        </a>
-      </li>
-      <% end %>
-  </ul>
+    <h2>Our driving questions</h2>
 
- </div>
+    <p>Our efforts are currently directed by three main questions.  Our energies are focused on how to:</p>
+        <ul>
+          <li><b>Assess</b>: Can we agree on the indicators for reliable information online?</li>
+          <li><b>Scale</b>: Does assessment work at both small and large magnitudes? </li>
+          <li><b>Apply</b>: How can the implementation of credibility standards effectively inform people?</li>
+
+        </ul>
+    </div>
 </section>
 
 
 <section>
   <div class="section-inner">
     <h2>Contacts</h2>
-
     <ul>
-
       <li>An Xiao Mina, Strategy Lead</li>
       <li>Connie Moon Sehat, Research Community Lead</li>
       <li>Dwight Knell, Operations Lead</li>
@@ -55,16 +50,6 @@ slug: "about"
 
 <section>
   <div class="section-inner">
-
-    <h2>Our Efforts</h2>
-    <p>Together, as a coalition, we are interested in complementing these efforts by defining the factors that lead to credibility assessments or that make information reliable. </p>
-
-    <p>Rather than jointly deciding whether an article is “credible” or “not credible” or endorsing any single index or evaluation of credibility, the Credibility Coalition fosters the development of a framework around which credibility can be discussed and interpreted. Our goal is to provide a range of indicators that can be used by a person — or a system — to gauge if an article can inform or educate that person (or whoever the audience is likely to be).</p>
-
-    <p> If solutions — especially scalable ones — are possible, they will require organized cooperation through <%= link_to 'shared vocabularies', '/definitions.html' %> for understanding the nature of credible content. Our contribution will be an iterative, evolving and transparent process by diverse research projects using different tools to test hypotheses about information quality.</p>
-
-    <p>Solutions will also require continual assessments about the risks of censorship and gamified knowledge systems: risks that are already present in our current ecosystem and that demand thoughtful, knowledgable approaches.</p>
-
     <h2>Our History</h2>
 
     <p>The Credibility Coalition is an initiative co-founded by Meedan and Hacks/Hackers. We were incubated at the first <a href="https://misinfocon.com/">MisinfoCon</a> in early 2017 and grew under a <a href="https://knightfoundation.org/press/releases/knight-prototype-fund-awards-1-million-to-20-projects-to-improve-the-flow-of-accurate-information">Knight Prototype Fund Grant</A> focused on improving the flow of accurate information.</p>
@@ -82,3 +67,25 @@ slug: "about"
   </div>
 </section>
 
+
+<section class="layout--padding-bottom">
+  <div class="section-inner">
+    <h2>Join us!</h2>
+    <p>We value a diverse and inclusive membership and encourage broad participation. We especially invite individuals from historically underrepresented communities in technology and journalism to join our efforts, including women, people of color, people with disabilities and those who identify as LGBTQ.</p>
+
+    <p>Founding members or the coalition including the following individuals: </p>
+
+  <ul class="contributors layout--padding-top">
+    <% data.credco_contributors.each do |contributor| %>
+      <li>
+        <a href="<%= contributor[:link] %>" title="<%= contributor[:organization] %>">
+            <div class="image" style="background: url('/images/contributors/<%= contributor[:image] %>@2x.jpg') no-repeat; background-size: cover"></div>
+            <span class="name"><%= contributor[:name] %></span>
+            <span class="organization"><%= contributor[:organization] %></span>
+        </a>
+      </li>
+      <% end %>
+  </ul>
+
+ </div>
+</section>
