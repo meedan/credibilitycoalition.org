@@ -24,12 +24,6 @@
         "image": "ed-b"
     },
     {
-        "name": "Jeanne Brooks",
-        "link": "https://www.viragofutures.com/",
-        "organization": "Virago Futures, MisinfoCon",
-        "image": "placeholder"
-    },
-    {
         "name": "Robyn Caplan",
         "link": "https://datasociety.net/",
         "organization": "Data &amp; Society Research Institute",
@@ -40,12 +34,6 @@
         "link": "http://datafordemocracy.org/",
         "organization": "Data for Democracy",
         "image": "renee-d"
-    },
-    {
-        "name": "James Fairbanks",
-        "link": "http://www.gatech.edu/",
-        "organization": "Georgia Institute of Technology",
-        "image": "placeholder"
     },
     {
         "name": "Dan Froomkin",
