@@ -1,11 +1,5 @@
 [
     {
-        "name": "Dr. Nick Adams",
-        "link": "http://www.goodlylabs.org/",
-        "organization": "PublicEditor, GoodlyLabs",
-        "image": "placeholder"
-    },
-    {
         "name": "Nate Angell",
         "link": "https://web.hypothes.is/",
         "organization": "Hypothesis",
