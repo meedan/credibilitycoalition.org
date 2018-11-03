@@ -42,12 +42,6 @@
         "image": "dhruv-g"
     },
     {
-        "name": "Norman Gilmore",
-        "link": "http://www.goodlylabs.org",
-        "organization": "PublicEditor, Berkeley Institute for Data Science",
-        "image": "norman-g"
-    },
-    {
         "name": "Vinny Green",
         "link": "http://www.snopes.com/",
         "organization": "Snopes.com",
@@ -84,12 +78,6 @@
         "image": "jennifer-l"
     },
     {
-        "name": "Dr. Emlen Metz",
-        "link": "http://www.goodlylabs.org",
-        "organization": "PublicEditor, Berkeley Institute for Data Science",
-        "image": "placeholder"
-    },
-    {
         "name": "An Xiao Mina",
         "link": "https://meedan.com/",
         "organization": "Meedan, Berkman Klein Center",
@@ -114,12 +102,6 @@
         "organization":
             "University of Michigan School of Information",
         "image": "aviv-o"
-    },
-    {
-        "name": "Aditya Ranganathan",
-        "link": "http://www.goodlylabs.org",
-        "organization": "PublicEditor, Berkeley Institute for Data Science",
-        "image": "aditya-r"
     },
     {
         "name": "Karim Ratib",
