@@ -119,13 +119,6 @@
   "shape": "square"
 },
 {
-  "name": "publiceditor",
-  "role": "partner",
-  "url": "http://www.goodlylabs.org",
-  "type": "jpg",
-  "shape": "square"
-},
-{
   "name": "snopes",
   "role": "partner",
   "url": "https://www.snopes.com/",
