@@ -69,7 +69,7 @@
 }
 
 // Page navigation: current page indicator
-@each $page in about, approach, definitions, results, updates {
+@each $page in about, approach, definitions, results, updates, jobs {
   .#{$page} {
     .#{$page} {
       a {
