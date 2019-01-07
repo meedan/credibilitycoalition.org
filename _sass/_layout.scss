@@ -1,0 +1,127 @@
+@import 'variables';
+
+* {
+  box-sizing: border-box;
+}
+
+%sticky-footer {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: $height--header-desktop auto $height--footer-desktop;
+  @include when-smaller-than(medium) {
+    grid-template-rows: $height--header-mobile auto $height--footer-mobile;
+  }
+
+  footer {
+    height: $height--footer-desktop;
+  }
+}
+
+body {
+  margin: 0;
+  min-width: 280px;
+  overflow-x: hidden;
+  @extend %sticky-footer;
+}
+
+main section:last-of-type {
+  padding-bottom: $width--large-gutter*2;
+}
+
+.section-inner {
+  @include when-smaller-than(medium) {
+    padding: $width--small-gutter;
+  }
+
+  @include when-larger-than(medium) {
+    margin: 0 auto;
+    max-width: $width--column-primary;
+    padding: $width--large-gutter $width--large-gutter 0;
+  }
+
+  &:last-of-type {
+    padding-bottom: $width--large-gutter;
+  }
+
+  > * {
+    margin: 0;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.row {
+  @include when-larger-than(medium) {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+// English default
+:lang(en) {
+  direction: ltr;
+}
+
+// Utility classes
+//
+.layout--padding-bottom {
+  padding-bottom: $width--large-gutter;
+}
+
+.layout--padding-top {
+  padding-top: $width--large-gutter;
+}
+
+.layout--padding-none {
+  padding: 0;
+}
+
+.layout--padding-right {
+  padding-right: $width--large-gutter;
+}
+
+.layout--padding-left {
+  padding-left: $width--large-gutter;
+}
+
+.layout--padding-all {
+  padding: $width--large-gutter;
+}
+
+.layout--margin-bottom {
+  padding-bottom: $width--large-gutter;
+}
+
+.layout--margin-top {
+  padding-top: $width--large-gutter;
+}
+
+.layout--margin-none {
+  padding: 0;
+}
+
+.layout--margin-right {
+  padding-right: $width--large-gutter;
+}
+
+.layout--margin-left {
+  padding-left: $width--large-gutter;
+}
+
+.layout--margin-all {
+  padding: $width--large-gutter;
+}
+
+.layout--relative {
+  position: relative;
+}
+
+// Responsive utility classes
+.hidden-on-mobile {
+  @include when-smaller-than(medium) {
+    display: none;
+  }
+}

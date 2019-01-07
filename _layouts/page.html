@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+	{% include head.html %}
+	<body class="{%if page.url %}{{ page.url | slugify }}{% endif %}">
+
+		{% include nav.html %}
+
+		<main>
+		    <div class="section-inner">
+		        <h1>{{ page.title }}</h1>
+		        {% if page.summary %}
+		        	<h4>{{ page.summary | markdownify }}</h4>
+		        {% endif %}
+		    </div>
+		    <section>
+				{% for module in page.modules %}
+					{% 
+						include cases_modules.html 
+						module=module
+					%}
+				{% endfor %}
+			</section>
+		</main>
+		<footer class="colors--inverted layout--relative">
+			{% include footer.html %}
+		</footer>
+
+	</body>
+	{% include js.html %}
+</html>

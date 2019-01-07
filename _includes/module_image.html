@@ -1,0 +1,14 @@
+{% assign filter = module.filter_image | default: 'false' %}
+{% assign filter_class = 'grayscale' %}
+<div class="section-inner inline">
+	<div class="media{% if filter == true %}{{ filter_class | prepend: ' ' }}{% endif %}">
+		<div class="media-image layout--padding-top">
+			<a class="with-caption image-link" href="{{ module.image.url | append: '?fl=progressive' }}">
+				<img src="{{ module.image.url | append: '?fl=progressive' }}" class="fade-in responsive" alt="{{ caption }}" />
+			</a>
+			{% if module.caption %}
+				<div class="caption">{{ module.caption | markdownify }}</div>
+			{% endif %}
+		</div>
+	</div>
+</div>

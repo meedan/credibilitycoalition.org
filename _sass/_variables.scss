@@ -1,0 +1,117 @@
+// Breakpoints
+$breakpoints: (
+  'xsmall': 320px, 'small': 400px, 'medium': 730px, 'large': 896px
+);
+
+// Basic grid unit
+//
+$unit-size: 8px;
+
+// Helper for accessing the grid unit map
+//
+
+@function units($unit-count) {
+  @return $unit-count * $unit-size;
+}
+
+// Layout
+//
+// The medium channel embeds are the one element on the homepage we don't control.
+// The width of these embeds therefore defines our grid. :| CGB
+$width--primary-card: 500px;
+$width--xlarge-gutter: units(6);
+$width--large-gutter: units(4);
+$width--small-gutter: units(2);
+$width--xsmall-gutter: units(1);
+$radius--default: 4px;
+
+$width--column-primary: units(90);
+
+$height--header-desktop: units(8);
+$height--footer-desktop: units(28);
+$height--header-mobile: units(18);
+$height--footer-mobile: units(28);
+
+
+// Font stacks
+//
+$font-stack--primary: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
+
+$font-stack--mono: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+
+// Material design font size and line height
+//
+// • unquote() is used because: https://github.com/sass/sass/issues/667
+// • The font name must be repeated to use the font shorthand
+$font--display-2: 500 45px unquote('/') 54px $font-stack--primary;
+$font--display-1: 500 34px unquote('/') 40px $font-stack--primary;
+$font--headline: 500 24px unquote('/') 32px $font-stack--primary;
+$font--subheading-2: 300 20px unquote('/') 32px $font-stack--primary;
+$font--subheading-1: 300 20px unquote('/') 28px $font-stack--primary;
+$font--body-2: 300 16px unquote('/') 24px $font-stack--primary;
+$font--body-1: 300 16px unquote('/') 20px $font-stack--primary;
+$font--caption: 400 12px unquote('/') 16px $font-stack--primary;
+$font--mono: 400 12px unquote('/') 16px $font-stack--mono;
+
+// Colors
+//
+$check-blue: #3073fd;
+$web-blue: #0000EE;
+$light-keyboard-grey: #d1d6db;
+$white: #fff;
+$black: #000;
+$adobe-red: #c11e07;
+
+// Colors with alpha channel
+//
+$black-02: rgba($black, .02);
+$black-05: rgba($black, .05);
+$black-08: rgba($black, .08);
+$black-16: rgba($black, .16);
+$black-38: rgba($black, .38);
+$black-54: rgba($black, .54);
+$black-87: rgba($black, .87);
+$white-10: rgba($white, .1);
+$white-20: rgba($white, .2);
+$white-50: rgba($white, .5);
+$white-70: rgba($white, .7);
+
+// Transitions
+$duration--default: .3s;
+
+// Functions
+//
+
+@function box-shadow($level) {
+  @if $level == 1 {
+    @return unquote("0 1px 3px #{rgba($black, 0.12)}, 0 1px 2px #{rgba($black, 0.24)}");
+  } @else if $level == 2 {
+    @return unquote("0 3px 6px #{rgba($black, 0.16)}, 0 3px 6px #{rgba($black, 0.23)}");
+  }
+}
+
+// Placeholders
+//
+%card {
+  background-color: $white;
+  border: 1px solid $black-05;
+  box-shadow: box-shadow(1);
+  transition: box-shadow .2s;
+
+  &:hover {
+    box-shadow: box-shadow(2);
+    transition: box-shadow .2s;
+  }
+}
+
+%card-flat {
+  background-color: $white;
+  border: 1px solid $black-08;
+  border-radius: 4px;
+  transition: border .2s;
+
+  &:hover {
+    border: 1px solid $black-16;
+    transition: border .2s;
+  }
+}

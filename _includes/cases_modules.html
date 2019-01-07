@@ -1,0 +1,22 @@
+{% assign module = include.module %}
+
+{% case module.sys.content_type_id %}
+	{% when 'moduleBodyText' %}
+		{% include module_text.html %}	
+	{% when 'moduleImage' %}
+		{% include module_image.html %}
+	{% when 'moduleVideo' %}
+		{% include module_video.html %}
+	{% when 'moduleProfiles' %}
+		{% include module_profiles.html %}
+	{% when 'moduleCitation' %}
+		{% include module_citation.html %}
+	{% when 'moduleUpdates' %}
+		{% include module_updates.html %}
+	{% when 'moduleMentions' %}
+		{% include module_mentions.html %}
+	{% when 'moduleMentionsAsReviews' %}
+		{% include module_mentions-as-reviews.html %}
+	{% when 'moduleLogos' %}
+		{% include module_logos.html %}
+{% endcase %}

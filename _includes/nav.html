@@ -1,0 +1,15 @@
+<nav class="primary-nav">
+	{% include logo.html %}
+	{% assign navigation = site.data.contentful.spaces.navigations.navigation 
+		| where_exp: "item","item.type contains 'Global'"
+	%}
+	{% if navigation %}
+		<ul class="pages">
+			{% for page in navigation[0].pages %}
+				<li class="{{ page.title | slugify }}">
+					<a href="/{{ page.slug }}" title="{{ page.title }}">{{ page.title }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+</nav>

@@ -1,0 +1,33 @@
+{% if module.mentions %}
+<div class="section-inner">
+	{% if module.title %}
+		<h2>{{ module.title }}</h2>
+	{% endif %}
+	{% if module.description %}
+		{{ module.description | markdownify }}
+	{% endif %}
+	{% assign mentions = site.data.contentful.spaces.mentions.mention %}
+	{% assign module_mentions_sorted = module.mentions | reverse %}
+	<ul class="timeline unstyled">
+		{% for u in module_mentions_sorted %}
+			{% for mention in mentions  %}
+				{% if u.sys.id == mention.sys.id %}
+					<li>
+						<h4 class="date">
+						  {{ mention.published_on | date: "%Y %B %-d" }}
+						</h4>
+						<p class="title">
+						  <a href="{{ mention.link }}">
+						    {{ mention.title }}{% if mention.description %}<em>{{ mention.description | prepend: ' ' }}</em>{% endif %}
+						  </a>
+						</p>
+						<p class="attribution">
+						   {{ mention.attribution }}
+						</p>
+					</li>
+				{% endif %}
+			{% endfor %}	
+		{% endfor %}
+	</ul>
+</div>
+{% endif %}

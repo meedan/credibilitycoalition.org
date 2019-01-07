@@ -1,0 +1,19 @@
+<section class="credibility-coalition__logos">
+	<div class="section-inner">
+		<h3>{{ module.title }}</h3>
+		{% assign organisations = site.data.contentful.spaces.organisations.organisation %}
+		<ul class="logos unstyled layout--padding-bottom">
+			{% for logo in module.logos %}
+				{% for organisation in organisations  %}
+					{% if logo.sys.id == organisation.sys.id %}
+						<li>
+							<a href="{{ organisation.link }}">
+						    	<div class="image{%if organisation.logo_size %}{{ organisation.logo_size | slugify | prepend: ' ' }}{% endif %}" style="background-image: url({{ organisation.logo.url }})"></div>
+							</a>
+						</li>
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
+		</ul>
+	</div>
+</section>

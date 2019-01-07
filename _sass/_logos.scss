@@ -1,0 +1,68 @@
+// Logo Layout
+//
+// A flex-based layout that handles many small blocks. It is implemented in several places. There is custom width handling on each image, where needed.
+//
+//
+[class*='__logos'] {
+  background-color: $black-02;
+
+  .logos {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    list-style-type: none;
+
+    li {
+      @extend %card-flat;
+
+      @include when-smaller-than(small) {
+        margin-right: 0;
+        width: 100%;
+      }
+      height: units(12);
+      margin: units(1) units(2) units(1) 0;
+      padding: 0;
+      width: units(25);
+    }
+
+    a {
+      align-items: center;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      padding: units(1);
+      width: 100%;
+    }
+
+    .image {
+      filter: grayscale(100%);
+      height: units(8);
+      width: units(16);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+
+    .square.image {
+      max-height: units(7);
+      max-width: units(9);
+    }
+
+    .very-wide.image {
+      max-height: units(16);
+      max-width: units(20);
+      width: units(20);
+    }
+
+    .tall.image {
+      max-height: units(8);
+    }
+  }
+}
+
+// Special Tweaks for Craig
+.image.cnp  {
+  max-width: 175px!important;
+  width: 175px!important;
+  margin-top: 6px;
+}

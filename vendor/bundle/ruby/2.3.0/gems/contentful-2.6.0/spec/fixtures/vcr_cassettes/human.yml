@@ -1,0 +1,118 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://cdn.contentful.com/spaces/cfexampleapi/environments/master/entries?sys.id=finn
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - RubyContentfulGem/1.2.0
+      Authorization:
+      - Bearer b4c0n73n7fu1
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - close
+      Host:
+      - cdn.contentful.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Etag
+      Access-Control-Max-Age:
+      - '86400'
+      Cache-Control:
+      - max-age=0
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Etag:
+      - '"87d918d318e916d11257e79fbe2170f1"'
+      Server:
+      - Contentful
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Contentful-Request-Id:
+      - d779ead4b7a06d2c0546fbb934628db0
+      Content-Length:
+      - '815'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 20 Dec 2016 15:25:24 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - close
+      X-Served-By:
+      - cache-fra1246-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1482247524.730436,VS0,VE139
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+          "sys": {
+            "type": "Array"
+          },
+          "total": 1,
+          "skip": 0,
+          "limit": 100,
+          "items": [
+            {
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cfexampleapi"
+                  }
+                },
+                "id": "finn",
+                "type": "Entry",
+                "createdAt": "2013-06-27T22:46:21.450Z",
+                "updatedAt": "2013-09-09T16:15:01.297Z",
+                "revision": 6,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "human"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "Finn",
+                "description": "Fearless adventurer! Defender of pancakes.",
+                "likes": [
+                  "adventure"
+                ]
+              }
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Tue, 20 Dec 2016 15:25:24 GMT
+recorded_with: VCR 3.0.3

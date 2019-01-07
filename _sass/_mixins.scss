@@ -1,0 +1,14 @@
+
+// Responsive mixin helpers
+//
+@mixin when-smaller-than($breakpoint) {
+  @media (max-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin when-larger-than($breakpoint) {
+  @media (min-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}

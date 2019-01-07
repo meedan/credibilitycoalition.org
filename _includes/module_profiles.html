@@ -1,0 +1,26 @@
+{% if module.profiles %}
+<div class="section-inner">
+	{% if module.title %}
+		<h2>{{ module.title }}</h2>
+	{% endif %}
+	{% if module.description %}
+		{{ module.description | markdownify }}
+	{% endif %}
+	{% assign profiles = site.data.contentful.spaces.profiles.profile %}
+	<ul class="contributors unstyled layout--padding-top">
+		{% for p in module.profiles %}
+			{% for profile in profiles %}
+				{% if p.sys.id == profile.sys.id %}
+					<li>
+				        <a href="{{ profile.link }}" title="{{ profile.profile_title }}">
+				            <div class="image" style="background: url({{ profile.photo.url }}) no-repeat; background-size: cover"></div>
+				            <span class="name">{{ profile.profile_name }}</span>
+				            <span class="organization">{{ profile.profile_title }}</span>
+				        </a>
+				      </li>
+				{% endif %}
+			{% endfor %}	
+		{% endfor %}
+	</ul>
+</div>
+{% endif %}

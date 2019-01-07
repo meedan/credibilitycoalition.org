@@ -1,0 +1,61 @@
+ul.contributors {
+  display: grid;
+  font-size: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  list-style-type: none;
+  position: relative;
+
+  li {
+    font-weight: 400;
+    line-height: 1.2;
+    padding: units(2) units(2) units(5);
+  }
+
+  a {
+    color: $black-87;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font--caption;
+    font-weight: 400;
+    flex-direction: column;
+    position: relative;
+
+
+    > * {
+      transition: color $duration--default;
+    }
+
+    .image {
+      $size: 62px;
+      border-radius: $size;
+      height: $size;
+      width: $size;
+      filter: grayscale(100%);
+    }
+
+    &:hover,
+    &:active {
+      > * {
+        color: $web-blue !important;
+        transition: color $duration--default;
+      }
+    }
+
+    .organization {
+      color: $black-54;
+      font: $font--caption;
+      text-align: center;
+    }
+
+    .name {
+      color: inherit;
+      display: block;
+      font: $font--caption;
+      font-weight: 700;
+      line-height: 1.2;
+      padding: units(1) 0 units(0.5);
+      text-align: center;
+    }
+  }
+}

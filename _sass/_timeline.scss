@@ -1,0 +1,22 @@
+.timeline {
+  font: $font--body-2;
+
+  .date {
+    font-size: 12px;
+  }
+
+  li {
+    padding-bottom:0;
+  }
+
+  .title {
+    padding-bottom: $width--xsmall-gutter;
+    font-weight: 700;
+  }
+
+  .attribution {
+    color: $black-54;
+    padding-top: 0;
+    font: $font--caption;
+  }
+}

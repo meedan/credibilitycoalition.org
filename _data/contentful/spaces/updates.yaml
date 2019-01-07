@@ -1,0 +1,57 @@
+---
+update:
+- sys:
+    id: 1XZgPFjqG4yeWeo8Qsa06Y
+    created_at: !ruby/object:DateTime 2019-01-01 02:27:46.102000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 02:27:46.102000000 Z
+    content_type_id: update
+    revision: 1
+  title: Summing up Credibility Coalition’s July Strategy Meeting
+  slug: summing-up-credibility-coalition's-july-strategy-meeting
+  attribution: Connie Moon Sehat, misinfocon.com
+  published_on: !ruby/object:DateTime 2018-07-17 00:00:00.000000000 Z
+  link: https://misinfocon.com/summing-up-credibility-coalitions-july-strategy-meeting-a022cc2d091d
+- sys:
+    id: 7iRvw7Gs5awaS6cyEeYyKS
+    created_at: !ruby/object:DateTime 2019-01-01 02:28:27.902000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 02:28:27.902000000 Z
+    content_type_id: update
+    revision: 1
+  title: What’s Next for the Credibility Coalition
+  slug: what's-next-for-the-credibility-coalition
+  attribution: Meedan, misinfocon.com
+  published_on: !ruby/object:DateTime 2018-03-20 00:00:00.000000000 Z
+  link: https://misinfocon.com/whats-next-for-the-credibility-coalition-554d0588f2bf
+- sys:
+    id: 2vS87P8yfKeayqmMuwyeGW
+    created_at: !ruby/object:DateTime 2019-01-01 02:29:13.812000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 02:34:46.563000000 Z
+    content_type_id: update
+    revision: 2
+  title: Evaluating Credibility on the Web With Annotation
+  slug: evaluating-credibility-on-the-web-with-annotation
+  attribution: Nate Angell, Hypothesis
+  published_on: !ruby/object:DateTime 2018-03-20 00:00:00.000000000 Z
+  link: https://web.hypothes.is/blog/evaluating-credibility-on-the-web-with-annotation
+- sys:
+    id: 3rB4OE6eFiciwqC4ia0k0u
+    created_at: !ruby/object:DateTime 2019-01-01 02:34:34.697000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 02:34:34.697000000 Z
+    content_type_id: update
+    revision: 1
+  title: Knight Prototype Fund Supports the Credibility Working Group
+  slug: knight-prototype-fund-supports-the-credibility-working-group
+  attribution: An Xiao Mina, misinfocon.com
+  published_on: !ruby/object:DateTime 2017-06-22 00:00:00.000000000 Z
+  link: https://misinfocon.com/knight-prototype-fund-supports-the-credibility-working-group-c3dcc6667569
+- sys:
+    id: 5lNFlaXSbSU8qSSssSGQ8w
+    created_at: !ruby/object:DateTime 2019-01-01 02:36:50.505000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 02:36:50.505000000 Z
+    content_type_id: update
+    revision: 1
+  title: Building Technical Standards for Credibility
+  slug: building-technical-standards-for-credibility
+  attribution: An Xiao Mina, misinfocon.com
+  published_on: !ruby/object:DateTime 2017-03-03 00:00:00.000000000 Z
+  link: https://misinfocon.com/building-technical-standards-for-credibility-59ef9ee4ab73

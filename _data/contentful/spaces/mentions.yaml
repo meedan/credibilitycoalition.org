@@ -1,0 +1,96 @@
+---
+mention:
+- sys:
+    id: 4HSixCjvKEuUQiSWyYS60a
+    created_at: !ruby/object:DateTime 2019-01-01 03:04:51.327000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 03:04:51.327000000 Z
+    content_type_id: mention
+    revision: 1
+  title: Entrerrianos participarán del evento 'Media Party' para repensar el futuro
+    de los medios
+  slug: entrerrianos-participaran-del-evento-media-party-para-repensar-el-futuro-de
+  description: "(Members of Entre Rios will participate in the 'Media Party' event
+    to rethink the future of media)"
+  attribution: APFDigital
+  published_on: !ruby/object:DateTime 2018-08-31 00:00:00.000000000 Z
+  link: https://www.cuadernosdeperiodistas.com/desinformacion-pulsa-aqui-y-te-sorprendera/
+- sys:
+    id: 6ywWs43Uswu44wa2SAmq2I
+    created_at: !ruby/object:DateTime 2019-01-01 03:05:49.351000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 03:05:49.351000000 Z
+    content_type_id: mention
+    revision: 1
+  title: 'Desinformación: pulsa aquí y te sorprenderá'
+  slug: desinformacion-pulsa-aqui-y-te-sorprendera
+  description: "(Information Disorder: Click here and be surprised)"
+  attribution: Myriam Redondo, Cuadernos de periodistas
+  published_on: !ruby/object:DateTime 2018-08-21 00:00:00.000000000 Z
+  link: http://www.apfdigital.com.ar/despachos.asp?cod_des=311591&ID_Seccion=1&fecemi=21/08/2018
+- sys:
+    id: wUWGT1Crm0ymSKE8KaAC8
+    created_at: !ruby/object:DateTime 2019-01-01 03:07:05.920000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 03:07:05.920000000 Z
+    content_type_id: mention
+    revision: 1
+  title: Four serious questions about Elon Musk's silly credibility score
+  slug: four-serious-questions-about-elon-musks-silly-credibility-score
+  attribution: Alexios Mantzarlis, Poynter
+  published_on: !ruby/object:DateTime 2018-05-24 00:00:00.000000000 Z
+  link: https://www.poynter.org/news/four-serious-questions-about-elon-musks-silly-credibility-score
+- sys:
+    id: 13CXSyDZRO6KGkWoA6oao0
+    created_at: !ruby/object:DateTime 2019-01-01 03:07:52.727000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 03:07:52.727000000 Z
+    content_type_id: mention
+    revision: 1
+  title: These academics are on the frontlines of fake news research
+  slug: these-academics-are-on-the-frontlines-of-fake-news-research
+  attribution: Daniel Funke, Poynter
+  published_on: !ruby/object:DateTime 2018-05-08 00:00:00.000000000 Z
+  link: https://www.poynter.org/news/these-academics-are-frontlines-fake-news-research
+- sys:
+    id: 4OAndrZAXYWYWAgUmoYqA6
+    created_at: !ruby/object:DateTime 2019-01-01 03:32:50.074000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 03:32:50.074000000 Z
+    content_type_id: mention
+    revision: 1
+  title: Elevating quality journalism on the open web
+  slug: elevating-quality-journalism-on-the-open-web
+  description: "\"This summer, in partnership with the World Wide Web Consortium (W3C)’s
+    newly created community group, the Credibility Coalition will explore new approaches
+    to analyze and assess the credibility of information online.”"
+  attribution: Google News Initiative
+  published_on: !ruby/object:DateTime 2018-03-20 00:00:00.000000000 Z
+  link: https://www.blog.google/topics/google-news-initiative/elevating-quality-journalism/
+- sys:
+    id: L7GEVV5O2Oa8E2IGec4Qc
+    created_at: !ruby/object:DateTime 2019-01-01 03:33:47.843000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 03:33:47.843000000 Z
+    content_type_id: mention
+    revision: 1
+  title: The Credibility Coalition receives funding from Google, Facebook and Craig
+    Newmark to expand its work assessing trust in journalism
+  slug: the-credibility-coalition-receives-funding-from-google-facebook-and-craig
+  description: "“Through workshops and research, the group identified a number of
+    credibility indicators that help readers determine if a story is reliable …[analyzing]
+    16 common elements indicating reliability on 40 widely-shared public health and
+    climate change stories.”\n\n"
+  attribution: Journalism.co.uk
+  published_on: !ruby/object:DateTime 2018-03-20 00:00:00.000000000 Z
+  link: https://www.journalism.co.uk/news/the-credibility-coalition-receives-funding-from-google-facebook-and-craig-newmark-to-expand-its-work-assessing-trust-in-journalism/s2/a719243/
+- sys:
+    id: 278BnOsNOMyiuIwOE0Eggw
+    created_at: !ruby/object:DateTime 2019-01-01 03:34:43.523000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 03:34:43.523000000 Z
+    content_type_id: mention
+    revision: 1
+  title: 'Dead Reckoning: Navigating Content Moderation After Fake News'
+  slug: dead-reckoning-navigating-content-moderation-after-fake-news
+  description: "“Rather than build one stable definition that can be used to identify
+    content, feature- or identifier-based approaches work from the ground up, using
+    methods drawn from content analysis or social network analysis to identify potential
+    features associated with ‘fake news,’ disinformation, and spam. ... Groups like
+    the Credibility Coalition ... are using this approach.”"
+  attribution: Data & Society
+  published_on: !ruby/object:DateTime 2018-02-21 00:00:00.000000000 Z
+  link: https://datasociety.net/output/dead-reckoning/

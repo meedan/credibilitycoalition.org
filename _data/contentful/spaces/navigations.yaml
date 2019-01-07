@@ -1,0 +1,137 @@
+---
+navigation:
+- sys:
+    id: 1g4BxCOWyI0kK6M6aMy8KS
+    created_at: !ruby/object:DateTime 2019-01-01 01:48:22.087000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 06:11:33.115000000 Z
+    content_type_id: navigation
+    revision: 5
+  title: Main Navigation
+  pages:
+  - sys:
+      id: 3G3nsDQ5OUKeoui2IeiUOa
+      created_at: !ruby/object:DateTime 2018-12-31 20:20:31.375000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 01:21:47.618000000 Z
+      content_type_id: page
+      revision: 8
+    title: About
+    slug: about
+    summary: We are an interdisciplinary community committed to improving our information
+      ecosystems and media literacy through transparent and collaborative exploration.
+    modules:
+    - sys:
+        id: 6K4NkBgA6cU2oGMYS6Y6QM
+    - sys:
+        id: 1ex7BT7hymqE2YYmq6mMwu
+    - sys:
+        id: 5kr1aVuQ3SYQ8y48oa0IyM
+    - sys:
+        id: 1rriX6f1O8yEQK2ISEO8Yi
+    - sys:
+        id: 4pyM7DHOmkmS6yYuMYKwG8
+    - sys:
+        id: 4xMDr9kgDmM2eCAk4cM8qQ
+    - sys:
+        id: 6tD4rxq9VumEyaA2aequcG
+    - sys:
+        id: 3wRugMtCs0S0uEWWciMY4C
+  - sys:
+      id: 6sVkzRBo7SoYUIACagmMia
+      created_at: !ruby/object:DateTime 2019-01-01 01:43:01.820000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 01:43:01.820000000 Z
+      content_type_id: page
+      revision: 1
+    title: Approach
+    slug: approach
+    summary: We work collaboratively and openly, developing frameworks that seek feedback
+      from diverse experiences and expertise and share the results of our distributed
+      tests and validations.
+    modules:
+    - sys:
+        id: 4WAYp9cVZ6WkM0SYUis2ke
+    - sys:
+        id: 4uVSdCWMYUCmQku2gosQ6q
+    - sys:
+        id: 7DS51VuV7qmWKAOsigQ468
+    - sys:
+        id: 6xVzMVsxtmEMQuuukgGYWI
+    - sys:
+        id: 1hQqf08lYisiwEW4EqkgsC
+    - sys:
+        id: 2u6IoCAKoU0qg2gMWyiUCY
+    - sys:
+        id: 1qO9VoL1zayOO0yg60848Y
+    - sys:
+        id: 46ytWjLMS4oUYI2wMK0Wk8
+    - sys:
+        id: 3DwOeJNCPC2sIQ4KcM2U6w
+    - sys:
+        id: 6GauY43ni0YcGmiqWKo62c
+    - sys:
+        id: 6KUE5aDmjmIkSGEIowOa6k
+  - sys:
+      id: 3XfDADQyVygIaGm4mug62g
+      created_at: !ruby/object:DateTime 2019-01-01 02:08:09.023000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 02:08:09.023000000 Z
+      content_type_id: page
+      revision: 1
+    title: Definitions
+    slug: definitions
+    summary: Robust definitions of credibility and its indicators are required for
+      effective solutions, whether that's automated processing or improved media literacy.
+    modules:
+    - sys:
+        id: 60PFoIx2Bqo4EsKUqO4WQk
+    - sys:
+        id: 154y8qQHvS6iOG0YCSK8m2
+    - sys:
+        id: 5sSzkfjcIwEkq4iEQmSaMA
+    - sys:
+        id: 17PzJsjnXQ2KCAm6UOc4cy
+    - sys:
+        id: 4cpQxYr2coAgMyMyKAQigA
+  - sys:
+      id: 5hozhxdFI4EUue4Sm4E4us
+      created_at: !ruby/object:DateTime 2019-01-01 02:19:07.224000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 02:19:07.224000000 Z
+      content_type_id: page
+      revision: 1
+    title: Results
+    slug: results
+    summary: By hosting the results of our efforts and current conclusions, we provide
+      building blocks for future research around our central question about assessments
+      of news credibility.
+    modules:
+    - sys:
+        id: 2IByYgLqTSS8OAaOQy2sCi
+    - sys:
+        id: 1yVoA3OEhy0M8K8o4aiiEe
+  - sys:
+      id: 2KLjKcpl4sYGOAUSkWyim6
+      created_at: !ruby/object:DateTime 2019-01-01 02:44:26.927000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 03:08:58.785000000 Z
+      content_type_id: page
+      revision: 2
+    title: Updates
+    slug: updates
+    summary: Learn more about Credibility Coalition efforts from our blog posts on
+      [Misinfocon.com](http://misinfocon.com/) and recent coverage in press and research
+      reports.
+    modules:
+    - sys:
+        id: 3rChPt2zG86EuiYG82cQcc
+    - sys:
+        id: 2KfAoJZLLyau4eyAiAaIay
+  - sys:
+      id: 3VtjhMV52o0IWysS0IY2Ys
+      created_at: !ruby/object:DateTime 2019-01-01 06:11:00.324000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 06:11:00.324000000 Z
+      content_type_id: page
+      revision: 1
+    title: Jobs
+    slug: jobs
+    summary: ANNOTATION WORK WITH CREDCO
+    modules:
+    - sys:
+        id: 57uH5ernq0sIuIugCau6Cg
+  type: Global

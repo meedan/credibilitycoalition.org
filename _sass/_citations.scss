@@ -1,0 +1,34 @@
+// Citations
+cite {
+  font-style: italic;
+  font-weight: 500;
+}
+
+span.pdf {
+  color: $adobe-red;
+  display: inline-block;
+  font: $font--caption;
+  font-weight: 700;
+}
+
+.citations {
+  .citation {
+    font: $font--body-1;
+    padding-bottom: $width--small-gutter;
+  }
+
+  .citation-description {
+    border-left: 2px solid $light-keyboard-grey;
+    font: $font--caption;
+    margin-left: 0;
+    padding: $width--small-gutter;
+
+    h4 {
+      padding: 0;
+    }
+
+    p:last-of-type {
+      padding-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,135 @@
+@import 'variables';
+@import 'mixins';
+
+// Default typography
+//
+// This is a language independent base theme.
+// Language specific typography is in files like `_lang__en.scss`
+//
+body {
+  color: $black-87;
+  font: $font--subheading-2;
+}
+
+// Section defaults
+//
+// The primary building blocks of the typographic rhythm.
+// Each section should have a header.
+section {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+// Primary header
+// There should only be one of these on a page
+h1 {
+  font: $font--display-2;
+  font-weight: bold;
+  padding: units(6) 0;
+}
+
+// Secondary headers: single line
+h2,
+h3 {
+  @include when-smaller-than(large) {
+    padding: $width--large-gutter 0;
+  }
+  display: block;
+  font: $font--subheading-1;
+  font-weight: 700;
+  letter-spacing: .1em;
+  margin: 0;
+  padding: $width--large-gutter 0;
+  text-transform: uppercase;
+}
+
+// h4: multiline
+h4 {
+  padding-top: $width--large-gutter;
+
+  @include when-smaller-than(large) {
+    margin: $width--xsmall-gutter 0;
+  }
+  margin: $width--xsmall-gutter 0;
+  // max-width: units(70);
+}
+
+em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
+}
+
+ul {
+  margin: $width--xsmall-gutter 0;
+  padding: 0 $width--large-gutter;
+}
+
+li {
+  padding: 0 0 $width--small-gutter;
+  list-style-position: outside;
+  list-style-type: disc;
+}
+
+ul.bulleted {
+  li {
+    list-style-type: disc;
+  }
+}
+
+ul.unstyled {
+  padding: 0;
+  li {
+    list-style-type: none;
+  }
+}
+
+// Paragraphs
+p {
+  display: block;
+  margin: 0;
+  padding: 0 0 $width--large-gutter;
+}
+
+h1,
+h2,
+h3,
+p {
+  a {
+    border-bottom: 2px solid rgba(blue, 0.1);
+  }
+}
+
+// Links
+a {
+  color: $web-blue;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($web-blue, 20%);
+  }
+}
+
+// Utility classes
+.font--caption,
+.caption {
+  font: $font--caption;
+}
+
+.font--body-1 {
+  font: $font--body-1;
+}
+
+.font--body-2 {
+  font: $font--body-2;
+}
+
+.date {
+  color: $black-54;
+  font: $font--mono;
+  font-weight: 400;
+  padding-top: 0;
+}

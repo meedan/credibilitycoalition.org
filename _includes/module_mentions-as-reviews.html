@@ -1,0 +1,26 @@
+{% if module.mentions %}
+<div class="section-inner">
+	{% if module.title %}
+		<h2>{{ module.title }}</h2>
+	{% endif %}
+	{% if module.description %}
+		{{ module.description | markdownify }}
+	{% endif %}
+	{% assign mentions = site.data.contentful.spaces.mentions.mention %}
+	{% assign module_mentions_sorted = module.mentions %}
+	<ul class="press unstyled layout--padding-bottom">
+		{% for u in module_mentions_sorted %}
+			{% for mention in mentions  %}
+				{% if u.sys.id == mention.sys.id %}
+					<li class="press__gni">
+						{{ mention.description | markdownify }}
+						<p class="attribution">
+							– <a href="{{ mention.link }}">{{ mention.attribution }}</a>
+						</p>
+					</li>
+				{% endif %}
+			{% endfor %}	
+		{% endfor %}
+	</ul>
+</div>
+{% endif %}

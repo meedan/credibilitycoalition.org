@@ -1,0 +1,33 @@
+{% if module.updates %}
+<div class="section-inner">
+	{% if module.title %}
+		<h2>{{ module.title }}</h2>
+	{% endif %}
+	{% if module.description %}
+		{{ module.description | markdownify }}
+	{% endif %}
+	{% assign updates = site.data.contentful.spaces.updates.update %}
+	{% assign module_updates_sorted = module.updates | reverse %}
+	<ul class="timeline unstyled">
+		{% for u in module_updates_sorted %}
+			{% for update in updates  %}
+				{% if u.sys.id == update.sys.id %}
+					<li>
+						<h4 class="date">
+						  {{ update.published_on | date: "%Y %B %-d" }}
+						</h4>
+						<p class="title">
+						  <a href="{{ update.link }}">
+						    {{ update.title }}
+						  </a>
+						</p>
+						<p class="attribution">
+						   {{ update.attribution }}
+						</p>
+					</li>
+				{% endif %}
+			{% endfor %}	
+		{% endfor %}
+	</ul>
+</div>
+{% endif %}

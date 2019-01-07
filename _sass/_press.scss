@@ -1,0 +1,16 @@
+.press {
+  li {
+    // display: flex;
+    align-items: center;
+    font: $font--body-1;
+
+    .logo {
+      width: 120px;
+      min-width: 120px;
+      margin-right: 16px;
+      display: flex;
+      align-items: top;
+      display: none;
+    }
+  }
+}

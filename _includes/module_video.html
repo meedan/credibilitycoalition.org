@@ -1,0 +1,10 @@
+<div class="section-inner">
+	<div class="media">
+		<div class="media-video layout--padding-top">
+			<iframe class="responsive" width="656" height="369" src="https://www.youtube.com/embed/{{ module.youtube_video_id }}?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+		</div>
+		{% if module.caption %}
+			<div class="caption">{{ module.caption | markdownify }}</div>
+		{% endif %}
+	</div>
+</div>

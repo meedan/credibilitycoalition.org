@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "contentTypes": [
+    {
+      "id": "cat",
+      "name": "Cat",
+      "displayField": "name",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol"
+        }
+      ]
+    }
+  ],
+  "entries": {
+    "cat": [
+      {
+        "name": "Nyan Cat"
+      }
+    ]
+  }
+}
+

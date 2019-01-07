@@ -1,0 +1,82 @@
+// The primary pages navigation
+//
+.primary-nav {
+  align-content: center;
+  display: flex;
+  width: 100%;
+  z-index: 3;
+
+  @include when-smaller-than(medium) {
+    display: block;
+  }
+
+  .credco-medium {
+    img {
+      height: $width--large-gutter;
+      margin: ($width--small-gutter+$width--xsmall-gutter);
+      margin-bottom: 0;
+
+      @include when-smaller-than(medium) {
+        margin-left: $width--small-gutter;
+      }
+    }
+  }
+
+  .pages {
+    display: flex;
+    flex: 3;
+    justify-content: flex-end;
+    margin-right: $width--small-gutter;
+    
+    @include when-smaller-than(medium) {
+      justify-content: flex-start;
+    }
+
+    @include when-smaller-than(medium) {
+      margin-left: $width--xsmall-gutter;
+      li a {
+        padding: $width--small-gutter $width--xsmall-gutter;
+        font: $font--caption;
+      }
+    }
+
+    li {
+      list-style-type: none;
+      height: $height--header-desktop;
+      padding: 0;
+    }
+
+    a {
+      color: $black-87;
+      display: block;
+      font: $font--body-2;
+      font-size: 14px;
+      line-height: $width--large-gutter;
+      padding: $width--small-gutter;
+      text-decoration: none;
+      transition: box-shadow .2s;
+
+      &:hover {
+        box-shadow: inset 0 -3px 0 $web-blue;
+        transition: box-shadow .2s;
+      }
+
+      &:active {
+        color: $web-blue;
+      }
+    }
+  }
+}
+
+// Page navigation: current page indicator
+@each $page in about, approach, definitions, results, updates, jobs {
+  .#{$page} {
+    .#{$page} {
+      a {
+        box-shadow: inset 0 -3px 0 $web-blue;
+        color: $web-blue;
+        font-weight: 700;
+      }
+    }
+  }
+}

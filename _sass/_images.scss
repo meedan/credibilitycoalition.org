@@ -1,0 +1,23 @@
+.media-image a {
+	cursor: pointer;
+  	cursor: -webkit-zoom-in;
+  	cursor: -moz-zoom-in;
+  	cursor: zoom-in;
+}
+
+.grayscale img {
+	filter: grayscale(100%);
+}
+
+.caption {
+  color: $black-54;
+  font: $font--caption;
+  padding-top: units(2);
+}
+
+.responsive {
+  @include when-smaller-than(medium) {
+    max-width: 100%;
+  }
+  max-width: $width--column-primary - ($width--large-gutter*2);
+}
