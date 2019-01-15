@@ -21,6 +21,12 @@ And run `source ~/.bashrc` or open new terminal to enable changes.
 5. `bundle exec jekyll serve` to serve the site at [http://127.0.0.1:4000](http://127.0.0.1:4000)
 6. Edit .scss, .html and .js files. The browser should live-reload.
 
+## Page Generation from Contentful Data
+
+To generate pages in Jekyll based on Contentful data we are using the [jekyll-datapage_gen](https://github.com/avillafiorita/jekyll-datapage_gen) plugin. Specify in `_config.yml` the data files for which you want individual page to be generated. See plugin's documentation and our `config.yml` for the settings.
+
+All pages are generated using the `page` layout template based on the entries in `pages.yaml` that were imported from Contentful.
+
 ## Deploy settings on Netlify
 
 credibilitycoalition.org is deployed on Netlify. Adding a website on Netlify is super easy. All these settings are under [Build & Deploy](https://app.netlify.com/sites/credco/settings/deploys) section of [Netlify's web app](https://app.netlify.com). Here are the main steps:
