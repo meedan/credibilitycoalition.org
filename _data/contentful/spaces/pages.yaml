@@ -101,9 +101,9 @@ page:
   - sys:
       id: 3wRugMtCs0S0uEWWciMY4C
       created_at: !ruby/object:DateTime 2019-01-01 01:21:42.621000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-02 20:23:57.862000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 01:21:42.621000000 Z
       content_type_id: moduleProfiles
-      revision: 3
+      revision: 1
     title: JOIN US!
     description: |-
       We value a diverse and inclusive membership and encourage broad participation. We especially invite individuals from historically underrepresented communities in technology and journalism to join our efforts, including women, people of color, people with disabilities and those who identify as LGBTQ.
@@ -120,52 +120,6 @@ page:
         id: 74ldgrADYcSmkAQuQAKoOK
     - sys:
         id: 1hfwkdIBUQgCCoeSKeWecS
-    - sys:
-        id: 4JIQtSGfluYEEmSwu2oMk0
-    - sys:
-        id: 3JJWZylOMw6QUqEwEumOSA
-    - sys:
-        id: 62tQeMwfJeKmgu4UuSmgc4
-    - sys:
-        id: 1nRerFx95CiMma6WIscssI
-    - sys:
-        id: 6Ck7fQgfbqaMS2KwkUyQSC
-    - sys:
-        id: 5pKLfgFt1Cmwq0KkcamyYC
-    - sys:
-        id: 7F0hdiP3u882iUuI2KECqw
-    - sys:
-        id: 3jyFRuxgMwScOAOsUW6eQm
-    - sys:
-        id: 1ktBOuRQNiKgM8KoquGQ8O
-    - sys:
-        id: 4QYoH9zwxaU0M26CuuISo4
-    - sys:
-        id: 1fn5VBSZ0GYI0mgW00IIES
-    - sys:
-        id: 5XvDFHv6QoUcayCUSuY6Us
-    - sys:
-        id: 1sgsSvVkW4cw8Cuiokuosu
-    - sys:
-        id: 1YzRtCQOMQS2EaoeYsUymc
-    - sys:
-        id: 59Vpd1FubuiyY64sKIOCq6
-    - sys:
-        id: 66xU3w6tnG2kqsUsI4mKWS
-    - sys:
-        id: doDP5Bw1RmYckko0g4QSA
-    - sys:
-        id: wvVUbvbsS4OceaEQoG2kE
-    - sys:
-        id: 1zby6XS3M0mIOK2omGQkuw
-    - sys:
-        id: 6Ca4ExpvbyoCOo0AaAkac0
-    - sys:
-        id: 32kF8rzzVYyekwmcOk8Ekg
-    - sys:
-        id: eoXxKM8xriuk6coUYsWcQ
-    - sys:
-        id: 2Z5AHLpAKcgYKKc8KUAuo8
 - sys:
     id: 6sVkzRBo7SoYUIACagmMia
     created_at: !ruby/object:DateTime 2019-01-01 01:43:01.820000000 Z
@@ -209,11 +163,11 @@ page:
   - sys:
       id: 7DS51VuV7qmWKAOsigQ468
       created_at: !ruby/object:DateTime 2019-01-01 01:37:28.581000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-01 01:37:28.581000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-24 23:05:43.426000000 Z
       content_type_id: moduleBodyText
-      revision: 1
+      revision: 4
     content: Our frameworks — which aim to generate better standards, rigorous research,
-      and thoughful application — are dynamic and under development all the time.
+      and thoughtful application — are dynamic and under development all the time.
   - sys:
       id: 6xVzMVsxtmEMQuuukgGYWI
       created_at: !ruby/object:DateTime 2019-01-01 01:37:59.146000000 Z
@@ -229,10 +183,10 @@ page:
   - sys:
       id: 1hQqf08lYisiwEW4EqkgsC
       created_at: !ruby/object:DateTime 2019-01-01 01:38:56.313000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-01 01:38:56.313000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-24 23:25:19.412000000 Z
       content_type_id: moduleImage
-      revision: 1
-    caption: Lifecycle of indicator development ([view larger image](https://images.ctfassets.net/tlowcqj4pb76/33nYEKfBMQA8cEOAi6Cwus/8273783f0d26d2dd5b1aae5adfee9245/CredCo-indicator-lifecycle.png))
+      revision: 2
+    caption: Lifecycle of indicator development
     image:
       sys:
         id: 33nYEKfBMQA8cEOAi6Cwus
@@ -309,11 +263,10 @@ page:
   - sys:
       id: 6KUE5aDmjmIkSGEIowOa6k
       created_at: !ruby/object:DateTime 2019-01-01 01:42:56.135000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-01 01:42:56.135000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-24 23:03:14.700000000 Z
       content_type_id: moduleImage
-      revision: 1
-    caption: Stylized representation of the "MisinfoMap" AirTable effort ([view larger
-      image](https://images.ctfassets.net/tlowcqj4pb76/2bu47vux56Y4SIqcCqeMEc/e3a8b016c583904f6c74cf21920b5a00/credco-misinfomap-stylized.jpg))
+      revision: 2
+    caption: Stylized representation of the "MisinfoMap" AirTable effort
     image:
       sys:
         id: 2bu47vux56Y4SIqcCqeMEc
@@ -611,13 +564,13 @@ page:
   - sys:
       id: 57uH5ernq0sIuIugCau6Cg
       created_at: !ruby/object:DateTime 2019-01-01 06:10:45.190000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-02 20:37:00.821000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 06:10:45.190000000 Z
       content_type_id: moduleBodyText
-      revision: 2
+      revision: 1
     content: |-
       The Credibility Coalition is currently laying the groundwork for further explorations of article credibility on the web. We are seeking students passionate about tackling misinformation, addressing information and news credibility and understanding the role artificial intelligence plays in this sector.
 
-      We are developing future rounds of testing data (you can find our [initial study here](https://assets.ctfassets.net/tlowcqj4pb76/4lmUdUz36gQuOKO0UOwEU2/819497f46f25a9cfcbaa7d4b5db8e354/CredCoWebConf2018.pdf) and [more info here](https://docs.google.com/presentation/d/1hGNqM_aO6U3gtryqqLZ_fTKreE940KIWlMnrfV5ooXU/)), and we are seeking help with annotating articles -- the first building block of designing artificial intelligence for information credibility. Student annotators will help develop our data by reviewing the articles and marking them up with a simple set of indicators.
+      We are developing future rounds of testing data (you can find our [initial study here](https://credco.meedan.com/pdfs/CredCoWebConf2018.pdf) and [more info here](https://docs.google.com/presentation/d/1hGNqM_aO6U3gtryqqLZ_fTKreE940KIWlMnrfV5ooXU/)), and we are seeking help with annotating articles -- the first building block of designing artificial intelligence for information credibility. Student annotators will help develop our data by reviewing the articles and marking them up with a simple set of indicators.
 
       An interest in journalism is preferred, but those with any background, including engineering, computer science, politics, linguistics and sociology, can apply.
 
