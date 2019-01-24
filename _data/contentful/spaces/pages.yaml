@@ -209,11 +209,11 @@ page:
   - sys:
       id: 7DS51VuV7qmWKAOsigQ468
       created_at: !ruby/object:DateTime 2019-01-01 01:37:28.581000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-01 01:37:28.581000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-24 23:14:01.211000000 Z
       content_type_id: moduleBodyText
-      revision: 1
+      revision: 2
     content: Our frameworks — which aim to generate better standards, rigorous research,
-      and thoughful application — are dynamic and under development all the time.
+      and thoughtful application — are dynamic and under development all the time.
   - sys:
       id: 6xVzMVsxtmEMQuuukgGYWI
       created_at: !ruby/object:DateTime 2019-01-01 01:37:59.146000000 Z
@@ -611,9 +611,9 @@ page:
   - sys:
       id: 57uH5ernq0sIuIugCau6Cg
       created_at: !ruby/object:DateTime 2019-01-01 06:10:45.190000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-02 20:37:00.821000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-15 22:00:50.934000000 Z
       content_type_id: moduleBodyText
-      revision: 2
+      revision: 3
     content: |-
       The Credibility Coalition is currently laying the groundwork for further explorations of article credibility on the web. We are seeking students passionate about tackling misinformation, addressing information and news credibility and understanding the role artificial intelligence plays in this sector.
 
@@ -642,4 +642,4 @@ page:
       - Academic incentives (class credit, etc).
       - If you choose, we can credit your support if we publish the data.
 
-      To participate in an upcoming credibility study, please contact your resume on our [Handshake profile](https://app.joinhandshake.com/employers/311200) or directly to Dwight Knell, Program Lead, at [dwight@meedan.com](mailto:dwight@meedan.com).
+      To participate in an upcoming credibility study, please submit your resume to Dwight Knell, Program Lead, at [dwight@meedan.com](mailto:dwight@meedan.com).
