@@ -13,3 +13,13 @@
 # repository branch will inherit these settings.
 [context.develop]
   command = "CONTENTFUL_ENVIRONMENT=develop jekyll contentful --rebuild"
+
+# Redirects and headers are GLOBAL for all builds – they do not get scoped to 
+# contexts no matter where you define them in the file.
+# For context-specific rules, use _headers or _redirects files, which are 
+# PER-DEPLOY.
+
+# A basic redirect rule
+[[redirects]]
+  from = "/wiki"
+  to = "https://github.com/credcoalition/community-site/wiki"
