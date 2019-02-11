@@ -17,7 +17,7 @@ description:
 		    <section>
 		    	<div class="section-inner">
 					{% assign jobs = site.data.contentful.spaces.jobPostings.jobPosting %}
-					
+						{% if jobs %}
 						<ul class="jobs unstyled layout--padding-bottom">
 							{% for job in jobs %}
 								<li class="job">
@@ -33,6 +33,7 @@ description:
 										</li>
 							{% endfor %}	
 						</ul>
+						{% endif %}
 				</div>
 			</section>
 		</main>
