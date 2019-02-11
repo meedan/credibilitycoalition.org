@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	{% include head.html %}
+	<body class="{%if page.url %}{{ page.url | slugify }}{% endif %}">
+
+		{% include nav.html %}
+
+		<main>
+		    <div class="section-inner">
+		    	<h4><a href="/jobs">Back to Jobs</a></h4>
+		        <h1>{{ page.title }}</h1>
+		        {% if page.location %}
+		        	<p><strong>Location:</strong> {{ page.location }}</p>
+		        {% endif %}
+		        {% if page.availability %}
+		        	<p><strong>Avalability:</strong> {{ page.availability | date: "%B %Y" }}</p>
+		        {% endif %}
+		        {% if page.salary %}
+		        	<p><strong>Salary:</strong> {{ page.salary }}</p>
+		        {% endif %}
+		    </div>
+		    <section>
+				{% for module in page.modules %}
+					{% 
+						include cases_modules.html 
+						module=module
+					%}
+				{% endfor %}
+			</section>
+		</main>
+		<footer class="colors--inverted layout--relative">
+			{% include footer.html %}
+		</footer>
+
+	</body>
+	{% include js.html %}
+</html>

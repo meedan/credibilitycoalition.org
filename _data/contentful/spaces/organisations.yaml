@@ -334,3 +334,21 @@ organisation:
     url: "//images.ctfassets.net/tlowcqj4pb76/5fQnpllmlyI2yC4u402csG/3bfafaab0d867ca49212a17abb24d388/shuttleworth.png"
   logo_size: Very wide
   link: https://www.shuttleworthfoundation.org/
+- sys:
+    id: 6uxrdSiCl6oz04zzOLeDhP
+    created_at: !ruby/object:DateTime 2019-01-28 20:51:11.185000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-30 23:40:45.910000000 Z
+    content_type_id: organisation
+    revision: 4
+  title: Twitter
+  role: Funder
+  logo:
+    sys:
+      id: 2RIUDSoUDHLfr8lSW9DO59
+      created_at: !ruby/object:DateTime 2019-01-28 20:57:16.957000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-28 20:57:16.957000000 Z
+    title: Twitter Logo Black
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/2RIUDSoUDHLfr8lSW9DO59/afebd836907f66acb397bf578affd66a/Twitter_Logo_Blue.png"
+  logo_size: Square
+  link: https://twitter.com/

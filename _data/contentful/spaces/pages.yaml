@@ -519,9 +519,9 @@ page:
   - sys:
       id: 4jZYbrRHBCu2gOcMIakac2
       created_at: !ruby/object:DateTime 2019-01-01 04:05:05.428000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-01 06:07:10.413000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-30 21:39:11.087000000 Z
       content_type_id: moduleLogos
-      revision: 2
+      revision: 4
     title: FUNDING SUPPORT
     description: 'The Credibility Coalition, formerly known as the Credibility Indicators
       Working Group, has received generous support from:'
@@ -532,6 +532,8 @@ page:
         id: 5SH2jRQSxGk0QQK4Yg6GA0
     - sys:
         id: 2QyFyFJ1O8AMaeUIua4O60
+    - sys:
+        id: 6uxrdSiCl6oz04zzOLeDhP
     - sys:
         id: 2ReQYnziKIC42Y04uw0UIs
     - sys:
@@ -551,48 +553,3 @@ page:
       content_type_id: moduleBodyText
       revision: 1
     content: We are proud recipients of a [2017 Knight Prototype Fund grant](https://knightfoundation.org/challenges/knight-prototype-fund).
-- sys:
-    id: 3VtjhMV52o0IWysS0IY2Ys
-    created_at: !ruby/object:DateTime 2019-01-01 06:11:00.324000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-01 06:11:00.324000000 Z
-    content_type_id: page
-    revision: 1
-  title: Jobs
-  slug: jobs
-  summary: ANNOTATION WORK WITH CREDCO
-  modules:
-  - sys:
-      id: 57uH5ernq0sIuIugCau6Cg
-      created_at: !ruby/object:DateTime 2019-01-01 06:10:45.190000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-01 06:10:45.190000000 Z
-      content_type_id: moduleBodyText
-      revision: 1
-    content: |-
-      The Credibility Coalition is currently laying the groundwork for further explorations of article credibility on the web. We are seeking students passionate about tackling misinformation, addressing information and news credibility and understanding the role artificial intelligence plays in this sector.
-
-      We are developing future rounds of testing data (you can find our [initial study here](https://credco.meedan.com/pdfs/CredCoWebConf2018.pdf) and [more info here](https://docs.google.com/presentation/d/1hGNqM_aO6U3gtryqqLZ_fTKreE940KIWlMnrfV5ooXU/)), and we are seeking help with annotating articles -- the first building block of designing artificial intelligence for information credibility. Student annotators will help develop our data by reviewing the articles and marking them up with a simple set of indicators.
-
-      An interest in journalism is preferred, but those with any background, including engineering, computer science, politics, linguistics and sociology, can apply.
-
-      Each annotator's work takes about 10 hours. All work is done remotely.
-
-      Specifically, each annotator's responsibilities include:
-
-      - Reading 50 articles (subject matter TBD). Different articles have different levels of credibility.
-      - Reviewing definitions of a few indicators. For instance, we might ask you to look at an article and indicate if the article contains a clickbait headline. We’ll give you clear definitions of each indicator and how to rate them.
-      - Marking up a set of indicators to measure the article’s credibility.
-
-      Annotators will gain experience:
-
-      - Understanding the annotation process of data gathering for artificial intelligence.
-      - Analyzing biases in news content.
-      - Learning the nuanced challenges of designing AI for addressing information and news credibility.
-
-
-      We offer the following compensation:
-
-      - A stipend of $150 for each annotator's efforts.
-      - Academic incentives (class credit, etc).
-      - If you choose, we can credit your support if we publish the data.
-
-      To participate in an upcoming credibility study, please contact your resume on our [Handshake profile](https://app.joinhandshake.com/employers/311200) or directly to Dwight Knell, Program Lead, at [dwight@meedan.com](mailto:dwight@meedan.com).

@@ -122,16 +122,4 @@ navigation:
         id: 3rChPt2zG86EuiYG82cQcc
     - sys:
         id: 2KfAoJZLLyau4eyAiAaIay
-  - sys:
-      id: 3VtjhMV52o0IWysS0IY2Ys
-      created_at: !ruby/object:DateTime 2019-01-01 06:11:00.324000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-01 06:11:00.324000000 Z
-      content_type_id: page
-      revision: 1
-    title: Jobs
-    slug: jobs
-    summary: ANNOTATION WORK WITH CREDCO
-    modules:
-    - sys:
-        id: 57uH5ernq0sIuIugCau6Cg
   type: Global
