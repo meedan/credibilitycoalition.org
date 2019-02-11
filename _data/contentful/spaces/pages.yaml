@@ -101,9 +101,9 @@ page:
   - sys:
       id: 3wRugMtCs0S0uEWWciMY4C
       created_at: !ruby/object:DateTime 2019-01-01 01:21:42.621000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-02 20:23:57.862000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 01:21:42.621000000 Z
       content_type_id: moduleProfiles
-      revision: 3
+      revision: 1
     title: JOIN US!
     description: |-
       We value a diverse and inclusive membership and encourage broad participation. We especially invite individuals from historically underrepresented communities in technology and journalism to join our efforts, including women, people of color, people with disabilities and those who identify as LGBTQ.
@@ -120,52 +120,6 @@ page:
         id: 74ldgrADYcSmkAQuQAKoOK
     - sys:
         id: 1hfwkdIBUQgCCoeSKeWecS
-    - sys:
-        id: 4JIQtSGfluYEEmSwu2oMk0
-    - sys:
-        id: 3JJWZylOMw6QUqEwEumOSA
-    - sys:
-        id: 62tQeMwfJeKmgu4UuSmgc4
-    - sys:
-        id: 1nRerFx95CiMma6WIscssI
-    - sys:
-        id: 6Ck7fQgfbqaMS2KwkUyQSC
-    - sys:
-        id: 5pKLfgFt1Cmwq0KkcamyYC
-    - sys:
-        id: 7F0hdiP3u882iUuI2KECqw
-    - sys:
-        id: 3jyFRuxgMwScOAOsUW6eQm
-    - sys:
-        id: 1ktBOuRQNiKgM8KoquGQ8O
-    - sys:
-        id: 4QYoH9zwxaU0M26CuuISo4
-    - sys:
-        id: 1fn5VBSZ0GYI0mgW00IIES
-    - sys:
-        id: 5XvDFHv6QoUcayCUSuY6Us
-    - sys:
-        id: 1sgsSvVkW4cw8Cuiokuosu
-    - sys:
-        id: 1YzRtCQOMQS2EaoeYsUymc
-    - sys:
-        id: 59Vpd1FubuiyY64sKIOCq6
-    - sys:
-        id: 66xU3w6tnG2kqsUsI4mKWS
-    - sys:
-        id: doDP5Bw1RmYckko0g4QSA
-    - sys:
-        id: wvVUbvbsS4OceaEQoG2kE
-    - sys:
-        id: 1zby6XS3M0mIOK2omGQkuw
-    - sys:
-        id: 6Ca4ExpvbyoCOo0AaAkac0
-    - sys:
-        id: 32kF8rzzVYyekwmcOk8Ekg
-    - sys:
-        id: eoXxKM8xriuk6coUYsWcQ
-    - sys:
-        id: 2Z5AHLpAKcgYKKc8KUAuo8
 - sys:
     id: 6sVkzRBo7SoYUIACagmMia
     created_at: !ruby/object:DateTime 2019-01-01 01:43:01.820000000 Z
@@ -209,9 +163,9 @@ page:
   - sys:
       id: 7DS51VuV7qmWKAOsigQ468
       created_at: !ruby/object:DateTime 2019-01-01 01:37:28.581000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-24 23:14:01.211000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-24 23:05:43.426000000 Z
       content_type_id: moduleBodyText
-      revision: 2
+      revision: 4
     content: Our frameworks — which aim to generate better standards, rigorous research,
       and thoughtful application — are dynamic and under development all the time.
   - sys:
@@ -229,7 +183,7 @@ page:
   - sys:
       id: 1hQqf08lYisiwEW4EqkgsC
       created_at: !ruby/object:DateTime 2019-01-01 01:38:56.313000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-24 23:43:47.369000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-24 23:25:19.412000000 Z
       content_type_id: moduleImage
       revision: 2
     caption: Lifecycle of indicator development
@@ -309,7 +263,7 @@ page:
   - sys:
       id: 6KUE5aDmjmIkSGEIowOa6k
       created_at: !ruby/object:DateTime 2019-01-01 01:42:56.135000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-24 23:43:47.419000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-24 23:03:14.700000000 Z
       content_type_id: moduleImage
       revision: 2
     caption: Stylized representation of the "MisinfoMap" AirTable effort
@@ -565,7 +519,7 @@ page:
   - sys:
       id: 4jZYbrRHBCu2gOcMIakac2
       created_at: !ruby/object:DateTime 2019-01-01 04:05:05.428000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-30 23:43:07.217000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-30 21:39:11.087000000 Z
       content_type_id: moduleLogos
       revision: 4
     title: FUNDING SUPPORT
@@ -579,7 +533,7 @@ page:
     - sys:
         id: 2QyFyFJ1O8AMaeUIua4O60
     - sys:
-        id: 2ldYr9GhKCdkuGPqKoYT2N
+        id: 6uxrdSiCl6oz04zzOLeDhP
     - sys:
         id: 2ReQYnziKIC42Y04uw0UIs
     - sys:
@@ -599,3 +553,22 @@ page:
       content_type_id: moduleBodyText
       revision: 1
     content: We are proud recipients of a [2017 Knight Prototype Fund grant](https://knightfoundation.org/challenges/knight-prototype-fund).
+- sys:
+    id: 3VtjhMV52o0IWysS0IY2Ys
+    created_at: !ruby/object:DateTime 2019-01-01 06:11:00.324000000 Z
+    updated_at: !ruby/object:DateTime 2019-02-11 22:29:14.212000000 Z
+    content_type_id: page
+    revision: 2
+  title: Jobs
+  slug: jobs
+  summary: To apply for any listed jobs, please send a CV and statement of interest
+    to jobs@meedan.com.
+  modules:
+  - sys:
+      id: 4eAuBIMw2eYk3Rgu0G2uDi
+      created_at: !ruby/object:DateTime 2019-02-11 22:28:39.204000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-11 22:28:39.204000000 Z
+      content_type_id: moduleJobs
+      revision: 1
+    title: Current Openings
+    sort_by_date: true

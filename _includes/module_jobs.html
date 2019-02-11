@@ -5,6 +5,7 @@
 		{% assign jobs = site.data.contentful.spaces.jobPostings.jobPosting %}
 	{% endif %}
 	{% if jobs %}
+		<h3>{{ module.title }}</h3>
 		<ul class="jobs unstyled layout--padding-bottom">
 			{% for job in jobs %}
 				<li class="job">

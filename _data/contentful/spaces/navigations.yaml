@@ -122,4 +122,17 @@ navigation:
         id: 3rChPt2zG86EuiYG82cQcc
     - sys:
         id: 2KfAoJZLLyau4eyAiAaIay
+  - sys:
+      id: 3VtjhMV52o0IWysS0IY2Ys
+      created_at: !ruby/object:DateTime 2019-01-01 06:11:00.324000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-11 22:29:14.212000000 Z
+      content_type_id: page
+      revision: 2
+    title: Jobs
+    slug: jobs
+    summary: To apply for any listed jobs, please send a CV and statement of interest
+      to jobs@meedan.com.
+    modules:
+    - sys:
+        id: 4eAuBIMw2eYk3Rgu0G2uDi
   type: Global
