@@ -1,0 +1,24 @@
+<div class="section-inner">
+	{% if module.sort_by_date %}
+		{% assign jobs = site.data.contentful.spaces.jobPostings.jobPosting | sort: 'availability' | reverse %}
+	{% else %}
+		{% assign jobs = site.data.contentful.spaces.jobPostings.jobPosting %}
+	{% endif %}
+	{% if jobs %}
+		<ul class="jobs unstyled layout--padding-bottom">
+			{% for job in jobs %}
+				<li class="job">
+							<h4 class="date">
+							  {{ job.sys.created_at | date: "%Y %B %-d" }}
+							</h4>
+							<p class="title">
+								<a href="/jobs/{{ job.slug }}">{{ job.title }}</a>
+							</p>
+							<p class="attribution">
+							   {{ job.summary | markdownify }}
+							</p>
+						</li>
+			{% endfor %}	
+		</ul>
+	{% endif %}
+</div>

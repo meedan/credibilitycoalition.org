@@ -90,3 +90,416 @@ profile:
     description: 
     url: "//images.ctfassets.net/tlowcqj4pb76/29oKdUqjUIMgMKW4okwqqy/77975cb7a03fa26b4dfc23fd8ccbc758/renee-d_2x.jpg"
   link: http://datafordemocracy.org/
+- sys:
+    id: 4JIQtSGfluYEEmSwu2oMk0
+    created_at: !ruby/object:DateTime 2019-01-02 20:04:36.326000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:04:36.326000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Dan Froomkin
+  slug: dan-froomkin
+  profile_title: Independent journalist
+  photo:
+    sys:
+      id: 2wuc1knaa0SIoIi6wggEcy
+      created_at: !ruby/object:DateTime 2019-01-02 20:04:13.110000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:04:13.110000000 Z
+    title: " Dan Froomkin"
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/2wuc1knaa0SIoIi6wggEcy/584c390f5301c488853a68ed6dff5b75/dan-f_2x.jpg"
+- sys:
+    id: 3JJWZylOMw6QUqEwEumOSA
+    created_at: !ruby/object:DateTime 2019-01-02 20:07:41.739000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:07:41.739000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Dhruv Ghulati
+  slug: dhruv-ghulati
+  profile_title: Factmata
+  photo:
+    sys:
+      id: 7BsyKZvavekKuSIYwAk080
+      created_at: !ruby/object:DateTime 2019-01-02 20:07:33.734000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:07:33.734000000 Z
+    title: Dhruv Ghulati
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/7BsyKZvavekKuSIYwAk080/693c4b4f5eb88bc2e2645bcc9b7d13f5/dhruv-g_2x.jpg"
+  link: http://factmata.com/
+- sys:
+    id: 62tQeMwfJeKmgu4UuSmgc4
+    created_at: !ruby/object:DateTime 2019-01-02 20:08:23.524000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:08:23.524000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Vinny Green
+  slug: vinny-green
+  profile_title: Snopes.com
+  photo:
+    sys:
+      id: 31B24x8rNeaoamk6Y4qmWm
+      created_at: !ruby/object:DateTime 2019-01-02 20:08:05.469000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:08:05.469000000 Z
+    title: Vinny Green
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/31B24x8rNeaoamk6Y4qmWm/6dddd8f7caeb2935f49a91a8c34979f3/vinny-g_2x.jpg"
+  link: http://www.snopes.com/
+- sys:
+    id: 1nRerFx95CiMma6WIscssI
+    created_at: !ruby/object:DateTime 2019-01-02 20:09:09.030000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:09:09.030000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Nat Gyenes
+  slug: nat-gyenes
+  profile_title: Berkman Klein Center
+  photo:
+    sys:
+      id: 2Ft79wobLqgWScgcgwaO4w
+      created_at: !ruby/object:DateTime 2019-01-02 20:08:50.089000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:08:50.089000000 Z
+    title: Nat Gyenes
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/2Ft79wobLqgWScgcgwaO4w/a21e1056a94549838fe611a7bd1b9117/natalie-g_2x.jpg"
+  link: https://cyber.harvard.edu/
+- sys:
+    id: 6Ck7fQgfbqaMS2KwkUyQSC
+    created_at: !ruby/object:DateTime 2019-01-02 20:10:05.940000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:10:05.940000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Scott Hale
+  slug: scott-hale
+  profile_title: University of Oxford
+  photo:
+    sys:
+      id: 4yogj1cXxek4oAcUu0GY4e
+      created_at: !ruby/object:DateTime 2019-01-02 20:09:45.055000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:09:45.055000000 Z
+    title: Scott Hale
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/4yogj1cXxek4oAcUu0GY4e/51afa07e2049acab7f655aaf98d947f3/scott-h_2x.jpg"
+  link: http://www.oii.ox.ac.uk/
+- sys:
+    id: 5pKLfgFt1Cmwq0KkcamyYC
+    created_at: !ruby/object:DateTime 2019-01-02 20:10:52.858000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:10:52.858000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Sandro Hawke
+  slug: sandro-hawke
+  profile_title: W3C, MIT
+  photo:
+    sys:
+      id: 14G8IbIRrGMWQ2o8qK0kUu
+      created_at: !ruby/object:DateTime 2019-01-02 20:10:42.443000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:10:42.443000000 Z
+    title: Sandro Hawke
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/14G8IbIRrGMWQ2o8qK0kUu/ea120dc05d3e0ea94a236ffeaa80061e/sandro-h_2x.jpg"
+  link: https://www.w3.org/
+- sys:
+    id: 7F0hdiP3u882iUuI2KECqw
+    created_at: !ruby/object:DateTime 2019-01-02 20:11:38.974000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:11:38.974000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: David Karger
+  slug: david-karger
+  profile_title: MIT CSAIL
+  photo:
+    sys:
+      id: 5bwrFXe2msQWUI448Q2yA4
+      created_at: !ruby/object:DateTime 2019-01-02 20:11:30.905000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:11:30.905000000 Z
+    title: David Karger
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/5bwrFXe2msQWUI448Q2yA4/72e26dce3477c7f75a3afb8b0a694c63/david-k_2x.jpg"
+  link: https://www.csail.mit.edu/
+- sys:
+    id: 3jyFRuxgMwScOAOsUW6eQm
+    created_at: !ruby/object:DateTime 2019-01-02 20:12:35.782000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:12:35.782000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Jennifer 8. Lee
+  slug: jennifer-8-lee
+  profile_title: Hacks/Hackers
+  photo:
+    sys:
+      id: 4SnLmmL4oo6aU44AQG6m6I
+      created_at: !ruby/object:DateTime 2019-01-02 20:12:25.614000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:12:25.614000000 Z
+    title: Jennifer 8. Lee
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/4SnLmmL4oo6aU44AQG6m6I/78c088792251123e3d74bc18864469be/jennifer-l_2x.jpg"
+  link: https://hackshackers.com/
+- sys:
+    id: 1ktBOuRQNiKgM8KoquGQ8O
+    created_at: !ruby/object:DateTime 2019-01-02 20:13:14.179000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:13:14.179000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: An Xiao Mina
+  slug: an-xiao-mina
+  profile_title: Meedan, Berkman Klein Center
+  photo:
+    sys:
+      id: 1OMikphHcUAGy04YUM0sg8
+      created_at: !ruby/object:DateTime 2019-01-02 20:13:04.877000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:13:04.877000000 Z
+    title: An Xiao Mina
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/1OMikphHcUAGy04YUM0sg8/a78b1d2db2da049598ef89972b7c357c/an-m_2x.jpg"
+  link: https://meedan.com/
+- sys:
+    id: 4QYoH9zwxaU0M26CuuISo4
+    created_at: !ruby/object:DateTime 2019-01-02 20:14:05.518000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:14:05.518000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Tanu Mitra
+  slug: tanu-mitra
+  profile_title: Virginia Tech
+  photo:
+    sys:
+      id: 56BdLrPNUISeyCmWsWe48k
+      created_at: !ruby/object:DateTime 2019-01-02 20:13:36.020000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:13:36.020000000 Z
+    title: Tanu Mitra
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/56BdLrPNUISeyCmWsWe48k/25bb7f32b476283ab084aa0f393e7738/tanu-m_2x.jpg"
+  link: https://vt.edu/
+- sys:
+    id: 1fn5VBSZ0GYI0mgW00IIES
+    created_at: !ruby/object:DateTime 2019-01-02 20:14:48.752000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:14:48.752000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Stuart Myles
+  slug: stuart-myles
+  profile_title: Associated Press
+  photo:
+    sys:
+      id: 6dLRVmLW4EEEySugsOyAEC
+      created_at: !ruby/object:DateTime 2019-01-02 20:14:41.140000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:14:41.140000000 Z
+    title: Stuart Myles
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/6dLRVmLW4EEEySugsOyAEC/ca916dae80c1419ea9b0adc5d0866034/stuart-m_2x.jpg"
+  link: https://www.ap.org/en-us/
+- sys:
+    id: 5XvDFHv6QoUcayCUSuY6Us
+    created_at: !ruby/object:DateTime 2019-01-02 20:15:25.737000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:15:25.737000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Aviv Ovadya
+  slug: aviv-ovadya
+  profile_title: University of Michigan School of Information
+  photo:
+    sys:
+      id: 3pf7JYGhMI2Ik0YgAq2C2y
+      created_at: !ruby/object:DateTime 2019-01-02 20:15:18.899000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:15:18.900000000 Z
+    title: Aviv Ovadya
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/3pf7JYGhMI2Ik0YgAq2C2y/20701d2010ab2e092334eb321a55af4d/aviv-o_2x.jpg"
+  link: https://www.si.umich.edu/research/center-social-media-responsibility
+- sys:
+    id: 1sgsSvVkW4cw8Cuiokuosu
+    created_at: !ruby/object:DateTime 2019-01-02 20:16:07.899000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:16:07.900000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Karim Ratib
+  slug: karim-ratib
+  profile_title: Meedan
+  photo:
+    sys:
+      id: 1rElrc9HU8U2KgWI4AoeeO
+      created_at: !ruby/object:DateTime 2019-01-02 20:15:58.036000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:15:58.036000000 Z
+    title: Karim Ratib
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/1rElrc9HU8U2KgWI4AoeeO/4dc8c9455d18e318d989177e863fd3e6/karim-r_2x.jpg"
+  link: https://meedan.com/
+- sys:
+    id: 1YzRtCQOMQS2EaoeYsUymc
+    created_at: !ruby/object:DateTime 2019-01-02 20:17:19.593000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:17:19.593000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Martin Robbins
+  slug: martin-robbins
+  profile_title: Factmata
+  photo:
+    sys:
+      id: 6VzLxmCDw4GccqkuWQ0eeE
+      created_at: !ruby/object:DateTime 2019-01-02 20:17:10.940000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:17:10.940000000 Z
+    title: Martin Robbins
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/6VzLxmCDw4GccqkuWQ0eeE/a7c717575f0ff268aa7802c0dc7f8179/martin-r_2x.jpg"
+  link: http://factmata.com/
+- sys:
+    id: 59Vpd1FubuiyY64sKIOCq6
+    created_at: !ruby/object:DateTime 2019-01-02 20:18:41.842000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:18:41.842000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Evan Sandhaus
+  slug: evan-sandhaus
+  profile_title: The New York Times
+  photo:
+    sys:
+      id: 21g3y8HHda8YUGQc8u6o6E
+      created_at: !ruby/object:DateTime 2019-01-02 20:18:33.651000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:18:33.651000000 Z
+    title: Placeholder
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/21g3y8HHda8YUGQc8u6o6E/548977bf9696b2b353bbb65d5779fd31/placeholder_2x.jpg"
+  link: https://www.nytimes.com/
+- sys:
+    id: 66xU3w6tnG2kqsUsI4mKWS
+    created_at: !ruby/object:DateTime 2019-01-02 20:19:20.170000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:19:20.170000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Connie Moon Sehat
+  slug: connie-moon-sehat
+  profile_title: Global Voices
+  photo:
+    sys:
+      id: 4YXoySITBYwoqkom2Si8GQ
+      created_at: !ruby/object:DateTime 2019-01-02 20:19:12.342000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:19:12.342000000 Z
+    title: Connie Moon Sehat
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/4YXoySITBYwoqkom2Si8GQ/48a3b119f0e9535354798c34488032d6/connie-m_2x.jpg"
+  link: https://newsframes.globalvoices.org/
+- sys:
+    id: doDP5Bw1RmYckko0g4QSA
+    created_at: !ruby/object:DateTime 2019-01-02 20:19:54.781000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:19:54.781000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Heather Staines
+  slug: heather-staines
+  profile_title: Hypothesis
+  photo:
+    sys:
+      id: 2C2jgpTDRYgUUyYCWW2Waw
+      created_at: !ruby/object:DateTime 2019-01-02 20:19:46.892000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:19:46.892000000 Z
+    title: Heather Staines
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/2C2jgpTDRYgUUyYCWW2Waw/338c4550ee9f77a2310d7661aa63b291/heather-s_2x.jpg"
+  link: https://web.hypothes.is/
+- sys:
+    id: wvVUbvbsS4OceaEQoG2kE
+    created_at: !ruby/object:DateTime 2019-01-02 20:20:25.759000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:20:25.759000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Sara-Jayne Terp
+  slug: sara-jayne-terp
+  profile_title: AppNexus
+  photo:
+    sys:
+      id: 21g3y8HHda8YUGQc8u6o6E
+      created_at: !ruby/object:DateTime 2019-01-02 20:18:33.651000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:18:33.651000000 Z
+    title: Placeholder
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/21g3y8HHda8YUGQc8u6o6E/548977bf9696b2b353bbb65d5779fd31/placeholder_2x.jpg"
+  link: https://www.appnexus.com/
+- sys:
+    id: 1zby6XS3M0mIOK2omGQkuw
+    created_at: !ruby/object:DateTime 2019-01-02 20:21:01.446000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:21:01.446000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Jon Udell
+  slug: jon-udell
+  profile_title: Hypothesis
+  photo:
+    sys:
+      id: 2Y5UtFdQxG0QWcmA8kYQ8C
+      created_at: !ruby/object:DateTime 2019-01-02 20:20:57.676000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:20:57.676000000 Z
+    title: Jon Udell
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/2Y5UtFdQxG0QWcmA8kYQ8C/7708fc31aad20543ab1c79336f151a93/jon-u_2x.jpg"
+  link: https://web.hypothes.is/
+- sys:
+    id: 6Ca4ExpvbyoCOo0AaAkac0
+    created_at: !ruby/object:DateTime 2019-01-02 20:21:37.632000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:21:37.632000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Rick Weiss
+  slug: rick-weiss
+  profile_title: AAAS SciLine
+  photo:
+    sys:
+      id: 21a05rG4rySqG2Ws2iKy0g
+      created_at: !ruby/object:DateTime 2019-01-02 20:21:31.328000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:21:31.328000000 Z
+    title: Rick Weiss
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/21a05rG4rySqG2Ws2iKy0g/3571147a0bdd5aac3bfdba33f264ed4a/rick-w_2x.jpg"
+  link: http://www.sciline.org/
+- sys:
+    id: 32kF8rzzVYyekwmcOk8Ekg
+    created_at: !ruby/object:DateTime 2019-01-02 20:22:23.146000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:22:23.146000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Dan Whaley
+  slug: dan-whaley
+  profile_title: Hypothesis
+  photo:
+    sys:
+      id: 2y2cFPfq0AaSW4oMUI2guu
+      created_at: !ruby/object:DateTime 2019-01-02 20:22:14.846000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:22:14.846000000 Z
+    title: Dan Whaley
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/2y2cFPfq0AaSW4oMUI2guu/0c5804da41d05802e505a64db7c95b8e/dan-w_2x.jpg"
+  link: https://web.hypothes.is/
+- sys:
+    id: eoXxKM8xriuk6coUYsWcQ
+    created_at: !ruby/object:DateTime 2019-01-02 20:23:11.659000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:23:11.659000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Emmanuel Vincent
+  slug: emmanuel-vincent
+  profile_title: Climate Feedback
+  photo:
+    sys:
+      id: 6IBs1rEgUMIyk4E2iEeqCS
+      created_at: !ruby/object:DateTime 2019-01-02 20:23:05.418000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:23:05.418000000 Z
+    title: Emmanuel Vincent
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/6IBs1rEgUMIyk4E2iEeqCS/4d238d727d5304a08eabba1331f4c2ac/manu-v_2x.jpg"
+  link: https://climatefeedback.org/
+- sys:
+    id: 2Z5AHLpAKcgYKKc8KUAuo8
+    created_at: !ruby/object:DateTime 2019-01-02 20:23:46.963000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-02 20:23:46.963000000 Z
+    content_type_id: profile
+    revision: 1
+  profile_name: Amy X. Zhang
+  slug: amy-x-zhang
+  profile_title: MIT CSAIL
+  photo:
+    sys:
+      id: 2vyGKgSLLuk4Gs2iESsMGy
+      created_at: !ruby/object:DateTime 2019-01-02 20:23:41.218000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-02 20:23:41.218000000 Z
+    title: Amy X. Zhang
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/2vyGKgSLLuk4Gs2iESsMGy/22a4ed5504f306c5c656151d9ab9839b/amy-z_2x.jpg"
+  link: https://www.csail.mit.edu/
