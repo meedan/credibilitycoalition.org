@@ -1,61 +1,11 @@
 ---
 jobPosting:
 - sys:
-    id: P3Ku51Xhz1cDmSWcPHIep
-    created_at: !ruby/object:DateTime 2019-02-11 21:57:40.568000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-11 21:57:40.568000000 Z
+    id: 3XRu3zhv6dDYkwudgZ2NIr
+    created_at: !ruby/object:DateTime 2019-02-11 20:27:15.038000000 Z
+    updated_at: !ruby/object:DateTime 2019-02-11 20:51:10.640000000 Z
     content_type_id: jobPosting
-    revision: 1
-  title: Annotation Work With CredCo
-  slug: annotation-work-with-credco
-  summary: We are looking for folks passionate about tackling misinformation, addressing
-    information and news credibility and understanding the role artificial intelligence
-    plays in this sector. We are seeking help with annotating articles – the first
-    building block of designing artificial intelligence for information credibility.
-    Annotators will help develop our data by reviewing the articles and marking them
-    up with a simple set of indicators.
-  modules:
-  - sys:
-      id: 57uH5ernq0sIuIugCau6Cg
-      created_at: !ruby/object:DateTime 2019-01-01 06:10:45.190000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-15 22:00:50.934000000 Z
-      content_type_id: moduleBodyText
-      revision: 3
-    content: |-
-      The Credibility Coalition is currently laying the groundwork for further explorations of article credibility on the web. We are seeking students passionate about tackling misinformation, addressing information and news credibility and understanding the role artificial intelligence plays in this sector.
-
-      We are developing future rounds of testing data (you can find our [initial study here](https://assets.ctfassets.net/tlowcqj4pb76/4lmUdUz36gQuOKO0UOwEU2/819497f46f25a9cfcbaa7d4b5db8e354/CredCoWebConf2018.pdf) and [more info here](https://docs.google.com/presentation/d/1hGNqM_aO6U3gtryqqLZ_fTKreE940KIWlMnrfV5ooXU/)), and we are seeking help with annotating articles -- the first building block of designing artificial intelligence for information credibility. Student annotators will help develop our data by reviewing the articles and marking them up with a simple set of indicators.
-
-      An interest in journalism is preferred, but those with any background, including engineering, computer science, politics, linguistics and sociology, can apply.
-
-      Each annotator's work takes about 10 hours. All work is done remotely.
-
-      Specifically, each annotator's responsibilities include:
-
-      - Reading 50 articles (subject matter TBD). Different articles have different levels of credibility.
-      - Reviewing definitions of a few indicators. For instance, we might ask you to look at an article and indicate if the article contains a clickbait headline. We’ll give you clear definitions of each indicator and how to rate them.
-      - Marking up a set of indicators to measure the article’s credibility.
-
-      Annotators will gain experience:
-
-      - Understanding the annotation process of data gathering for artificial intelligence.
-      - Analyzing biases in news content.
-      - Learning the nuanced challenges of designing AI for addressing information and news credibility.
-
-
-      We offer the following compensation:
-
-      - A stipend of $150 for each annotator's efforts.
-      - Academic incentives (class credit, etc).
-      - If you choose, we can credit your support if we publish the data.
-
-      To participate in an upcoming credibility study, please submit your resume to Dwight Knell, Program Lead, at [dwight@meedan.com](mailto:dwight@meedan.com).
-- sys:
-    id: 174LrlhAZxq54hNc28FGQN
-    created_at: !ruby/object:DateTime 2019-02-11 21:58:23.777000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-11 21:58:23.777000000 Z
-    content_type_id: jobPosting
-    revision: 1
+    revision: 2
   title: Credibility Coalition Program Lead
   slug: credibility-coalition-program-lead
   location: San Francisco Bay Area preferred; remote work in the PT/MT/CT/ET time
@@ -79,11 +29,11 @@ jobPosting:
     media trust community.
   modules:
   - sys:
-      id: 2gPA3OBKWFnq85YUDWDEoW
-      created_at: !ruby/object:DateTime 2019-02-11 21:58:21.139000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-11 21:58:21.139000000 Z
+      id: 5j4lJignoh2TBA5UWkMqma
+      created_at: !ruby/object:DateTime 2019-02-11 20:27:11.100000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-11 20:51:08.105000000 Z
       content_type_id: moduleBodyText
-      revision: 1
+      revision: 2
     content: "The Credibility Coalition (CredCo), a project led by Meedan and Hacks/Hackers,
       aims to engage the journalism and media research community with the web standards
       community (specifically the W3C Credible Web Community Group, or CredWeb) to
@@ -164,3 +114,53 @@ jobPosting:
       status or any other basis covered by appropriate law. All employment is decided
       on the basis of qualifications, merit and business need.\n\nPlease send CV and
       statement of interest to [jobs@meedan.com](mailto:jobs@meedan.com). "
+- sys:
+    id: 7vkTLnQwn3qvDnp0c41ASZ
+    created_at: !ruby/object:DateTime 2019-02-11 21:11:14.365000000 Z
+    updated_at: !ruby/object:DateTime 2019-02-11 21:11:14.365000000 Z
+    content_type_id: jobPosting
+    revision: 1
+  title: Annotation Work With CredCo
+  slug: annotation-work-with-credco
+  summary: We are looking for folks passionate about tackling misinformation, addressing
+    information and news credibility and understanding the role artificial intelligence
+    plays in this sector. We are seeking help with annotating articles – the first
+    building block of designing artificial intelligence for information credibility.
+    Annotators will help develop our data by reviewing the articles and marking them
+    up with a simple set of indicators.
+  modules:
+  - sys:
+      id: 57uH5ernq0sIuIugCau6Cg
+      created_at: !ruby/object:DateTime 2019-01-01 06:10:45.190000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 06:10:45.190000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: |-
+      The Credibility Coalition is currently laying the groundwork for further explorations of article credibility on the web. We are seeking students passionate about tackling misinformation, addressing information and news credibility and understanding the role artificial intelligence plays in this sector.
+
+      We are developing future rounds of testing data (you can find our [initial study here](https://credco.meedan.com/pdfs/CredCoWebConf2018.pdf) and [more info here](https://docs.google.com/presentation/d/1hGNqM_aO6U3gtryqqLZ_fTKreE940KIWlMnrfV5ooXU/)), and we are seeking help with annotating articles -- the first building block of designing artificial intelligence for information credibility. Student annotators will help develop our data by reviewing the articles and marking them up with a simple set of indicators.
+
+      An interest in journalism is preferred, but those with any background, including engineering, computer science, politics, linguistics and sociology, can apply.
+
+      Each annotator's work takes about 10 hours. All work is done remotely.
+
+      Specifically, each annotator's responsibilities include:
+
+      - Reading 50 articles (subject matter TBD). Different articles have different levels of credibility.
+      - Reviewing definitions of a few indicators. For instance, we might ask you to look at an article and indicate if the article contains a clickbait headline. We’ll give you clear definitions of each indicator and how to rate them.
+      - Marking up a set of indicators to measure the article’s credibility.
+
+      Annotators will gain experience:
+
+      - Understanding the annotation process of data gathering for artificial intelligence.
+      - Analyzing biases in news content.
+      - Learning the nuanced challenges of designing AI for addressing information and news credibility.
+
+
+      We offer the following compensation:
+
+      - A stipend of $150 for each annotator's efforts.
+      - Academic incentives (class credit, etc).
+      - If you choose, we can credit your support if we publish the data.
+
+      To participate in an upcoming credibility study, please contact your resume on our [Handshake profile](https://app.joinhandshake.com/employers/311200) or directly to Dwight Knell, Program Lead, at [dwight@meedan.com](mailto:dwight@meedan.com).
