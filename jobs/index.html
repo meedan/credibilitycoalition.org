@@ -1,0 +1,46 @@
+---
+title: Jobs
+description: 
+---
+<!doctype html>
+<html lang="en">
+	{% include head.html %}
+	<body class="{%if page.url %}{{ page.url | slugify }}{% endif %}">
+
+		{% include nav.html %}
+
+		<main>
+		    <div class="section-inner">
+		        <h1>Jobs</h1>
+		        <h4>To apply for any listed jobs, please send a CV and statement of interest to jobs@meedan.com.</h4>
+		    </div>
+		    <section>
+		    	<div class="section-inner">
+					{% assign jobs = site.data.contentful.spaces.jobPostings.jobPosting %}
+						{% if jobs %}
+						<ul class="jobs unstyled layout--padding-bottom">
+							{% for job in jobs %}
+								<li class="job">
+											<h4 class="date">
+											  {{ job.sys.created_at | date: "%Y %B %-d" }}
+											</h4>
+											<p class="title">
+												<a href="/jobs/{{ job.slug }}">{{ job.title }}</a>
+											</p>
+											<p class="attribution">
+											   {{ job.summary | markdownify }}
+											</p>
+										</li>
+							{% endfor %}	
+						</ul>
+						{% endif %}
+				</div>
+			</section>
+		</main>
+		<footer class="colors--inverted layout--relative">
+			{% include footer.html %}
+		</footer>
+
+	</body>
+	{% include js.html %}
+</html>
