@@ -16,7 +16,7 @@ description:
 		    </div>
 		    <section>
 		    	<div class="section-inner">
-					{% assign jobs = site.data.contentful.spaces.jobPostings.jobPosting %}
+					{% assign jobs = site.data.contentful.spaces.jobPostings.jobPosting | sort: 'availability' | reverse %}
 						{% if jobs %}
 						<ul class="jobs unstyled layout--padding-bottom">
 							{% for job in jobs %}
