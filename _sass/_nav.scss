@@ -27,6 +27,7 @@
     flex: 3;
     justify-content: flex-end;
     margin-right: $width--small-gutter;
+    padding: 0;
     
     @include when-smaller-than(medium) {
       justify-content: flex-start;
