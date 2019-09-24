@@ -1,0 +1,159 @@
+---
+# Page SASS file used for Projects and Funders
+---
+// import sass files
+@import "variables.scss";
+@import "mixins.scss";
+@import "colors.scss";
+
+// .map {
+//   background-color: #262626;
+//   .section-inner-wide {
+//     color: #fff;
+//   }
+// }
+
+.map h1 {
+  padding: 0;
+  margin-top: $width--large-gutter;
+  margin-bottom: $width--small-gutter;
+  font: $font--display-3b;
+}
+
+.view-filters {
+  margin-top: $width--large-gutter;
+}
+
+.projects {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  // justify-content: space-evenly;
+}
+
+.grid-view {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -6px;
+  margin-right: -6px;
+}
+
+.view-controls {
+  display: flex;
+  justify-content: space-between;
+  .how-to-read-button button {
+    @include reset-button();
+    font: $font--caption;
+    padding: $width--xsmall-gutter;
+    text-transform: uppercase;
+    color: $dark-gray;
+    &.active {
+      color: $accent;
+    }
+    span {
+      display: flex;
+      align-items: center;
+    }
+    #close-help {
+      display: none;
+    }
+  }
+}
+
+.project-block {
+  margin-right: 6px;
+  margin-left: 6px;
+  list-style-type: none;
+  word-wrap: break-word;
+  width: 80px;
+}
+
+.map .project-name {
+  font: $font--label;
+}
+
+.map .funder-link {
+  display: block;
+}
+
+.map .funder-type {
+  font: $font--caption;
+}
+
+
+// AG theme overrides
+.map .ag-theme-material {
+  color: $dark-gray;
+  font: $font--body-2;
+  .ag-header {
+    color: $foreground;
+    font: $font--body-2;
+    font-weight: 500;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  .ag-cell {
+    padding-top: $width--small-gutter;
+    padding-bottom: $width--small-gutter;
+    // padding-left: 0;
+    line-height: inherit;
+  }
+
+}
+
+// How to read panel
+.how-to-read-panel {
+  background-color: $dark-gray;
+  color: #fff;
+  margin-top: $width--large-gutter;
+  margin-bottom: $width--large-gutter;
+  padding: $width--small-gutter $width--large-gutter;
+  .close {
+    display: flex;
+    justify-content: flex-end;
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+    button {
+      @include reset-button();
+    }
+  }
+  .how-to-read {
+    display: flex;
+  }
+  .graphic,
+  .text {
+    flex: 1 1 50%;
+  }
+  .graphic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    color: #fff;
+    font: $font--body-1;
+  }
+  h5 {
+    margin-top: $width--xsmall-gutter;
+    margin-bottom: $width--xsmall-gutter;
+  }
+}
+
+// Funders
+.map .ag-theme-material .funder-link,
+.map .ag-theme-material .project-name, {
+  font: $font--subheading-1;
+  font-weight: 500;
+  color: $foreground;
+}
+.map .ag-theme-material .funder-description {
+  white-space: normal;
+}

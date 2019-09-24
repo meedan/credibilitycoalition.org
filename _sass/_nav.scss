@@ -13,7 +13,7 @@
   .credco-medium {
     img {
       height: $width--large-gutter;
-      margin: ($width--small-gutter+$width--xsmall-gutter);
+      margin: $width--large-gutter;
       margin-bottom: 0;
 
       @include when-smaller-than(medium) {
@@ -27,7 +27,7 @@
     flex: 3;
     justify-content: flex-end;
     flex-wrap: wrap;
-    margin-right: $width--small-gutter;
+    margin-right: $width--large-gutter;
     padding: 0;
     
     @include when-smaller-than(medium) {
@@ -67,6 +67,11 @@
         color: $web-blue;
       }
     }
+
+    // .map & a {
+    //   color: $white;
+    // }
+
   }
 }
 

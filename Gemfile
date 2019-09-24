@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem 'jekyll', '~> 3.0'
 gem 'contentful_bootstrap'
+gem 'twitter-text'
 
 group :jekyll_plugins do
   gem "jekyll-contentful-data-import"

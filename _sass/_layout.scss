@@ -52,11 +52,47 @@ main section:last-of-type {
   }
 }
 
+.section-inner-wide {
+  @include when-smaller-than(medium) {
+    padding: $width--small-gutter;
+  }
+  
+  @include when-larger-than(medium) {
+    margin: 0 auto;
+    max-width: $width--column-primary-wide;
+    padding: $width--large-gutter $width--large-gutter 0;
+  }
+}
+
 .row {
   @include when-larger-than(medium) {
-    align-items: flex-start;
     display: flex;
+    align-items: flex-start;
     justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+.col {
+  flex: 1 1 auto;
+  @include when-smaller-than(large) {
+    width: 100%;
+  }
+}
+
+.col-a {
+  @include when-larger-than(medium) {
+    max-width: 25%;
+    flex-basis: 25%;
+    padding-right: $width--large-gutter;
+  }
+}
+
+.col-b {
+  @include when-larger-than(medium) {
+    max-width: 75%;
+    flex-basis: 75%;
   }
 }
 

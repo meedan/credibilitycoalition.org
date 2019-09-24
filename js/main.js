@@ -1,7 +1,28 @@
 (function() {
   $(document).ready(function() {
 
-  		$('a.image-link').magnificPopup({
+		// Tooltips for spectra
+		tippy('button.theory', {
+			animation: 'shift-away',
+			theme: 'theory-border',
+		});
+
+		tippy('button.practice', {
+			animation: 'shift-away',
+			theme: 'practice-border',
+		});
+
+		tippy('button.content', {
+			animation: 'shift-away',
+			theme: 'content-border',
+		});
+
+		tippy('button.infrastructure', {
+			animation: 'shift-away',
+			theme: 'infrastructure-border',
+		});
+
+		$('a.image-link').magnificPopup({
 			type:'image',
 			closeOnContentClick: true,
 			image: {

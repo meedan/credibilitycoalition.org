@@ -1,0 +1,43 @@
+@mixin tooltip() {
+    background-color: #fff;
+    background-clip: padding-box;
+    color: $dark-gray;
+    box-shadow: 0 3px 14px -.5px rgba(0,8,16,.08)
+}
+
+.tippy-content h6 {
+    font: $font--body-3;
+    font-weight: 900;
+    margin-top: $width--small-gutter;
+    margin-bottom: $width--small-gutter;
+    padding: 0;
+    color: $foreground;
+}
+
+.tippy-tooltip .tippy-backdrop {
+    background-color: #fff
+}
+
+.tippy-tooltip.theory-border-theme {
+    border: 4px solid $theory-cyan;
+    @include tooltip;
+    h6 { color: $theory-cyan }
+}
+
+.tippy-tooltip.practice-border-theme {
+    border: 4px solid $practice-orange;
+    @include tooltip;
+    h6 { color: $practice-orange }
+}
+
+.tippy-tooltip.content-border-theme {
+    border: 4px solid $content-red;
+    @include tooltip;
+    h6 { color: $content-red }
+}
+
+.tippy-tooltip.infrastructure-border-theme {
+    border: 4px solid $infrastructure-blue;
+    @include tooltip;
+    h6 { color: $infrastructure-blue }
+}

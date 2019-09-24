@@ -26,6 +26,7 @@ $width--xsmall-gutter: units(1);
 $radius--default: 4px;
 
 $width--column-primary: units(90);
+$width--column-primary-wide: units(180);
 
 $height--header-desktop: units(8);
 $height--footer-desktop: units(28);
@@ -35,21 +36,34 @@ $height--footer-mobile: units(28);
 
 // Font stacks
 //
-$font-stack--primary: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
+$font-stack--primary: -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
+
+$font-stack--secondary: 'Neue Machina Regular', -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
 
 $font-stack--mono: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+
+$font-stack--display: 'Neue Machina Ultrabold', -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
+
+$font-stack--condensed: -apple-system, 'Roboto Condensed', sans-serif;
 
 // Material design font size and line height
 //
 // • unquote() is used because: https://github.com/sass/sass/issues/667
 // • The font name must be repeated to use the font shorthand
-$font--display-2: 500 45px unquote('/') 54px $font-stack--primary;
+$font--number: 400 80px unquote('/') 82px $font-stack--primary;
+$font--label: 400 12px unquote('/') 12px $font-stack--condensed;
+$font--display-3b: 900 38px unquote('/') 44px $font-stack--display;
+$font--display-3a: 900 38px unquote('/') 44px $font-stack--primary;
+$font--display-2b: 500 55px unquote('/') 58px $font-stack--display;
+$font--display-2a: 500 55px unquote('/') 58px $font-stack--primary;
 $font--display-1: 500 34px unquote('/') 40px $font-stack--primary;
 $font--headline: 500 24px unquote('/') 32px $font-stack--primary;
-$font--subheading-2: 300 20px unquote('/') 32px $font-stack--primary;
-$font--subheading-1: 300 20px unquote('/') 28px $font-stack--primary;
-$font--body-2: 300 16px unquote('/') 24px $font-stack--primary;
-$font--body-1: 300 16px unquote('/') 20px $font-stack--primary;
+$font--subheading-2: 400 20px unquote('/') 32px $font-stack--primary;
+$font--subheading-1: 400 20px unquote('/') 28px $font-stack--primary;
+$font--body-4: 400 18px unquote('/') 24px $font-stack--secondary;
+$font--body-3: 400 18px unquote('/') 24px $font-stack--primary;
+$font--body-2: 400 16px unquote('/') 22px $font-stack--primary;
+$font--body-1: 400 16px unquote('/') 20px $font-stack--primary;
 $font--caption: 400 12px unquote('/') 16px $font-stack--primary;
 $font--mono: 400 12px unquote('/') 16px $font-stack--mono;
 
@@ -61,6 +75,17 @@ $light-keyboard-grey: #d1d6db;
 $white: #fff;
 $black: #000;
 $adobe-red: #c11e07;
+$foreground: #262626;
+$background: #F6F6FF;
+$pale-navy: #DADAFF;
+$light-navy: #8C8CFF;
+$accent: #4C4CFF;
+$light-gray: #B7B7B7;
+$dark-gray: #646464;
+$theory-cyan: #27A786;
+$practice-orange: #FFB34D;
+$content-red: #F15E5D;
+$infrastructure-blue: #36C3DD;
 
 // Colors with alpha channel
 //

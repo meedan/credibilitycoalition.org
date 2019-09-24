@@ -1,6 +1,6 @@
 <nav class="primary-nav">
 	{% include logo.html %}
-	{% assign navigation = site.data.contentful.spaces.navigations.navigation 
+	{% assign navigation = site.data.contentful.spaces.navigations.navigation
 		| where_exp: "item","item.type contains 'Global'"
 	%}
 	{% if navigation %}
@@ -10,6 +10,9 @@
 					<a href="/{{ page.slug }}" title="{{ page.title }}">{{ page.title }}</a>
 				</li>
 			{% endfor %}
+				<li class="{{ 'credfinder' | slugify }}">
+					<a href="/credfinder" title="Credfinder">Credfinder</a>
+				</li>
 		</ul>
 	{% endif %}
 </nav>

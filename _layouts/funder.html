@@ -1,0 +1,70 @@
+---
+custom_css: page
+---
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body class="page {%if page.url %}{{ page.url | slugify }}{% endif %}">
+
+    {% include nav.html %}
+
+    <main>
+      <div class="section-inner-wide">
+        <div class="page-header">
+          <div class="cap"><a href="/credfinder/funders">Funder</a></div>
+          <h1>{{ page['Name'] }}</h1>
+          {% if page['Funder Description'] %}
+          <div class="page-description"><p>{{ page['Funder Description'] | linkify | markdownify }}</p></div>
+          {% endif %}
+          <div class="page-meta">
+              {% if page['Type'] %}
+                <span>{% include icon_tag.html %} {{ page['Type'] }}</span>
+              {% endif %}
+              {% if page['URL'] %}
+                <span>{% include icon_link.html %} <a target="_blank" rel="noopener noreferrer" href="{{ page['URL'] | strip }}">{{ page['URL'] | sanitize_url | truncate: 30 }}</a></span>
+              {% endif %}
+          </div>
+        </div>
+
+        {% if page['Initatives'] %}
+        <div class="row page-details">
+          <div class="col col-a page-details-header">
+            <div class="cap">Funded</div>
+            <h2>Projects</h2>
+            <div class="description"></div>
+          </div>
+          <div class="col col-b">
+            <div class="row list">
+              {% assign projects = page['Initatives'] | split_better: ',' %}
+              {% for project in projects %}
+              <div class="col list-item">
+                <a href="/credfinder/project/{{ project | sanitize_filename }}">
+                  <div class="list-item-header">
+                      <h5>{{ project }}</h5>
+                      <div class="prop type">
+                          {% assign types = site.data.credfinder.initiatives | where: "Name", project | first | pluck: "Initiative Types - READONLY" | trim | split: ',' %}
+                          {% for type in types %}
+                            <span>{{ type }}</span>
+                          {% endfor %}
+                      </div>
+                  </div>
+                  <div class="list-item-footer prop location">
+                    {{ site.data.credfinder.initiatives | where: "Name", project | first | pluck: "Location" }}
+                  </div>
+                </a>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        {% endif %}
+
+      </div>
+    </main>
+    <footer class="colors--inverted layout--relative">
+			{% include footer.html %}
+		</footer>
+
+  </body>
+  {% include js.html %}
+</html>
