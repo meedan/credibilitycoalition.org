@@ -16,13 +16,13 @@
       {% endif %}
 
       <div class="view-filters">
-        <div class="mdc-text-field">
+        <div class="mdc-text-field project">
           <input class="mdc-text-field__input" id="filter-text-project" oninput="onFilterChanged()">
           <div class="mdc-line-ripple"></div>
           <label for="filter-text-project" class="mdc-floating-label mdc-floating-label--float-above">Project</label>
         </div>
 
-        <div class="mdc-select">
+        <div class="mdc-select category">
           <i class="mdc-select__dropdown-icon"></i>
           <select id="filter-list-category" class="mdc-select__native-control" onchange="onFilterChanged()">
             <option value="">&nbsp;</option>
@@ -35,7 +35,7 @@
           <div class="mdc-line-ripple"></div>
         </div>
 
-        <div class="mdc-select">
+        <div class="mdc-select location">
           <i class="mdc-select__dropdown-icon"></i>
           <select id="filter-list-located" class="mdc-select__native-control" onchange="onFilterChanged()">
             <option value="">&nbsp;</option>
@@ -48,7 +48,7 @@
           <div class="mdc-line-ripple"></div>
         </div>
 
-        <div class="mdc-select">
+        <div class="mdc-select language">
           <i class="mdc-select__dropdown-icon"></i>
           <select id="filter-list-language" class="mdc-select__native-control" onchange="onFilterChanged()">
             <option value="">&nbsp;</option>
@@ -61,7 +61,7 @@
           <div class="mdc-line-ripple"></div>
         </div>
 
-        <div class="mdc-select">
+        <div class="mdc-select status">
           <i class="mdc-select__dropdown-icon"></i>
           <select id="filter-list-active" class="mdc-select__native-control" onchange="onFilterChanged()">
             <option value="">&nbsp;</option>
@@ -72,7 +72,7 @@
           <div class="mdc-line-ripple"></div>
         </div>
 
-        <div class="mdc-text-field">
+        <div class="mdc-text-field funder">
           <input class="mdc-text-field__input" id="filter-text-funder" oninput="onFilterChanged()">
           <div class="mdc-line-ripple"></div>
           <label for="filter-text-funder" class="mdc-floating-label mdc-floating-label--float-above">Funders</label>
