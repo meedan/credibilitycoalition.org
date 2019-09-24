@@ -76,14 +76,17 @@
 }
 
 // Page navigation: current page indicator
-@each $page in about, approach, definitions, results, updates, jobs {
+@each $page in about, approach, definitions, results, updates, jobs, credfinder {
   .#{$page} {
     .#{$page} {
       a {
-        box-shadow: inset 0 -3px 0 $web-blue;
-        color: $web-blue;
-        font-weight: 700;
+        @include nav_link();
       }
     }
   }
+}
+
+// Additional current page indicator for nested links
+.funders .credfinder {
+  @include nav_link();
 }

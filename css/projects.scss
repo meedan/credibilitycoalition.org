@@ -20,6 +20,24 @@
   font: $font--display-3b;
 }
 
+.map-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    color: $foreground;
+    padding: $width--small-gutter $width--small-gutter;
+    &.active {
+      color: $web-blue;
+      border-bottom: 3px solid $web-blue;
+    }
+  }
+}
+
+.map h4 {
+  font-weight: normal;
+}
+
 .view-filters {
   margin-top: $width--large-gutter;
 }

@@ -36,3 +36,9 @@
   /* Corrects inability to style clickable `input` types in iOS */
   -webkit-appearance: none;
 }
+
+@mixin nav-link() {
+  box-shadow: inset 0 -3px 0 $web-blue;
+  color: $web-blue;
+  font-weight: 700;
+}
