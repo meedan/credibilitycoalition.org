@@ -44,7 +44,7 @@
             <option value="{{ location }}">{{ location }}</option>
           {% endfor %}
           </select>
-          <label class="mdc-floating-label mdc-floating-label--float-above">Region</label>
+          <label class="mdc-floating-label mdc-floating-label--float-above">Location</label>
           <div class="mdc-line-ripple"></div>
         </div>
 
@@ -126,7 +126,7 @@
           var columnDefs = [
             { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, sort: 'asc' },
             { headerName: 'Category', field: 'Solutions Categories' },
-            { headerName: 'Region', field: 'Location' },
+            { headerName: 'Location', field: 'Location' },
             { headerName: 'Languages', field: 'Languages-2' },
             { headerName: 'Funders', field: 'FundersLinked', cellRenderer: renderHTML  },
           ];
@@ -135,7 +135,8 @@
           var gridOptions = {
             defaultColDef: {
               sortable: true,
-              filter: true
+              filter: true,
+              resizable: true
             },
             domLayout: 'autoHeight',
             columnDefs: columnDefs,
@@ -244,7 +245,7 @@
               oh.style.display = "flex";
             }
           }
-          
+
 
         </script>
       </section>
