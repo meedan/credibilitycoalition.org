@@ -1,21 +1,24 @@
 <!doctype html>
 <html lang="en">
 {% include head_map.html %}
-<body class="map funders {%if page.url %}{{ page.url | slugify }}{% endif %}">
+<body id="credfinder" class="map funders {%if page.url %}{{ page.url | slugify }}{% endif %}">
 
   {% include nav.html %}
 
   <main>
     <div class="section-inner-wide">
       <div class="map-header">
-        <h1>{{ page.title }}</h1>
+        <div class="map-header-title">
+            <div class="cap">CredFinder</div>
+            <h1>{{ page.title }}</h1>
+        </div>
         {% include map_nav.html active="funders" %}
       </div>
       {% if page.summary %}
         <h4>{{ page.summary | markdownify }}</h4>
       {% endif %}
 
-      <div class="view-filters">
+      <div id="viewFilters" class="view-filters">
         <div class="mdc-text-field funders">
           <input class="mdc-text-field__input" id="filter-text-funder" oninput="onFilterChanged()">
           <div class="mdc-line-ripple"></div>

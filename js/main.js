@@ -1,3 +1,26 @@
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {stickyFilters()};
+
+// Get the filters
+var vf = document.getElementById("viewFilters");
+
+// Get the offset position of the navbar
+var sticky = vf.offsetTop;
+
+// Get body
+var b = document.getElementById("credfinder")
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function stickyFilters() {
+  if (window.pageYOffset > sticky) {
+	vf.classList.add("sticky");
+	b.classList.add("filters-top");
+  } else {
+	vf.classList.remove("sticky");
+	b.classList.add("filters-top");
+  }
+}
+
 (function() {
   $(document).ready(function() {
 

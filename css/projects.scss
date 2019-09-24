@@ -13,11 +13,23 @@
 //   }
 // }
 
+.map section {
+  overflow: visible; /* shows scaled grid items */
+}
+
+.map .cap {
+  font: $font--body-4;
+} 
+
 .map h1 {
-  padding: 0;
-  margin-top: $width--large-gutter;
+  margin-top: $width--small-gutter;
   margin-bottom: $width--small-gutter;
-  font: $font--display-3b;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.fonts-loaded .map h1 {
+  font: $font--display-2b;
 }
 
 .map-header {
@@ -39,8 +51,9 @@
 }
 
 .view-filters {
-  margin-top: $width--large-gutter;
-  margin-bottom: $width--large-gutter;
+  padding-top: $width--large-gutter;
+  padding-bottom: $width--large-gutter;
+  background-color: #fff;
   
   display: flex;
   // justify-content: space-evenly;
@@ -59,6 +72,24 @@
     max-width: 100px;
   }
 }
+
+// Stick filters on top on scroll
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: $width--large-gutter;
+  padding-right: $width--large-gutter;
+  width: 100%;
+  border-bottom: 1px solid $foreground;
+  z-index: 10;
+}
+
+body.filters-top + .grid-view,
+body.filters-top + .list-view, {
+  padding-top: 102px;
+}
+
 
 .projects {
   padding: 0;
@@ -90,8 +121,12 @@
     padding: $width--xsmall-gutter;
     text-transform: uppercase;
     color: $dark-gray;
+    svg { fill: $light-gray }
+    cursor: pointer;
+    &:hover,
     &.active {
       color: $accent;
+      svg { fill: $accent }
     }
     span {
       display: flex;
@@ -109,6 +144,13 @@
   list-style-type: none;
   word-wrap: break-word;
   width: 80px;
+  transition: all .1s ease-in-out;
+  a {
+    color: $foreground;
+  }
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .map .project-name {
