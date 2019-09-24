@@ -122,7 +122,15 @@
     // padding-left: 0;
     line-height: inherit;
   }
-
+  .ag-header-cell-resize {
+    transition: background-color 200ms ease-out;
+    &:hover {
+      background-color: $pale-navy;
+    }
+    &:active {
+      background-color: $accent;
+    }
+  }
 }
 
 // How to read panel
