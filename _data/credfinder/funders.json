@@ -238,13 +238,6 @@
     "Initatives": "PolitiFact,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",Open Technology Institute,Africa Check"
   },
   {
-    "Name": "Facebook Journalism Project ",
-    "Type": "Corporation",
-    "Funder Description": "\"Working together with publishers around the world through trainings, programs, and partnerships, we can help strengthen communities by connecting people with meaningful journalism.\" (Source: Website) ",
-    "URL": "https://www.facebook.com/facebookmedia/blog/introducing-the-facebook-journalism-project",
-    "Initatives": "Credibility Coalition,Facebook Flagging Fake,First Draft News,Full Fact,Verificado 2018,Colombia Check ,AFP Factual,Africa Check,BOOM,FactCheckNI,Faktograf.hr ,France 24 - Les Observateurs,Libération - CheckNews,Observador Fact Check,VERA Files Fact Check,Dubawa,Digital Forensic Research Lab,Agência Lupa"
-  },
-  {
     "Name": "New Media Alliance",
     "Type": "Other",
     "Funder Description": "\"Our members represent nearly 2,000 diverse news organizations in the United States—from the largest news groups and international outlets to hyperlocal news sources, from digital-only and digital-first to print news—we represent all news media content creators.\" (Source: Website) ",
@@ -315,6 +308,13 @@
     "Initatives": "BitPress"
   },
   {
+    "Name": "Craig Newmark Philanthropies",
+    "Type": "Individual Donor, Large",
+    "Funder Description": "\"I'm an old-school nerd, doing what I can to respect and support the people who fight to protect the values that America aspires to: fairness, opportunity and respect.\" (Source: Website) ",
+    "URL": "https://craignewmarkphilanthropies.org/",
+    "Initatives": "Credibility Coalition,Duke Tech & Check Cooperative ,Factmata,First Draft News,MisinfoCon,News Integrity Initiative ,PolitiFact,The Trust Project,TruthBuzz by ICFJ,Combating Russian Disinformation,Information Disorder Lab,Markkula Center for Applied Ethics,Executive Roundtable on Digital Journalism Ethics,Claim Buster,Botslayer"
+  },
+  {
     "Name": "PT Liputan Enam Dot Com",
     "Type": "Corporation",
     "Funder Description": " PT Liputan Enam Dot Com owns Liputan6.com in Indonesia. ",
@@ -355,13 +355,6 @@
     "Funder Description": "\"The Duke Tech & Check Cooperative is a $1.2 million project to automate fact-checking. Launched in September 2017, the two-year endeavor brings together journalists, developers and academics to build apps to disseminate fact-checking to new audiences and create tools that help fact-checkers do their work.\" (Source: Website) ",
     "URL": "https://reporterslab.org/tech-and-check/",
     "Initatives": "Claim Buster"
-  },
-  {
-    "Name": "Craig Newmark Philanthropies",
-    "Type": "Individual Donor, Large",
-    "Funder Description": "\"I'm an old-school nerd, doing what I can to respect and support the people who fight to protect the values that America aspires to: fairness, opportunity and respect.\" (Source: Website) ",
-    "URL": "https://craignewmarkphilanthropies.org/",
-    "Initatives": "Credibility Coalition,Duke Tech & Check Cooperative ,Factmata,First Draft News,MisinfoCon,News Integrity Initiative ,PolitiFact,The Trust Project,TruthBuzz by ICFJ,Combating Russian Disinformation,Information Disorder Lab,Markkula Center for Applied Ethics,Executive Roundtable on Digital Journalism Ethics,Claim Buster"
   },
   {
     "Name": "National Science Foundation",
@@ -1188,6 +1181,13 @@
     "Funder Description": " World Mobile News Network Pvt Ltd is a private limited company registered in India. ",
     "URL": "http://newsmobile.in/about-us/",
     "Initatives": "NewsMobile Fact Checker"
+  },
+  {
+    "Name": "Facebook Journalism Project ",
+    "Type": "Corporation",
+    "Funder Description": "\"Working together with publishers around the world through trainings, programs, and partnerships, we can help strengthen communities by connecting people with meaningful journalism.\" (Source: Website) ",
+    "URL": "https://www.facebook.com/facebookmedia/blog/introducing-the-facebook-journalism-project",
+    "Initatives": "Credibility Coalition,Facebook Flagging Fake,First Draft News,Full Fact,Verificado 2018,Colombia Check ,AFP Factual,Africa Check,BOOM,FactCheckNI,Faktograf.hr ,France 24 - Les Observateurs,Libération - CheckNews,Observador Fact Check,VERA Files Fact Check,Dubawa,Digital Forensic Research Lab,Agência Lupa,NewsQA"
   },
   {
     "Name": "Advertising",

@@ -211,7 +211,7 @@
     "Organization Name": "City University of New York Newmark - Tow-Knight Center ",
     "Organization Description": "\"At the Craig Newmark Graduate School of Journalism at the City University of New York, change is in our DNA. That comes of being born in 2006, as the digital revolution was transforming our profession in ways none of us could have imagined.  We fashioned a school to teach the latest storytelling, entrepreneurial, and technological skills alongside reporting, writing, and ethics. Beyond that, we’ve crafted a culture that spurns complacency, that isn’t afraid to pivot before the ground under us shifts.\" (Source: Website) ",
     "Home URL": "https://www.journalism.cuny.edu/centers/tow-knight-center-entrepreneurial-journalism/",
-    "Table 1": "News Integrity Initiative ",
+    "Table 1": "News Integrity Initiative ,NewsQA",
     "Notes": null,
     "Name": null
   },
@@ -844,6 +844,14 @@
     "Organization Description": "\"We are building an observatory of information disorder in Latin America.\" (Source: Website) ",
     "Home URL": "http://obserlatinf.org/",
     "Table 1": "ObserLatInf",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "Observatory on Social Media - Indiana University ",
+    "Organization Description": "\"Called the Observatory on Social Media, the new center will investigate how information and misinformation spread online. It will also provide students, journalists and citizens with resources, data and training to identify and counter attempts to intentionally manipulate public opinion.\" (Source: Website)",
+    "Home URL": "https://news.iu.edu/stories/2019/07/iub/releases/22-knight-foundation-observatory-on-social-media.html",
+    "Table 1": "Botslayer",
     "Notes": null,
     "Name": null
   },
