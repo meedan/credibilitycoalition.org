@@ -127,7 +127,7 @@ custom_css: page
             </div>
           </div>
 
-          {% assign funders = page['Funders'] | trim | split: ',' %}
+          {% assign funders = page['Funders'] | trim | split_better: ',' %}
           {% if funders.size > 0 and funders.first != '[needs more research]' %}
           <div class="row page-details">
             <div class="col col-a page-details-header">
@@ -168,7 +168,7 @@ custom_css: page
                     <h5>{{ similar['Name'] }}</h5>
                     {% if similar['Solutions Categories'] %}
                     <div class="list-item-footer prop type">
-                      {% assign types = similar['Solutions Categories'] | trim | split: ',' %}
+                      {% assign types = similar['Solutions Categories'] | trim | split_better: ',' %}
                       {% for type in types %}
                         <span class="capsule">{{ type }}</span>
                       {% endfor %}
