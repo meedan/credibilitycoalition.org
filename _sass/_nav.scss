@@ -29,7 +29,7 @@
     flex-wrap: wrap;
     margin-right: $width--large-gutter;
     padding: 0;
-    
+
     @include when-smaller-than(medium) {
       justify-content: flex-start;
     }
@@ -76,7 +76,7 @@
 }
 
 // Page navigation: current page indicator
-@each $page in about, approach, definitions, results, updates, jobs, credfinder {
+@each $page in about, approach, definitions, results, updates, jobs, credcatalog {
   .#{$page} {
     .#{$page} {
       a {
@@ -87,6 +87,6 @@
 }
 
 // Additional current page indicator for nested links
-.funders .credfinder {
+.funders .credcatalog {
   @include nav_link();
 }

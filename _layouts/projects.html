@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 {% include head_map.html %}
-<body id="credfinder" class="map {%if page.url %}{{ page.url | slugify }}{% endif %}">
+<body id="credcatalog" class="map {%if page.url %}{{ page.url | slugify }}{% endif %}">
 
   {% include nav.html %}
 
@@ -9,7 +9,7 @@
     <div class="section-inner-wide">
       <div class="map-header">
         <div class="map-header-title">
-            <div class="cap">Credfinder</div>
+            <div class="cap">CredCatalog</div>
             <h1>{{ page.title }}</h1>
         </div>
         {% include map_nav.html active="projects" %}
@@ -29,7 +29,7 @@
           <i class="mdc-select__dropdown-icon"></i>
           <select id="filter-list-category" class="mdc-select__native-control" onchange="onFilterChanged()">
             <option value="">&nbsp;</option>
-          {% assign categories = site.data.credfinder.initiatives | uniq: 'Solutions Categories' %}
+          {% assign categories = site.data.credcatalog.initiatives | uniq: 'Solutions Categories' %}
           {% for category in categories %}
             <option value="{{ category }}">{{ category }}</option>
           {% endfor %}
@@ -42,7 +42,7 @@
           <i class="mdc-select__dropdown-icon"></i>
           <select id="filter-list-located" class="mdc-select__native-control" onchange="onFilterChanged()">
             <option value="">&nbsp;</option>
-          {% assign locations = site.data.credfinder.initiatives | uniq: 'Location' %}
+          {% assign locations = site.data.credcatalog.initiatives | uniq: 'Location' %}
           {% for location in locations %}
             <option value="{{ location }}">{{ location }}</option>
           {% endfor %}
@@ -55,7 +55,7 @@
           <i class="mdc-select__dropdown-icon"></i>
           <select id="filter-list-language" class="mdc-select__native-control" onchange="onFilterChanged()">
             <option value="">&nbsp;</option>
-          {% assign languages = site.data.credfinder.initiatives | uniq: 'Languages-2' %}
+          {% assign languages = site.data.credcatalog.initiatives | uniq: 'Languages-2' %}
           {% for language in languages %}
             <option value="{{ language }}">{{ language }}</option>
           {% endfor %}
@@ -117,7 +117,7 @@
 
         <script type="text/javascript" charset="utf-8">
           {% capture svg %}{% include spectra.svg %}{% endcapture %}
-          var rowData = {{ site.data.credfinder.initiatives | credify: svg | jsonify}};
+          var rowData = {{ site.data.credcatalog.initiatives | credify: svg | jsonify}};
 
           function renderHTML(params) {
             // render the HTML verbatim
@@ -169,7 +169,7 @@
               const li = document.createElement('li');
               li.classList.add('project-block');
               li.innerHTML = `
-                <a href="/credfinder/project/${project['NameSlug']}">
+                <a href="/credcatalog/project/${project['NameSlug']}">
                   ${project['Spectra']}
                   <div class="project-name">
                     ${project['Name']}

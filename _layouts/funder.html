@@ -11,7 +11,7 @@ custom_css: page
     <main>
       <div class="section-inner-wide">
         <div class="page-header">
-          <div class="cap"><a href="/credfinder/funders">Funder</a></div>
+          <div class="cap"><a href="/credcatalog/funders">Funder</a></div>
           <h1>{{ page['Name'] }}</h1>
           {% if page['Funder Description'] %}
           <div class="page-description"><p>{{ page['Funder Description'] | linkify | markdownify }}</p></div>
@@ -38,18 +38,18 @@ custom_css: page
               {% assign projects = page['Initatives'] | split_better: ',' %}
               {% for project in projects %}
               <div class="col list-item">
-                <a href="/credfinder/project/{{ project | sanitize_filename }}">
+                <a href="/credcatalog/project/{{ project | sanitize_filename }}">
                   <div class="list-item-header">
                       <h5>{{ project }}</h5>
                       <div class="prop type">
-                          {% assign types = site.data.credfinder.initiatives | where: "Name", project | first | pluck: "Initiative Types - READONLY" | trim | split: ',' %}
+                          {% assign types = site.data.credcatalog.initiatives | where: "Name", project | first | pluck: "Initiative Types - READONLY" | trim | split: ',' %}
                           {% for type in types %}
                             <span>{{ type }}</span>
                           {% endfor %}
                       </div>
                   </div>
                   <div class="list-item-footer prop location">
-                    {{ site.data.credfinder.initiatives | where: "Name", project | first | pluck: "Location" }}
+                    {{ site.data.credcatalog.initiatives | where: "Name", project | first | pluck: "Location" }}
                   </div>
                 </a>
               </div>

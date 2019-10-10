@@ -5,13 +5,14 @@ window.onscroll = function() {stickyFilters()};
 var vf = document.getElementById("viewFilters");
 
 // Get the offset position of the navbar
-var sticky = vf.offsetTop;
+var sticky = vf ? vf.offsetTop : null;
 
 // Get body
-var b = document.getElementById("credfinder")
+var b = document.getElementById("credcatalog")
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function stickyFilters() {
+	if (!vf) return;
   if (window.pageYOffset > sticky) {
 	vf.classList.add("sticky");
 	b.classList.add("filters-top");

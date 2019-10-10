@@ -11,7 +11,7 @@ custom_css: page
     <main>
         <div class="section-inner-wide">
           <div class="page-header">
-              <div class="cap"><a href="/credfinder">Project</a></div>
+              <div class="cap"><a href="/credcatalog">Project</a></div>
               <h1>{{ page['Name'] }}</h1>
               {% if page['Description'] %}
                 <div class="page-description">{{ page['Description'] | linkify | markdownify }}</div>
@@ -35,7 +35,7 @@ custom_css: page
                   <div class="row spectra">
 
                     {% if page['Map Spectra: Theory'] %}
-                    {% assign ranking = site.data.credfinder.scales | where: "Option", page['Map Spectra: Theory'] | first | pluck: 'Numeric Value' | to_integer %}
+                    {% assign ranking = site.data.credcatalog.scales | where: "Option", page['Map Spectra: Theory'] | first | pluck: 'Numeric Value' | to_integer %}
                       <div class="col {% if ranking > 1 %}theory{% else %}dimmed{% endif %}">
                         <span class="with-tooltip">Theory <button class="theory" data-tippy-content="{% include info_theory.html %}">{% include icon_info.html %}</button></span>
                         <span class="value">{% if ranking > 1 %}{% include icon_yes.html %}{% else %}{% include icon_no.html %}{% endif %}</span>
@@ -43,7 +43,7 @@ custom_css: page
                     {% endif %}
 
                     {% if page['Map Spectra: Practice'] %}
-                    {% assign ranking = site.data.credfinder.scales | where: "Option", page['Map Spectra: Practice'] | first | pluck: 'Numeric Value' | to_integer %}
+                    {% assign ranking = site.data.credcatalog.scales | where: "Option", page['Map Spectra: Practice'] | first | pluck: 'Numeric Value' | to_integer %}
                       <div class="col {% if ranking > 1 %}practice{% else %}dimmed{% endif %}">
                           <span class="with-tooltip">Practice <button class="practice" data-tippy-content="{% include info_practice.html %}">{% include icon_info.html %}</button></span>
                         <span class="value">{% if ranking > 1 %}{% include icon_yes.html %}{% else %}{% include icon_no.html %}{% endif %}</span>
@@ -51,7 +51,7 @@ custom_css: page
                     {% endif %}
 
                     {% if page['Map Spectra: Message'] %}
-                    {% assign ranking = site.data.credfinder.scales | where: "Option", page['Map Spectra: Message'] | first | pluck: 'Numeric Value' | to_integer %}
+                    {% assign ranking = site.data.credcatalog.scales | where: "Option", page['Map Spectra: Message'] | first | pluck: 'Numeric Value' | to_integer %}
                       <div class="col {% if ranking > 1 %}content{% else %}dimmed{% endif %}">
                           <span class="with-tooltip">Content <button class="content" data-tippy-content="{% include info_content.html %}">{% include icon_info.html %}</button></span>
                         <span class="value">{% if ranking > 1 %}{% include icon_yes.html %}{% else %}{% include icon_no.html %}{% endif %}</span>
@@ -59,7 +59,7 @@ custom_css: page
                     {% endif %}
 
                     {% if page['Map Spectra: Infrastructure'] %}
-                    {% assign ranking = site.data.credfinder.scales | where: "Option", page['Map Spectra: Infrastructure'] | first | pluck: 'Numeric Value' | to_integer %}
+                    {% assign ranking = site.data.credcatalog.scales | where: "Option", page['Map Spectra: Infrastructure'] | first | pluck: 'Numeric Value' | to_integer %}
                       <div class="col {% if ranking > 1 %}infrastructure{% else %}dimmed{% endif %}">
                           <span class="with-tooltip">Infrastructure <button class="infrastructure" data-tippy-content="{% include info_infrastructure.html %}">{% include icon_info.html %}</button></span>
                         <span class="value">{% if ranking > 1 %}{% include icon_yes.html %}{% else %}{% include icon_no.html %}{% endif %}</span>
@@ -139,10 +139,10 @@ custom_css: page
               <div class="row list">
                 {% for funder in funders %}
                 <div class="col list-item">
-                  <a href="/credfinder/funder/{{ funder | sanitize_filename }}">
+                  <a href="/credcatalog/funder/{{ funder | sanitize_filename }}">
                     <h5>{{ funder }}</h5>
                     <div class="list-item-footer prop type">
-                      {{ site.data.credfinder.funders | where: "Name", funder | first | pluck: "Type" }}
+                      {{ site.data.credcatalog.funders | where: "Name", funder | first | pluck: "Type" }}
                     </div>
                   </a>
                 </div>
@@ -152,7 +152,7 @@ custom_css: page
           </div>
           {% endif %}
 
-          {% assign similars = site.data.credfinder.initiatives | similar_to: page %}
+          {% assign similars = site.data.credcatalog.initiatives | similar_to: page %}
           {% if similars.size > 0 %}
           <div class="row page-details">
             <div class="col col-a page-details-header">
@@ -164,7 +164,7 @@ custom_css: page
               <div class="row list">
                 {% for similar in similars %}
                 <div class="col list-item">
-                  <a href="/credfinder/project/{{ similar['Name'] | sanitize_filename }}">
+                  <a href="/credcatalog/project/{{ similar['Name'] | sanitize_filename }}">
                     <h5>{{ similar['Name'] }}</h5>
                     {% if similar['Solutions Categories'] %}
                     <div class="list-item-footer prop type">
