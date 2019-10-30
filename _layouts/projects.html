@@ -127,7 +127,7 @@
 
           // specify the columns
           var columnDefs = [
-            { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, sort: 'asc' },
+            { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, autoHeight: true, sort: 'asc' },
             { headerName: 'Category', field: 'CategoriesCleaned' },
             { headerName: 'Location', field: 'LocationCleaned' },
             { headerName: 'Languages', field: 'LanguagesCleaned' },
@@ -215,9 +215,9 @@
             });
           }
 
-          window.addEventListener('resize', (event) => {
-            // Fit columns to fit.
+          window.addEventListener('resize', () => {
             gridOptions.api.sizeColumnsToFit();
+            gridOptions.api.resetRowHeights();
           });
 
           function onFilterChanged() {
@@ -237,8 +237,8 @@
             });
 
             if (view === 'list') {
-              // Fit columns to fit.
               gridOptions.api.sizeColumnsToFit();
+              gridOptions.api.resetRowHeights();
             }
           }
 
