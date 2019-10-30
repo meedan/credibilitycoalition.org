@@ -70,6 +70,7 @@
             rowData: rowData,
             isExternalFilterPresent: isExternalFilterPresent,
             doesExternalFilterPass: doesExternalFilterPass,
+            onGridReady: (event) => { event.api.sizeColumnsToFit(); }
           };
 
           // lookup the container we want the Grid to use

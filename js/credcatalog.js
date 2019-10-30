@@ -26,22 +26,22 @@ function stickyFilters() {
   $(document).ready(function() {
 
 		// Tooltips for spectra
-		tippy('button.theory', {
+		tippy('span.theory', {
 			animation: 'shift-away',
 			theme: 'theory-border',
 		});
 
-		tippy('button.practice', {
+		tippy('span.practice', {
 			animation: 'shift-away',
 			theme: 'practice-border',
 		});
 
-		tippy('button.content', {
+		tippy('span.content', {
 			animation: 'shift-away',
 			theme: 'content-border',
 		});
 
-		tippy('button.infrastructure', {
+		tippy('span.infrastructure', {
 			animation: 'shift-away',
 			theme: 'infrastructure-border',
 		});

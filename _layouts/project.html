@@ -37,7 +37,7 @@ custom_css: page
                     {% if page['Map Spectra: Theory'] %}
                     {% assign ranking = site.data.credcatalog.scales | where: "Option", page['Map Spectra: Theory'] | first | pluck: 'Numeric Value' | to_integer %}
                       <div class="col {% if ranking > 1 %}theory{% else %}dimmed{% endif %}">
-                        <span class="with-tooltip">Theory <button class="theory" data-tippy-content="{% include info_theory.html %}">{% include icon_info.html %}</button></span>
+                        <span class="with-tooltip theory" data-tippy-content="{% include info_theory.html %}">Theory <button>{% include icon_info.html %}</button></span>
                         <span class="value">{% if ranking > 1 %}{% include icon_yes.html %}{% else %}{% include icon_no.html %}{% endif %}</span>
                       </div>
                     {% endif %}
@@ -45,7 +45,7 @@ custom_css: page
                     {% if page['Map Spectra: Practice'] %}
                     {% assign ranking = site.data.credcatalog.scales | where: "Option", page['Map Spectra: Practice'] | first | pluck: 'Numeric Value' | to_integer %}
                       <div class="col {% if ranking > 1 %}practice{% else %}dimmed{% endif %}">
-                          <span class="with-tooltip">Practice <button class="practice" data-tippy-content="{% include info_practice.html %}">{% include icon_info.html %}</button></span>
+                          <span class="with-tooltip practice" data-tippy-content="{% include info_practice.html %}">Practice <button>{% include icon_info.html %}</button></span>
                         <span class="value">{% if ranking > 1 %}{% include icon_yes.html %}{% else %}{% include icon_no.html %}{% endif %}</span>
                       </div>
                     {% endif %}
@@ -53,7 +53,7 @@ custom_css: page
                     {% if page['Map Spectra: Message'] %}
                     {% assign ranking = site.data.credcatalog.scales | where: "Option", page['Map Spectra: Message'] | first | pluck: 'Numeric Value' | to_integer %}
                       <div class="col {% if ranking > 1 %}content{% else %}dimmed{% endif %}">
-                          <span class="with-tooltip">Content <button class="content" data-tippy-content="{% include info_content.html %}">{% include icon_info.html %}</button></span>
+                          <span class="with-tooltip content" data-tippy-content="{% include info_content.html %}">Content <button>{% include icon_info.html %}</button></span>
                         <span class="value">{% if ranking > 1 %}{% include icon_yes.html %}{% else %}{% include icon_no.html %}{% endif %}</span>
                       </div>
                     {% endif %}
@@ -61,7 +61,7 @@ custom_css: page
                     {% if page['Map Spectra: Infrastructure'] %}
                     {% assign ranking = site.data.credcatalog.scales | where: "Option", page['Map Spectra: Infrastructure'] | first | pluck: 'Numeric Value' | to_integer %}
                       <div class="col {% if ranking > 1 %}infrastructure{% else %}dimmed{% endif %}">
-                          <span class="with-tooltip">Infrastructure <button class="infrastructure" data-tippy-content="{% include info_infrastructure.html %}">{% include icon_info.html %}</button></span>
+                          <span class="with-tooltip infrastructure" data-tippy-content="{% include info_infrastructure.html %}">Infrastructure <button>{% include icon_info.html %}</button></span>
                         <span class="value">{% if ranking > 1 %}{% include icon_yes.html %}{% else %}{% include icon_no.html %}{% endif %}</span>
                       </div>
                     {% endif %}

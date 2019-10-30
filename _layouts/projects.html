@@ -68,10 +68,10 @@
           <i class="mdc-select__dropdown-icon"></i>
           <select id="filter-list-active" class="mdc-select__native-control" onchange="onFilterChanged()">
             <option value="">&nbsp;</option>
-            <option value="Active" selected>Yes</option>
-            <option value="Inactive">No</option>
+            <option value="Active" selected>Active</option>
+            <option value="Inactive">Inactive</option>
           </select>
-          <label class="mdc-floating-label mdc-floating-label--float-above">Active?</label>
+          <label class="mdc-floating-label mdc-floating-label--float-above">Status</label>
           <div class="mdc-line-ripple"></div>
         </div>
 
@@ -230,6 +230,11 @@
               const chip = document.getElementById(v + '-chip');
               chip.classList[ view === v ? 'add' : 'remove' ]('mdc-chip--selected');
             });
+
+            if (view === 'list') {
+              // Fit columns to fit.
+              gridOptions.api.sizeColumnsToFit();
+            }
           }
 
           function showHelp() {
