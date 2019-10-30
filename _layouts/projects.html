@@ -128,9 +128,9 @@
           // specify the columns
           var columnDefs = [
             { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, sort: 'asc' },
-            { headerName: 'Category', field: 'Solutions Categories' },
-            { headerName: 'Location', field: 'Location' },
-            { headerName: 'Languages', field: 'Languages-2' },
+            { headerName: 'Category', field: 'CategoriesCleaned' },
+            { headerName: 'Location', field: 'LocationCleaned' },
+            { headerName: 'Languages', field: 'LanguagesCleaned' },
             { headerName: 'Funders', field: 'FundersLinked', cellRenderer: renderHTML  },
           ];
 
@@ -214,6 +214,11 @@
               );
             });
           }
+
+          window.addEventListener('resize', (event) => {
+            // Fit columns to fit.
+            gridOptions.api.sizeColumnsToFit();
+          });
 
           function onFilterChanged() {
             // Update ag-Grid.

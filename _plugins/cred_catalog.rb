@@ -12,8 +12,7 @@ module Jekyll
           project['Name']
         ],
         'NameSlug' => sanitize_filename(project['Name']),
-        'FundersLinked' => project['Funders']
-          .split(',')
+        'FundersLinked' => split_better(project['Funders'], ',')
           .select{ |f| f != '[needs more research]' }
           .map(&:strip)
           .map{ |f| '<a href="/credcatalog/funder/%s">%s</a>' % [
@@ -21,7 +20,10 @@ module Jekyll
             f
           ]}
           .join(', '),
-        'Spectra' => _spectra(project, svg)
+        'Spectra' => _spectra(project, svg),
+        'CategoriesCleaned' => split_better(project['Solutions Categories'], ',').join(', '),
+        'LocationCleaned' => split_better(project['Location'], ',').join(', '),
+        'LanguagesCleaned' => split_better(project['Languages-2'], ',').join(', ')
       })}
     end
 
