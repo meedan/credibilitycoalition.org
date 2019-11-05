@@ -4,24 +4,10 @@
   box-sizing: border-box;
 }
 
-%sticky-footer {
-  display: grid;
-  min-height: 100vh;
-  grid-template-rows: $height--header-desktop auto $height--footer-desktop;
-  @include when-smaller-than(medium) {
-    grid-template-rows: $height--header-mobile auto $height--footer-mobile;
-  }
-
-  footer {
-    height: $height--footer-desktop;
-  }
-}
-
 body {
   margin: 0;
   min-width: 280px;
   overflow-x: hidden;
-  @extend %sticky-footer;
 }
 
 main section:last-of-type {
