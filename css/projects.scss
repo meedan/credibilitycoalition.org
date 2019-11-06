@@ -229,9 +229,12 @@ body.filters-top + .list-view, {
     justify-content: center;
     align-items: center;
   }
-  .text {
+  a, .text {
     color: #fff;
     font: $font--body-1;
+  }
+  a {
+    border-bottom-color: #fff;
   }
   h5 {
     margin-top: $width--xsmall-gutter;

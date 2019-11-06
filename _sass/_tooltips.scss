@@ -31,9 +31,9 @@
 }
 
 .tippy-tooltip.content-border-theme {
-    border: 4px solid $content-red;
+    border: 4px solid $content-purple;
     @include tooltip;
-    h6 { color: $content-red }
+    h6 { color: $content-purple; }
 }
 
 .tippy-tooltip.infrastructure-border-theme {
