@@ -194,15 +194,20 @@
           }
 
           function doesExternalFilterPass(node) {
+            // Filters passes the given node if
+            // - Filter is empty OR
+            // - Filter and node values match (field-dependent)
             return [
               { v: document.getElementById('filter-text-project'), f: 'Name' },
               { v: document.getElementById('filter-text-funder'), f: 'Funders' },
             ].every(filter => {
+              const v = filter.v.value.trim().toUpperCase();
               return (
-                (!filter.v.value.trim() && !node.data[filter.f]) ||
                 (
+                  !v
+                ) || (
                   node.data[filter.f] &&
-                  node.data[filter.f].toUpperCase().includes(filter.v.value.trim().toUpperCase())
+                  node.data[filter.f].toUpperCase().includes(v)
                 )
               );
             }) && [
@@ -210,21 +215,25 @@
               { v: document.getElementById('filter-list-category'), f: 'Solutions Categories' },
               { v: document.getElementById('filter-list-language'), f: 'Languages-2' },
             ].every(filter => {
+              const v = filter.v.options[filter.v.selectedIndex].value.toUpperCase();
               return (
-                (!filter.v.options[filter.v.selectedIndex].value && !node.data[filter.f]) ||
                 (
+                  !v
+                ) || (
                   node.data[filter.f] &&
-                  node.data[filter.f].toUpperCase().includes(filter.v.options[filter.v.selectedIndex].value.toUpperCase())
+                  node.data[filter.f].toUpperCase().includes(v)
                 )
               );
             }) && [
               { v: document.getElementById('filter-list-active'), f: 'Active/Inactive' },
             ].every(filter => {
+              const v = filter.v.options[filter.v.selectedIndex].value.toUpperCase();
               return (
-                (!filter.v.options[filter.v.selectedIndex].value && !node.data[filter.f]) ||
                 (
+                  !v
+                ) || (
                   node.data[filter.f] &&
-                  node.data[filter.f].toUpperCase() === filter.v.options[filter.v.selectedIndex].value.toUpperCase()
+                  node.data[filter.f].toUpperCase() == v
                 )
               );
             });
