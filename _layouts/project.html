@@ -124,6 +124,26 @@ custom_css: page
                   </div>
                 </div>
               {% endif %}
+
+              {% if page['Org Name'] != '[SAME AS INITIATIVE]' or page['"Other" Organizational Name'] %}
+                {% assign orgs = page['Org Name'] | trim | split_better: ',' | where_exp: "item", "item != '[SAME AS INITIATIVE]'"%}
+                <div class="row">
+                  <div class="col col-a"><h5>Owner</h5></div>
+                  <div class="col col-b">
+                    {% for org in orgs %}
+                      {% assign url = site.data.credcatalog.organizations | where: "Organization Name", org | first | pluck: "Home URL" | trim %}
+                      <span class="capsule">
+                        {% if url != '' %}<a target="_blank" rel="noopener noreferrer" href="{{ url }}">{{ org }}</a>
+                        {% else %}{{ org }}
+                        {% endif %}
+                      </span>
+                    {% endfor %}
+                    {% if page['"Other" Organizational Name'] %}
+                      <span class="capsule">{{ page['"Other" Organizational Name'] }}</span>
+                    {% endif %}
+                  </div>
+                </div>
+              {% endif %}
             </div>
           </div>
 

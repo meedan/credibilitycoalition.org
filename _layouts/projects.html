@@ -84,7 +84,7 @@
 
       <div class="view-controls mdc-chip-set mdc-chip-set--choice">
         <div class="how-to-read-button">
-          <button id="how-to-read-button" onclick="showHelp()" class="">
+          <button id="how-to-read-button" onclick="showHelp()" class="active">
             <span id="open-help">{% include icon_help.html %} How to read</span>
             <span id="close-help">{% include icon_close.html %} How to read</span>
           </button>
@@ -100,7 +100,7 @@
       </div>
 
       <section>
-        <div id="help" class="how-to-read-panel" style="display: none">
+        <div id="help" class="how-to-read-panel">
           <div class="close">
             <button onclick="showHelp()">{% include icon_no.html %}</button>
           </div>
@@ -199,18 +199,33 @@
               { v: document.getElementById('filter-text-funder'), f: 'Funders' },
             ].every(filter => {
               return (
-                node.data[filter.f] &&
-                node.data[filter.f].toUpperCase().includes(filter.v.value.trim().toUpperCase())
+                (!filter.v.value.trim() && !node.data[filter.f]) ||
+                (
+                  node.data[filter.f] &&
+                  node.data[filter.f].toUpperCase().includes(filter.v.value.trim().toUpperCase())
+                )
               );
             }) && [
               { v: document.getElementById('filter-list-located'), f: 'Location' },
               { v: document.getElementById('filter-list-category'), f: 'Solutions Categories' },
               { v: document.getElementById('filter-list-language'), f: 'Languages-2' },
+            ].every(filter => {
+              return (
+                (!filter.v.options[filter.v.selectedIndex].value && !node.data[filter.f]) ||
+                (
+                  node.data[filter.f] &&
+                  node.data[filter.f].toUpperCase().includes(filter.v.options[filter.v.selectedIndex].value.toUpperCase())
+                )
+              );
+            }) && [
               { v: document.getElementById('filter-list-active'), f: 'Active/Inactive' },
             ].every(filter => {
               return (
-                node.data[filter.f] &&
-                node.data[filter.f].toUpperCase().includes(filter.v.options[filter.v.selectedIndex].value.toUpperCase())
+                (!filter.v.options[filter.v.selectedIndex].value && !node.data[filter.f]) ||
+                (
+                  node.data[filter.f] &&
+                  node.data[filter.f].toUpperCase() === filter.v.options[filter.v.selectedIndex].value.toUpperCase()
+                )
               );
             });
           }
