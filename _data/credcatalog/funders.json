@@ -168,13 +168,6 @@
     "Initatives": null
   },
   {
-    "Name": "African Media Initiative",
-    "Type": "Other",
-    "Funder Description": "The African Media Initiative (AMI) is a pan-African organisation registered in Kenya as a company limited by guarantee. It seeks to strengthen the continent’s private and independent media sector from an owner and operator perspective to promote democratic governance, social development, and economic growth.",
-    "URL": "http://africanmediainitiative.org/about/",
-    "Initatives": null
-  },
-  {
     "Name": "United States - State Department",
     "Type": "Government",
     "Funder Description": "The United States Department of State, commonly referred to as the State Department, is a federal executive department responsible for carrying out U.S. foreign policy and international relations.",
@@ -427,6 +420,13 @@
     "Initatives": "Datalyrics"
   },
   {
+    "Name": "Delfi",
+    "Type": "Other",
+    "Funder Description": "\"DELFI, the largest online news portal in the Baltic states\" (Source: https://googlenewsinitiative.ft.com/dni-projects/debunk)",
+    "URL": "https://www.delfi.lt/",
+    "Initatives": "Debunk EU"
+  },
+  {
     "Name": "Betaworks",
     "Type": "Corporation",
     "Funder Description": "\"Betaworks is a start-up platform founded in New York. We build, run accelerators, make investments and we recently opened a new Club for Builders in New York.\" (Source: Website) ",
@@ -481,48 +481,6 @@
     "Funder Description": "\"The Atlantic Council promotes constructive leadership and engagement in international affairs based on the Atlantic Community’s central role in meeting global challenges. The Council provides an essential forum for navigating the dramatic economic and political changes defining the twenty-first century by informing and galvanizing its uniquely influential network of global leaders. Through the papers we write, the ideas we generate, and the communities we build, the Council shapes policy choices and strategies to create a more secure and prosperous world.\" (Source: Website) ",
     "URL": "http://www.atlanticcouncil.org/",
     "Initatives": "Disinfo Portal"
-  },
-  {
-    "Name": "S. D. Bechtel, Jr. Foundation",
-    "Type": "Foundation, Large",
-    "Funder Description": "\"The S. D. Bechtel, Jr. Foundation envisions a productive, vibrant, and sustainable California that is a model of success and a source of innovation.\" (Source: Website)",
-    "URL": "http://sdbjrfoundation.org/the-foundation/faqs/",
-    "Initatives": "Disinformation Research Mapping Initiative "
-  },
-  {
-    "Name": "Ford Foundation",
-    "Type": "Foundation, Large",
-    "Funder Description": "\"We believe that social movements are built upon individual leadership, strong institutions, and innovative, often high-risk ideas. While the specifics of what we work on have evolved over the years, investments in these three areas have remained the touchstones of everything we do and are central to our theory of how change happens in the world. These approaches have long distinguished the Ford Foundation, and they have had a profound cumulative impact.\" (Source: Website)",
-    "URL": "https://www.fordfoundation.org/about/people/grant-makers/",
-    "Initatives": "First Draft News,NewsFrames at Global Voices,Journalism Trust Initiative,Oxford Computational Propaganda Project,PolitiFact,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",Columbia Journalism Review,Information Disorder Lab,Open Technology Institute,O Truco,Detector de Mentiras,Ojo Bionico,Redacción Fáctica,ConPruebas,Disinformation Research Mapping Initiative "
-  },
-  {
-    "Name": "Reid Hoffman",
-    "Type": "Other",
-    "Funder Description": "Greylock Partner, Cortico funder",
-    "URL": "https://www.greylock.com/team/",
-    "Initatives": "Cortico,Disinformation Research Mapping Initiative "
-  },
-  {
-    "Name": "Rita Allen Foundation",
-    "Type": "Foundation, Family",
-    "Funder Description": "\"The Rita Allen Foundation invests in transformative ideas in their earliest stages to leverage their growth and promote breakthrough solutions to significant problems.\" (Source: Website) ",
-    "URL": "http://ritaallen.org/apply/",
-    "Initatives": "Check - Meedan,Internet Archive TV News Archive,Mozilla Information Trust Initiative,Misinformation Solutions Forum,News Co/Lab,Knight Prototype Fund on Misinformation,Disinformation Research Mapping Initiative "
-  },
-  {
-    "Name": "Democracy Fund",
-    "Type": "Foundation, Large",
-    "Funder Description": "\"The Democracy Fund invests in organizations working to ensure that our political system is able to withstand new challenges and deliver on its promise to the American people.\" (Source: Website) ",
-    "URL": "https://www.democracyfund.org/",
-    "Initatives": "Check - Meedan,First Draft News,PolitiFact,Internet Archive TV News Archive,Knight Prototype Fund on Misinformation,Mozilla Information Trust Initiative,News Co/Lab,SSRC Social Media Democracy Research Grants,Markkula Center for Applied Ethics,Disinformation Research Mapping Initiative "
-  },
-  {
-    "Name": "Hewlett Foundation, William and Flora",
-    "Type": "Foundation, Large",
-    "Funder Description": "\"The Hewlett Family and Foundation History   Our Guiding Principles   Our Programs   Board   People   Financials   Policies   The William and Flora Hewlett Foundation is a nonpartisan, private charitable foundation that advances ideas and supports institutions to promote a better world.\" (Source: Website) ",
-    "URL": "https://hewlett.org/",
-    "Initatives": "ARENA Project - London School of Economics,SSRC Social Media Democracy Research Grants,Disinformation Research Mapping Initiative "
   },
   {
     "Name": "Poynter",
@@ -700,13 +658,6 @@
     "Initatives": "Factograph (BBG)"
   },
   {
-    "Name": "Matrix Partners",
-    "Type": "Corporation",
-    "Funder Description": "\"Early-stage investors based in San Francisco and Boston.\" (Source: Website) ",
-    "URL": "https://www.matrixpartners.com/",
-    "Initatives": "Factual"
-  },
-  {
     "Name": "Sofiouest",
     "Type": "Corporation",
     "Funder Description": "\"Sofiouest, an investment and participation company, invests in late stage start-ups, companies with strong potential that have proven their business model and wish to boost their growth.\" (Source: Website) ",
@@ -795,7 +746,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"Knight Foundation is a national foundation with strong local roots. We invest in journalism, in the arts, and in the success of cities where brothers John S. and James L. Knight once published newspapers. Our goal is to foster informed and engaged communities, which we believe are essential for a healthy democracy.\" (Source: Website) ",
     "URL": "https://knightfoundation.org/programs",
-    "Initatives": "BitPress,Check - Meedan,Cortico,Credibility Coalition,Deepnews.ai,Duke Tech & Check Cooperative ,First Draft News,NewsFrames at Global Voices,\"Knight Commission on Trust, Media and Democracy\",MisinfoCon,NewsTracker,Oxford Computational Propaganda Project,PolitiFact,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",Internet Archive TV News Archive,Knight Prototype Fund on Misinformation,\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",SSRC Social Media Democracy Research Grants,Columbia Journalism Review,Information Disorder Lab,Combating Russian Disinformation,AP's global fact check team,Markkula Center for Applied Ethics,Claim Buster,Disinformation Research Mapping Initiative ,Hypothes.is,Global Disinformation Index"
+    "Initatives": "BitPress,Check - Meedan,Cortico,Credibility Coalition,Deepnews.ai,Duke Tech & Check Cooperative ,First Draft News,NewsFrames at Global Voices,\"Knight Commission on Trust, Media and Democracy\",MisinfoCon,NewsTracker,Oxford Computational Propaganda Project,PolitiFact,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",Internet Archive TV News Archive,Knight Prototype Fund on Misinformation,\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",SSRC Social Media Democracy Research Grants,Columbia Journalism Review,Information Disorder Lab,Combating Russian Disinformation,AP's global fact check team,Markkula Center for Applied Ethics,Claim Buster,Media Well,Hypothes.is,Global Disinformation Index"
   },
   {
     "Name": "Meedan",
@@ -803,13 +754,6 @@
     "Funder Description": " \"Meedan builds digital tools for global journalism and translation. We are a team of designers, technologists and journalists who focus on open source investigation of digital media and crowdsourced translation of social media. With commercial, media and university partners, we support research, curriculum development, and new forms of digital storytelling.\" (Source: Website) ",
     "URL": "https://meedan.com/en/about/",
     "Initatives": "Tsek,Global Disinformation Index"
-  },
-  {
-    "Name": "British Government",
-    "Type": "Government",
-    "Funder Description": "Funding initiative from the British government. ",
-    "URL": "https://www.gov.uk/",
-    "Initatives": "Reality Check - BBC ,Veríficalo,Global Disinformation Index"
   },
   {
     "Name": "The University of California Merced",
@@ -1008,11 +952,46 @@
     "Initatives": "Media Ownership Monitor"
   },
   {
-    "Name": "For-profit Funding",
+    "Name": "S. D. Bechtel, Jr. Foundation",
+    "Type": "Foundation, Large",
+    "Funder Description": "\"The S. D. Bechtel, Jr. Foundation envisions a productive, vibrant, and sustainable California that is a model of success and a source of innovation.\" (Source: Website)",
+    "URL": "http://sdbjrfoundation.org/the-foundation/faqs/",
+    "Initatives": "Media Well"
+  },
+  {
+    "Name": "Ford Foundation",
+    "Type": "Foundation, Large",
+    "Funder Description": "\"We believe that social movements are built upon individual leadership, strong institutions, and innovative, often high-risk ideas. While the specifics of what we work on have evolved over the years, investments in these three areas have remained the touchstones of everything we do and are central to our theory of how change happens in the world. These approaches have long distinguished the Ford Foundation, and they have had a profound cumulative impact.\" (Source: Website)",
+    "URL": "https://www.fordfoundation.org/about/people/grant-makers/",
+    "Initatives": "First Draft News,NewsFrames at Global Voices,Journalism Trust Initiative,Oxford Computational Propaganda Project,PolitiFact,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",Columbia Journalism Review,Information Disorder Lab,Open Technology Institute,O Truco,Detector de Mentiras,Ojo Bionico,Redacción Fáctica,ConPruebas,Media Well"
+  },
+  {
+    "Name": "Reid Hoffman",
     "Type": "Other",
-    "Funder Description": null,
-    "URL": null,
-    "Initatives": "NewsGuard,FACTLY ,Main Street One ,Agência Lupa,TrustServista,Memex"
+    "Funder Description": "Greylock Partner, Cortico funder",
+    "URL": "https://www.greylock.com/team/",
+    "Initatives": "Cortico,Media Well"
+  },
+  {
+    "Name": "Rita Allen Foundation",
+    "Type": "Foundation, Family",
+    "Funder Description": "\"The Rita Allen Foundation invests in transformative ideas in their earliest stages to leverage their growth and promote breakthrough solutions to significant problems.\" (Source: Website) ",
+    "URL": "http://ritaallen.org/apply/",
+    "Initatives": "Check - Meedan,Internet Archive TV News Archive,Mozilla Information Trust Initiative,Misinformation Solutions Forum,News Co/Lab,Knight Prototype Fund on Misinformation,Media Well"
+  },
+  {
+    "Name": "Democracy Fund",
+    "Type": "Foundation, Large",
+    "Funder Description": "\"The Democracy Fund invests in organizations working to ensure that our political system is able to withstand new challenges and deliver on its promise to the American people.\" (Source: Website) ",
+    "URL": "https://www.democracyfund.org/",
+    "Initatives": "Check - Meedan,First Draft News,PolitiFact,Internet Archive TV News Archive,Knight Prototype Fund on Misinformation,Mozilla Information Trust Initiative,News Co/Lab,SSRC Social Media Democracy Research Grants,Markkula Center for Applied Ethics,Media Well"
+  },
+  {
+    "Name": "Hewlett Foundation, William and Flora",
+    "Type": "Foundation, Large",
+    "Funder Description": "\"The Hewlett Family and Foundation History   Our Guiding Principles   Our Programs   Board   People   Financials   Policies   The William and Flora Hewlett Foundation is a nonpartisan, private charitable foundation that advances ideas and supports institutions to promote a better world.\" (Source: Website) ",
+    "URL": "https://hewlett.org/",
+    "Initatives": "ARENA Project - London School of Economics,SSRC Social Media Democracy Research Grants,Media Well"
   },
   {
     "Name": "Adam Goldstein",
@@ -1187,7 +1166,7 @@
     "Type": "Corporation",
     "Funder Description": "\"Working together with publishers around the world through trainings, programs, and partnerships, we can help strengthen communities by connecting people with meaningful journalism.\" (Source: Website) ",
     "URL": "https://www.facebook.com/facebookmedia/blog/introducing-the-facebook-journalism-project",
-    "Initatives": "Credibility Coalition,Facebook Flagging Fake,First Draft News,Full Fact,Verificado 2018,Colombia Check ,AFP Factual,Africa Check,BOOM,FactCheckNI,Faktograf.hr ,France 24 - Les Observateurs,Libération - CheckNews,Observador Fact Check,VERA Files Fact Check,Dubawa,Digital Forensic Research Lab,Agência Lupa,NewsQA"
+    "Initatives": "Credibility Coalition,Facebook Flagging Fake,First Draft News,Full Fact,Verificado 2018,Colombia Check ,AFP Factual,Africa Check,BOOM,FactCheckNI,Faktograf.hr ,France 24 - Les Observateurs,Libération - CheckNews,Observador Fact Check,VERA Files Fact Check,Dubawa,Digital Forensic Research Lab,Agência Lupa,NewsQ"
   },
   {
     "Name": "Advertising",
@@ -1314,6 +1293,20 @@
     "Funder Description": "\"RFE/RL journalists report the news in 22 countries where a free press is banned by the government or not fully established. We provide what many people cannot get locally: uncensored news, responsible discussion, and open debate.\" (Source: Website) ",
     "URL": "https://www.rferl.org/",
     "Initatives": "Polygraph (BBG)"
+  },
+  {
+    "Name": "Codebase Ventures",
+    "Type": "Corporation",
+    "Funder Description": "\"Codebase Ventures Inc. is a small, hands-on team of financial and technology experts who invest early in great ideas. We operate from the understanding that technology is always evolving, bringing early opportunities for strategic investments that can deliver the exponential returns to our shareholders. We seek out and empower the innovators who are building tomorrow’s standards with platforms and protocols, not just products. We invest early, support our founders, take their ideas to market and work tirelessly to help them realize their vision.\" (Source: Website) ",
+    "URL": "https://www.codebase.ventures/",
+    "Initatives": "Pressland"
+  },
+  {
+    "Name": "For-profit Funding",
+    "Type": "Other",
+    "Funder Description": null,
+    "URL": null,
+    "Initatives": "NewsGuard,FACTLY ,Main Street One ,Agência Lupa,TrustServista,Memex,Pressland"
   },
   {
     "Name": "International Center for Journalism",
@@ -1512,6 +1505,13 @@
     "Initatives": "The Conversation Australia"
   },
   {
+    "Name": "Matrix Partners",
+    "Type": "Corporation",
+    "Funder Description": "\"Early-stage investors based in San Francisco and Boston.\" (Source: Website) ",
+    "URL": "https://www.matrixpartners.com/",
+    "Initatives": "The Factual"
+  },
+  {
     "Name": "Intentional Insights",
     "Type": "Other",
     "Funder Description": "\"Intentional Insights is an educational nonpartisan 501(c)(3) nonprofit devoted to promoting science-based truth-seeking, rational thinking, and wise decision-making.\" (Source: Website) ",
@@ -1531,6 +1531,20 @@
     "Funder Description": "Needs more research",
     "URL": "https://emergencyjournalism.net/about-the-project/index.html",
     "Initatives": "The Verification Handbook (EJC)"
+  },
+  {
+    "Name": "African Media Initiative",
+    "Type": "Other",
+    "Funder Description": "The African Media Initiative (AMI) is a pan-African organisation registered in Kenya as a company limited by guarantee. It seeks to strengthen the continent’s private and independent media sector from an owner and operator perspective to promote democratic governance, social development, and economic growth.",
+    "URL": "http://africanmediainitiative.org/about/",
+    "Initatives": "The Verification Handbook (EJC)"
+  },
+  {
+    "Name": "British Government",
+    "Type": "Government",
+    "Funder Description": "Funding initiative from the British government. ",
+    "URL": "https://www.gov.uk/",
+    "Initatives": "Reality Check - BBC ,Veríficalo,Global Disinformation Index,The Verification Handbook (EJC)"
   },
   {
     "Name": "European Journalism Centre (EJC)",
@@ -1628,7 +1642,7 @@
     "Type": null,
     "Funder Description": null,
     "URL": null,
-    "Initatives": "Certified Content Coalition,Quod,News Literacy Project,Faktograf.hr ,Factcheckers,Riddle,Emergent.info,Dispute Finder,Identifact,Remarrk,FiB,Trutheum,dBunk(r),OpenSources,News Cube,Deep Freeze,FactLink,EU DisinfoLab,Blackbird,Verity,Buscador: An OSINT Linux Virtual Machine,Trusted News,Trive,Trusted Times,Userfeeds"
+    "Initatives": "Certified Content Coalition,Quod,News Literacy Project,Faktograf.hr ,Factcheckers,Riddle,Emergent.info,Dispute Finder,Identifact,Remarrk,FiB,Trutheum,dBunk(r) ,OpenSources,News Cube,Deep Freeze,FactLink,EU DisinfoLab,Blackbird,Verity,Buscador: An OSINT Linux Virtual Machine,Trusted News,Trive,Trusted Times,Userfeeds"
   },
   {
     "Name": "Twitter",
@@ -1670,14 +1684,14 @@
     "Type": "Other",
     "Funder Description": null,
     "URL": null,
-    "Initatives": "Snopes,La Voce,Taiwan FactCheck Center,Voice of San Diego - Voice of San Diego,Health Feedback,The Nevada Independant,Climate Feedback,Science Feedback,The Whistle,Datalyrics,The Media Bias Chart,Captain Fact,WikiTribune"
+    "Initatives": "Snopes,La Voce,Taiwan FactCheck Center,Voice of San Diego - Fact Check,Health Feedback,The Nevada Independant,Climate Feedback,Science Feedback,The Whistle,Datalyrics,The Media Bias Chart,Captain Fact,WikiTribune"
   },
   {
     "Name": "Self-Funding",
     "Type": "Other",
     "Funder Description": "Includes crowd-funding, bootstrapping and seed rounds / angel investment, and funding from owners or parent companies.",
     "URL": null,
-    "Initatives": "BS Detector,Factual,FakerFact,Fiskkit,Full Fact,Hercule,NewsCheck,Our.News,Twitter Elections Integrity Archive,Web Literacy for Student Fact Checkers,YouTube Data Viewer (Amnesty International),Trustium ,Social Media Guide ,Citizen Evidence Lab ,Servicio de Información Pública,The Media Bias Chart,Marvelous,Metafact,Nobias,Pagella Politica,WebQoof,The Journal.ie,Lead Stories,Digital Eye India,AFP Factual,Mafindo,Maldito Bulo,Newtral,Fact Checking Chile,Faktabaari,Detector de Mentiras,News Provenance Project,Verifica,Ellinika Hoaxes,Estadão Verifica ,Le Monde - Les Décodeur,Vishvas News,Agência Lupa,Channel 4 - Fact Check,Truth or Fiction ,Lui President,La Chistera,Bien Chequeado,Chile Check,Cucuyo Chequea,MyWOT,WikiTribune"
+    "Initatives": "BS Detector,The Factual,FakerFact,Fiskkit,Full Fact,Hercule,NewsCheck,Our.News,Twitter Elections Integrity Archive,Web Literacy for Student Fact Checkers,YouTube Data Viewer (Amnesty International),Trustium ,Social Media Guide ,Citizen Evidence Lab ,Servicio de Información Pública,The Media Bias Chart,Marvelous,Metafact,Nobias,Pagella Politica,WebQoof,The Journal.ie,Lead Stories,Digital Eye India,AFP Factual,Mafindo,Maldito Bulo,Newtral,Fact Checking Chile,Faktabaari,Detector de Mentiras,News Provenance Project,Verifica,Ellinika Hoaxes,Estadão Verifica ,Le Monde - Les Décodeur,Vishvas News,Agência Lupa,Channel 4 - Fact Check,Truth or Fiction ,Lui President,La Chistera,Bien Chequeado,Chile Check,Cocuyo Chequea,MyWOT,WikiTribune"
   },
   {
     "Name": "FOJO: Media Institute",

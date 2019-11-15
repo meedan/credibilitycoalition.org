@@ -9,9 +9,9 @@
   },
   {
     "Organization Name": "[SAME AS INITIATIVE]",
-    "Organization Description": "[The initiative is the organization]",
+    "Organization Description": "The initiative is the same as the organization ",
     "Home URL": null,
-    "Table 1": "BitPress,BS Detector,Captain Fact,Certified Content Coalition,Factual,Civil,dBunk(r),Global Disinformation Index,Dispute Finder,Dirt Protocol,Deepnews.ai,Deep Freeze,Full Fact,NewsGuard,FactLink,NewsCheck,NewsTracker,Hypothes.is,The Verification Handbook (EJC),TrustServista,Verity,Deeptrace,Nobias,Fiskkit,Factmata,Metafact,Marvelous,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",Blackbird,Content Blockchain Project,FakerFact,First Draft News,ObserLatInf,Trive,The Trusting News Project,Servicio de Información Pública,Africa Check,BOOM,Datalyrics,DROG,CORRECTIV.ORG,Lead Stories,The Nevada Independant,Dubawa,Aos Fatos,ZimFact,Congo Check,Demagog Association,Australian Associated Press FactCheck,Factcheckers,Tsek,Science Feedback,WikiTribune,Vistinomer,Faktabaari,Main Street One ,We Verify,Dagens Nyheter,Ukraine Crisis Media Center ,Riddle,Debunk EU,Ecuador Chequea,EU DisinfoLab,Fact Check Kazakhstan ,Hoaks Atau Fakta?,Identifact,La Voce,Le Monde - Les Décodeur,Libération - CheckNews,Cek Fakta - Liputan 6 ,Mafindo,Maldito Bulo,Media Ownership Monitor,NewsMobile Fact Checker,Newtral,Observador Fact Check,OpenSources,Pagella Politica,Patikrinta 15min,Pesa Check,Poletika,Polígrafo,Quod,Rappler Fact Check,rbutr,Taiwan FactCheck Center,The Conversation Australia,The Journal.ie,WebQoof,The Washington Post Fact-Checker,The Whistle,Trusted Times,VERA Files Fact Check,Vishvas News,Web Literacy for Student Fact Checkers,Buscador: An OSINT Linux Virtual Machine,Trutheum,Verifica,Veríficalo",
+    "Table 1": "BitPress,BS Detector,Captain Fact,Certified Content Coalition,Civil,dBunk(r) ,Global Disinformation Index,Dispute Finder,Dirt Protocol,Deepnews.ai,Deep Freeze,Full Fact,NewsGuard,FactLink,NewsCheck,Hypothes.is,The Verification Handbook (EJC),TrustServista,Verity,Deeptrace,Nobias,Fiskkit,Factmata,Metafact,Marvelous,Blackbird,Content Blockchain Project,FakerFact,First Draft News,Trive,The Trusting News Project,Servicio de Información Pública,Africa Check,BOOM,Datalyrics,DROG,CORRECTIV.ORG,Lead Stories,The Nevada Independant,Dubawa,Aos Fatos,ZimFact,Congo Check,Demagog Association,Factcheckers,Science Feedback,Vistinomer,Faktabaari,Main Street One ,We Verify,Dagens Nyheter,Ukraine Crisis Media Center ,Riddle,Debunk EU,Ecuador Chequea,EU DisinfoLab,Fact Check Kazakhstan ,Identifact,La Voce,Mafindo,Maldito Bulo,NewsMobile Fact Checker,Newtral,Observador Fact Check,OpenSources,Pagella Politica,Patikrinta 15min,Pesa Check,Poletika,Polígrafo,Quod,rbutr,Taiwan FactCheck Center,The Conversation Australia,The Journal.ie,The Whistle,Trusted Times,VERA Files Fact Check,Vishvas News,Web Literacy for Student Fact Checkers,Trutheum,Veríficalo,Ellinika Hoaxes,The Trust Project,The Factual,Markkula Center for Applied Ethics,News Literacy Project,Serelay,SOMA (Social Observatory for Disinformation and Social Media Analysis),Trustium ,Userfeeds,Pressland",
     "Notes": null,
     "Name": null
   },
@@ -19,7 +19,7 @@
     "Organization Name": "9 News",
     "Organization Description": "Nine News is the national news service of the Nine Network in Australia. Its flagship program is the hour-long 6:00 pm state bulletin, produced by Nine's owned-and-operated stations in Sydney, Melbourne, Brisbane, Adelaide and Perth. National bulletins also air on weekday mornings and weekend afternoons.",
     "Home URL": "https://www.9news.com.au/",
-    "Table 1": "Truth Tests",
+    "Table 1": "Truth Tests,Tsek",
     "Notes": null,
     "Name": null
   },
@@ -28,6 +28,14 @@
     "Organization Description": "\"20 Minutes is an independent and free news media based on humanistic values ​​and democratic principles, shared and promoted by its shareholders, Sipa/Ouest-France and Groupe Rossel.\" (Source: Website) ",
     "Home URL": "https://www.20minutes.fr/",
     "Table 1": "Fake off",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "ABC-CBN News",
+    "Organization Description": "\"Alto Broadcasting System – Chronicle Broadcasting Network, loved by many as ABS-CBN, is the leading media and entertainment organization in the Philippines. From its humble beginnings to its undeniable successes, the company has over 60 years of stories to tell.\" (Source: Website) ",
+    "Home URL": "https://news.abs-cbn.com/",
+    "Table 1": "Tsek",
     "Notes": null,
     "Name": null
   },
@@ -67,7 +75,7 @@
     "Organization Name": "Al Jazeera Media Network ",
     "Organization Description": "\"Since its founding in 1996, Al Jazeera's history has been inexorably tied to the world’s major events.  In Al Jazeera’s work you can find it all, from the heights of the indomitability of the human spirit to the lows of dictatorship, repression and the abuse of power.  For decades Al Jazeera has been pushing the boundaries of free access to information, free thought and free expression in one of the most uncompromising parts of the world.\" (Source: Website) ",
     "Home URL": "https://network.aljazeera.com/",
-    "Table 1": "Finding the Truth Amongst Fakes,Verificado 2018",
+    "Table 1": "Finding the Truth Amongst Fakes,Verificado 2018,Verifica",
     "Notes": null,
     "Name": null
   },
@@ -152,10 +160,34 @@
     "Name": null
   },
   {
+    "Organization Name": "Ateneo University",
+    "Organization Description": "\"To understand the soul of the Ateneo de Manila University -- what shaped it and where it came from, where it is going and where it can take you -- it is essential to understand its motto, Lux in Domino, or \"Light in the Lord.\"\"(Source: Website) ",
+    "Home URL": "http://www.ateneo.edu/",
+    "Table 1": "Tsek",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "Australian Associated Press",
+    "Organization Description": "\"AAP is the media company that businesses turn to for news, information and publishing solutions. With breaking news firmly at our core, our vast range of products and services help clients connect with and engage their audiences. AAP is your integrated, simple solution.\" (Source: Website) ",
+    "Home URL": "https://www.aap.com.au/",
+    "Table 1": "Australian Associated Press FactCheck",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "Australian Broadcasting Corporation",
     "Organization Description": "\"Launched in 1932, the ABC has become a much loved part of the Australian society and its cultural fabric. From a single radio service, the ABC has developed into a multi-platform media operation and a public broadcaster of international renown, delivering Australian stories and conversations across the nation and to the region.\" (Source: Website) ",
     "Home URL": "https://www.abc.net.au/",
     "Table 1": "RMIT ABC Fact Check",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "Baguio Midland Courier",
+    "Organization Description": "\"The www.baguiomidlandcourier.com.ph is the official website of Baguio Midland Courier\" (Source: Website) ",
+    "Home URL": "http://www.baguiomidlandcourier.com.ph/",
+    "Table 1": "Tsek",
     "Notes": null,
     "Name": null
   },
@@ -211,7 +243,23 @@
     "Organization Name": "City University of New York Newmark - Tow-Knight Center ",
     "Organization Description": "\"At the Craig Newmark Graduate School of Journalism at the City University of New York, change is in our DNA. That comes of being born in 2006, as the digital revolution was transforming our profession in ways none of us could have imagined.  We fashioned a school to teach the latest storytelling, entrepreneurial, and technological skills alongside reporting, writing, and ethics. Beyond that, we’ve crafted a culture that spurns complacency, that isn’t afraid to pivot before the ground under us shifts.\" (Source: Website) ",
     "Home URL": "https://www.journalism.cuny.edu/centers/tow-knight-center-entrepreneurial-journalism/",
-    "Table 1": "News Integrity Initiative ,NewsQA",
+    "Table 1": "News Integrity Initiative ,NewsQ",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "Civic at TED",
+    "Organization Description": " \"(Coalition to Integrate Values Into the Information Commons)\" (Source: Wired Magazine) ",
+    "Home URL": " https://www.wired.com/story/claire-wardle-ted-2019-crowdsource-against-misinformation/",
+    "Table 1": "NewsQ",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "CLTV 36",
+    "Organization Description": "\"Central Luzon Television is a regional infotainment television network, based in the Central Luzon region in the Philippines with callsign DWRW-TV. The network is owned and managed by RadioWorld Broadcasting Corporation, a subsidiary of the Laus Group of Companies.\" (Source: Wikipedia)",
+    "Home URL": "cltv36.tv",
+    "Table 1": "Tsek",
     "Notes": null,
     "Name": null
   },
@@ -288,6 +336,14 @@
     "Name": null
   },
   {
+    "Organization Name": "De La Salle University",
+    "Organization Description": "\"De La Salle University positions itself as a leader in molding human resources who serve the church and the nation. It is a Catholic coeducational institution founded in 1911 by the Brothers of the Christian Schools. The University is a hub for higher education training renowned for its academic excellence, prolific and relevant research, and involved community service.\" (Source: Website) ",
+    "Home URL": "https://www.dlsu.edu.ph/",
+    "Table 1": "Tsek",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "Demagog Association",
     "Organization Description": "\"The Demagog Association is the first fact-checking organization in Poland. Our main goal is to improve the quality of public debate by providing unbiased and reliable information to citizens.\" (Source: Website) ",
     "Home URL": " https://demagog.org.pl",
@@ -320,6 +376,14 @@
     "Name": null
   },
   {
+    "Organization Name": "Digital Democracy",
+    "Organization Description": "\"Digital Democracy is a new online platform featuring a searchable database of state legislative committees hearings, allowing the user to search videos by keyword, topic, speaker or date. (Source: Website) ",
+    "Home URL": "https://iatpp.calpoly.edu/digital-democracy",
+    "Table 1": "Duke Tech & Check Cooperative ",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "Duke University - Reporter's Lab",
     "Organization Description": "\"The Reporters’ Lab is a center for journalism research in the Sanford School of Public Policy at Duke University. Our core projects focus on fact-checking, but we also do occasional research about trust in the news media and other topics.\" (Source: Website) ",
     "Home URL": "https://reporterslab.org/",
@@ -328,10 +392,18 @@
     "Name": null
   },
   {
+    "Organization Name": "DZUP1602",
+    "Organization Description": "\"DZUP is the official AM radio station of the University of the Philippines Diliman. DZUP airs from Monday to Friday, 9:00 AM to 8:00 PM.  Its transmitter enables DZUP to air around Mega Manila, Central Luzon and Southern Tagalog. DZUP Online, the online counterpart of the terrestrial radio, provides the means for live streaming worldwide. Since the revitalization of DZUP in 2010, the station has successfully transformed itself into an educational community radio station which offers matinong usapan para sa maunlad na bayan. Its tagline Kasali Ka aims to convey the message that DZUP is not only for the UP community but also for everyone.\" (Source: Website) ",
+    "Home URL": "https://dzup.org/about/",
+    "Table 1": "Tsek",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "Efecto Cucuyo",
     "Organization Description": "\"Efecto Cocuyo is a Venezuelan website devoted to independent media. The website was co-founded in January 2015 by Laura Weffer, former director of Venezuelan newspaper Diario 2001 Luz Mely Reyes, and Josefina Ruggiero, former Content Director of Cadena Capriles—both award-winning journalists.\" (Source: https://en.wikipedia.org/wiki/Efecto_Cocuyo)",
     "Home URL": "efectococuyo.com/",
-    "Table 1": "Cucuyo Chequea",
+    "Table 1": "Cocuyo Chequea",
     "Notes": null,
     "Name": null
   },
@@ -403,7 +475,7 @@
     "Organization Name": "Facebook Journalism Project",
     "Organization Description": "\"Working together with publishers around the world through trainings, programs, and partnerships, we can help strengthen communities by connecting people with meaningful journalism.\" (Source: Website) ",
     "Home URL": "https://www.facebook.com/facebookmedia/solutions/facebook-journalism-project",
-    "Table 1": "Duke Tech & Check Cooperative ",
+    "Table 1": null,
     "Notes": null,
     "Name": null
   },
@@ -440,7 +512,7 @@
     "Name": null
   },
   {
-    "Organization Name": "Folha",
+    "Organization Name": "Folha de S.Paulo",
     "Organization Description": "\"The Folha Group is one of the country's main media conglomerates. It controls the newspaper with the largest circulation and influence (Folha de S.Paulo), the largest Brazilian internet content and service company (UOL), the newspaper news site with the most viewers (Folha.com) and the largest printing business in Brazil (Plural), along with other businesses.\" (Source: Website) ",
     "Home URL": "https://www.folha.uol.com.br/",
     "Table 1": "Agência Lupa",
@@ -484,6 +556,14 @@
     "Organization Description": "\"La Voz Pública is a non-profit, non-partisan organization that works to improve the quality of public discourse seen as a decisive factor in the credibility of democratic institutions.\" (Source: Website)",
     "Home URL": "http://www.chequeado.com",
     "Table 1": "Chequeado",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "Gallup",
+    "Organization Description": "\"Gallup, Inc. is an American analytics and advisory company based in Washington, D.C. Founded by George Gallup in 1935, the company became known for its public opinion polls conducted worldwide.\" (Source: Wikipedia) ",
+    "Home URL": "https://www.gallup.com",
+    "Table 1": "\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\"",
     "Notes": null,
     "Name": null
   },
@@ -579,7 +659,7 @@
     "Organization Name": "INACTIVE",
     "Organization Description": null,
     "Home URL": null,
-    "Table 1": "News Cube",
+    "Table 1": null,
     "Notes": null,
     "Name": null
   },
@@ -592,7 +672,7 @@
     "Name": null
   },
   {
-    "Organization Name": "Institute of Global Affairs (IGA) - London School of Economics and Political Science (LSE)",
+    "Organization Name": "Institute of Global Affairs (IGA) - London School of Economics and Political Science ",
     "Organization Description": "\"The IGA aims to build a vibrant intellectual environment for original, rigorous and significant thinking and broader impact in London, but also to form an alliance of centres of excellence in research and policy thinking in emerging economies.\" (Source: Website) ",
     "Home URL": "http://www.lse.ac.uk/iga",
     "Table 1": "ARENA Project - London School of Economics",
@@ -608,10 +688,26 @@
     "Name": null
   },
   {
+    "Organization Name": "IntelTeqniques",
+    "Organization Description": "\"OSINT Training, Privacy Consulting, Digital Security\" (Source: Website) ",
+    "Home URL": "https://inteltechniques.com/index.html",
+    "Table 1": "Buscador: An OSINT Linux Virtual Machine",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "Intentional Insights",
     "Organization Description": "\"Intentional Insights is an educational nonpartisan 501(c)(3) nonprofit devoted to promoting science-based truth-seeking, rational thinking, and wise decision-making.\" (Source: Website) ",
     "Home URL": "https://intentionalinsights.org/",
     "Table 1": "The Pro-Truth Pledge",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "Interaksyon",
+    "Organization Description": "\"The new Interaksyon builds on the legacy of the original portal of TV5. Now under the auspices of Philstar Global, Interaksyon tells stories behind online conversations that would otherwise be detached from facts or circumstances.\" (Source: Website) ",
+    "Home URL": "http://www.interaksyon.com/",
+    "Table 1": "Tsek",
     "Notes": null,
     "Name": null
   },
@@ -688,10 +784,26 @@
     "Name": null
   },
   {
+    "Organization Name": "Knight Foundation",
+    "Organization Description": "\"The John S. and James L. Knight Foundation is an American non-profit foundation dedicated to fostering \"informed and engaged communities\" which the foundation believes are \"essential for a healthy democracy.\"\" (Source: Wikipedia) ",
+    "Home URL": "https://knightfoundation.org",
+    "Table 1": "\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\"",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "Knight Prototype Fund",
     "Organization Description": "\"The Knight Prototype Fund helped media makers, technologists and tinkerers take ideas from concept to demo. With grants of $50,000, innovators were given nine months to research, test core assumptions and iterate before building out an entire project.\" (Source: Website) ",
     "Home URL": "https://knightfoundation.org/prototype/",
     "Table 1": "Knight Prototype Fund on Misinformation",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "Kompas",
+    "Organization Description": "\"Kompas is an Indonesian national newspaper. Published by Kompas Gramedia, it has been in publication since 28 June 1965.  Kompas also manages an online portal KOMPAS.id, which contains updated news and the digital version of the paper. (Source: Wikipedia) ",
+    "Home URL": "https://www.kompas.com/",
+    "Table 1": "Hoaks Atau Fakta?",
     "Notes": null,
     "Name": null
   },
@@ -712,10 +824,34 @@
     "Name": null
   },
   {
+    "Organization Name": "Le Monde",
+    "Organization Description": "\"Le Monde is one of the French newspapers of record, counting also Libération, and Le Figaro, and the main publication of Le Monde Group. It reported an average circulation of 323,039 copies per issue in 2009, about 40,000 of which were sold abroad.\" (Source: Wikipedia) ",
+    "Home URL": "https://www.lemonde.fr/",
+    "Table 1": "Le Monde - Les Décodeur",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "Libération",
+    "Organization Description": "\"Libération, popularly known as Libé, is a daily newspaper in France, founded in Paris by Jean-Paul Sartre and Serge July in 1973 in the wake of the protest movements of May 1968.\" (Source: Wikipedia)",
+    "Home URL": "https://www.liberation.fr/checknews,100893",
+    "Table 1": "Libération - CheckNews",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "Liputan 6",
+    "Organization Description": "\"Liputan 6 (The Six Report) is a flagship television news program that broadcasts on the Indonesian TV station SCTV. Its slogan is \"Aktual, Tajam, dan Terpercaya\" (Actual, Sharp, and Trusted).\" (Source: Wiipedia)",
+    "Home URL": "https://www.liputan6.com/",
+    "Table 1": "Cek Fakta - Liputan 6 ",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "Markkula Center for Applied Ethics",
     "Organization Description": "\"The mission of the Markkula Center for Applied Ethics is to engage individuals and organizations in making choices that ​respect and care for others.\" (Source: Website) ",
     "Home URL": "https://www.scu.edu/ethics/about-the-center/history/",
-    "Table 1": "Executive Roundtable on Digital Journalism Ethics,Markkula Center for Applied Ethics",
+    "Table 1": "Executive Roundtable on Digital Journalism Ethics",
     "Notes": null,
     "Name": null
   },
@@ -744,6 +880,14 @@
     "Name": null
   },
   {
+    "Organization Name": "Minda News",
+    "Organization Description": "\"MindaNews is the news service arm of the Mindanao Institute of Journalism. It is composed of independent, professional journalists who believe and practice people empowerment through media.\" (Source: Website) ",
+    "Home URL": "https://www.mindanews.com/",
+    "Table 1": "Tsek",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "MIT - Haystack Group",
     "Organization Description": "\"Our goal is to make it easier for people to collect, organize, find, visualize, and share their information. We are an interdisciplinary group of researchers blending approaches from human-computer interaction, social computing, databases, web infrastructure, information retrieval, artificial intelligence and the Semantic Web.\" (Source: Website) ",
     "Home URL": "http://haystack.csail.mit.edu/",
@@ -760,7 +904,7 @@
     "Name": null
   },
   {
-    "Organization Name": "Mogilyansk school of journalism",
+    "Organization Name": "Mohyla School of Journalism ",
     "Organization Description": "\"The Mohyla School of Journalism is a unique educational center that combines theoretical training, practical experience, and research in mass communications, film, and journalism.\" (Source: Website) ",
     "Home URL": "http://msj.ukma.edu.ua/ua/about/",
     "Table 1": "Stop Fake",
@@ -779,7 +923,7 @@
     "Organization Name": "NBC",
     "Organization Description": "\"NBC News is the news division of the American broadcast television network NBC. The division operates under NBCUniversal Broadcast, Cable, Sports and News, a subsidiary of NBCUniversal, in turn a subsidiary of Comcast. The group's various operations report to the president of NBC News, Noah Oppenheim.\" (Source: https://en.wikipedia.org/wiki/NBC_News)",
     "Home URL": "https://www.nbc.com/",
-    "Table 1": "Truth Tests",
+    "Table 1": null,
     "Notes": null,
     "Name": null
   },
@@ -795,7 +939,7 @@
     "Organization Name": "News Literacy Project",
     "Organization Description": "\"The News Literacy Project is a national education nonprofit offering nonpartisan, independent programs that teach students how to know what to believe in the digital age.\" (Source: Website) ",
     "Home URL": "https://newslit.org/about/",
-    "Table 1": "Checkology,News Literacy Project",
+    "Table 1": "Checkology",
     "Notes": null,
     "Name": null
   },
@@ -912,6 +1056,14 @@
     "Name": null
   },
   {
+    "Organization Name": "PBS Newshour",
+    "Organization Description": "\"For more than 40 years, millions of Americans and citizens of the world have turned to the PBS NewsHour for the solid, reliable reporting that has made it one of the most trusted news programs on television.\" (Source: Website) ",
+    "Home URL": "https://www.pbs.org/newshour/about",
+    "Table 1": "NewsTracker",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "PEN Center",
     "Organization Description": "\"PEN America stands at the intersection of literature and human rights to protect free expression in the United States and worldwide. We champion the freedom to write, recognizing the power of the word to transform the world. Our mission is to unite writers and their allies to celebrate creative expression and defend the liberties that make it possible.\" (Source: Website) ",
     "Home URL": "https://pen.org/about-us/",
@@ -924,6 +1076,14 @@
     "Organization Description": "\"Pew Research Center is a nonpartisan fact tank that informs the public about the issues, attitudes and trends shaping the world. It conducts public opinion polling, demographic research, media content analysis and other empirical social science research.\" (Source: Website) ",
     "Home URL": "www.pewresearch.org/",
     "Table 1": "\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\"",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "PhilStarGlobal",
+    "Organization Description": null,
+    "Home URL": null,
+    "Table 1": null,
     "Notes": null,
     "Name": null
   },
@@ -960,6 +1120,14 @@
     "Name": null
   },
   {
+    "Organization Name": "Probe",
+    "Organization Description": "\"We believe in the power of media to educate, to persuade and to change our society. We are Probe Productions Inc., an independent media production company based in the Philippines.\" (Source: Website) ",
+    "Home URL": "https://probe.ph/",
+    "Table 1": "Tsek",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "Public Data Lab",
     "Organization Description": "\"The Public Data Lab seeks to facilitate research, democratic engagement and public debate around the future of the data society.\" (Source: Website) ",
     "Home URL": "http://publicdatalab.org/",
@@ -984,6 +1152,14 @@
     "Name": null
   },
   {
+    "Organization Name": "Rappler",
+    "Organization Description": "\"Rappler, a social news network where stories inspire community engagement and digitally fuelled actions for social change. Rappler comes from the root words \"rap\" (to discuss) + \"ripple\" (to make waves).\" (Source: Website) ",
+    "Home URL": "https://www.rappler.com/",
+    "Table 1": "Tsek,Rappler Fact Check",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "Re:Baltica (Baltic Center for Research Journalism)",
     "Organization Description": "\"The Baltic Center for Investigative Journalism Re:Baltica is a non-profit organization that produces investigative journalism in the public interest.\" (Source: Website) ",
     "Home URL": "https://rebaltica.lv/",
@@ -995,7 +1171,7 @@
     "Organization Name": "Reporters without Borders",
     "Organization Description": "\"Based in Paris, Reporters Without Borders (RSF) is an independent NGO with consultative status with the United Nations, UNESCO, the Council of Europe and the International Organization of the Francophonie (OIF).\" (Source: Website) ",
     "Home URL": "rsf.org",
-    "Table 1": "Journalism Trust Initiative",
+    "Table 1": "Journalism Trust Initiative,Media Ownership Monitor",
     "Notes": null,
     "Name": null
   },
@@ -1059,7 +1235,7 @@
     "Organization Name": "Social Science Research Council",
     "Organization Description": "\"We launched the SDI in April to provide the social science research community with secure, reliable access to proprietary social media data.\" (Source: Website) ",
     "Home URL": "https://www.ssrc.org/pages/announcing-the-social-media-and-democracy-research-grants/",
-    "Table 1": "SSRC Social Media Democracy Research Grants,Disinformation Research Mapping Initiative ",
+    "Table 1": "SSRC Social Media Democracy Research Grants,Media Well",
     "Notes": null,
     "Name": null
   },
@@ -1075,7 +1251,7 @@
     "Organization Name": "SOMA (Social Observatory for Disinformation and Social Media Analysis)",
     "Organization Description": "\"Following the European Commission Communication on tackling online disinformation, SOMA (Social Observatory for Disinformation and Social Media Analysis) has been launched to provide support to a European community that will jointly fight disinformation.\" (Source: Website) ",
     "Home URL": "https://www.disinfobservatory.org/",
-    "Table 1": "SOMA (Social Observatory for Disinformation and Social Media Analysis)",
+    "Table 1": null,
     "Notes": null,
     "Name": null
   },
@@ -1091,7 +1267,7 @@
     "Organization Name": "Startup Initiative",
     "Organization Description": null,
     "Home URL": null,
-    "Table 1": "Factmata,FakerFact,Fiskkit,Trustium ,MyWOT,NewsCheck,Userfeeds,Fatima ,Marvelous,Metafact,Nobias,Deeptrace,Serelay",
+    "Table 1": null,
     "Notes": null,
     "Name": null
   },
@@ -1144,10 +1320,34 @@
     "Name": null
   },
   {
+    "Organization Name": "The Internet Archive",
+    "Organization Description": "\"Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more.\" (Source: Website) ",
+    "Home URL": "https://archive.org/",
+    "Table 1": "Duke Tech & Check Cooperative ",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "The New York Times - Research and Development",
     "Organization Description": "\"Founded in 2006, The New York Times Research & Development group looks beyond the next product cycle, identifying trends and technologies that will emerge in the next three to five years. Our team of Creative Technologists, Designers, Data Scientists and Strategists develop applications and prototypes that imagine the impacts and effects these changes will create, and we share those prototypes with our colleagues, advertisers and the public to encourage thoughtful consideration of the future of media and information.\" (Source: Website) ",
     "Home URL": "http://nytlabs.com/about.html",
     "Table 1": "News Provenance Project",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "The Philippine Star",
+    "Organization Description": "\"Philstar.com is a Philippine news, sports, lifestyle and entertainment portal for the Filipino global community. It is the digital arm of the STAR Group of Publications, a leading publisher of newspapers and magazines in the Philippines.\" (Source: Website) ",
+    "Home URL": "https://www.philstar.com/the-philippine-star",
+    "Table 1": "Tsek",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "The Quint",
+    "Organization Description": "\"Our team is a collective of newshounds, maverick story tellers, editors, producers, designers, analysts and reporters who have cut their teeth on the best news teams in the country. We make sense of the systematic chaos that is the world today and seek to bring you the story, however you want it – on your phone through videos, op-eds, infographics, animations and documentaries.\" (Source: Website) ",
+    "Home URL": "https://www.thequint.com/",
+    "Table 1": "WebQoof",
     "Notes": null,
     "Name": null
   },
@@ -1157,6 +1357,22 @@
     "Home URL": "https://ifcncodeofprinciples.poynter.org/application/public/factcheckerin/2B3B4EC7-2276-F648-15B5-3DCC4A10B596",
     "Table 1": "FactChecker.in ",
     "Notes": "Needs more research",
+    "Name": null
+  },
+  {
+    "Organization Name": "The Washington Post",
+    "Organization Description": "\"The Washington Post is a major American daily newspaper published in Washington, D.C. It has the largest circulation in the Washington metropolitan area. Daily broadsheet editions are printed for the District of Columbia, Maryland, and Virginia. The newspaper has won 47 Pulitzer Prizes.\" (Source: Wikipedia)",
+    "Home URL": "https://www.washingtonpost.com/",
+    "Table 1": "The Washington Post Fact-Checker",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "Truth Goggles",
+    "Organization Description": "\"Truth Goggles attempts to decrease the polarizing effect of perceived media bias by forcing people to question all sources equally by invoking fact-checking services at the point of media consumption. Readers will approach even their most trusted sources with a more critical mentality by viewing content through various \"lenses\" of truth.\" (Source: https://www.media.mit.edu/projects/truth-goggles/overview/)",
+    "Home URL": "https://www.media.mit.edu/projects/truth-goggles/overview/",
+    "Table 1": "Duke Tech & Check Cooperative ",
+    "Notes": null,
     "Name": null
   },
   {
@@ -1195,7 +1411,15 @@
     "Organization Name": "University of Texas",
     "Organization Description": "\"Ranked among the biggest and best research universities in the country, UT Austin is home to more than 51,000 students and 3,000 teaching faculty.\" (Source: Website) ",
     "Home URL": "https://www.utexas.edu/",
-    "Table 1": "Claim Buster",
+    "Table 1": "Claim Buster,Duke Tech & Check Cooperative ",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "University of the Philippines",
+    "Organization Description": "\"The University of the Philippines (UP) is the country’s national university. This premier institution of higher learning was established in 1908 and is now a university system composed of eight constituent universities and one autonomous college spread throughout 17 campuses in the archipelago.\" (Source: Website) ",
+    "Home URL": "https://www.up.edu.ph/",
+    "Table 1": "Tsek",
     "Notes": null,
     "Name": null
   },
@@ -1204,6 +1428,14 @@
     "Organization Description": "\"The Pontifical Catholic University of Chile is one of the six Catholic Universities existing in the Chilean university system and one of the two Pontifical Universities in the country, along with the Pontifical Catholic University of Valparaíso.\" (Source: https://en.wikipedia.org/wiki/Pontifical_Catholic_University_of_Chile) ",
     "Home URL": "https://www.uc.cl/",
     "Table 1": "Fact Checking Chile",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "Vera Files",
+    "Organization Description": "\"VERA Files is a nonstock, nonprofit independent media organization registered with the Securities and Exchange Commission (Company Registration No. CN200808072). Founded in March 2008, it is published by veteran Filipino journalists taking a deeper look into current Philippine issues. Vera is Latin for “true.”\" (Source: Website) ",
+    "Home URL": "https://verafiles.org/",
+    "Table 1": "Tsek",
     "Notes": null,
     "Name": null
   },
@@ -1219,7 +1451,7 @@
     "Organization Name": "Voice of San Diego",
     "Organization Description": "\"Voice of San Diego is a nonprofit news organization. We were founded in 2005 by Union-Tribune columnist Neil Morgan and entrepreneur Buzz Woolley because they felt the region needed more reporting, analysis and journalistic competition.\" (Source: Website) ",
     "Home URL": "https://www.voiceofsandiego.org/",
-    "Table 1": "Voice of San Diego - Voice of San Diego",
+    "Table 1": "Voice of San Diego - Fact Check",
     "Notes": null,
     "Name": null
   },
@@ -1251,7 +1483,7 @@
     "Organization Name": "Wikimedia Foundation ",
     "Organization Description": "\"Wikimedia is a global movement whose mission is to bring free educational content to the world.  Through various projects, chapters, and the support structure of the non-profit Wikimedia Foundation, Wikimedia strives to bring about a world in which every single human being can freely share in the sum of all knowledge.\" (Source: Website) ",
     "Home URL": "https://www.wikimedia.org/",
-    "Table 1": null,
+    "Table 1": "WikiTribune",
     "Notes": null,
     "Name": null
   },
