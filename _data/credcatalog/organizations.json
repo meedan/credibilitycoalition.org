@@ -11,7 +11,7 @@
     "Organization Name": "[SAME AS INITIATIVE]",
     "Organization Description": "The initiative is the same as the organization ",
     "Home URL": null,
-    "Table 1": "BitPress,BS Detector,Captain Fact,Certified Content Coalition,Civil,dBunk(r) ,Global Disinformation Index,Dispute Finder,Dirt Protocol,Deepnews.ai,Deep Freeze,Full Fact,NewsGuard,FactLink,NewsCheck,Hypothes.is,The Verification Handbook (EJC),TrustServista,Verity,Deeptrace,Nobias,Fiskkit,Factmata,Metafact,Marvelous,Blackbird,Content Blockchain Project,FakerFact,First Draft News,Trive,The Trusting News Project,Servicio de Información Pública,Africa Check,BOOM,Datalyrics,DROG,CORRECTIV.ORG,Lead Stories,The Nevada Independant,Dubawa,Aos Fatos,ZimFact,Congo Check,Demagog Association,Factcheckers,Science Feedback,Vistinomer,Faktabaari,Main Street One ,We Verify,Dagens Nyheter,Ukraine Crisis Media Center ,Riddle,Debunk EU,Ecuador Chequea,EU DisinfoLab,Fact Check Kazakhstan ,Identifact,La Voce,Mafindo,Maldito Bulo,NewsMobile Fact Checker,Newtral,Observador Fact Check,OpenSources,Pagella Politica,Patikrinta 15min,Pesa Check,Poletika,Polígrafo,Quod,rbutr,Taiwan FactCheck Center,The Conversation Australia,The Journal.ie,The Whistle,Trusted Times,VERA Files Fact Check,Vishvas News,Web Literacy for Student Fact Checkers,Trutheum,Veríficalo,Ellinika Hoaxes,The Trust Project,The Factual,Markkula Center for Applied Ethics,News Literacy Project,Serelay,SOMA (Social Observatory for Disinformation and Social Media Analysis),Trustium ,Userfeeds,Pressland",
+    "Table 1": "BitPress,BS Detector,Captain Fact,Certified Content Coalition,Civil,dBunk(r) ,Global Disinformation Index,Dispute Finder,Dirt Protocol,Deepnews.ai,Deep Freeze,Full Fact,NewsGuard,FactLink,NewsCheck,Hypothes.is,The Verification Handbook (EJC),TrustServista,Verity,Deeptrace,Nobias,Fiskkit,Factmata,Metafact,Marvelous,Blackbird,Content Blockchain Project,FakerFact,First Draft News,Trive,The Trusting News Project,Servicio de Información Pública,Africa Check,BOOM,Datalyrics,DROG,CORRECTIV.ORG,Lead Stories,The Nevada Independant,Dubawa,Aos Fatos,ZimFact,Congo Check,Demagog Association,Factcheckers,Science Feedback,Vistinomer,Faktabaari,Main Street One ,We Verify,Dagens Nyheter,Ukraine Crisis Media Center ,Riddle,Debunk EU,Ecuador Chequea,Fact Check Kazakhstan ,Identifact,La Voce,Mafindo,Maldito Bulo,NewsMobile Fact Checker,Newtral,Observador Fact Check,OpenSources,Pagella Politica,Patikrinta 15min,Pesa Check,Poletika,Polígrafo,Quod,rbutr,Taiwan FactCheck Center,The Conversation Australia,The Journal.ie,The Whistle,Trusted Times,VERA Files Fact Check,Vishvas News,Web Literacy for Student Fact Checkers,Trutheum,Veríficalo,Ellinika Hoaxes,The Trust Project,The Factual,News Literacy Project,Serelay,SOMA (Social Observatory for Disinformation and Social Media Analysis),Trustium ,Userfeeds,Pressland",
     "Notes": null,
     "Name": null
   },
@@ -249,9 +249,9 @@
   },
   {
     "Organization Name": "Civic at TED",
-    "Organization Description": " \"(Coalition to Integrate Values Into the Information Commons)\" (Source: Wired Magazine) ",
-    "Home URL": " https://www.wired.com/story/claire-wardle-ted-2019-crowdsource-against-misinformation/",
-    "Table 1": "NewsQ",
+    "Organization Description": " (Coalition to Integrate Values Into the Information Commons)",
+    "Home URL": null,
+    "Table 1": null,
     "Notes": null,
     "Name": null
   },
@@ -459,7 +459,7 @@
     "Organization Name": "European External Action Service East Stratcom Task Force",
     "Organization Description": "\"The Task Force was set up to address Russia's ongoing disinformation campaigns. In March 2015, the European Council tasked the High Representative in cooperation with EU institutions and Member States to submit an action plan on strategic communication.\" (Source: Website) ",
     "Home URL": "https://eeas.europa.eu/headquarters/headquarters-homepage/2116/-questions-and-answers-about-the-east-stratcom-task-force_en",
-    "Table 1": "EU vs Disinformation",
+    "Table 1": "EU vs Disinformation,EU DisinfoLab",
     "Notes": null,
     "Name": null
   },
@@ -635,7 +635,7 @@
     "Organization Name": "Hacks/Hackers",
     "Organization Description": "\"Hacks/Hackers is a rapidly expanding international grassroots journalism organization with dozens of chapters (and counting) and thousands of members across four continents (and counting). Our mission is to create a network of journalists (“hacks”) and technologists (“hackers”) who rethink the future of news and information.\" (Source: Website) ",
     "Home URL": "https://hackshackers.com/about/",
-    "Table 1": "Credibility Coalition,MisinfoCon",
+    "Table 1": "Credibility Coalition,MisinfoCon,News Integrity Initiative ",
     "Notes": null,
     "Name": null
   },
@@ -976,7 +976,7 @@
     "Name": null
   },
   {
-    "Organization Name": "NYU’s Stern School of Business, Center on Business and Human Rights",
+    "Organization Name": "NYU Stern Center for Business and Human Rights",
     "Organization Description": "\"The NYU Stern Center for Business and Human Rights is located at the Leonard N. Stern School of Business at New York University. Michael Posner serves as the Director. He and Sarah Labowitz co-founded the Center in 2013. The Center offers classes, conducts research, and carries out projects on current business and human rights challenges.\" (Source: Website) ",
     "Home URL": "http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/centers-of-research/business-and-human-rights",
     "Table 1": "Combating Russian Disinformation",
@@ -1074,7 +1074,7 @@
   {
     "Organization Name": "Pew Research Center",
     "Organization Description": "\"Pew Research Center is a nonpartisan fact tank that informs the public about the issues, attitudes and trends shaping the world. It conducts public opinion polling, demographic research, media content analysis and other empirical social science research.\" (Source: Website) ",
-    "Home URL": "www.pewresearch.org/",
+    "Home URL": "https://www.pewresearch.org/",
     "Table 1": "\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\"",
     "Notes": null,
     "Name": null
@@ -1099,7 +1099,7 @@
     "Organization Name": "PolitiFact",
     "Organization Description": "\"Fact-checking journalism is the heart of PolitiFact. Our core principles are independence, transparency, fairness, thorough reporting and clear writing. The reason we publish is to give citizens the information they need to govern themselves in a democracy.\" (Source: Website) ",
     "Home URL": "https://www.politifact.com/",
-    "Table 1": "PolitiFact",
+    "Table 1": null,
     "Notes": null,
     "Name": null
   },
@@ -1115,7 +1115,7 @@
     "Organization Name": "Poynter Institute",
     "Organization Description": "\"The Poynter Institute is a global leader in journalism. It is the world’s leading instructor, innovator, convener and resource for anyone who aspires to engage and inform citizens.\" (Source: Website) ",
     "Home URL": "https://www.poynter.org/",
-    "Table 1": "International Fact-Checking Network,Fact Check EU",
+    "Table 1": "International Fact-Checking Network,Fact Check EU,PolitiFact",
     "Notes": null,
     "Name": null
   },
@@ -1140,6 +1140,14 @@
     "Organization Description": "News organization. Spanish online newspaper. ",
     "Home URL": "https://www.publico.es/",
     "Table 1": "Transparency Map",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "Radio Free Europe",
+    "Organization Description": "\"RFE/RL journalists report the news in 22 countries where a free press is banned by the government or not fully established. We provide what many people cannot get locally: uncensored news, responsible discussion, and open debate.\" (Source: Website) ",
+    "Home URL": "https://www.rferl.org/",
+    "Table 1": "Factograph (BBG)",
     "Notes": null,
     "Name": null
   },
@@ -1197,6 +1205,14 @@
     "Home URL": "https://sabew.org/",
     "Table 1": null,
     "Notes": "I did not find any specific initiative related to misinformation in which this organization is involved. ",
+    "Name": null
+  },
+  {
+    "Organization Name": "Santa Clara University",
+    "Organization Description": "\"Located in the heart of Silicon Valley, Santa Clara University blends high-tech innovation with a social consciousness grounded in the Jesuit educational tradition.\" (Source: Website) ",
+    "Home URL": "https://www.scu.edu/aboutscu/",
+    "Table 1": "Markkula Center for Applied Ethics",
+    "Notes": null,
     "Name": null
   },
   {
@@ -1379,7 +1395,7 @@
     "Organization Name": "TV Today Network Ltd.",
     "Organization Description": "\"The TV Today Network is an English-Hindi news television network based in India.\" (Source: https://en.wikipedia.org/wiki/TV_Today_Network) ",
     "Home URL": "https://en.wikipedia.org/wiki/TV_Today_Network",
-    "Table 1": "T. V. Today Network Fact Check",
+    "Table 1": "India Today Fact Check",
     "Notes": null,
     "Name": null
   },
@@ -1403,7 +1419,7 @@
     "Organization Name": "U.S. Agency for Global Media (formerly BBG)",
     "Organization Description": "\"The U.S. Agency for Global Media is an independent federal agency that seeks to inform, engage and connect people around the world in support of freedom and democracy.\" (Source: Website) ",
     "Home URL": "https://www.usagm.gov/",
-    "Table 1": "Polygraph (BBG),Factograph (BBG)",
+    "Table 1": "Polygraph (BBG)",
     "Notes": null,
     "Name": null
   },
@@ -1444,6 +1460,14 @@
     "Organization Description": "\"Verdens Gang, generally known under the abbreviation VG, is a Norwegian newspaper.\" (Source: https://en.wikipedia.org/wiki/Verdens_Gang) ",
     "Home URL": "https://www.vg.no/",
     "Table 1": "Faktisk",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "Voice of America",
+    "Organization Description": "\"Voice of America (VOA) is the largest U.S. international broadcaster, providing news and information in more than 40 languages to an estimated weekly audience of more than 275 million people. VOA produces content for digital, television, and radio platforms. It is easily accessed via your mobile phone and on social media. It is also distributed by satellite, cable, FM and MW, and is carried on a network of approximately 2,200 affiliate stations.\" (Source: Website) ",
+    "Home URL": "https://www.voanews.com/",
+    "Table 1": "Factograph (BBG)",
     "Notes": null,
     "Name": null
   },
