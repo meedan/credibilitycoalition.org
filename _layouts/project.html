@@ -131,7 +131,7 @@ custom_css: page
                   <div class="col col-a"><h5>Owner</h5></div>
                   <div class="col col-b">
                     {% for org in orgs %}
-                      {% assign url = site.data.credcatalog.organizations | where: "Organization Name", org | first | pluck: "Home URL" | trim %}
+                      {% assign url = site.data.credcatalog.organizations | where_exp: "item", "item['Organization Name'] contains org" | first | pluck: "Home URL" | trim %}
                       <span class="capsule">
                         {% if url != '' %}<a target="_blank" rel="noopener noreferrer" href="{{ url }}">{{ org }}</a>
                         {% else %}{{ org }}
