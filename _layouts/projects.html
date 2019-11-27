@@ -117,7 +117,7 @@
 
         <script type="text/javascript" charset="utf-8">
           {% capture svg %}{% include spectra.svg %}{% endcapture %}
-          var rowData = {{ site.data.credcatalog.initiatives | credify: svg | jsonify}};
+          var rowData = {{ site.data.credcatalog.initiatives | credify_projects: svg | jsonify}};
 
           function renderHTML(params) {
             // render the HTML verbatim

@@ -5,7 +5,7 @@ module Jekyll
   module CredCatalog
     include Jekyll::Sanitizer
 
-    def credify(projects, svg)
+    def credify_projects(projects, svg)
       projects.map { |project| project.merge({
         'NameLinked' => '<a class="project-name" href="/credcatalog/project/%s">%s</a>' % [
           sanitize_filename(project['Name']),
@@ -21,9 +21,9 @@ module Jekyll
           ]}
           .join(', '),
         'Spectra' => _spectra(project, svg),
-        'CategoriesCleaned' => split_better(project['Solutions Categories'], ',').join(', '),
-        'LocationCleaned' => split_better(project['Location'], ',').join(', '),
-        'LanguagesCleaned' => split_better(project['Languages-2'], ',').join(', ')
+        'CategoriesCleaned' => split_better(project['Solutions Categories'], ',').sort.join(', '),
+        'LocationCleaned' => split_better(project['Location'], ',').sort.join(', '),
+        'LanguagesCleaned' => split_better(project['Languages-2'], ',').sort.join(', ')
       })}
     end
 
@@ -50,7 +50,12 @@ module Jekyll
       target_hash = _schema_hash(target)
       projects.select { |project|
         project['Name'] != target['Name'] &&
-        target_hash == _schema_hash(project)
+        (
+          target_hash == _schema_hash(project) ||
+          target['CategoriesCleaned'] == project['CategoriesCleaned'] ||
+          target['LocationCleaned'] == project['LocationCleaned'] ||
+          target['LanguagesCleaned'] == project['LanguagesCleaned']
+        )
       }
     end
 
