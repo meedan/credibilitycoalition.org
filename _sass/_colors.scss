@@ -8,15 +8,6 @@ body {
 .colors--inverted {
   background-color: $black-87;
   color: $white;
-
-  a {
-    border-bottom: 3px solid $white-20;
-    color: $white-70;
-
-    &:hover {
-      color: $white;
-    }
-  }
 }
 
 .colors--alternate {

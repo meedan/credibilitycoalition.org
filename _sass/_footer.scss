@@ -1,9 +1,14 @@
 .footer {
+  font: $font--mono;
   p {
     color: $light-keyboard-grey;
   }
-
   a {
-    font: $font--mono;
+    border-bottom: 3px solid $white-20;
+    color: $white-70;
+
+    &:hover {
+      color: $white;
+    }
   }
 }
