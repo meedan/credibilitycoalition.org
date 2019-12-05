@@ -11,15 +11,23 @@
     "Organization Name": "[SAME AS INITIATIVE]",
     "Organization Description": "The initiative is the same as the organization ",
     "Home URL": null,
-    "Table 1": "BitPress,BS Detector,Captain Fact,Certified Content Coalition,Civil,dBunk(r) ,Global Disinformation Index,Dispute Finder,Dirt Protocol,Deepnews.ai,Deep Freeze,Full Fact,NewsGuard,FactLink,NewsCheck,Hypothes.is,The Verification Handbook (EJC),TrustServista,Verity,Deeptrace,Nobias,Fiskkit,Factmata,Metafact,Marvelous,Blackbird,Content Blockchain Project,FakerFact,First Draft News,Trive,The Trusting News Project,Servicio de Información Pública,Africa Check,BOOM,Datalyrics,DROG,CORRECTIV.ORG,Lead Stories,The Nevada Independant,Dubawa,Aos Fatos,ZimFact,Congo Check,Demagog Association,Factcheckers,Science Feedback,Vistinomer,Faktabaari,Main Street One ,We Verify,Dagens Nyheter,Ukraine Crisis Media Center ,Riddle,Debunk EU,Ecuador Chequea,Fact Check Kazakhstan ,Identifact,La Voce,Mafindo,Maldito Bulo,NewsMobile Fact Checker,Newtral,Observador Fact Check,OpenSources,Pagella Politica,Patikrinta 15min,Pesa Check,Poletika,Polígrafo,Quod,rbutr,Taiwan FactCheck Center,The Conversation Australia,The Journal.ie,The Whistle,Trusted Times,VERA Files Fact Check,Vishvas News,Web Literacy for Student Fact Checkers,Trutheum,Veríficalo,Ellinika Hoaxes,The Trust Project,The Factual,News Literacy Project,Serelay,SOMA (Social Observatory for Disinformation and Social Media Analysis),Trustium ,Userfeeds,Pressland",
+    "Table 1": "BitPress,BS Detector,Captain Fact,Certified Content Coalition,Civil,dBunk(r) ,Global Disinformation Index,Dispute Finder,Dirt Protocol,Deepnews.ai,Deep Freeze,Full Fact,NewsGuard,FactLink,NewsCheck,Hypothes.is,The Verification Handbook (EJC),TrustServista,Verity,Deeptrace,Nobias,Fiskkit,Factmata,Metafact,Marvelous,Blackbird,Content Blockchain Project,FakerFact,First Draft News,Trive,The Trusting News Project,Servicio de Información Pública,Africa Check,BOOM,Datalyrics,DROG,CORRECTIV.ORG,Lead Stories,Dubawa,Aos Fatos,Congo Check,Demagog Association,Factcheckers,Science Feedback,Vistinomer,Faktabaari,Main Street One ,We Verify,Dagens Nyheter,Ukraine Crisis Media Center ,Riddle,Debunk EU,Ecuador Chequea,Fact Check Kazakhstan ,Identifact,La Voce,Mafindo,NewsMobile Fact Checker,Newtral,Observador Fact Check,OpenSources,Pagella Politica,Pesa Check,Poletika,Polígrafo,Quod,rbutr,Taiwan FactCheck Center,The Conversation Australia,The Journal.ie,The Whistle,Trusted Times,VERA Files Fact Check,Vishvas News,Web Literacy for Student Fact Checkers,Trutheum,Veríficalo,Ellinika Hoaxes,The Trust Project,The Factual,News Literacy Project,Serelay,SOMA (Social Observatory for Disinformation and Social Media Analysis),Trustium ,Userfeeds,Pressland",
     "Notes": null,
     "Name": null
   },
   {
     "Organization Name": "9 News",
-    "Organization Description": "Nine News is the national news service of the Nine Network in Australia. Its flagship program is the hour-long 6:00 pm state bulletin, produced by Nine's owned-and-operated stations in Sydney, Melbourne, Brisbane, Adelaide and Perth. National bulletins also air on weekday mornings and weekend afternoons.",
+    "Organization Description": "\"Nine News is the national news service of the Nine Network in Australia. Its flagship program is the hour-long 6:00 pm state bulletin, produced by Nine's owned-and-operated stations in Sydney, Melbourne, Brisbane, Adelaide and Perth. National bulletins also air on weekday mornings and weekend afternoons.\" (Source: Website) ",
     "Home URL": "https://www.9news.com.au/",
     "Table 1": "Truth Tests,Tsek",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "15min",
+    "Organization Description": "\"15min is one of the largest news websites in Lithuania\" (Source: Wikipedia)",
+    "Home URL": "https://www.15min.lt/",
+    "Table 1": "Patikrinta 15min",
     "Notes": null,
     "Name": null
   },
@@ -258,7 +266,7 @@
   {
     "Organization Name": "CLTV 36",
     "Organization Description": "\"Central Luzon Television is a regional infotainment television network, based in the Central Luzon region in the Philippines with callsign DWRW-TV. The network is owned and managed by RadioWorld Broadcasting Corporation, a subsidiary of the Laus Group of Companies.\" (Source: Wikipedia)",
-    "Home URL": "cltv36.tv",
+    "Home URL": "http://cltv36.tv",
     "Table 1": "Tsek",
     "Notes": null,
     "Name": null
@@ -273,7 +281,7 @@
   },
   {
     "Organization Name": "Columbia University - Graduate School of Journalism",
-    "Organization Description": "The Columbia University Graduate School of Journalism is the journalism school of Columbia University. ",
+    "Organization Description": "\"We are one of the leading journalism schools in the world. We are also one of the oldest with more than 100 years of experience in educating journalism’s future leaders and trailblazers. Our tradition is rooted in the bedrock values of journalistic ethics and excellence, but we are also leaders of cutting-edge journalistic innovation and media scholarship. \" (Source: Website) ",
     "Home URL": "https://journalism.columbia.edu/",
     "Table 1": "Columbia Journalism Review",
     "Notes": null,
@@ -281,7 +289,7 @@
   },
   {
     "Organization Name": "Columbia University - Tow Center for Digital Journalism",
-    "Organization Description": "Led by their new Director of Research Jonathan Albright (an expert on the emerging online disinformation ecosystem), their research focus is evolving. Past projects focused on understanding the benefits and challenges of automated reporting tools, large-scale data and impact evaluation metrics, story impact on audiences, etc. They have been funded by the Knight Foundation.",
+    "Organization Description": "\"Operating as an institute within Columbia University’s Graduate School of Journalism, the Tow Center is poised to take advantage of a unique combination of factors to foster the development of digital journalism. Its New York location affords access to cutting-edge technologists, a strong culture of journalism and multiple journalism and communication schools, with outstanding universities attached to them. The Tow Center is where technology and journalism meet, and where education and practice meet.\" (Source: Website) ",
     "Home URL": "https://towcenter.org/",
     "Table 1": "Emergent.info",
     "Notes": null,
@@ -400,9 +408,9 @@
     "Name": null
   },
   {
-    "Organization Name": "Efecto Cucuyo",
+    "Organization Name": "Efecto Cocuyo",
     "Organization Description": "\"Efecto Cocuyo is a Venezuelan website devoted to independent media. The website was co-founded in January 2015 by Laura Weffer, former director of Venezuelan newspaper Diario 2001 Luz Mely Reyes, and Josefina Ruggiero, former Content Director of Cadena Capriles—both award-winning journalists.\" (Source: https://en.wikipedia.org/wiki/Efecto_Cocuyo)",
-    "Home URL": "efectococuyo.com/",
+    "Home URL": "https://efectococuyo.com/",
     "Table 1": "Cocuyo Chequea",
     "Notes": null,
     "Name": null
@@ -489,7 +497,7 @@
   },
   {
     "Organization Name": "Factmata",
-    "Organization Description": "\"Factmata has developed patent-pending technology to deal with hate speech, propaganda, fake news and clickbait. Their goal is to be able to provide a real time quality and credibility score to any piece of content on the web. Their new platform, Briefr, is a new social network in beta for calm, considered news discussion, focused on quality and credibility over likes and popularity.\" (Source: Organization/Initiative Website)",
+    "Organization Description": "\"Factmata has developed patent-pending technology to deal with hate speech, propaganda, fake news and clickbait. Their goal is to be able to provide a real time quality and credibility score to any piece of content on the web. Their new platform, Briefr, is a new social network in beta for calm, considered news discussion, focused on quality and credibility over likes and popularity.\" (Source: Website)",
     "Home URL": null,
     "Table 1": "Trusted News",
     "Notes": null,
@@ -617,7 +625,7 @@
   },
   {
     "Organization Name": "Google News Initiative",
-    "Organization Description": "The Google News Initiative is our effort to work with the news industry to help journalism thrive in the digital age.",
+    "Organization Description": "\"The Google News Initiative is our effort to work with the news industry to help journalism thrive in the digital age.\" (Source: Website) ",
     "Home URL": "https://newsinitiative.withgoogle.com/",
     "Table 1": null,
     "Notes": null,
@@ -666,7 +674,7 @@
   {
     "Organization Name": "Indiana University Center for Complex Networks and Systems Research",
     "Organization Description": "\"The mission of CNetS is to foster interdisciplinary research in all areas related to complex networks and systems, computational social science, and data science.\" (Source: Website) ",
-    "Home URL": "cnets.indiana.edu/",
+    "Home URL": "https://cnets.indiana.edu/",
     "Table 1": "Hoaxy",
     "Notes": "Used to be Observatory on Social Media?\n",
     "Name": null
@@ -676,14 +684,6 @@
     "Organization Description": "\"The IGA aims to build a vibrant intellectual environment for original, rigorous and significant thinking and broader impact in London, but also to form an alliance of centres of excellence in research and policy thinking in emerging economies.\" (Source: Website) ",
     "Home URL": "http://www.lse.ac.uk/iga",
     "Table 1": "ARENA Project - London School of Economics",
-    "Notes": null,
-    "Name": null
-  },
-  {
-    "Organization Name": "IntelTechniques.com ",
-    "Organization Description": "\"OSINT Training, Privacy Consulting, Digital Security\" (Source: Website) ",
-    "Home URL": "https://inteltechniques.com/index.html",
-    "Table 1": null,
     "Notes": null,
     "Name": null
   },
@@ -721,7 +721,7 @@
   },
   {
     "Organization Name": "International Federation of Journalists",
-    "Organization Description": "The IFJ, the world's largest organisation of journalists, represents 600,000 media professionals from 187 trade unions and associations in more than 140 countries.",
+    "Organization Description": "\"The IFJ, the world's largest organisation of journalists, represents 600,000 media professionals from 187 trade unions and associations in more than 140 countries.\" (Source: Website) ",
     "Home URL": "https://www.ifj.org/who/about-ifj.html",
     "Table 1": null,
     "Notes": null,
@@ -848,6 +848,14 @@
     "Name": null
   },
   {
+    "Organization Name": "Maldita.es",
+    "Organization Description": "\"Maldita.es is an independent journalistic platform focused on the control of disinformation and public discourse through fact-checking and data journalism techniques.\" (Source: Organization Website) ",
+    "Home URL": "https://maldita.es/",
+    "Table 1": "Maldito Bulo",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "Markkula Center for Applied Ethics",
     "Organization Description": "\"The mission of the Markkula Center for Applied Ethics is to engage individuals and organizations in making choices that ​respect and care for others.\" (Source: Website) ",
     "Home URL": "https://www.scu.edu/ethics/about-the-center/history/",
@@ -874,7 +882,7 @@
   {
     "Organization Name": "metro.se",
     "Organization Description": "\"Metro Media House, a national swedish newspaper and media house. Owned by the Custos Group.\" (Source: IFCN Signatory Website) ",
-    "Home URL": "metro.se",
+    "Home URL": "https://metro.se",
     "Table 1": "Viralgranskaren",
     "Notes": null,
     "Name": null
@@ -1178,7 +1186,7 @@
   {
     "Organization Name": "Reporters without Borders",
     "Organization Description": "\"Based in Paris, Reporters Without Borders (RSF) is an independent NGO with consultative status with the United Nations, UNESCO, the Council of Europe and the International Organization of the Francophonie (OIF).\" (Source: Website) ",
-    "Home URL": "rsf.org",
+    "Home URL": "https://rsf.org",
     "Table 1": "Journalism Trust Initiative,Media Ownership Monitor",
     "Notes": null,
     "Name": null
@@ -1257,7 +1265,7 @@
   },
   {
     "Organization Name": "SoftmediaHub LLP",
-    "Organization Description": "SoftmediaHub LLP is associated with Digital Eye India. ",
+    "Organization Description": "SoftmediaHub LLP is associated with Digital Eye India. (Source: https://ifcncodeofprinciples.poynter.org/profile/soft-media-hub-llp)",
     "Home URL": "https://ifcncodeofprinciples.poynter.org/profile/soft-media-hub-llp",
     "Table 1": "Digital Eye India",
     "Notes": null,
@@ -1340,6 +1348,14 @@
     "Organization Description": "\"Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more.\" (Source: Website) ",
     "Home URL": "https://archive.org/",
     "Table 1": "Duke Tech & Check Cooperative ",
+    "Notes": null,
+    "Name": null
+  },
+  {
+    "Organization Name": "The Nevada Independent",
+    "Organization Description": "\"We provide Nevadans with in-depth news coverage and informed opinions that shed light on the matters that affect them most. We operate as a reader-supported nonprofit that is committed to transparency in how we are funded and how we report.\" (Source: Organization Website) ",
+    "Home URL": "https://thenevadaindependent.com/",
+    "Table 1": "The Nevada Independent Fact Checks",
     "Notes": null,
     "Name": null
   },
@@ -1480,6 +1496,14 @@
     "Name": null
   },
   {
+    "Organization Name": "Voluntary Media Council of Zimbabwe",
+    "Organization Description": "\"VMCZ is a professional media self-regulatory body set up in 2007 by Zimbabwean journalists and other stakeholders in civil society who subscribe to the principles of media freedom, accountability, independence, and ethical journalism. VMCZ’s mission is to promote a strong and ethical media with the ability to contribute to building a more democratic and just society within policy and legal environments that facilitate growth and development of independent, pluralistic, and free media.\" (Source: Organization Website)",
+    "Home URL": "http://www.vmcz.org/",
+    "Table 1": "ZimFact",
+    "Notes": null,
+    "Name": null
+  },
+  {
     "Organization Name": "W3C Credible Web Community Group",
     "Organization Description": "\"The mission of the W3C Credible Web Community Group is to help shift the Web toward more trustworthy content without increasing censorship or social division. We want users to be able to tell when content is reliable, accurate, and shared in good faith, and to help them steer away from deceptive content.\" (Source: Website) ",
     "Home URL": "https://www.w3.org/community/credibility/",
@@ -1490,7 +1514,7 @@
   {
     "Organization Name": "WAN-IFRA",
     "Organization Description": "\"The World Association of News Publishers, or WAN-IFRA, is the global organisation of the world’s press. It derives its authority from its global network of 3,000 news publishing companies and technology entrepreneurs, and its legitimacy from its 60 member publisher associations representing 18,000 publications in 120 countries.\" (Source: Website) ",
-    "Home URL": "www.wan-ifra.org/",
+    "Home URL": "http://www.wan-ifra.org/",
     "Table 1": "Global Council to Build Trust in Media and Fight Misinformation",
     "Notes": null,
     "Name": null
@@ -1522,7 +1546,7 @@
   {
     "Organization Name": "WOT Services",
     "Organization Description": "\"With the WOT extension installed, you will see a small icon in your browser's address bar. The icon shows you the site's rating - green indicates a trustworthy site, yellow signals suspicious, and red indicates danger. (Source: Website) ",
-    "Home URL": "www.mywot.com",
+    "Home URL": "https://www.mywot.com",
     "Table 1": "MyWOT",
     "Notes": "Red Flag  On November 2016, german news undercover that Wot Services was selling private navigation data from MyWOT users to german government agencies.   http://www.spiegel.de/netzwelt/web/web-of-trust-browser-add-on-spioniert-angeblich-nutzer-aus-a-1119236.html  https://www.heise.de/newsticker/meldung/Millionen-Surf-Profile-<-stammen-angeblich-auch-von-Browser-Addon-WOT-3453820.html",
     "Name": null
