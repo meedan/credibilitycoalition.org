@@ -148,7 +148,8 @@ custom_css: page
           </div>
 
           {% assign funders = page['Funders'] | trim | split_better: ',' %}
-          {% if funders.size > 0 and funders.first != '[needs more research]' %}
+          {% if funders.size > 0 %}
+          {% unless funders.size == 1 and funders.first == '[needs more research]' %}
           <div class="row page-details">
             <div class="col col-a page-details-header">
               <div class="cap"></div>
@@ -158,6 +159,7 @@ custom_css: page
             <div class="col col-b">
               <div class="row list">
                 {% for funder in funders %}
+                {% unless funder == '[needs more research]' %}
                 <div class="col list-item">
                   <a href="/credcatalog/funder/{{ funder | sanitize_filename }}">
                     <h5>{{ funder }}</h5>
@@ -166,10 +168,12 @@ custom_css: page
                     </div>
                   </a>
                 </div>
+                {% endunless %}
                 {% endfor %}
               </div>
             </div>
           </div>
+          {% endunless %}
           {% endif %}
 
           {% assign similars = site.data.credcatalog.initiatives | similar_to: page %}
