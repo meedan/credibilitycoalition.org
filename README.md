@@ -14,10 +14,10 @@ export CONTENTFUL_ENVIRONMENT=develop
 ```
 
 Variables are set in the contentful section of `_config.yml`. Get your Contentful space id and access token using the [Contentful web app](https://app.contentful.com/). Open the space that you want to access (the top left corner lists all spaces), and navigate to the *Settings > API keys*. Select the *API keys* option and there should be an existing API key under *Microsite* for Popup.news.
-  
+
 And run `source ~/.bashrc` or open new terminal to enable changes.
 
-4. `bundle exec jekyll contentful --rebuild` to build the site by fetching content from Contentful 
+4. `bundle exec jekyll contentful --rebuild` to build the site by fetching content from Contentful
 5. `bundle exec jekyll serve` to serve the site at [http://127.0.0.1:4000](http://127.0.0.1:4000)
 6. Edit .scss, .html and .js files. The browser should live-reload.
 
@@ -38,3 +38,10 @@ credibilitycoalition.org is deployed on Netlify. Adding a website on Netlify is 
 5. To configure custom build command for deploying changes made to the Develop environment in Contentful, use Netlify's [Deploy Contexts](https://www.netlify.com/docs/continuous-deployment/#deploy-contexts) to specify the build command in a [netlify.toml](https://github.com/meedan/popupnewsroom/blob/master/netlify.toml) file. To deploy develop use this build command: `CONTENTFUL_ENVIRONMENT=develop bundle exec jekyll contentful --rebuild`
 
 See [Continuous Deployment](https://www.netlify.com/docs/continuous-deployment) on Netlify docs to learn more.
+
+## CredCatalog
+
+CredCatalog is a database of credibility initiatives stored on Airtable. Assuming you have access to the correct database there, you first need to download the tables locally before building the site. Here's how:
+- Download tables *Initiatives*, *Organizations*, *Scale Options* and *Funders/Sponsors* as CSV.
+- Run each CSV through the supplied script `_scripts/csv2json.rb`, sending the JSON output to `_data/credcatalog` as per the existing filenames.
+- You may need to remove the first record of `_data/credcatalog/initiatives.json` which is a blank record.

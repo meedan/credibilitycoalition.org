@@ -13,7 +13,7 @@
   .credco-medium {
     img {
       height: $width--large-gutter;
-      margin: ($width--small-gutter+$width--xsmall-gutter);
+      margin: $width--large-gutter;
       margin-bottom: 0;
 
       @include when-smaller-than(medium) {
@@ -27,9 +27,9 @@
     flex: 3;
     justify-content: flex-end;
     flex-wrap: wrap;
-    margin-right: $width--small-gutter;
+    margin-right: $width--large-gutter;
     padding: 0;
-    
+
     @include when-smaller-than(medium) {
       justify-content: flex-start;
     }
@@ -67,18 +67,26 @@
         color: $web-blue;
       }
     }
+
+    // .map & a {
+    //   color: $white;
+    // }
+
   }
 }
 
 // Page navigation: current page indicator
-@each $page in about, approach, definitions, results, updates, jobs {
+@each $page in about, approach, definitions, results, updates, jobs, credcatalog {
   .#{$page} {
     .#{$page} {
       a {
-        box-shadow: inset 0 -3px 0 $web-blue;
-        color: $web-blue;
-        font-weight: 700;
+        @include nav_link();
       }
     }
   }
+}
+
+// Additional current page indicator for nested links
+.funders .credcatalog {
+  @include nav_link();
 }

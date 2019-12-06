@@ -16,7 +16,7 @@
 title: Credibility Coalition
 email: hello@credibilitycoalition.org
 description: >- # this means to ignore newlines until "baseurl:"
-  We are an interdisciplinary community committed to improving our information ecosystems 
+  We are an interdisciplinary community committed to improving our information ecosystems
   and media literacy through transparent and collaborative exploration.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -48,7 +48,7 @@ reload_port: 5678    # If you don't want to use the default port
 contentful:
   output: true
   spaces:
-    - pages: 
+    - pages:
         space: ENV_CONTENTFUL_CC_SPACE_ID
         access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
         environment: ENV_CONTENTFUL_ENVIRONMENT
@@ -56,7 +56,7 @@ contentful:
           content_type: 'page'
         all_entries: true
         destination: 'contentful/spaces/'
-    - jobPostings: 
+    - jobPostings:
         space: ENV_CONTENTFUL_CC_SPACE_ID
         access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
         environment: ENV_CONTENTFUL_ENVIRONMENT
@@ -64,7 +64,7 @@ contentful:
           content_type: 'jobPosting'
         all_entries: true
         destination: 'contentful/spaces/'
-    - profiles: 
+    - profiles:
         space: ENV_CONTENTFUL_CC_SPACE_ID
         access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
         environment: ENV_CONTENTFUL_ENVIRONMENT
@@ -72,7 +72,7 @@ contentful:
           content_type: 'profile'
         all_entries: true
         destination: 'contentful/spaces/'
-    - navigations: 
+    - navigations:
         space: ENV_CONTENTFUL_CC_SPACE_ID
         access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
         environment: ENV_CONTENTFUL_ENVIRONMENT
@@ -80,7 +80,7 @@ contentful:
           content_type: 'navigation'
         all_entries: true
         destination: 'contentful/spaces/'
-    - updates: 
+    - updates:
         space: ENV_CONTENTFUL_CC_SPACE_ID
         access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
         environment: ENV_CONTENTFUL_ENVIRONMENT
@@ -88,7 +88,7 @@ contentful:
           content_type: 'update'
         all_entries: true
         destination: 'contentful/spaces/'
-    - mentions: 
+    - mentions:
         space: ENV_CONTENTFUL_CC_SPACE_ID
         access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
         environment: ENV_CONTENTFUL_ENVIRONMENT
@@ -96,7 +96,7 @@ contentful:
           content_type: 'mention'
         all_entries: true
         destination: 'contentful/spaces/'
-    - organisations: 
+    - organisations:
         space: ENV_CONTENTFUL_CC_SPACE_ID
         access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
         environment: ENV_CONTENTFUL_ENVIRONMENT
@@ -105,9 +105,7 @@ contentful:
         all_entries: true
         destination: 'contentful/spaces/'
 
-
-
-# Generate pages from Contentful data files
+# Generate pages from Contentful and CredMap data files
 page_gen-dirs: true
 page_gen:
   - data: 'contentful.spaces.pages.page'
@@ -118,3 +116,11 @@ page_gen:
     template: 'job'
     name: 'slug'
     dir: 'jobs'
+  - data: 'credcatalog.initiatives'
+    template: 'project'
+    name: 'Name'
+    dir: 'credcatalog/project'
+  - data: 'credcatalog.funders'
+    template: 'funder'
+    name: 'Name'
+    dir: 'credcatalog/funder'

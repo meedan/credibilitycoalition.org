@@ -1,8 +1,0 @@
-{
-  "sys": {
-    "type": "Error",
-    "id": "SomeError"
-  },
-  "details": "some text",
-  "message": "Some error occurred."
-}

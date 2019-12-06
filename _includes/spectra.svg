@@ -1,0 +1,38 @@
+<svg
+   version="1.1"
+   viewBox="0 0 26.458332 26.458334"
+   height="80"
+   width="80">
+  <g
+     transform="translate(0,-270.54165)"
+     id="layer1">
+    <rect
+       y="270.54166"
+       x="0"
+       height="6.6145835"
+       width="26.458334"
+       id="theory"
+       style="fill:#27a786;fill-opacity:1;" />
+    <rect
+       y="277.15622"
+       x="0"
+       height="6.6145835"
+       width="26.458334"
+       id="practice"
+       style="fill:#FFB34D;fill-opacity:1;" />
+    <rect
+       y="283.77081"
+       x="0"
+       height="6.6145835"
+       width="26.458334"
+       id="message"
+       style="fill:#8D78EF;fill-opacity:1;" />
+    <rect
+       y="290.38541"
+       x="0"
+       height="6.6145835"
+       width="26.458334"
+       id="infrastructure"
+       style="fill:#36c3dd;fill-opacity:1;" />
+  </g>
+</svg>

@@ -1,0 +1,217 @@
+---
+custom_css: page
+---
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body class="page {%if page.url %}{{ page.url | slugify }}{% endif %}">
+
+    {% include nav.html %}
+
+    <main>
+        <div class="section-inner-wide">
+          <div class="page-header">
+              <div class="cap"><a href="/credcatalog">Project</a></div>
+              <h1>{{ page['Name'] }}</h1>
+              {% if page['Description'] %}
+                <div class="page-description">{{ page['Description'] | linkify | markdownify }}</div>
+              {% endif %}
+              {% if page['URL'] %}
+                <div class="page-meta">
+                  <span>{% include icon_link.html %} <a target="_blank" rel="noopener noreferrer" href="{{ page['URL'] | strip }}">{{ page['URL'] | sanitize_url | truncate: 30 }}</a></span>
+                </div>
+              {% endif %}
+          </div>
+          <div class="row page-details">
+            <div class="col col-a page-details-header">
+              <div class="cap"></div>
+              <h2>Data</h2>
+              <div class="description"></div>
+            </div>
+            <div class="col col-b page-details-data">
+              <div class="row">
+                <div class="col col-a"><h5>Spectra</h5></div>
+                <div class="col col-b">
+                  <div class="row spectra">
+
+                    {% if page['Map Spectra: Theory'] %}
+                    {% assign ranking = site.data.credcatalog.scales | where: "Option", page['Map Spectra: Theory'] | first | pluck: 'Numeric Value' | to_integer %}
+                      <div class="col {% if ranking > 1 %}theory{% else %}dimmed{% endif %}">
+                        <span class="with-tooltip theory" data-tippy-content="{% include info_theory.html %}">Theory <button>{% include icon_info.html %}</button></span>
+                        <span class="value">{% if ranking > 1 %}{% include icon_yes.html %}{% else %}{% include icon_no.html %}{% endif %}</span>
+                      </div>
+                    {% endif %}
+
+                    {% if page['Map Spectra: Practice'] %}
+                    {% assign ranking = site.data.credcatalog.scales | where: "Option", page['Map Spectra: Practice'] | first | pluck: 'Numeric Value' | to_integer %}
+                      <div class="col {% if ranking > 1 %}practice{% else %}dimmed{% endif %}">
+                          <span class="with-tooltip practice" data-tippy-content="{% include info_practice.html %}">Practice <button>{% include icon_info.html %}</button></span>
+                        <span class="value">{% if ranking > 1 %}{% include icon_yes.html %}{% else %}{% include icon_no.html %}{% endif %}</span>
+                      </div>
+                    {% endif %}
+
+                    {% if page['Map Spectra: Message'] %}
+                    {% assign ranking = site.data.credcatalog.scales | where: "Option", page['Map Spectra: Message'] | first | pluck: 'Numeric Value' | to_integer %}
+                      <div class="col {% if ranking > 1 %}content{% else %}dimmed{% endif %}">
+                          <span class="with-tooltip content" data-tippy-content="{% include info_content.html %}">Content <button>{% include icon_info.html %}</button></span>
+                        <span class="value">{% if ranking > 1 %}{% include icon_yes.html %}{% else %}{% include icon_no.html %}{% endif %}</span>
+                      </div>
+                    {% endif %}
+
+                    {% if page['Map Spectra: Infrastructure'] %}
+                    {% assign ranking = site.data.credcatalog.scales | where: "Option", page['Map Spectra: Infrastructure'] | first | pluck: 'Numeric Value' | to_integer %}
+                      <div class="col {% if ranking > 1 %}infrastructure{% else %}dimmed{% endif %}">
+                          <span class="with-tooltip infrastructure" data-tippy-content="{% include info_infrastructure.html %}">Infrastructure <button>{% include icon_info.html %}</button></span>
+                        <span class="value">{% if ranking > 1 %}{% include icon_yes.html %}{% else %}{% include icon_no.html %}{% endif %}</span>
+                      </div>
+                    {% endif %}
+
+                  </div>
+                </div>
+              </div>
+              {% if page['Solutions Categories'] %}
+                {% assign categories = page['Solutions Categories'] | trim | split: ',' %}
+                <div class="row">
+                  <div class="col col-a"><h5>Category</h5></div>
+                  <div class="col col-b">
+                    {% for category in categories %}
+                      <span class="capsule">{{ category }}</span>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+              {% if page['Initiative Types - READONLY'] %}
+              {% assign types = page['Initiative Types - READONLY'] | trim | split: ',' %}
+                <div class="row">
+                  <div class="col col-a"><h5>Types</h5></div>
+                  <div class="col col-b">
+                      {% for type in types %}
+                        <span class="capsule">{{ type }}</span>
+                      {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+              {% if page['Regional Focus'] %}
+              {% assign focuses = page['Regional Focus'] | trim | split: ',' %}
+                <div class="row">
+                  <div class="col col-a"><h5>Regional Focus</h5></div>
+                  <div class="col col-b">
+                    {% for focus in focuses %}
+                      <span class="capsule">{{ focus }}</span>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+              {% if page['Location'] %}
+              {% assign locations = page['Location'] | trim | split: ',' %}
+                <div class="row">
+                  <div class="col col-a"><h5>Location</h5></div>
+                  <div class="col col-b">
+                    {% for location in locations %}
+                      <span class="capsule">{{ location }}</span>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+              {% if page['Languages-2'] %}
+              {% assign languages = page['Languages-2'] | trim | split: ',' %}
+                <div class="row">
+                  <div class="col col-a"><h5>Languages</h5></div>
+                  <div class="col col-b">
+                    {% for language in languages %}
+                      <span class="capsule">{{ language }}</span>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+
+              {% if page['Org Name'] != '[SAME AS INITIATIVE]' or page['"Other" Organizational Name'] %}
+                {% assign orgs = page['Org Name'] | trim | split_better: ',' | where_exp: "item", "item != '[SAME AS INITIATIVE]'"%}
+                <div class="row">
+                  <div class="col col-a"><h5>Owner</h5></div>
+                  <div class="col col-b">
+                    {% for org in orgs %}
+                      {% assign url = site.data.credcatalog.organizations | where_exp: "item", "item['Organization Name'] contains org" | first | pluck: "Home URL" | trim %}
+                      <span class="capsule">
+                        {% if url != '' %}<a target="_blank" rel="noopener noreferrer" href="{{ url }}">{{ org }}</a>
+                        {% else %}{{ org }}
+                        {% endif %}
+                      </span>
+                    {% endfor %}
+                    {% if page['"Other" Organizational Name'] %}
+                      <span class="capsule">{{ page['"Other" Organizational Name'] }}</span>
+                    {% endif %}
+                  </div>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+
+          {% assign funders = page['Funders'] | trim | split_better: ',' %}
+          {% if funders.size > 0 %}
+          {% unless funders.size == 1 and funders.first == '[needs more research]' %}
+          <div class="row page-details">
+            <div class="col col-a page-details-header">
+              <div class="cap"></div>
+              <h2>Funders</h2>
+              <div class="description"></div>
+            </div>
+            <div class="col col-b">
+              <div class="row list">
+                {% for funder in funders %}
+                {% unless funder == '[needs more research]' %}
+                <div class="col list-item">
+                  <a href="/credcatalog/funder/{{ funder | sanitize_filename }}">
+                    <h5>{{ funder }}</h5>
+                    <div class="list-item-footer prop type">
+                      {{ site.data.credcatalog.funders | where: "Name", funder | first | pluck: "Type" }}
+                    </div>
+                  </a>
+                </div>
+                {% endunless %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          {% endunless %}
+          {% endif %}
+
+          {% assign similars = site.data.credcatalog.initiatives | similar_to: page %}
+          {% if similars.size > 0 %}
+          <div class="row page-details">
+            <div class="col col-a page-details-header">
+              <div class="cap"></div>
+              <h2>Explore Other Projects</h2>
+              <div class="description"></div>
+            </div>
+            <div class="col col-b">
+              <div class="row list">
+                {% for similar in similars %}
+                <div class="col list-item">
+                  <a href="/credcatalog/project/{{ similar['Name'] | sanitize_filename }}">
+                    <h5>{{ similar['Name'] }}</h5>
+                    {% if similar['Solutions Categories'] %}
+                    <div class="list-item-footer prop type">
+                      {% assign types = similar['Solutions Categories'] | trim | split_better: ',' %}
+                      {% for type in types %}
+                        <span class="capsule">{{ type }}</span>
+                      {% endfor %}
+                    </div>
+                    {% endif %}
+                  </a>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+        </div>
+    </main>
+    <footer class="colors--inverted layout--relative">
+			{% include footer_cc.html %}
+		</footer>
+
+  </body>
+  {% include js.html %}
+</html>

@@ -1,7 +1,0 @@
-require 'contentful/bootstrap/token'
-require 'contentful/bootstrap/server'
-require 'contentful/bootstrap/version'
-require 'contentful/bootstrap/commands'
-require 'contentful/bootstrap/templates'
-require 'contentful/bootstrap/command_runner'
-require 'contentful/bootstrap/templates/links'

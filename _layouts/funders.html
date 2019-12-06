@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+{% include head_map.html %}
+<body id="credcatalog" class="map funders {%if page.url %}{{ page.url | slugify }}{% endif %}">
+
+  {% include nav.html %}
+
+  <main>
+    <div class="section-inner-wide">
+      <div class="map-header">
+        <div class="map-header-title">
+            <div class="cap">CredCatalog</div>
+            <h1>{{ page.title }}</h1>
+        </div>
+        {% include map_nav.html active="funders" %}
+      </div>
+      {% if page.summary %}
+        <h4>{{ page.summary | markdownify }}</h4>
+      {% endif %}
+
+      <div id="viewFilters" class="view-filters">
+        <div class="mdc-text-field funders">
+          <input class="mdc-text-field__input" id="filter-text-funder" oninput="onFilterChanged()">
+          <div class="mdc-line-ripple"></div>
+          <label for="filter-text-funder" class="mdc-floating-label mdc-floating-label--float-above">Funder</label>
+        </div>
+
+        <div class="mdc-select funding-type">
+          <i class="mdc-select__dropdown-icon"></i>
+          <select id="filter-list-type" class="mdc-select__native-control" onchange="onFilterChanged()">
+            <option value="">&nbsp;</option>
+          {% assign types = site.data.credcatalog.funders | uniq: 'Type' %}
+          {% for type in types %}
+            <option value="{{ type }}">{{ type }}</option>
+          {% endfor %}
+          </select>
+          <label class="mdc-floating-label mdc-floating-label--float-above">Funding Type</label>
+          <div class="mdc-line-ripple"></div>
+        </div>
+      </div>
+
+      <section>
+        <div id="list-view" style="width: 100%;" class="ag-theme-material"></div>
+
+        <script type="text/javascript" charset="utf-8">
+          var rowData = {{ site.data.credcatalog.funders | credify_funders | jsonify}};
+
+          function renderHTML(params) {
+            // render the HTML verbatim
+            // https://stackoverflow.com/a/49624608/209184
+            return params.value ? params.value : '';
+          }
+
+          // specify the columns
+          var columnDefs = [
+            { headerName: 'Funder', field: 'FunderHTML', cellRenderer: renderHTML, sort: 'asc', autoHeight: true },
+            { headerName: 'Description', field: 'Funder Description', width: 400, autoHeight: true, cellClass: 'funder-description' },
+            { headerName: 'Projects', field: 'ProjectsHTML', cellRenderer: renderHTML  },
+          ];
+
+          // let the grid know which columns and what data to use
+          var gridOptions = {
+            defaultColDef: {
+              sortable: true,
+              filter: true,
+              resizable: true
+            },
+            domLayout: 'autoHeight',
+            columnDefs: columnDefs,
+            rowData: rowData,
+            isExternalFilterPresent: isExternalFilterPresent,
+            doesExternalFilterPass: doesExternalFilterPass,
+            onGridReady: (event) => { event.api.sizeColumnsToFit(); }
+          };
+
+          // lookup the container we want the Grid to use
+          var eGridDiv = document.querySelector('#list-view');
+
+          // create the grid passing in the div to use together with the columns & data we want to use
+          new agGrid.Grid(eGridDiv, gridOptions);
+
+          function isExternalFilterPresent() {
+            return [
+              document.getElementById('filter-text-funder')
+            ].some(el => el.value.trim().length >= 3) // at least 3 chars to activate filter
+            || [
+              document.getElementById('filter-list-type'),
+            ].some(el => el.options[el.selectedIndex].value.length);
+          }
+
+          function doesExternalFilterPass(node) {
+            return [
+              { v: document.getElementById('filter-text-funder'), f: 'Name' },
+            ].every(filter => {
+              return (
+                node.data[filter.f] &&
+                node.data[filter.f].toUpperCase().includes(filter.v.value.trim().toUpperCase())
+              );
+            }) && [
+              { v: document.getElementById('filter-list-type'), f: 'Type' },
+            ].every(filter => {
+              return (
+                node.data[filter.f] &&
+                node.data[filter.f].toUpperCase().includes(filter.v.options[filter.v.selectedIndex].value.toUpperCase())
+              );
+            });
+          }
+
+          window.addEventListener('resize', (event) => {
+            gridOptions.api.sizeColumnsToFit();
+          });
+
+          function onFilterChanged() {
+            // Update ag-Grid.
+            gridOptions.api.onFilterChanged();
+          }
+        </script>
+      </section>
+    </div>
+  </main>
+  <footer class="colors--inverted layout--relative">
+    {% include footer_cc.html %}
+  </footer>
+
+</body>
+{% include js.html %}
+</html>
