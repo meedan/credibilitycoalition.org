@@ -5,7 +5,7 @@ gem 'contentful_bootstrap'
 gem 'twitter-text'
 
 group :jekyll_plugins do
-  gem "jekyll-contentful-data-import"
+  gem "jekyll-contentful-data-import", git: "https://github.com/meedan/jekyll-contentful-data-import"
   gem 'jekyll-seo-tag'
   gem 'jekyll-redirect-from'
   gem 'jekyll-livereload'

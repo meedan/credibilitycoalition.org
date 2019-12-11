@@ -54,6 +54,8 @@ contentful:
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'page'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
     - jobPostings:
@@ -62,6 +64,8 @@ contentful:
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'jobPosting'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
     - profiles:
@@ -70,6 +74,8 @@ contentful:
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'profile'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
     - navigations:
@@ -78,6 +84,8 @@ contentful:
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'navigation'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
     - updates:
@@ -86,6 +94,8 @@ contentful:
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'update'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
     - mentions:
@@ -94,6 +104,8 @@ contentful:
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'mention'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
     - organisations:
@@ -102,6 +114,8 @@ contentful:
         environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'organisation'
+        client_options:
+          api_url: ENV_CONTENTFUL_API_URL
         all_entries: true
         destination: 'contentful/spaces/'
 
