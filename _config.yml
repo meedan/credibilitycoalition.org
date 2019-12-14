@@ -16,8 +16,7 @@
 title: Credibility Coalition
 email: hello@credibilitycoalition.org
 description: >- # this means to ignore newlines until "baseurl:"
-  We are an interdisciplinary community committed to improving our information ecosystems
-  and media literacy through transparent and collaborative exploration.
+  We are an interdisciplinary community committed to improving our information ecosystems and media literacy through transparent and collaborative exploration.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -50,65 +49,74 @@ contentful:
   spaces:
     - pages:
         space: ENV_CONTENTFUL_CC_SPACE_ID
-        access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
+        access_token: df67a2939e4e92dd355f2fe974740edcfeb91bfc097644b3986c3647d0571ad2
         cda_query:
           content_type: 'page'
         client_options:
-          api_url: ENV_CONTENTFUL_API_URL
+          api_url: 'preview.contentful.com'
+        all_entries: true
+        destination: 'contentful/spaces/'
+    - catalog:
+        space: ENV_CONTENTFUL_CC_SPACE_ID
+        access_token: df67a2939e4e92dd355f2fe974740edcfeb91bfc097644b3986c3647d0571ad2
+        cda_query:
+          content_type: 'catalog'
+        client_options:
+          api_url: 'preview.contentful.com'
         all_entries: true
         destination: 'contentful/spaces/'
     - jobPostings:
         space: ENV_CONTENTFUL_CC_SPACE_ID
-        access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
+        access_token: df67a2939e4e92dd355f2fe974740edcfeb91bfc097644b3986c3647d0571ad2
         cda_query:
           content_type: 'jobPosting'
         client_options:
-          api_url: ENV_CONTENTFUL_API_URL
+          api_url: 'preview.contentful.com'
         all_entries: true
         destination: 'contentful/spaces/'
     - profiles:
         space: ENV_CONTENTFUL_CC_SPACE_ID
-        access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
+        access_token: df67a2939e4e92dd355f2fe974740edcfeb91bfc097644b3986c3647d0571ad2
         cda_query:
           content_type: 'profile'
         client_options:
-          api_url: ENV_CONTENTFUL_API_URL
+          api_url: 'preview.contentful.com'
         all_entries: true
         destination: 'contentful/spaces/'
     - navigations:
         space: ENV_CONTENTFUL_CC_SPACE_ID
-        access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
+        access_token: df67a2939e4e92dd355f2fe974740edcfeb91bfc097644b3986c3647d0571ad2
         cda_query:
           content_type: 'navigation'
         client_options:
-          api_url: ENV_CONTENTFUL_API_URL
+          api_url: 'preview.contentful.com'
         all_entries: true
         destination: 'contentful/spaces/'
     - updates:
         space: ENV_CONTENTFUL_CC_SPACE_ID
-        access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
+        access_token: df67a2939e4e92dd355f2fe974740edcfeb91bfc097644b3986c3647d0571ad2
         cda_query:
           content_type: 'update'
         client_options:
-          api_url: ENV_CONTENTFUL_API_URL
+          api_url: 'preview.contentful.com'
         all_entries: true
         destination: 'contentful/spaces/'
     - mentions:
         space: ENV_CONTENTFUL_CC_SPACE_ID
-        access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
+        access_token: df67a2939e4e92dd355f2fe974740edcfeb91bfc097644b3986c3647d0571ad2
         cda_query:
           content_type: 'mention'
         client_options:
-          api_url: ENV_CONTENTFUL_API_URL
+          api_url: 'preview.contentful.com'
         all_entries: true
         destination: 'contentful/spaces/'
     - organisations:
         space: ENV_CONTENTFUL_CC_SPACE_ID
-        access_token: ENV_CONTENTFUL_CC_ACCESS_TOKEN
+        access_token: df67a2939e4e92dd355f2fe974740edcfeb91bfc097644b3986c3647d0571ad2
         cda_query:
           content_type: 'organisation'
         client_options:
-          api_url: ENV_CONTENTFUL_API_URL
+          api_url: 'preview.contentful.com'
         all_entries: true
         destination: 'contentful/spaces/'
 
@@ -119,6 +127,10 @@ page_gen:
     template: 'page'
     name: 'slug'
     dir: '/'
+  - data: 'contentful.spaces.catalog.catalog'
+    template: 'catalog'
+    name: 'slug'
+    dir: 'credcatalog/'
   - data: 'contentful.spaces.jobPostings.jobPosting'
     template: 'job'
     name: 'slug'

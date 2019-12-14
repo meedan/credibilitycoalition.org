@@ -1,123 +1,9 @@
 ---
 jobPosting:
 - sys:
-    id: 3XRu3zhv6dDYkwudgZ2NIr
-    created_at: !ruby/object:DateTime 2019-02-11 20:27:15.038000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-11 20:51:10.640000000 Z
-    content_type_id: jobPosting
-    revision: 2
-  title: Credibility Coalition Program Lead
-  slug: credibility-coalition-program-lead
-  location: San Francisco Bay Area preferred; remote work in the PT/MT/CT/ET time
-    zones available for the right applicant.
-  availability: !ruby/object:DateTime 2019-05-01 00:00:00.000000000 Z
-  salary: Commensurate with qualifications and experience
-  summary: CredCo is looking for an exceptional candidate to lead program management,
-    oversee critical annotation efforts, convene online and offline conversations,
-    manage internal organizational infrastructure and develop compelling data findings
-    on a fast-paced, innovative project. This critical role will be central to CredCo's
-    work, and the candidate will be interfacing directly with data scientists, journalists,
-    journalism students, media researchers and designers, with regular meetings with
-    representatives from the W3C, news and technology platforms and some of the world's
-    most innovative thinkers on media and the internet. The position will report to
-    An Xiao Mina, director of product at Meedan and project lead for the Credibility
-    Coalition, and will be responsible for ensuring the group achieves key milestones,
-    develops compelling findings and grows as a community. They will work with a broad
-    range of community members who do not report directly to them but who must produce
-    deliverables in a timely fashion. They will be encouraged to develop their own
-    research and writing ideas and help grow CredCo's profile amongst the international
-    media trust community.
-  modules:
-  - sys:
-      id: 5j4lJignoh2TBA5UWkMqma
-      created_at: !ruby/object:DateTime 2019-02-11 20:27:11.100000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-11 20:51:08.105000000 Z
-      content_type_id: moduleBodyText
-      revision: 2
-    content: "The Credibility Coalition (CredCo), a project led by Meedan and Hacks/Hackers,
-      aims to engage the journalism and media research community with the web standards
-      community (specifically the W3C Credible Web Community Group, or CredWeb) to
-      develop an indicator framework for content credibility. We are an interdisciplinary
-      community committed to improving our information ecosystems and media literacy
-      through transparent and collaborative exploration.\n\nCredCo is looking for
-      an exceptional candidate to lead program management, oversee critical annotation
-      efforts, convene online and offline conversations, manage internal organizational
-      infrastructure and develop compelling data findings on a fast-paced, innovative
-      project. The ideal candidate has experience working with both words and numbers,
-      as comfortable with spreadsheets and data tables as with paragraphs and metaphors.
-      They enjoy keeping trains running on time, building community and sweating the
-      details, all while looking broadly at the big picture. They care deeply about
-      information quality and principles of journalism and media trust.\n\nThis critical
-      role will be central to CredCo’s work, and the candidate will be interfacing
-      directly with data scientists, journalists, journalism students, media researchers
-      and designers, with regular meetings with representatives from the W3C, news
-      and technology platforms and some of the world’s most innovative thinkers on
-      media and the internet. The position will report to An Xiao Mina, director of
-      product at Meedan and project lead for the Credibility Coalition, and will be
-      responsible for ensuring the group achieves key milestones, develops compelling
-      findings and grows as a community. They will work with a broad range of community
-      members who do not report directly to them but who must produce deliverables
-      in a timely fashion. They will be encouraged to develop their own research and
-      writing ideas and help grow CredCo’s profile amongst the international media
-      trust community.\n\nThis is an ideal position for someone eager to engage in
-      a concrete with the misinformation space. Some national and international travel
-      may be required. We encourage diverse applicants from underrepresented communities
-      in journalism and technology fields. This is a full-time position.\n\n\n## Responsibilities:\n\n###
-      Program and Partnerships (35%)\n\n- Proactively establish and cultivate critical
-      relationships with new and existing partners, including other organizations
-      in the space (both corporate and NGOs), government entities and universities\n-
-      Serve as public face for the organization by giving presentations and leading
-      workshops during global conferences and events\n- Help develop a robust PR/communications
-      strategy for 2019 and beyond\n- Cultivate and manage burgeoning university partnerships;
-      create eventual network of partner schools\n- Support the Project Lead with
-      convening in-person CredCo events and holding meetings as well as recruitment
-      efforts, with an eye toward key diversity and inclusion goals\n- Augment business
-      development efforts with senior leadership team\n- \n### Annotation and Data
-      Collection (35%)\n\n- Manage the annotation of thousands of articles in order
-      to collect valuable data on news and information credibility \n- Ensure the
-      timely and efficient delivery of core deliverables, with an emphasis on data
-      output from CredCo annotators, staff and community members\n- Recruit, train,
-      motivate and guide annotators and students in annotation exercises, both during
-      in-person events and in remote settings\n- Work with the Research Lead on data
-      input, output and analysis as well as developing and defining indicators, drawing
-      from media research and testing data\n\n### Operations (30%)\n\n- Perform product
-      management duties in concert with the Meedan engineering team in order to continually
-      improve CredCo’s annotation platform on Check\n- Establish and refine key CredCo
-      infrastructure, including but not limited to: budgets, grant proposal templates,
-      travel policies, communications and community policies, calendars\n- Work with
-      research partners and the Research Lead to identify strategies for future research
-      and metrics\n- Manage CredCo Slack workspace\n- Manage social media efforts
-      and general web presence, including the CredCo Medium page and CredCo’s account
-      on the MisinfoCon blog\n- Author regular pieces about CredCo for various blogs
-      and outlets\n- Manage intern(s)\n\n\n### Qualifications:\n\n- Bachelor's degree
-      or equivalent experience in a related field\n- Minimum 2 years' experience in
-      a project management or similar role\n- Demonstrated experience and leadership
-      in managing a comprehensive strategic program to advance an initiative’s mission
-      and goals\n- Superior written, oral, interpersonal, and presentation skills\n-
-      Demonstrated skill and comfort in proactively building relationships with high
-      level personnel and organizations in the field\n- Some light data science experience
-      \n- Excellent judgment and creative problem-solving skills\n\n### The “X” Factor:\n\n-
-      You are a persuasive communicator, skilled collaborator, and innovative thinker
-      with a track record of translating strategic thinking into action plans and
-      output\n- You are an entrepreneurial thinker: self-motivated, self-reliant,
-      and driven to perform\n- You have demonstrated an ability to leverage your creativity
-      and vision to get results\n- You are known for being calm, flexible, and able
-      to manage challenging situations with aplomb\n- You are inspired by our mission\n-
-      Ability to speak foreign languages a plus\n- Ability to quickly learn and use
-      new technologies a plus\n- Experience working in cross-cultural contexts and
-      with globally situated teams a plus\n- Experience working remotely preferred\n-
-      Appreciates and able to skillfully deploy dank memes \n\nThe Credibility Coalition
-      is a project led by Meedan and Hacks/Hackers. This particular position is staffed
-      under Meedan. Meedan is an Equal Opportunity Employer. Meedan does not discriminate
-      on the basis of race, religion, color, sex, gender identity, sexual orientation,
-      age, non-disqualifying physical or mental disability, national origin, veteran
-      status or any other basis covered by appropriate law. All employment is decided
-      on the basis of qualifications, merit and business need.\n\nPlease send CV and
-      statement of interest to [jobs@meedan.com](mailto:jobs@meedan.com). "
-- sys:
-    id: 7vkTLnQwn3qvDnp0c41ASZ
-    created_at: !ruby/object:DateTime 2019-02-11 21:11:14.365000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-11 21:11:14.365000000 Z
+    id: P3Ku51Xhz1cDmSWcPHIep
+    created_at: !ruby/object:DateTime 2019-02-11 21:57:17.364000000 Z
+    updated_at: !ruby/object:DateTime 2019-02-11 21:57:40.568000000 Z
     content_type_id: jobPosting
     revision: 1
   title: Annotation Work With CredCo
@@ -131,14 +17,14 @@ jobPosting:
   modules:
   - sys:
       id: 57uH5ernq0sIuIugCau6Cg
-      created_at: !ruby/object:DateTime 2019-01-01 06:10:45.190000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-01 06:10:45.190000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 06:08:31.664000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-15 22:00:50.934000000 Z
       content_type_id: moduleBodyText
-      revision: 1
+      revision: 3
     content: |-
       The Credibility Coalition is currently laying the groundwork for further explorations of article credibility on the web. We are seeking students passionate about tackling misinformation, addressing information and news credibility and understanding the role artificial intelligence plays in this sector.
 
-      We are developing future rounds of testing data (you can find our [initial study here](https://credco.meedan.com/pdfs/CredCoWebConf2018.pdf) and [more info here](https://docs.google.com/presentation/d/1hGNqM_aO6U3gtryqqLZ_fTKreE940KIWlMnrfV5ooXU/)), and we are seeking help with annotating articles -- the first building block of designing artificial intelligence for information credibility. Student annotators will help develop our data by reviewing the articles and marking them up with a simple set of indicators.
+      We are developing future rounds of testing data (you can find our [initial study here](https://assets.ctfassets.net/tlowcqj4pb76/4lmUdUz36gQuOKO0UOwEU2/819497f46f25a9cfcbaa7d4b5db8e354/CredCoWebConf2018.pdf) and [more info here](https://docs.google.com/presentation/d/1hGNqM_aO6U3gtryqqLZ_fTKreE940KIWlMnrfV5ooXU/)), and we are seeking help with annotating articles -- the first building block of designing artificial intelligence for information credibility. Student annotators will help develop our data by reviewing the articles and marking them up with a simple set of indicators.
 
       An interest in journalism is preferred, but those with any background, including engineering, computer science, politics, linguistics and sociology, can apply.
 
@@ -163,4 +49,4 @@ jobPosting:
       - Academic incentives (class credit, etc).
       - If you choose, we can credit your support if we publish the data.
 
-      To participate in an upcoming credibility study, please contact your resume on our [Handshake profile](https://app.joinhandshake.com/employers/311200) or directly to Dwight Knell, Program Lead, at [dwight@meedan.com](mailto:dwight@meedan.com).
+      To participate in an upcoming credibility study, please submit your resume to Dwight Knell, Program Lead, at [dwight@meedan.com](mailto:dwight@meedan.com).

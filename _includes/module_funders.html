@@ -1,24 +1,4 @@
-<!doctype html>
-<html lang="en">
-{% include head_map.html %}
-<body id="credcatalog" class="map funders {%if page.url %}{{ page.url | slugify }}{% endif %}">
-
-  {% include nav.html %}
-
-  <main>
-    <div class="section-inner-wide">
-      <div class="map-header">
-        <div class="map-header-title">
-            <div class="cap">CredCatalog</div>
-            <h1>Funders</h1>
-        </div>
-        {% include map_nav.html active="funders" %}
-      </div>
-      {% if page.summary %}
-        <h4>{{ page.summary | markdownify }}</h4>
-      {% endif %}
-
-      <div id="viewFilters" class="view-filters">
+<div id="viewFilters" class="view-filters">
         <div class="mdc-text-field funders">
           <input class="mdc-text-field__input" id="filter-text-funder" oninput="onFilterChanged()">
           <div class="mdc-line-ripple"></div>
@@ -116,12 +96,3 @@
           }
         </script>
       </section>
-    </div>
-  </main>
-  <footer class="colors--inverted layout--relative">
-    {% include footer_cc.html %}
-  </footer>
-
-</body>
-{% include js.html %}
-</html>

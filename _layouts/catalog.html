@@ -1,0 +1,41 @@
+---
+custom_css: projects
+---
+<!doctype html>
+<html lang="en">
+{% include head_map.html %}
+<body id="credcatalog" class="map {%if page.url %}{{ page.url | slugify }}{% endif %}">
+
+  {% include nav.html %}
+
+  <main>
+    <div class="section-inner-wide">
+      <div class="map-header">
+        <div class="map-header-title">
+            <div class="cap">{{ page.cap }}</div>
+            <h1>{{ page.title }}</h1>
+        </div>
+        {% 
+            include map_nav.html 
+            active=page.title
+        %}
+      </div>
+      {% if page.description %}
+        <h4>{{ page.description | markdownify }}</h4>
+      {% endif %}
+
+      {% for module in page.modules %}
+        {% 
+            include cases_modules.html 
+            module=module
+        %}
+      {% endfor %}
+    </div>
+  </main>
+  <footer class="colors--inverted layout--relative">
+    {% include footer_cc.html %}
+  </footer>
+
+</body>
+{% include js.html %}
+</html>

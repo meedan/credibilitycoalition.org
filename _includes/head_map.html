@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta content="text/html; charset=UTF-8" name="Content-Type" />
   <title>{% if page.title %}{{ page.title }}{% endif %}{{ site.title | escape | prepend: ' | ' }}</title>
+  {% seo %}
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   {% include ga.html %}
   <link rel="stylesheet" type="text/css" href="/css/main.css">

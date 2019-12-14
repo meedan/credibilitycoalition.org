@@ -2,7 +2,7 @@
 organisation:
 - sys:
     id: 20zMq1lJHSSKOIEqoEAium
-    created_at: !ruby/object:DateTime 2019-01-01 03:37:01.312000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 03:35:15.144000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 05:52:42.805000000 Z
     content_type_id: organisation
     revision: 2
@@ -11,7 +11,7 @@ organisation:
   logo:
     sys:
       id: 4SZgZWefDqIiIEqqWCgMQC
-      created_at: !ruby/object:DateTime 2019-01-01 03:36:56.681000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 03:36:32.041000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 03:36:56.681000000 Z
     title: Hacks/Hackers
     description: 
@@ -19,7 +19,7 @@ organisation:
   link: https://hackshackers.com/
 - sys:
     id: 1epfS47QHoQiO8oWCsY6Ie
-    created_at: !ruby/object:DateTime 2019-01-01 03:38:03.684000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 03:37:11.931000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 05:52:57.150000000 Z
     content_type_id: organisation
     revision: 3
@@ -28,7 +28,7 @@ organisation:
   logo:
     sys:
       id: 2xUTbcWWp6k6KU8qeoCYwO
-      created_at: !ruby/object:DateTime 2019-01-01 03:37:57.120000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 03:37:23.404000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 03:37:57.120000000 Z
     title: Meedan
     description: 
@@ -37,7 +37,7 @@ organisation:
   link: https://meedan.com/
 - sys:
     id: 5JyhwC9gw8Qy6eS4kIu4U4
-    created_at: !ruby/object:DateTime 2019-01-01 03:58:08.205000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 03:57:37.098000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 05:53:13.939000000 Z
     content_type_id: organisation
     revision: 3
@@ -46,7 +46,7 @@ organisation:
   logo:
     sys:
       id: cyIh6OPdx6kOuyCiee0u2
-      created_at: !ruby/object:DateTime 2019-01-01 03:58:03.537000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 03:57:50.955000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 03:58:03.537000000 Z
     title: AP
     description: 
@@ -55,7 +55,7 @@ organisation:
   link: https://www.ap.org/
 - sys:
     id: 6ZAz2n3CZGQKEOsgGEgkSq
-    created_at: !ruby/object:DateTime 2019-01-01 03:59:43.769000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 03:58:15.147000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 05:53:27.425000000 Z
     content_type_id: organisation
     revision: 3
@@ -64,7 +64,7 @@ organisation:
   logo:
     sys:
       id: 2OB8XyH0xOMmEYO0ciMkiU
-      created_at: !ruby/object:DateTime 2019-01-01 03:59:37.120000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 03:59:09.870000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 03:59:37.120000000 Z
     title: Climate Feedback
     description: 
@@ -73,7 +73,7 @@ organisation:
   link: https://climatefeedback.org/
 - sys:
     id: 2SnRZkOTtSeQume0gC62oq
-    created_at: !ruby/object:DateTime 2019-01-01 04:00:38.353000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 03:59:54.064000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 05:53:41.225000000 Z
     content_type_id: organisation
     revision: 3
@@ -82,7 +82,7 @@ organisation:
   logo:
     sys:
       id: 3g71B5Gs00oM8OKQemiGSE
-      created_at: !ruby/object:DateTime 2019-01-01 04:00:33.281000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 04:00:15.531000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 04:00:33.281000000 Z
     title: factmata
     description: 
@@ -91,7 +91,7 @@ organisation:
   link: https://factmata.com/
 - sys:
     id: 3RK6ySBvXy6ekaG8km44GY
-    created_at: !ruby/object:DateTime 2019-01-01 04:02:12.064000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 04:01:25.484000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 06:00:57.493000000 Z
     content_type_id: organisation
     revision: 2
@@ -100,7 +100,7 @@ organisation:
   logo:
     sys:
       id: 52vl8ddkkwCgAwaMicEGOC
-      created_at: !ruby/object:DateTime 2019-01-01 04:02:07.728000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 04:01:48.285000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 04:02:07.728000000 Z
     title: Google News Initiative
     description: 
@@ -108,7 +108,7 @@ organisation:
   link: https://newsinitiative.withgoogle.com/
 - sys:
     id: 5SH2jRQSxGk0QQK4Yg6GA0
-    created_at: !ruby/object:DateTime 2019-01-01 04:03:11.205000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 04:02:20.406000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 06:01:13.408000000 Z
     content_type_id: organisation
     revision: 3
@@ -117,7 +117,7 @@ organisation:
   logo:
     sys:
       id: 3udnPO6i0giAMqcq2UU4gu
-      created_at: !ruby/object:DateTime 2019-01-01 04:03:02.608000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 04:02:44.296000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 04:03:02.608000000 Z
     title: Facebook Journalism Project
     description: 
@@ -126,7 +126,7 @@ organisation:
   link: https://www.facebook.com/facebookmedia/get-started/facebook-journalism-project
 - sys:
     id: 2QyFyFJ1O8AMaeUIua4O60
-    created_at: !ruby/object:DateTime 2019-01-01 04:04:01.008000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 04:03:19.028000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 06:01:33.684000000 Z
     content_type_id: organisation
     revision: 4
@@ -135,7 +135,7 @@ organisation:
   logo:
     sys:
       id: or0GGowrBuOiI4i2sSGAC
-      created_at: !ruby/object:DateTime 2019-01-01 04:03:56.137000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 04:03:43.283000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 04:03:56.137000000 Z
     title: Craig Newmark Philanthropies
     description: 
@@ -144,7 +144,7 @@ organisation:
   link: http://craignewmarkphilanthropies.org/
 - sys:
     id: 2ReQYnziKIC42Y04uw0UIs
-    created_at: !ruby/object:DateTime 2019-01-01 04:04:56.545000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 04:04:11.295000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 06:01:54.555000000 Z
     content_type_id: organisation
     revision: 3
@@ -153,7 +153,7 @@ organisation:
   logo:
     sys:
       id: 2zgtSW5DHmEceyUkIw8KOA
-      created_at: !ruby/object:DateTime 2019-01-01 04:04:52.244000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 04:04:30.687000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 04:04:52.245000000 Z
     title: Knight Foundation
     description: 
@@ -161,96 +161,8 @@ organisation:
   logo_size: Very wide
   link: http://www.knightfoundation.org/
 - sys:
-    id: uGn5HAdhu0sMuuK40CqME
-    created_at: !ruby/object:DateTime 2019-01-01 05:54:58.616000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-01 05:54:58.616000000 Z
-    content_type_id: organisation
-    revision: 1
-  title: Georgia Tech Research Institute
-  role: Partner
-  logo:
-    sys:
-      id: 1MQzvhSS5O0Qe24QUCe6sc
-      created_at: !ruby/object:DateTime 2019-01-01 05:54:46.752000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-01 05:54:46.752000000 Z
-    title: Georgia Tech Research Institute
-    description: 
-    url: "//images.ctfassets.net/tlowcqj4pb76/1MQzvhSS5O0Qe24QUCe6sc/e76ee0878dae9ba5e733e7ae99814f51/gtri.png"
-  logo_size: Very wide
-  link: https://gtri.gatech.edu
-- sys:
-    id: 1zI5ZJ0SraQmY4KEyY22US
-    created_at: !ruby/object:DateTime 2019-01-01 05:55:58.807000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-01 05:55:58.807000000 Z
-    content_type_id: organisation
-    revision: 1
-  title: Global Voices
-  role: Partner
-  logo:
-    sys:
-      id: 2uLZnUlspicMgUo8IaMQQc
-      created_at: !ruby/object:DateTime 2019-01-01 05:55:42.619000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-01 05:55:42.619000000 Z
-    title: Global Voices
-    description: 
-    url: "//images.ctfassets.net/tlowcqj4pb76/2uLZnUlspicMgUo8IaMQQc/4855d06263a0df3b08ba300e5dbd6742/globalvoices.jpg"
-  logo_size: Very wide
-  link: https://globalvoices.org/
-- sys:
-    id: 4jIyb6xMBO68Iq8YqOSaQO
-    created_at: !ruby/object:DateTime 2019-01-01 05:57:03.596000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-01 05:57:03.596000000 Z
-    content_type_id: organisation
-    revision: 1
-  title: Hypothesis
-  role: Partner
-  logo:
-    sys:
-      id: 68jJcmQJ4AIYUGSSicGGGg
-      created_at: !ruby/object:DateTime 2019-01-01 05:56:46.515000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-01 05:56:46.515000000 Z
-    title: Hypothesis
-    description: 
-    url: "//images.ctfassets.net/tlowcqj4pb76/68jJcmQJ4AIYUGSSicGGGg/fa542e9ba8f9a49ad8684fb687ccdd3c/hypothesis.jpg"
-  link: https://web.hypothes.is/
-- sys:
-    id: 3oO5Nt21VSe8uaWK60iCQw
-    created_at: !ruby/object:DateTime 2019-01-01 05:57:54.440000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-01 05:58:05.839000000 Z
-    content_type_id: organisation
-    revision: 2
-  title: Media Cloud
-  role: Partner
-  logo:
-    sys:
-      id: 4Ap3dLGj20gES4G8A4OyMk
-      created_at: !ruby/object:DateTime 2019-01-01 05:57:43.837000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-01 05:57:43.837000000 Z
-    title: Media Cloud
-    description: 
-    url: "//images.ctfassets.net/tlowcqj4pb76/4Ap3dLGj20gES4G8A4OyMk/8045922bb8fa4b5b3cbe8b39ac3d4384/mediacloud.jpg"
-  logo_size: Square
-  link: https://mediacloud.org/
-- sys:
-    id: 1ol28xPmmcy2G24EEsAUM
-    created_at: !ruby/object:DateTime 2019-01-01 05:58:59.837000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-01 05:58:59.837000000 Z
-    content_type_id: organisation
-    revision: 1
-  title: Snopes
-  role: Partner
-  logo:
-    sys:
-      id: 1W7yU5Bk7SYMSOOuAKoyE2
-      created_at: !ruby/object:DateTime 2019-01-01 05:58:48.357000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-01 05:58:48.357000000 Z
-    title: Snopes
-    description: 
-    url: "//images.ctfassets.net/tlowcqj4pb76/1W7yU5Bk7SYMSOOuAKoyE2/6b983854542b85ed9323acf3c2d0e1f5/snopes.jpg"
-  link: https://www.snopes.com/
-- sys:
     id: 5hlmoTPD9mGoi0MCkO0KuU
-    created_at: !ruby/object:DateTime 2019-01-01 06:00:29.069000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 05:50:20.213000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 06:00:29.069000000 Z
     content_type_id: organisation
     revision: 1
@@ -259,15 +171,103 @@ organisation:
   logo:
     sys:
       id: 2oYIpMhCwQ6iMo0y4k2GWa
-      created_at: !ruby/object:DateTime 2019-01-01 06:00:18.025000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 05:59:58.762000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 06:00:18.025000000 Z
     title: Rita Allen
     description: 
     url: "//images.ctfassets.net/tlowcqj4pb76/2oYIpMhCwQ6iMo0y4k2GWa/4177db67599b0090bf4810c2075e9786/ra.png"
   link: http://ritaallen.org/
 - sys:
+    id: uGn5HAdhu0sMuuK40CqME
+    created_at: !ruby/object:DateTime 2019-01-01 05:53:50.504000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 05:54:58.616000000 Z
+    content_type_id: organisation
+    revision: 1
+  title: Georgia Tech Research Institute
+  role: Partner
+  logo:
+    sys:
+      id: 1MQzvhSS5O0Qe24QUCe6sc
+      created_at: !ruby/object:DateTime 2019-01-01 05:54:25.575000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 05:54:46.752000000 Z
+    title: Georgia Tech Research Institute
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/1MQzvhSS5O0Qe24QUCe6sc/e76ee0878dae9ba5e733e7ae99814f51/gtri.png"
+  logo_size: Very wide
+  link: https://gtri.gatech.edu
+- sys:
+    id: 1zI5ZJ0SraQmY4KEyY22US
+    created_at: !ruby/object:DateTime 2019-01-01 05:55:09.126000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 05:55:58.807000000 Z
+    content_type_id: organisation
+    revision: 1
+  title: Global Voices
+  role: Partner
+  logo:
+    sys:
+      id: 2uLZnUlspicMgUo8IaMQQc
+      created_at: !ruby/object:DateTime 2019-01-01 05:55:26.388000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 05:55:42.619000000 Z
+    title: Global Voices
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/2uLZnUlspicMgUo8IaMQQc/4855d06263a0df3b08ba300e5dbd6742/globalvoices.jpg"
+  logo_size: Very wide
+  link: https://globalvoices.org/
+- sys:
+    id: 4jIyb6xMBO68Iq8YqOSaQO
+    created_at: !ruby/object:DateTime 2019-01-01 05:56:08.300000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 05:57:03.596000000 Z
+    content_type_id: organisation
+    revision: 1
+  title: Hypothesis
+  role: Partner
+  logo:
+    sys:
+      id: 68jJcmQJ4AIYUGSSicGGGg
+      created_at: !ruby/object:DateTime 2019-01-01 05:56:29.949000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 05:56:46.515000000 Z
+    title: Hypothesis
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/68jJcmQJ4AIYUGSSicGGGg/fa542e9ba8f9a49ad8684fb687ccdd3c/hypothesis.jpg"
+  link: https://web.hypothes.is/
+- sys:
+    id: 3oO5Nt21VSe8uaWK60iCQw
+    created_at: !ruby/object:DateTime 2019-01-01 05:57:13.375000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 05:58:05.839000000 Z
+    content_type_id: organisation
+    revision: 2
+  title: Media Cloud
+  role: Partner
+  logo:
+    sys:
+      id: 4Ap3dLGj20gES4G8A4OyMk
+      created_at: !ruby/object:DateTime 2019-01-01 05:57:33.856000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 05:57:43.837000000 Z
+    title: Media Cloud
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/4Ap3dLGj20gES4G8A4OyMk/8045922bb8fa4b5b3cbe8b39ac3d4384/mediacloud.jpg"
+  logo_size: Square
+  link: https://mediacloud.org/
+- sys:
+    id: 1ol28xPmmcy2G24EEsAUM
+    created_at: !ruby/object:DateTime 2019-01-01 05:58:17.142000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 05:58:59.837000000 Z
+    content_type_id: organisation
+    revision: 1
+  title: Snopes
+  role: Partner
+  logo:
+    sys:
+      id: 1W7yU5Bk7SYMSOOuAKoyE2
+      created_at: !ruby/object:DateTime 2019-01-01 05:58:37.704000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 05:58:48.357000000 Z
+    title: Snopes
+    description: 
+    url: "//images.ctfassets.net/tlowcqj4pb76/1W7yU5Bk7SYMSOOuAKoyE2/6b983854542b85ed9323acf3c2d0e1f5/snopes.jpg"
+  link: https://www.snopes.com/
+- sys:
     id: 5ohUqUe6cgQoaGsSK4w2EM
-    created_at: !ruby/object:DateTime 2019-01-01 06:02:56.223000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 06:02:05.107000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 06:02:56.223000000 Z
     content_type_id: organisation
     revision: 1
@@ -276,7 +276,7 @@ organisation:
   logo:
     sys:
       id: 3xpAVbE7hm2ysgyw8M0sA8
-      created_at: !ruby/object:DateTime 2019-01-01 06:02:35.457000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 06:02:25.553000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 06:02:35.457000000 Z
     title: Democracy Fund
     description: 
@@ -284,7 +284,7 @@ organisation:
   link: http://www.democracyfund.org/
 - sys:
     id: 3UhvCFujZuA6Oe2oOMMGkw
-    created_at: !ruby/object:DateTime 2019-01-01 06:04:09.469000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 06:03:08.307000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 06:04:09.469000000 Z
     content_type_id: organisation
     revision: 1
@@ -293,7 +293,7 @@ organisation:
   logo:
     sys:
       id: 4gQXaOB0GIsq0kGwkIMKC2
-      created_at: !ruby/object:DateTime 2019-01-01 06:03:51.042000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 06:03:23.421000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 06:03:51.042000000 Z
     title: MisinfoCon
     description: 
@@ -301,7 +301,7 @@ organisation:
   link: https://misinfocon.com/
 - sys:
     id: 4nDJZAAWxq4EYKM8mQEMCk
-    created_at: !ruby/object:DateTime 2019-01-01 06:05:10.162000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 06:04:21.201000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 06:05:10.162000000 Z
     content_type_id: organisation
     revision: 1
@@ -310,7 +310,7 @@ organisation:
   logo:
     sys:
       id: 6yGfCM0i7SiaEAuuOiK2eu
-      created_at: !ruby/object:DateTime 2019-01-01 06:04:59.273000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 06:04:43.030000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 06:04:59.273000000 Z
     title: Mozilla
     description: 
@@ -318,7 +318,7 @@ organisation:
   link: http://mozilla.org/
 - sys:
     id: 1VUFQo5aoAGGkSigGscQ0m
-    created_at: !ruby/object:DateTime 2019-01-01 06:06:57.955000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 06:05:21.503000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 06:06:57.956000000 Z
     content_type_id: organisation
     revision: 1
@@ -327,7 +327,7 @@ organisation:
   logo:
     sys:
       id: 5fQnpllmlyI2yC4u402csG
-      created_at: !ruby/object:DateTime 2019-01-01 06:06:12.554000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 06:05:58.308000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 06:06:12.554000000 Z
     title: The Shuttleworth Foundation
     description: 
@@ -335,20 +335,20 @@ organisation:
   logo_size: Very wide
   link: https://www.shuttleworthfoundation.org/
 - sys:
-    id: 6uxrdSiCl6oz04zzOLeDhP
-    created_at: !ruby/object:DateTime 2019-01-28 20:51:11.185000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-30 23:40:45.910000000 Z
+    id: 2ldYr9GhKCdkuGPqKoYT2N
+    created_at: !ruby/object:DateTime 2019-01-30 23:41:48.096000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-30 23:43:00.094000000 Z
     content_type_id: organisation
-    revision: 4
+    revision: 1
   title: Twitter
   role: Funder
   logo:
     sys:
-      id: 2RIUDSoUDHLfr8lSW9DO59
-      created_at: !ruby/object:DateTime 2019-01-28 20:57:16.957000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-28 20:57:16.957000000 Z
-    title: Twitter Logo Black
+      id: BduIi8mm9Lr0PfCzukW8y
+      created_at: !ruby/object:DateTime 2019-01-30 23:41:56.803000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-30 23:42:46.312000000 Z
+    title: Twitter Logo
     description: 
-    url: "//images.ctfassets.net/tlowcqj4pb76/2RIUDSoUDHLfr8lSW9DO59/afebd836907f66acb397bf578affd66a/Twitter_Logo_Blue.png"
+    url: "//images.ctfassets.net/tlowcqj4pb76/BduIi8mm9Lr0PfCzukW8y/5b283afba5556550306509430a51aecf/Twitter_Logo_Blue.png"
   logo_size: Square
   link: https://twitter.com/

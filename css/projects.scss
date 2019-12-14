@@ -26,16 +26,18 @@
   margin-bottom: $width--small-gutter;
   padding-top: 0;
   padding-bottom: 0;
-}
-
-.fonts-loaded .map h1 {
   font: $font--display-2b;
 }
 
 .map-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  @include when-larger-than(medium) {
+    align-items: center;
+  }
+  @include when-smaller-than(medium) {
+    flex-direction: column;
+  }
   a {
     color: $foreground;
     padding: $width--small-gutter $width--small-gutter;
@@ -56,38 +58,48 @@
   background-color: #fff;
 
   display: flex;
-  // justify-content: space-evenly;
   > div {
     flex: 1 1 auto;
   }
-  > div:not(:last-child) {
-    margin-right: $width--xsmall-gutter;
+  @include when-smaller-than(medium) {
+    flex-direction: column;
+    > div {
+      margin-bottom: $width--xsmall-gutter;
+    }
   }
-  .category,
-  .location,
-  .language {
-    max-width: 200px;
-  }
-  .status {
-    max-width: 100px;
+  @include when-larger-than(medium) {
+    
+    > div:not(:last-child) {
+      margin-right: $width--xsmall-gutter;
+    }
+    .category,
+    .location,
+    .language {
+      max-width: 200px;
+    }
+    .status {
+      max-width: 100px;
+    }
   }
 }
 
-// Stick filters on top on scroll
-.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding-left: $width--large-gutter;
-  padding-right: $width--large-gutter;
-  width: 100%;
-  border-bottom: 1px solid $foreground;
-  z-index: 10;
-}
+@include when-larger-than(medium) {
+  // Stick filters on top on scroll
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: $width--large-gutter;
+    padding-right: $width--large-gutter;
+    width: 100%;
+    border-bottom: 1px solid $foreground;
+    z-index: 10;
+  }
 
-body.filters-top + .grid-view,
-body.filters-top + .list-view, {
-  padding-top: 102px;
+  body.filters-top + .grid-view,
+  body.filters-top + .list-view, {
+    padding-top: 102px;
+  }
 }
 
 
@@ -102,7 +114,6 @@ body.filters-top + .list-view, {
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
-  // justify-content: space-evenly;
 }
 
 .grid-view {
@@ -219,15 +230,20 @@ body.filters-top + .list-view, {
   }
   .how-to-read {
     display: flex;
+    @include when-smaller-than(medium) {
+      flex-direction: column;
+    }
   }
-  .graphic,
-  .text {
-    flex: 1 1 50%;
-  }
-  .graphic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  @include when-larger-than(medium) {
+    .graphic,
+    .text {
+      flex: 1 1 50%;
+    }
+    .graphic {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
   a, .text {
     color: #fff;

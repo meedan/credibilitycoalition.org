@@ -1,4 +1,4 @@
-{% assign active = include.active %}
+{% assign active = include.active | downcase %}
 <div class="map-nav">
     <a {% if active == "projects" %}class="active"{% endif %} href="/credcatalog" title="Projects">Projects</a>
     <a {% if active == "funders" %}class="active"{% endif %} href="/credcatalog/funders" title="Funders">Funders</a>

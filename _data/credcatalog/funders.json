@@ -4,7 +4,7 @@
     "Type": null,
     "Funder Description": null,
     "URL": null,
-    "Initatives": "Certified Content Coalition,Quod,News Literacy Project,Faktograf.hr ,Factcheckers,Riddle,Emergent.info,Dispute Finder,Identifact,Remarrk,FiB,Trutheum,dBunk(r) ,OpenSources,News Cube,Deep Freeze,FactLink,EU DisinfoLab,Blackbird,Verity,Buscador: An OSINT Linux Virtual Machine,Trusted News,Trive,Trusted Times,Userfeeds"
+    "Initatives": "Certified Content Coalition,Quod,News Literacy Project,Faktograf.hr ,Factcheckers,Riddle,Emergent.info,Dispute Finder,Identifact,Remarrk,FiB,Trutheum,dBunk(r) ,OpenSources,News Cube,Deep Freeze,FactLink,EU DisinfoLab,Blackbird,Verity,Buscador: An OSINT Linux Virtual Machine,Trusted News,Trive,Trusted Times,Userfeeds,Markkula Center for Applied Ethics"
   },
   {
     "Name": "500 Startups",
@@ -340,7 +340,7 @@
     "Type": "Individual Donor, Large",
     "Funder Description": "\"I'm an old-school nerd, doing what I can to respect and support the people who fight to protect the values that America aspires to: fairness, opportunity and respect.\" (Source: Website) ",
     "URL": "https://craignewmarkphilanthropies.org/",
-    "Initatives": "Credibility Coalition,Duke Tech & Check Cooperative ,Factmata,First Draft News,MisinfoCon,News Integrity Initiative ,PolitiFact,The Trust Project,TruthBuzz by ICFJ,Combating Russian Disinformation,Information Disorder Lab,Markkula Center for Applied Ethics,Executive Roundtable on Digital Journalism Ethics,Claim Buster,Botslayer"
+    "Initatives": "Credibility Coalition,Duke Tech & Check Cooperative ,Factmata,First Draft News,MisinfoCon,News Integrity Initiative ,PolitiFact,The Trust Project,TruthBuzz by ICFJ,Combating Russian Disinformation,Information Disorder Lab,Executive Roundtable on Digital Journalism Ethics,Claim Buster,Botslayer,Journalism Trust Initiative"
   },
   {
     "Name": "Craigslist Charitable Fund",
@@ -389,7 +389,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"The Democracy Fund invests in organizations working to ensure that our political system is able to withstand new challenges and deliver on its promise to the American people.\" (Source: Website) ",
     "URL": "https://www.democracyfund.org/",
-    "Initatives": "Check - Meedan,First Draft News,PolitiFact,Internet Archive TV News Archive,Knight Prototype Fund on Misinformation,Mozilla Information Trust Initiative,News Co/Lab,SSRC Social Media Democracy Research Grants,Markkula Center for Applied Ethics,Media Well"
+    "Initatives": "Check - Meedan,First Draft News,PolitiFact,Internet Archive TV News Archive,Knight Prototype Fund on Misinformation,Mozilla Information Trust Initiative,News Co/Lab,SSRC Social Media Democracy Research Grants,Media Well"
   },
   {
     "Name": "Democratic Empowerment - King Abdullah II Fund for Development",
@@ -445,7 +445,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"The EDF Corporate Foundation is one of the biggest corporate foundations in the French sponsorship sector, with 150 projects per year, a budget of 40 millions euros (for the period 2016–2019) and nearly 30 years of activity behind it. The foundation’s philosophy? That all of us should come together to build a fairer, more human world.\" (Source: Website) ",
     "URL": "https://fondation.edf.com/fr/actualites/adapting-changing-world",
-    "Initatives": "Journalism Trust Initiative"
+    "Initatives": null
   },
   {
     "Name": "Emerald Group",
@@ -550,7 +550,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"As the leading philanthropic network in France, the Fondation de France operates in every region to bring together donors, founders, volunteers and operatives in the field. It provides every different stakeholder with the support they need to ensure their actions are as effective as possible, regardless of the field of general interest in which they operate, whether it be helping vulnerable people, medical research, the environment, culture, education, etc.\" (Source: Website) ",
     "URL": "https://www.fondationdefrance.org/fr/fondation/fondation-pour-les-droits-humains",
-    "Initatives": "Journalism Trust Initiative"
+    "Initatives": null
   },
   {
     "Name": "For-profit Funding",
@@ -564,7 +564,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"We believe that social movements are built upon individual leadership, strong institutions, and innovative, often high-risk ideas. While the specifics of what we work on have evolved over the years, investments in these three areas have remained the touchstones of everything we do and are central to our theory of how change happens in the world. These approaches have long distinguished the Ford Foundation, and they have had a profound cumulative impact.\" (Source: Website)",
     "URL": "https://www.fordfoundation.org/about/people/grant-makers/",
-    "Initatives": "First Draft News,NewsFrames at Global Voices,Journalism Trust Initiative,Oxford Computational Propaganda Project,PolitiFact,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",Columbia Journalism Review,Information Disorder Lab,Open Technology Institute,O Truco,Detector de Mentiras,Ojo Bionico,Redacción Fáctica,ConPruebas,Media Well"
+    "Initatives": "First Draft News,NewsFrames at Global Voices,Oxford Computational Propaganda Project,PolitiFact,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",Columbia Journalism Review,Information Disorder Lab,Open Technology Institute,O Truco,Detector de Mentiras,Ojo Bionico,Redacción Fáctica,ConPruebas,Media Well"
   },
   {
     "Name": "Foundation Open Society – Macedonia",
@@ -641,7 +641,7 @@
     "Type": "Corporation",
     "Funder Description": "\"The Digital News Innovation Fund (DNI Fund) is a European programme that's part of the Google News Initiative, an effort to help journalism thrive in the digital age.\" (Source: Website) ",
     "URL": "https://newsinitiative.withgoogle.com/dnifund/",
-    "Initatives": "4Facts,Credibility Coalition,Deepnews.ai,First Draft News,Schema.org Claim Review,Verificado 2018,Freedom on the Net ,Markkula Center for Applied Ethics,Debunk EU,Deeptrace"
+    "Initatives": "4Facts,Credibility Coalition,Deepnews.ai,First Draft News,Schema.org Claim Review,Verificado 2018,Freedom on the Net ,Debunk EU,Deeptrace"
   },
   {
     "Name": "Google Jigsaw",
@@ -844,7 +844,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"Knight Foundation is a national foundation with strong local roots. We invest in journalism, in the arts, and in the success of cities where brothers John S. and James L. Knight once published newspapers. Our goal is to foster informed and engaged communities, which we believe are essential for a healthy democracy.\" (Source: Website) ",
     "URL": "https://knightfoundation.org/programs",
-    "Initatives": "BitPress,Check - Meedan,Cortico,Credibility Coalition,Deepnews.ai,Duke Tech & Check Cooperative ,First Draft News,NewsFrames at Global Voices,\"Knight Commission on Trust, Media and Democracy\",MisinfoCon,NewsTracker,Oxford Computational Propaganda Project,PolitiFact,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",Internet Archive TV News Archive,Knight Prototype Fund on Misinformation,\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",SSRC Social Media Democracy Research Grants,Columbia Journalism Review,Information Disorder Lab,Combating Russian Disinformation,AP's global fact check team,Markkula Center for Applied Ethics,Claim Buster,Media Well,Hypothes.is,Global Disinformation Index"
+    "Initatives": "BitPress,Check - Meedan,Cortico,Credibility Coalition,Deepnews.ai,Duke Tech & Check Cooperative ,First Draft News,NewsFrames at Global Voices,\"Knight Commission on Trust, Media and Democracy\",MisinfoCon,NewsTracker,Oxford Computational Propaganda Project,PolitiFact,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",Internet Archive TV News Archive,Knight Prototype Fund on Misinformation,\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",SSRC Social Media Democracy Research Grants,Columbia Journalism Review,Information Disorder Lab,Combating Russian Disinformation,AP's global fact check team,Claim Buster,Media Well,Hypothes.is,Global Disinformation Index"
   },
   {
     "Name": "La Voz Publica",
@@ -935,7 +935,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"Giving primarily for education and human services.\" (Source: https://fconline.foundationcenter.org/fdo-grantmaker-profile/?key=MARK061) ",
     "URL": "https://fconline.foundationcenter.org/fdo-grantmaker-profile/?key=MARK061",
-    "Initatives": "Markkula Center for Applied Ethics,Executive Roundtable on Digital Journalism Ethics"
+    "Initatives": "Executive Roundtable on Digital Journalism Ethics"
   },
   {
     "Name": "Matrix Partners",
@@ -1082,7 +1082,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"The National Endowment for Democracy (NED) is a private, nonprofit foundation dedicated to the growth and strengthening of democratic institutions around the world. Each year, NED makes more than 1,600 grants to support the projects of non-governmental groups abroad who are working for democratic goals in more than 90 countries.\" (Source: Website) ",
     "URL": "https://www.ned.org/",
-    "Initatives": "Journalism Trust Initiative,Colombia Check ,VERA Files Fact Check,Vistinomer,Raskrinkavanje,Ojo Bionico,Istinomjer,Ukraine Crisis Media Center ,Doğruluk Payı,Bellingcat's Digital Toolkit"
+    "Initatives": "Colombia Check ,VERA Files Fact Check,Vistinomer,Raskrinkavanje,Ojo Bionico,Istinomjer,Ukraine Crisis Media Center ,Doğruluk Payı,Bellingcat's Digital Toolkit"
   },
   {
     "Name": "National Foreign Trade Council",
@@ -1152,7 +1152,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"We seek to create a more equitable economy, promote responsible technology that improves lives, expand human capability, and discover the emergent issues that will shape our future​.\" (Source: Website) ",
     "URL": "https://www.omidyar.com/",
-    "Initatives": "NewsFrames at Global Voices,Journalism Trust Initiative,CORRECTIV.ORG,Rappler Fact Check,SSRC Social Media Democracy Research Grants,Hypothes.is"
+    "Initatives": "NewsFrames at Global Voices,CORRECTIV.ORG,Rappler Fact Check,SSRC Social Media Democracy Research Grants,Hypothes.is"
   },
   {
     "Name": "Online News Association",
@@ -1362,7 +1362,7 @@
     "Type": "Foundation, Family",
     "Funder Description": "\"The purpose of SRT is to promote the values and principles of human rights, equality and the rule of law, and to preserve nature from further degradation. The Trust has a particular interest in the following overlapping regions and countries: Europe: particularly the Balkans and Central and Eastern Europe; The former Soviet Union; Lebanon and Turkey in the Eastern Mediterranean; Egypt, Morocco and Tunisia in North Africa; Kenya, South Africa and Zimbabwe in Sub-Saharan Africa\" (Source: Website) ",
     "URL": "https://www.sigrid-rausing-trust.org/",
-    "Initatives": "Journalism Trust Initiative"
+    "Initatives": null
   },
   {
     "Name": "Skoll Foundation",
@@ -1607,7 +1607,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"The Varenne Foundation works to support and promote the press and communication professions among journalists, academics and researchers, in line with the work of Alexandre Varenne. lawyer, journalist and major politician of the twentieth century.\" (Source: Website) ",
     "URL": "http://www.fondationvarenne.com/",
-    "Initatives": "Journalism Trust Initiative"
+    "Initatives": null
   },
   {
     "Name": "VG - Verdens Gang",
