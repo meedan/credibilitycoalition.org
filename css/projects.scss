@@ -114,17 +114,13 @@
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
-  // justify-content: space-evenly;
 }
 
 .grid-view {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  @include when-larger-than(medium) {
-    margin-left: -6px;
-    margin-right: -6px;
-  }
+  margin-left: -6px;
+  margin-right: -6px;
 }
 
 .view-controls {
@@ -154,10 +150,8 @@
 }
 
 .project-block {
-  @include when-larger-than(medium) {
-    margin-right: 6px;
-    margin-left: 6px;
-  }
+  margin-right: 6px;
+  margin-left: 6px;
   list-style-type: none;
   word-wrap: break-word;
   width: 80px;
