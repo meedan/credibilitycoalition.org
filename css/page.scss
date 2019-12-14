@@ -20,7 +20,7 @@
     }
 }
 
-.fonts-loaded .page-header .cap {
+.page-header .cap {
     font: $font--body-4;
 }
 
@@ -29,13 +29,10 @@
     margin-bottom: $width--small-gutter;
     padding-top: 0;
     padding-bottom: 0;
+    font: $font--display-2b;
     @include when-larger-than(medium) {
         max-width: units(50);
     }
-}
-
-.fonts-loaded .page-header h1 {
-    font: $font--display-2b;
 }
 
 .page-description {
@@ -79,15 +76,12 @@
         padding-bottom: 0;
         text-transform: none;
         letter-spacing: 0;
+        font: $font--display-3b;
     }
 }
 
-.fonts-loaded .page-details .cap {
+.page-details .cap {
     font: $font--body-4;
-}
-
-.fonts-loaded .page-details h2 {
-    font: $font--display-3b;
 }
 
 .page-details h4,
