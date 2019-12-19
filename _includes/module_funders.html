@@ -38,6 +38,11 @@
             { headerName: 'Projects', field: 'ProjectsHTML', cellRenderer: renderHTML  },
           ];
 
+          // specify the columns for small viewports
+          var columnDefsSmall = [
+            { headerName: 'Funder', field: 'FunderHTML', cellRenderer: renderHTML, sort: 'asc', autoHeight: true }
+          ];
+
           // let the grid know which columns and what data to use
           var gridOptions = {
             defaultColDef: {
@@ -50,7 +55,15 @@
             rowData: rowData,
             isExternalFilterPresent: isExternalFilterPresent,
             doesExternalFilterPass: doesExternalFilterPass,
-            onGridReady: (event) => { event.api.sizeColumnsToFit(); }
+            onGridReady: (event) => { 
+              if (window.innerWidth <= 480) {
+                event.api.setColumnDefs(columnDefsSmall);
+              } else {
+                event.api.setColumnDefs(columnDefs);
+              }
+              event.api.sizeColumnsToFit(); 
+              event.api.resetRowHeights(); 
+            }
           };
 
           // lookup the container we want the Grid to use
@@ -85,9 +98,16 @@
               );
             });
           }
+          
 
           window.addEventListener('resize', (event) => {
+            if (window.innerWidth <= 480) {
+            gridOptions.api.setColumnDefs(columnDefsSmall);
+            } else {
+                gridOptions.api.setColumnDefs(columnDefs);
+            }
             gridOptions.api.sizeColumnsToFit();
+            gridOptions.api.resetRowHeights();
           });
 
           function onFilterChanged() {

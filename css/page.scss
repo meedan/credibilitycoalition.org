@@ -29,8 +29,9 @@
     margin-bottom: $width--small-gutter;
     padding-top: 0;
     padding-bottom: 0;
-    font: $font--display-2b;
+    font: $font--display-1b;
     @include when-larger-than(medium) {
+        font: $font--display-2b;
         max-width: units(50);
     }
 }
@@ -39,7 +40,10 @@
     @include when-larger-than(medium) {
         max-width: units(105);
     }
-    font: $font--headline;
+    font: $font--subheading-2;
+    @include when-larger-than(medium) {
+        font: $font--headline;
+    }
     font-weight: normal;
 }
 
@@ -76,7 +80,10 @@
         padding-bottom: 0;
         text-transform: none;
         letter-spacing: 0;
-        font: $font--display-3b;
+        font: $font--display-1b;
+        @include when-larger-than(medium) {
+            font: $font--display-3b;
+        }
     }
 }
 
@@ -117,6 +124,8 @@
 .spectra {
     @include when-smaller-than(medium) {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     justify-content: space-evenly;
     width: 100%;
@@ -132,6 +141,7 @@
 }
 
 .spectra .col {
+    flex: 1 1 50%;
     @include when-larger-than(medium) {
         flex: 1 1 auto;
     }

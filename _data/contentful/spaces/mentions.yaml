@@ -2,7 +2,7 @@
 mention:
 - sys:
     id: 4HSixCjvKEuUQiSWyYS60a
-    created_at: !ruby/object:DateTime 2019-01-01 03:04:02.992000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 03:04:51.327000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 03:04:51.327000000 Z
     content_type_id: mention
     revision: 1
@@ -16,7 +16,7 @@ mention:
   link: https://www.cuadernosdeperiodistas.com/desinformacion-pulsa-aqui-y-te-sorprendera/
 - sys:
     id: 6ywWs43Uswu44wa2SAmq2I
-    created_at: !ruby/object:DateTime 2019-01-01 03:04:56.807000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 03:05:49.351000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 03:05:49.351000000 Z
     content_type_id: mention
     revision: 1
@@ -28,7 +28,7 @@ mention:
   link: http://www.apfdigital.com.ar/despachos.asp?cod_des=311591&ID_Seccion=1&fecemi=21/08/2018
 - sys:
     id: wUWGT1Crm0ymSKE8KaAC8
-    created_at: !ruby/object:DateTime 2019-01-01 03:05:54.774000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 03:07:05.920000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 03:07:05.920000000 Z
     content_type_id: mention
     revision: 1
@@ -39,7 +39,7 @@ mention:
   link: https://www.poynter.org/news/four-serious-questions-about-elon-musks-silly-credibility-score
 - sys:
     id: 13CXSyDZRO6KGkWoA6oao0
-    created_at: !ruby/object:DateTime 2019-01-01 03:07:10.919000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 03:07:52.727000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 03:07:52.727000000 Z
     content_type_id: mention
     revision: 1
@@ -50,8 +50,8 @@ mention:
   link: https://www.poynter.org/news/these-academics-are-frontlines-fake-news-research
 - sys:
     id: 4OAndrZAXYWYWAgUmoYqA6
-    created_at: !ruby/object:DateTime 2019-01-01 03:31:50.364000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-01 03:32:50.075000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 03:32:50.074000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-01 03:32:50.074000000 Z
     content_type_id: mention
     revision: 1
   title: Elevating quality journalism on the open web
@@ -64,7 +64,7 @@ mention:
   link: https://www.blog.google/topics/google-news-initiative/elevating-quality-journalism/
 - sys:
     id: L7GEVV5O2Oa8E2IGec4Qc
-    created_at: !ruby/object:DateTime 2019-01-01 03:33:10.560000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 03:33:47.843000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 03:33:47.843000000 Z
     content_type_id: mention
     revision: 1
@@ -80,7 +80,7 @@ mention:
   link: https://www.journalism.co.uk/news/the-credibility-coalition-receives-funding-from-google-facebook-and-craig-newmark-to-expand-its-work-assessing-trust-in-journalism/s2/a719243/
 - sys:
     id: 278BnOsNOMyiuIwOE0Eggw
-    created_at: !ruby/object:DateTime 2019-01-01 03:33:56.911000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 03:34:43.523000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 03:34:43.523000000 Z
     content_type_id: mention
     revision: 1
@@ -96,7 +96,7 @@ mention:
   link: https://datasociety.net/output/dead-reckoning/
 - sys:
     id: 2Wxo68WWsA7MA2Ynr0Wg94
-    created_at: !ruby/object:DateTime 2019-11-29 04:07:52.851000000 Z
+    created_at: !ruby/object:DateTime 2019-11-29 04:08:46.765000000 Z
     updated_at: !ruby/object:DateTime 2019-11-29 04:08:46.765000000 Z
     content_type_id: mention
     revision: 1
@@ -108,7 +108,7 @@ mention:
   link: https://www.theverge.com/2019/1/4/18103447/credcon-credibility-coalition-misinformation-strategy-hackers
 - sys:
     id: 62ndkpqq1cxcdghvGSKVRD
-    created_at: !ruby/object:DateTime 2019-11-29 04:08:52.315000000 Z
+    created_at: !ruby/object:DateTime 2019-11-29 04:09:40.219000000 Z
     updated_at: !ruby/object:DateTime 2019-11-29 04:09:40.219000000 Z
     content_type_id: mention
     revision: 1

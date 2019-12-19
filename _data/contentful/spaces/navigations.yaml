@@ -2,15 +2,15 @@
 navigation:
 - sys:
     id: 1g4BxCOWyI0kK6M6aMy8KS
-    created_at: !ruby/object:DateTime 2019-01-01 01:48:04.112000000 Z
-    updated_at: !ruby/object:DateTime 2019-12-12 20:37:11.982000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 01:48:22.087000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-29 18:38:03.724000000 Z
     content_type_id: navigation
     revision: 12
   title: Main Navigation
   pages:
   - sys:
       id: 7HpW85kf60LwspQXf2KVy7
-      created_at: !ruby/object:DateTime 2019-11-29 02:10:43.606000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 02:17:26.647000000 Z
       updated_at: !ruby/object:DateTime 2019-11-29 02:17:26.647000000 Z
       content_type_id: page
       revision: 1
@@ -24,7 +24,7 @@ navigation:
         id: TR94w7Wwetp0qxdCtT73r
   - sys:
       id: YOWmZ5lZDqHldqmfIyvyx
-      created_at: !ruby/object:DateTime 2019-11-28 23:45:18.259000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 02:08:10.110000000 Z
       updated_at: !ruby/object:DateTime 2019-11-29 02:08:10.110000000 Z
       content_type_id: page
       revision: 1
@@ -46,7 +46,7 @@ navigation:
         id: 6NUizW89Cbqi2Y1EUrL9Pc
   - sys:
       id: 4n39wcrX0Vrjk3NSAHMaPH
-      created_at: !ruby/object:DateTime 2019-11-29 18:25:59.182000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 18:29:56.525000000 Z
       updated_at: !ruby/object:DateTime 2019-11-29 18:36:07.796000000 Z
       content_type_id: page
       revision: 2
@@ -65,90 +65,8 @@ navigation:
     - sys:
         id: 4BcJCs4Wj0PjYUtLkdwkfL
   - sys:
-      id: 3G3nsDQ5OUKeoui2IeiUOa
-      created_at: !ruby/object:DateTime 2018-12-31 20:19:50.927000000 Z
-      updated_at: !ruby/object:DateTime 2019-11-29 02:18:00.821000000 Z
-      content_type_id: page
-      revision: 9
-    title: About
-    slug: about
-    summary: We are an interdisciplinary community committed to improving our information
-      ecosystems and media literacy through transparent and collaborative exploration.
-    modules:
-    - sys:
-        id: 6K4NkBgA6cU2oGMYS6Y6QM
-    - sys:
-        id: 1ex7BT7hymqE2YYmq6mMwu
-    - sys:
-        id: 5kr1aVuQ3SYQ8y48oa0IyM
-    - sys:
-        id: 1rriX6f1O8yEQK2ISEO8Yi
-    - sys:
-        id: 4pyM7DHOmkmS6yYuMYKwG8
-    - sys:
-        id: 4xMDr9kgDmM2eCAk4cM8qQ
-    - sys:
-        id: 6tD4rxq9VumEyaA2aequcG
-    - sys:
-        id: 3wRugMtCs0S0uEWWciMY4C
-  - sys:
-      id: 6sVkzRBo7SoYUIACagmMia
-      created_at: !ruby/object:DateTime 2019-01-01 01:35:40.666000000 Z
-      updated_at: !ruby/object:DateTime 2019-11-29 02:10:12.570000000 Z
-      content_type_id: page
-      revision: 1
-    title: Approach
-    slug: approach
-    summary: We work collaboratively and openly, developing frameworks that seek feedback
-      from diverse experiences and expertise and share the results of our distributed
-      tests and validations.
-    modules:
-    - sys:
-        id: 4WAYp9cVZ6WkM0SYUis2ke
-    - sys:
-        id: 4uVSdCWMYUCmQku2gosQ6q
-    - sys:
-        id: 7DS51VuV7qmWKAOsigQ468
-    - sys:
-        id: 6xVzMVsxtmEMQuuukgGYWI
-    - sys:
-        id: 1hQqf08lYisiwEW4EqkgsC
-    - sys:
-        id: 2u6IoCAKoU0qg2gMWyiUCY
-    - sys:
-        id: 1qO9VoL1zayOO0yg60848Y
-    - sys:
-        id: 46ytWjLMS4oUYI2wMK0Wk8
-    - sys:
-        id: 3DwOeJNCPC2sIQ4KcM2U6w
-    - sys:
-        id: 6GauY43ni0YcGmiqWKo62c
-    - sys:
-        id: 6KUE5aDmjmIkSGEIowOa6k
-  - sys:
-      id: 3XfDADQyVygIaGm4mug62g
-      created_at: !ruby/object:DateTime 2019-01-01 02:02:58.676000000 Z
-      updated_at: !ruby/object:DateTime 2019-11-28 22:43:06.574000000 Z
-      content_type_id: page
-      revision: 1
-    title: Definitions
-    slug: definitions
-    summary: Robust definitions of credibility and its indicators are required for
-      effective solutions, whether that's automated processing or improved media literacy.
-    modules:
-    - sys:
-        id: 60PFoIx2Bqo4EsKUqO4WQk
-    - sys:
-        id: 154y8qQHvS6iOG0YCSK8m2
-    - sys:
-        id: 5sSzkfjcIwEkq4iEQmSaMA
-    - sys:
-        id: 17PzJsjnXQ2KCAm6UOc4cy
-    - sys:
-        id: 4cpQxYr2coAgMyMyKAQigA
-  - sys:
       id: 5hozhxdFI4EUue4Sm4E4us
-      created_at: !ruby/object:DateTime 2019-01-01 02:08:37.904000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 02:19:07.224000000 Z
       updated_at: !ruby/object:DateTime 2019-12-04 23:49:23.466000000 Z
       content_type_id: page
       revision: 3
@@ -164,7 +82,7 @@ navigation:
         id: 1yVoA3OEhy0M8K8o4aiiEe
   - sys:
       id: 2KLjKcpl4sYGOAUSkWyim6
-      created_at: !ruby/object:DateTime 2019-01-01 02:43:04.718000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 02:44:26.927000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 03:08:58.785000000 Z
       content_type_id: page
       revision: 2
@@ -179,21 +97,8 @@ navigation:
     - sys:
         id: 2KfAoJZLLyau4eyAiAaIay
   - sys:
-      id: 3VtjhMV52o0IWysS0IY2Ys
-      created_at: !ruby/object:DateTime 2019-01-01 06:08:06.491000000 Z
-      updated_at: !ruby/object:DateTime 2019-11-28 22:44:36.522000000 Z
-      content_type_id: page
-      revision: 4
-    title: Jobs
-    slug: jobs
-    summary: To apply for any listed jobs, please send a CV and statement of interest
-      to [jobs@meedan.com](mailto:jobs@meedan.com).
-    modules:
-    - sys:
-        id: 5x3dlXxnCcdGOBQMF8KQLk
-  - sys:
       id: 5OcJ4oon1PI7TnIQaflj2q
-      created_at: !ruby/object:DateTime 2019-11-29 01:49:11.776000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 02:04:36.263000000 Z
       updated_at: !ruby/object:DateTime 2019-11-29 02:04:36.263000000 Z
       content_type_id: page
       revision: 1
