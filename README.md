@@ -10,7 +10,7 @@ This environment uses Jekyll with Contentful. It uses Contentful's [Jekyll-Conte
 ```
 export CONTENTFUL_CC_SPACE_ID=abc123
 export CONTENTFUL_CC_ACCESS_TOKEN=abc123
-export CONTENTFUL_ENVIRONMENT=develop
+export CONTENTFUL_API_URL="cdn.contentful.com"
 ```
 
 Variables are set in the contentful section of `_config.yml`. Get your Contentful space id and access token using the [Contentful web app](https://app.contentful.com/). Open the space that you want to access (the top left corner lists all spaces), and navigate to the *Settings > API keys*. Select the *API keys* option and there should be an existing API key under *Microsite* for Popup.news.
