@@ -44,14 +44,6 @@ twitter:
   username: "credcoalition"
 logo: "/logo.png"
 
-defaults:
-  - scope:
-      path:         "/credcatalog"
-    values:
-      image:
-        path:       "/tile-credcat.png"
-        height:     256
-        width:      256
 
 # Server Config options
 livereload: true    # You no longer need to include --livereload
