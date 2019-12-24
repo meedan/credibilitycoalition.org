@@ -42,6 +42,7 @@ exclude:
 twitter:
   card:     "summary"
   username: "credcoalition"
+  
 logo: "/logo.png"
 
 
