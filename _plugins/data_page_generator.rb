@@ -50,6 +50,12 @@ module Jekyll
         self.process(@name)
         self.read_yaml(File.join(base, '_layouts'), template + ".html")
         self.data['title'] = data[name]
+        # override page title for catalog pages
+        if template == "catalog"
+          self.data['short_title'] = data['title']
+          data['title'] = data['title'] + " – CredCatalog"
+        end
+    
         # populating description
         # Description from initiatives
         if data['Description'] != nil
