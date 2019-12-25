@@ -18,7 +18,7 @@ email: hello@credibilitycoalition.org
 description: >- # this means to ignore newlines until "baseurl:"
   We are an interdisciplinary community committed to improving our information ecosystems and media literacy through transparent and collaborative exploration.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://credibilitycoalition.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://credibilitycoalition-dev.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
