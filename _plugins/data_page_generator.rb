@@ -50,8 +50,28 @@ module Jekyll
         self.process(@name)
         self.read_yaml(File.join(base, '_layouts'), template + ".html")
         self.data['title'] = data[name]
+        # override page title for catalog pages
+        if template == "catalog"
+          self.data['short_title'] = data['title']
+          data['title'] = data['title'] + " – CredCatalog"
+        end
+    
+        # populating description
+        # Description from initiatives
+        if data['Description'] != nil
+          self.data['description'] = data['Description']
+        # Funder Description from funders
+        elsif data['Funder Description'] != nil
+          self.data['description'] = data['Funder Description']
+        # Summary from pages.yaml
+        else data['summary'] != nil
+          self.data['description'] = data['summary']
+        end
         # add all the information defined in _data for the current record to the
         # current page (so that we can access it with liquid tags)
+        if data.key?('name')
+          data['_name'] = data['name']
+        end
         self.data.merge!(data)
       end
     end

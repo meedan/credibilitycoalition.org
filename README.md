@@ -10,7 +10,7 @@ This environment uses Jekyll with Contentful. It uses Contentful's [Jekyll-Conte
 ```
 export CONTENTFUL_CC_SPACE_ID=abc123
 export CONTENTFUL_CC_ACCESS_TOKEN=abc123
-export CONTENTFUL_ENVIRONMENT=develop
+export CONTENTFUL_API_URL="cdn.contentful.com"
 ```
 
 Variables are set in the contentful section of `_config.yml`. Get your Contentful space id and access token using the [Contentful web app](https://app.contentful.com/). Open the space that you want to access (the top left corner lists all spaces), and navigate to the *Settings > API keys*. Select the *API keys* option and there should be an existing API key under *Microsite* for Popup.news.
@@ -44,4 +44,3 @@ See [Continuous Deployment](https://www.netlify.com/docs/continuous-deployment) 
 CredCatalog is a database of credibility initiatives stored on Airtable. Assuming you have access to the correct database there, you first need to download the tables locally before building the site. Here's how:
 - Download tables *Initiatives*, *Organizations*, *Scale Options* and *Funders/Sponsors* as CSV.
 - Run each CSV through the supplied script `_scripts/csv2json.rb`, sending the JSON output to `_data/credcatalog` as per the existing filenames.
-- You may need to remove the first record of `_data/credcatalog/initiatives.json` which is a blank record.

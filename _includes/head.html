@@ -4,7 +4,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta content="text/html; charset=UTF-8" name="Content-Type" />
   <title>{% if page.title %}{{ page.title }}{% endif %}{{ site.title | escape | prepend: ' | ' }}</title>
-  {% seo %}
+  {% seo title=false %}
+  {% if page.path contains 'project/' or page.path contains 'funder/' %}
+    <meta property="og:image" content="https://images.ctfassets.net/tlowcqj4pb76/32p8sE0rSZUhNGLPxi8bbu/4683ef049b96510aac78a9c6ab614aeb/tile-credcat.png" />
+    <meta property="og:image:alt" content="CredCatalog" />
+  {% else %}
+    <meta property="og:image" content="https://images.ctfassets.net/tlowcqj4pb76/2gK6iWsUfEG4pvpXZNeXJy/1b5097e4eac34cbb7e95d9d5df913661/tile.png" />
+    <meta property="og:image:alt" content="CredCatalog" />
+  {% endif %}
   <link rel="apple-touch-icon" href="apple-touch-icon.png"> 
   {% include ga.html %}
   <link rel="stylesheet" type="text/css" href="/css/main.css">
