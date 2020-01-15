@@ -1,0 +1,374 @@
+{% comment %}
+<!--
+Filters section
+
+Using Material Design components from https://github.com/material-components/material-components-web
+
+Options data is read from data.credcatalog at the corresponding folder _data/credcatalog.
+
+-->
+{% endcomment %}
+<div id="viewFilters" class="view-filters">
+    <div class="mdc-text-field project">
+        <input class="mdc-text-field__input" id="filter-text-project" oninput="onFilterChanged()">
+        <div class="mdc-line-ripple"></div>
+        <label for="filter-text-project" class="mdc-floating-label mdc-floating-label--float-above">Project</label>
+    </div>
+
+    <div class="mdc-select category">
+        <i class="mdc-select__dropdown-icon"></i>
+        <select id="filter-list-category" class="mdc-select__native-control" onchange="onFilterChanged()">
+            <option value="">&nbsp;</option>
+            {% assign categories = site.data.credcatalog.initiatives | uniq: 'Solutions Categories' %}
+            {% for category in categories %}
+            <option value="{{ category }}">{{ category }}</option>
+            {% endfor %}
+        </select>
+        <label class="mdc-floating-label mdc-floating-label--float-above">Category</label>
+        <div class="mdc-line-ripple"></div>
+    </div>
+
+    <div class="mdc-select location">
+        <i class="mdc-select__dropdown-icon"></i>
+        <select id="filter-list-located" class="mdc-select__native-control" onchange="onFilterChanged()">
+            <option value="">&nbsp;</option>
+            {% assign locations = site.data.credcatalog.initiatives | uniq: 'Location' %}
+            {% for location in locations %}
+            <option value="{{ location }}">{{ location }}</option>
+            {% endfor %}
+        </select>
+        <label class="mdc-floating-label mdc-floating-label--float-above">Location</label>
+        <div class="mdc-line-ripple"></div>
+    </div>
+
+    <div class="mdc-select language">
+        <i class="mdc-select__dropdown-icon"></i>
+        <select id="filter-list-language" class="mdc-select__native-control" onchange="onFilterChanged()">
+            <option value="">&nbsp;</option>
+            {% assign languages = site.data.credcatalog.initiatives | uniq: 'Languages-2' %}
+            {% for language in languages %}
+            <option value="{{ language }}">{{ language }}</option>
+            {% endfor %}
+        </select>
+        <label class="mdc-floating-label mdc-floating-label--float-above">Languages</label>
+        <div class="mdc-line-ripple"></div>
+    </div>
+
+    <div class="mdc-select status">
+        <i class="mdc-select__dropdown-icon"></i>
+        <select id="filter-list-active" class="mdc-select__native-control" onchange="onFilterChanged()">
+            <option value="" selected>&nbsp;</option>
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+        <label class="mdc-floating-label mdc-floating-label--float-above">Status</label>
+        <div class="mdc-line-ripple"></div>
+    </div>
+
+    <div class="mdc-text-field funder">
+        <input class="mdc-text-field__input" id="filter-text-funder" oninput="onFilterChanged()">
+        <div class="mdc-line-ripple"></div>
+        <label for="filter-text-funder" class="mdc-floating-label mdc-floating-label--float-above">Funders</label>
+    </div>
+</div>
+
+{% comment %}
+<!--
+Help and switch view section
+-->
+{% endcomment %}
+<div class="view-controls mdc-chip-set mdc-chip-set--choice">
+    <div class="how-to-read-button">
+        <button id="how-to-read-button" onclick="toggleHelp()" class="active">
+            <span id="open-help">{% include icon_help.html %} How to read</span>
+            <span id="close-help">{% include icon_close.html %} How to read</span>
+        </button>
+    </div>
+    <div class="views">
+        <button id="grid-chip" class="mdc-chip mdc-chip--selected" onclick="toggleView('grid')">
+            <span class="mdc-chip__text">Grid view</span>
+        </button>
+        <button id="list-chip" class="mdc-chip" onclick="toggleView('list')">
+            <span class="mdc-chip__text">List view</span>
+        </button>
+    </div>
+</div>
+
+{% comment %}
+<!--
+Main views: grid-view and list-view
+
+grid-view is a visual grid made of a flex-based <ul> list.
+
+list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid-reference-overview/#grid-interface
+
+-->
+{% endcomment %}
+<section>
+    <div id="help" class="how-to-read-panel">
+        <div class="close">
+            <button onclick="toggleHelp()">{% include icon_no.html %}</button>
+        </div>
+        <div class="how-to-read">
+            {% include how-to-read.html %}
+        </div>
+    </div>
+    <div id="grid-view">
+        <ul class="projects grid-view">
+        </ul>
+    </div>
+
+    <div id="list-view" style="display: none; width: 100%;" class="ag-theme-material"></div>
+
+    <script type="text/javascript" charset="utf-8">
+        {% comment %}
+        //
+        // Construct the row data from the jekyll data files using jekyll plugin _plugins/cred_catalog.rb
+        //
+        // The idea is to pass the incoming data through a filter credify_projects then convert to json
+        // into the javascript variable.
+        //
+        // First we need to "capture" _includes/spectra.svg into a variable that will be passed to credify_projects.
+        //
+        {% endcomment %}
+        {% capture svg %}{% include spectra.svg %}{% endcapture %}
+        var rowData = {{ site.data.credcatalog.initiatives | credify_projects: svg | jsonify}};
+
+        // specify the columns
+        var columnDefs = [
+            { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, autoHeight: true, sort: 'asc' },
+            { headerName: 'Category', field: 'CategoriesCleaned' },
+            { headerName: 'Location', field: 'LocationCleaned' },
+            { headerName: 'Languages', field: 'LanguagesCleaned' },
+            { headerName: 'Funders', field: 'FundersLinked', cellRenderer: renderHTML  },
+        ];
+
+        // specify the columns for small viewports
+        var columnDefsSmall = [
+            { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, autoHeight: true, sort: 'asc' }
+        ];
+
+        // specify the columns for medium viewports
+        var columnDefsMedium = [
+            { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, autoHeight: true, sort: 'asc' },
+            { headerName: 'Location', field: 'LocationCleaned' },
+        ];
+
+        // specify the columns for large viewports
+        var columnDefsLarge = [
+            { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, autoHeight: true, sort: 'asc' },
+            { headerName: 'Category', field: 'CategoriesCleaned' },
+            { headerName: 'Location', field: 'LocationCleaned' },
+        ];
+
+        // let ag-grid know which columns and what data to use
+        var gridOptions = {
+            defaultColDef: {
+                sortable: true,
+                filter: true,
+                resizable: true
+            },
+            domLayout: 'autoHeight',
+            columnDefs: columnDefs,
+            rowData: rowData,
+            isExternalFilterPresent: isExternalFilterPresent,
+            doesExternalFilterPass: doesExternalFilterPass,
+            onGridReady: onResize,
+        };
+
+        // create the ag-grid component on list-view together with the grid info
+        new agGrid.Grid(document.querySelector('#list-view'), gridOptions);
+        gridOptions.api.addEventListener('modelUpdated', onModelUpdated);
+        onModelUpdated();
+
+        // FUNCTIONS
+
+        // onModelUpdated()
+        //
+        // Update the data model for both grid-view and list-view.
+        //
+        // For list-view, ag-grid takes care of constructing the model
+        // using its API getModel() and the options above.
+        // This also applies the filters using ag-grid filtering system
+        // https://www.ag-grid.com/javascript-grid-filter-external/
+        //
+        // For grid-view, we hand-create the <li> elements dynamically
+        // by iterating on the filtered rows to display.
+        //
+        // Each <li> is a link anchor containing the project name
+        // and its spectrum (as svg element).
+        function onModelUpdated() {
+            // For list-view
+            model = gridOptions.api.getModel();
+
+            // For grid-view
+            const ul = document.querySelector('#grid-view ul');
+            while (ul.firstChild) {
+                ul.removeChild(ul.firstChild);
+            }
+            model.rowsToDisplay.forEach(row => {
+                const project = row.data;
+                const li = document.createElement('li');
+                li.classList.add('project-block');
+                li.innerHTML = `
+                <a href="/credcatalog/project/${project['NameSlug']}">
+                    ${project['Spectra']}
+                    <div class="project-name">
+                    ${project['Name']}
+                    </div>
+                </a>
+                `;
+                ul.appendChild(li);
+            });
+        }
+
+        // isExternalFilterPresent()
+        //
+        // ag-grid filter sensing function https://www.ag-grid.com/javascript-grid-filter-external/
+        //
+        // Returns true if ANY filter is active.
+        //
+        // We have two types of filters, each with a different method of assessing whether it's active:
+        // - text filters which must contain a string of length >= 3 chars
+        // - select filters which must have a non-empty selection
+        function isExternalFilterPresent() {
+            return [
+                document.getElementById('filter-text-project'),
+                document.getElementById('filter-text-funder')
+            ].some(el => el.value.trim().length >= 3) // at least 3 chars to activate filter
+            || [
+                document.getElementById('filter-list-located'),
+                document.getElementById('filter-list-language'),
+                document.getElementById('filter-list-category'),
+                document.getElementById('filter-list-active'),
+            ].some(el => el.options[el.selectedIndex].value.length);
+        }
+
+        // doesExternalFilterPass()
+        //
+        // ag-grid per-row filtering function https://www.ag-grid.com/javascript-grid-filter-external/
+        //
+        // Given a node (a row), determine if EVERY filter passes the node.
+        // A filter passes the node if
+        // - Filter is inactive OR
+        // - Filter value and corresponding node attribute match
+        //
+        // The second condition depends on the type of filter, in this case 3 types:
+        // - a text field that should contain a subset of the corresponding node attribute
+        // - a select field that should ALSO contain a subset of the node attribute,
+        //   because the node attribute may be a comma-separated textual list of values.
+        // - a select field that should be matched verbatim.
+        function doesExternalFilterPass(node) {
+            return [
+                { v: document.getElementById('filter-text-project'), f: 'Name' },
+                { v: document.getElementById('filter-text-funder'), f: 'Funders' },
+            ].every(filter => {
+                const v = filter.v.value.trim().toUpperCase();
+                return (
+                (
+                    !v || v.length < 3
+                ) || (
+                    node.data[filter.f] &&
+                    node.data[filter.f].toUpperCase().includes(v)
+                )
+                );
+            }) && [
+                { v: document.getElementById('filter-list-located'), f: 'Location' },
+                { v: document.getElementById('filter-list-category'), f: 'Solutions Categories' },
+                { v: document.getElementById('filter-list-language'), f: 'Languages-2' },
+            ].every(filter => {
+                const v = filter.v.options[filter.v.selectedIndex].value.toUpperCase();
+                return (
+                (
+                    !v
+                ) || (
+                    node.data[filter.f] &&
+                    node.data[filter.f].toUpperCase().includes(v)
+                )
+                );
+            }) && [
+                { v: document.getElementById('filter-list-active'), f: 'Active/Inactive' },
+            ].every(filter => {
+                const v = filter.v.options[filter.v.selectedIndex].value.toUpperCase();
+                return (
+                (
+                    !v
+                ) || (
+                    node.data[filter.f] &&
+                    node.data[filter.f].toUpperCase() == v
+                )
+                );
+            });
+        }
+
+        // Handle grid resize event by choosing appropriate column definitions
+        // for window size.
+        function onResize(options) {
+            if (window.innerWidth <= 480) {
+                options.api.setColumnDefs(columnDefsSmall);
+            } else if (window.innerWidth >= 481 && window.innerWidth <= 730) {
+                options.api.setColumnDefs(columnDefsMedium);
+            } else if (window.innerWidth >= 731 && window.innerWidth <= 896) {
+                options.api.setColumnDefs(columnDefsLarge);
+            } else {
+                options.api.setColumnDefs(columnDefs);
+            }
+            options.api.sizeColumnsToFit();
+            options.api.resetRowHeights();
+        }
+
+        // Handle global resize event similarly.
+        window.addEventListener('resize', () => {
+            // Resize using global options.
+            onResize(gridOptions);
+        });
+
+        // Handle HTML filter update events by updating ag-grid.
+        function onFilterChanged() {
+            gridOptions.api.onFilterChanged();
+        }
+
+        // Toggle view by show/hide and update active selection chip.
+        function toggleView(view) {
+            [
+                'grid',
+                'list'
+            ].forEach(v => {
+                const div = document.getElementById(v + '-view');
+                div.style.display = view === v ? 'block' : 'none';
+                const chip = document.getElementById(v + '-chip');
+                chip.classList[ view === v ? 'add' : 'remove' ]('mdc-chip--selected');
+            });
+
+            if (view === 'list') {
+                gridOptions.api.sizeColumnsToFit();
+                gridOptions.api.resetRowHeights();
+            }
+        }
+
+        function toggleHelp() {
+            var btn = document.getElementById("how-to-read-button");
+            btn.classList.toggle('active');
+            var el = document.getElementById("help");
+            var oh = document.getElementById("open-help");
+            var ch = document.getElementById("close-help");
+            if (el.style.display === "none") {
+                el.style.display = "block";
+                ch.style.display = "flex";
+                oh.style.display = "none";
+            } else {
+                el.style.display = "none";
+                ch.style.display = "none";
+                oh.style.display = "flex";
+            }
+        }
+
+        // Helper ag-grid function to render the HTML verbatim.
+        // https://stackoverflow.com/a/49624608/209184
+        function renderHTML(params) {
+            return params.value ? params.value : '';
+        }
+
+
+    </script>
+</section>
