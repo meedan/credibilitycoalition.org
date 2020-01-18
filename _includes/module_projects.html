@@ -15,30 +15,16 @@ Options data is read from data.credcatalog at the corresponding folder _data/cre
         <label for="filter-text-project" class="mdc-floating-label mdc-floating-label--float-above">Project</label>
     </div>
 
-    <div>
-        <label for="category">Tube stations</label>
-        <select class="js-choice" name="category" id="category">
-          <option value="">Choose a tube station</option>
-          <option value="Moorgate">Moorgate</option>
-          <option value="St Pauls">St Pauls</option>
-          <option value="Old Street">Old Street</option>
-          <option value="Liverpool Street">Liverpool Street</option>
-          <option value="Kings Cross St. Pancras"
-            >Kings Cross St. Pancras</option
-          >
-        </select>
-    </div>
-
     <div class="mdc-select category">
         <i class="mdc-select__dropdown-icon"></i>
-        <select id="filter-list-category" class="mdc-select__native-control js-choice" onchange="onFilterChanged()">
+        <select id="filter-list-category" class="js-choice" name="category" multiple onchange="onFilterChanged()">
             <option value="">&nbsp;</option>
             {% assign categories = site.data.credcatalog.initiatives | uniq: 'Solutions Categories' %}
             {% for category in categories %}
             <option value="{{ category }}">{{ category }}</option>
             {% endfor %}
         </select>
-        <label class="mdc-floating-label mdc-floating-label--float-above">Category</label>
+        <label class="mdc-floating-label mdc-floating-label--float-above" for="category">Category</label>
         <div class="mdc-line-ripple"></div>
     </div>
 
@@ -197,6 +183,21 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
         gridOptions.api.addEventListener('modelUpdated', onModelUpdated);
         onModelUpdated();
 
+        // Custom selects with Choices.js
+        const element = document.querySelector('.js-choice');
+        const choices = new Choices(element, {
+            removeItemButton: true,
+            duplicateItemsAllowed: false,
+            paste: false,
+            searchFloor: 1,
+            searchResultLimit: 5,
+            searchFields: ['label', 'value'],
+            position: 'auto',
+            shouldSort: false,
+            placeholder: true,
+            itemSelectText: 'Press to select',
+        });
+
         // FUNCTIONS
 
         // onModelUpdated()
@@ -216,6 +217,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
         function onModelUpdated() {
             // For list-view
             model = gridOptions.api.getModel();
+            console.log({model});
 
             // For grid-view
             const ul = document.querySelector('#grid-view ul');
@@ -255,9 +257,11 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             || [
                 document.getElementById('filter-list-located'),
                 document.getElementById('filter-list-language'),
-                document.getElementById('filter-list-category'),
+                {%- comment -%} document.getElementById('filter-list-category'), {%- endcomment -%}
                 document.getElementById('filter-list-active'),
-            ].some(el => el.options[el.selectedIndex].value.length);
+            ].some(el => el.options[el.selectedIndex].value.length) || [
+                document.getElementById('filter-list-category').childNodes.length > 0
+            ];
         }
 
         // doesExternalFilterPass()
@@ -290,7 +294,6 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
                 );
             }) && [
                 { v: document.getElementById('filter-list-located'), f: 'Location' },
-                { v: document.getElementById('filter-list-category'), f: 'Solutions Categories' },
                 { v: document.getElementById('filter-list-language'), f: 'Languages-2' },
             ].every(filter => {
                 const v = filter.v.options[filter.v.selectedIndex].value.toUpperCase();
@@ -303,6 +306,9 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
                 )
                 );
             }) && [
+                { v: document.getElementById('filter-list-category'), f: 'Solutions Categories' }].every(filter => {
+                    return false;
+                }) && [
                 { v: document.getElementById('filter-list-active'), f: 'Active/Inactive' },
             ].every(filter => {
                 const v = filter.v.options[filter.v.selectedIndex].value.toUpperCase();
@@ -341,6 +347,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
 
         // Handle HTML filter update events by updating ag-grid.
         function onFilterChanged() {
+            console.log("onFilterChanged");
             gridOptions.api.onFilterChanged();
         }
 
@@ -385,86 +392,5 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             return params.value ? params.value : '';
         }
 
-        // Custom selects with Choices.js
-        const element = document.querySelector('.js-choice');
-        const choices = new Choices(element, {
-            silent: false,
-            items: [],
-            choices: [],
-            renderChoiceLimit: -1,
-            maxItemCount: -1,
-            addItems: true,
-            addItemFilter: null,
-            removeItems: true,
-            removeItemButton: false,
-            editItems: false,
-            duplicateItemsAllowed: true,
-            delimiter: ',',
-            paste: true,
-            searchEnabled: true,
-            searchChoices: true,
-            searchFloor: 1,
-            searchResultLimit: 4,
-            searchFields: ['label', 'value'],
-            position: 'auto',
-            resetScrollPosition: true,
-            shouldSort: true,
-            shouldSortItems: false,
-            {%- comment -%} sorter: () => {...}, {%- endcomment -%}
-            placeholder: true,
-            placeholderValue: null,
-            searchPlaceholderValue: null,
-            prependValue: null,
-            appendValue: null,
-            renderSelectedChoices: 'auto',
-            loadingText: 'Loading...',
-            noResultsText: 'No results found',
-            noChoicesText: 'No choices to choose from',
-            itemSelectText: 'Press to select',
-            addItemText: (value) => {
-                return `Press Enter to add <b>"${value}"</b>`;
-            },
-            maxItemText: (maxItemCount) => {
-                return `Only ${maxItemCount} values can be added`;
-            },
-            valueComparer: (value1, value2) => {
-                return value1 === value2;
-            },
-            classNames: {
-                containerOuter: 'choices',
-                containerInner: 'choices__inner',
-                input: 'choices__input',
-                inputCloned: 'choices__input--cloned',
-                list: 'choices__list',
-                listItems: 'choices__list--multiple',
-                listSingle: 'choices__list--single',
-                listDropdown: 'choices__list--dropdown',
-                item: 'choices__item',
-                itemSelectable: 'choices__item--selectable',
-                itemDisabled: 'choices__item--disabled',
-                itemChoice: 'choices__item--choice',
-                placeholder: 'choices__placeholder',
-                group: 'choices__group',
-                groupHeading: 'choices__heading',
-                button: 'choices__button',
-                activeState: 'is-active',
-                focusState: 'is-focused',
-                openState: 'is-open',
-                disabledState: 'is-disabled',
-                highlightedState: 'is-highlighted',
-                selectedState: 'is-selected',
-                flippedState: 'is-flipped',
-                loadingState: 'is-loading',
-                noResults: 'has-no-results',
-                noChoices: 'has-no-choices'
-            },
-            // Choices uses the great Fuse library for searching. You
-            // can find more options here: https://github.com/krisk/Fuse#options
-            fuseOptions: {
-                include: 'score'
-            },
-            callbackOnInit: null,
-            callbackOnCreateTemplates: null
-        });
     </script>
 </section>
