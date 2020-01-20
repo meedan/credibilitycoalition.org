@@ -15,7 +15,8 @@ Options data is read from data.credcatalog at the corresponding folder _data/cre
         <label for="filter-text-project" class="mdc-floating-label mdc-floating-label--float-above">Project</label>
     </div>
 
-    <div class="mdc-select category">
+    <div class="category">
+        <label class="" for="category">Category</label>
         <i class="mdc-select__dropdown-icon"></i>
         <select id="filter-list-category" class="js-choice" name="category" multiple onchange="onFilterChanged()">
             <option value="">&nbsp;</option>
@@ -24,8 +25,6 @@ Options data is read from data.credcatalog at the corresponding folder _data/cre
             <option value="{{ category }}">{{ category }}</option>
             {% endfor %}
         </select>
-        <label class="mdc-floating-label mdc-floating-label--float-above" for="category">Category</label>
-        <div class="mdc-line-ripple"></div>
     </div>
 
     <div class="mdc-select location">
@@ -217,7 +216,6 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
         function onModelUpdated() {
             // For list-view
             model = gridOptions.api.getModel();
-            console.log({model});
 
             // For grid-view
             const ul = document.querySelector('#grid-view ul');
@@ -225,6 +223,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
                 ul.removeChild(ul.firstChild);
             }
             model.rowsToDisplay.forEach(row => {
+                // console.log({row});
                 const project = row.data;
                 const li = document.createElement('li');
                 li.classList.add('project-block');
@@ -257,7 +256,6 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             || [
                 document.getElementById('filter-list-located'),
                 document.getElementById('filter-list-language'),
-                {%- comment -%} document.getElementById('filter-list-category'), {%- endcomment -%}
                 document.getElementById('filter-list-active'),
             ].some(el => el.options[el.selectedIndex].value.length) || [
                 document.getElementById('filter-list-category').childNodes.length > 0
@@ -306,9 +304,18 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
                 )
                 );
             }) && [
-                { v: document.getElementById('filter-list-category'), f: 'Solutions Categories' }].every(filter => {
-                    return false;
-                }) && [
+                { v: document.getElementById('filter-list-category'), f: 'Solutions Categories' }
+                ].every(filter => {
+                    // get all selected filter options
+                    const vOptions = [].slice.call(filter.v.children).map(option => (option.value.toUpperCase()));
+                    // act only if there’s at least one filter option selected (and node data present)
+                    if (node.data[filter.f] && vOptions.length > 0) {
+                        // check if node matches any of the filters (set: true), else do not show it (set: false)
+                        return vOptions.filter(vOption => node.data[filter.f].toUpperCase().includes(vOption)).length > 0 ? true : false;
+                    }
+                    // otherwise just show the node (set: true)
+                    return true;
+            }) && [
                 { v: document.getElementById('filter-list-active'), f: 'Active/Inactive' },
             ].every(filter => {
                 const v = filter.v.options[filter.v.selectedIndex].value.toUpperCase();
@@ -347,7 +354,6 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
 
         // Handle HTML filter update events by updating ag-grid.
         function onFilterChanged() {
-            console.log("onFilterChanged");
             gridOptions.api.onFilterChanged();
         }
 
