@@ -15,9 +15,9 @@ Options data is read from data.credcatalog at the corresponding folder _data/cre
         <label for="filter-text-project" class="mdc-floating-label mdc-floating-label--float-above">Project</label>
     </div>
 
-    <div class="category">
-        <label class="" for="category">Category</label>
-        <i class="mdc-select__dropdown-icon"></i>
+    <div class="choices-wrapper category">
+        <label class="choices__label" for="category">Category</label>
+        <i class="mdc-select__dropdown-icon choices__dropdown-icon"></i>
         <select id="filter-list-category" class="js-choice" name="category" multiple onchange="onFilterChanged()">
             <option value="">&nbsp;</option>
             {% assign categories = site.data.credcatalog.initiatives | uniq: 'Solutions Categories' %}
@@ -27,30 +27,28 @@ Options data is read from data.credcatalog at the corresponding folder _data/cre
         </select>
     </div>
 
-    <div class="mdc-select location">
-        <i class="mdc-select__dropdown-icon"></i>
-        <select id="filter-list-located" class="mdc-select__native-control" onchange="onFilterChanged()">
+    <div class="choices-wrapper location">
+        <label class="choices__label" for="location">Location</label>
+        <i class="mdc-select__dropdown-icon choices__dropdown-icon"></i>
+        <select id="filter-list-located" class="js-choice" name="location" multiple onchange="onFilterChanged()">
             <option value="">&nbsp;</option>
             {% assign locations = site.data.credcatalog.initiatives | uniq: 'Location' %}
             {% for location in locations %}
             <option value="{{ location }}">{{ location }}</option>
             {% endfor %}
         </select>
-        <label class="mdc-floating-label mdc-floating-label--float-above">Location</label>
-        <div class="mdc-line-ripple"></div>
     </div>
 
-    <div class="mdc-select language">
-        <i class="mdc-select__dropdown-icon"></i>
-        <select id="filter-list-language" class="mdc-select__native-control" onchange="onFilterChanged()">
+    <div class="choices-wrapper language">
+        <label class="choices__label" for="language">Languages</label>
+        <i class="mdc-select__dropdown-icon choices__dropdown-icon"></i>
+        <select id="filter-list-language" class="js-choice" name="language" multiple onchange="onFilterChanged()">
             <option value="">&nbsp;</option>
             {% assign languages = site.data.credcatalog.initiatives | uniq: 'Languages-2' %}
             {% for language in languages %}
             <option value="{{ language }}">{{ language }}</option>
             {% endfor %}
         </select>
-        <label class="mdc-floating-label mdc-floating-label--float-above">Languages</label>
-        <div class="mdc-line-ripple"></div>
     </div>
 
     <div class="mdc-select status">
@@ -183,19 +181,20 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
         onModelUpdated();
 
         // Custom selects with Choices.js
-        const element = document.querySelector('.js-choice');
-        const choices = new Choices(element, {
-            removeItemButton: true,
-            duplicateItemsAllowed: false,
-            paste: false,
-            searchFloor: 1,
-            searchResultLimit: 5,
-            searchFields: ['label', 'value'],
-            position: 'auto',
-            shouldSort: false,
-            placeholder: true,
-            itemSelectText: 'Press to select',
-        });
+        const choiceSelects = document.querySelectorAll('.js-choice');
+        choiceSelects.forEach(choiceSelect => {
+            const choices = new Choices(choiceSelect, {
+                duplicateItemsAllowed: false,
+                itemSelectText: '',
+                paste: false,
+                placeholder: true,
+                position: 'auto',
+                removeItemButton: true,
+                renderSelectedChoices: 'always',
+                searchEnabled: false,
+                shouldSort: false,
+            });
+        })
 
         // FUNCTIONS
 
@@ -254,10 +253,10 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
                 document.getElementById('filter-text-funder')
             ].some(el => el.value.trim().length >= 3) // at least 3 chars to activate filter
             || [
-                document.getElementById('filter-list-located'),
-                document.getElementById('filter-list-language'),
                 document.getElementById('filter-list-active'),
             ].some(el => el.options[el.selectedIndex].value.length) || [
+                document.getElementById('filter-list-language').childNodes.length > 0,
+                document.getElementById('filter-list-located').childNodes.length > 0,
                 document.getElementById('filter-list-category').childNodes.length > 0
             ];
         }
@@ -291,27 +290,20 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
                 )
                 );
             }) && [
-                { v: document.getElementById('filter-list-located'), f: 'Location' },
                 { v: document.getElementById('filter-list-language'), f: 'Languages-2' },
-            ].every(filter => {
-                const v = filter.v.options[filter.v.selectedIndex].value.toUpperCase();
-                return (
-                (
-                    !v
-                ) || (
-                    node.data[filter.f] &&
-                    node.data[filter.f].toUpperCase().includes(v)
-                )
-                );
-            }) && [
+                { v: document.getElementById('filter-list-located'), f: 'Location' },
                 { v: document.getElementById('filter-list-category'), f: 'Solutions Categories' }
                 ].every(filter => {
                     // get all selected filter options
                     const vOptions = [].slice.call(filter.v.children).map(option => (option.value.toUpperCase()));
                     // act only if there’s at least one filter option selected (and node data present)
-                    if (node.data[filter.f] && vOptions.length > 0) {
-                        // check if node matches any of the filters (set: true), else do not show it (set: false)
-                        return vOptions.filter(vOption => node.data[filter.f].toUpperCase().includes(vOption)).length > 0 ? true : false;
+                    if (vOptions.length > 0) {
+                        if (node.data[filter.f]) {
+                            // check if node matches any of the filters (set: true), else do not show it (set: false)
+                            return vOptions.filter(vOption => node.data[filter.f].toUpperCase().includes(vOption)).length > 0 ? true : false;
+                        }
+                        // filter out all the noders where node[filter.f] is null
+                        return false
                     }
                     // otherwise just show the node (set: true)
                     return true;
