@@ -9,7 +9,7 @@ Options data is read from data.credcatalog at the corresponding folder _data/cre
 -->
 {% endcomment %}
 
-<div id="react-filters"></div>
+<div id="react-filters" class="projects"></div>
 
 {% comment %}
 <!--
@@ -289,11 +289,6 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
       // Resize using global options.
       onResize(gridOptions);
   });
-
-  // Handle HTML filter update events by updating ag-grid.
-  function onFilterChanged() {
-      gridOptions.api.onFilterChanged();
-  }
 
   // Toggle view by show/hide and update active selection chip.
   function toggleView(view) {

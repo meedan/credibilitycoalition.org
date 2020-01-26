@@ -3,21 +3,39 @@
   padding: 24px 0;
   width: 100%;
   & > * {
-    flex-basis: 100/6 * 1%;
     flex-grow: 0;
     flex-shrink: 0;
-    padding-right: 8px;
   }
   * > *:last-child {
     margin-right: 0;
   }
 
-  @include when-smaller-than(medium) {
-    flex-direction: column;
-    & > * {
-      padding-right: 0;
-      margin-bottom: 8px;
+  &.projects {
+    @include when-larger-than(medium) {
+      & > * {
+        flex-basis: 100/6 * 1%;
+        padding-right: 8px;
+      }
+    }
+    @include when-smaller-than(medium) {
+      flex-direction: column;
+      & > * {
+        margin-bottom: 8px;
+      }
     }
   }
-
+  &.funders {
+    @include when-larger-than(medium) {
+      & > * {
+        flex-basis: 100/2 * 1%;
+        padding-right: 8px;
+      }
+    }
+    @include when-smaller-than(medium) {
+      flex-direction: column;
+      & > * {
+        margin-bottom: 8px;
+      }
+    }
+  }
 }
