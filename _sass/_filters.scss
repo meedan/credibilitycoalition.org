@@ -1,0 +1,23 @@
+#react-filters {
+  display: flex;
+  padding: 24px 0;
+  width: 100%;
+  & > * {
+    flex-basis: 100/6 * 1%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-right: 8px;
+  }
+  * > *:last-child {
+    margin-right: 0;
+  }
+
+  @include when-smaller-than(medium) {
+    flex-direction: column;
+    & > * {
+      padding-right: 0;
+      margin-bottom: 8px;
+    }
+  }
+
+}
