@@ -336,11 +336,15 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
 <script type="text/babel" charset="utf-8">
 
   const {
+    FormControl,
+    IconButton,
+    InputLabel,
+    ListItemSecondaryAction,
+    ListItemText,
     MenuItem,
     Select,
+    SvgIcon,
     TextField,
-    FormControl,
-    InputLabel,
   } = MaterialUI;
 
   function App() {
@@ -351,6 +355,19 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
     const [fLocation, setFLocation] = React.useState([]);
     const [fProject, setFProject] = React.useState('');
     const [fStatus, setFStatus] = React.useState('');
+
+    const [categorySelect, setCategorySelect] = React.useState(false);
+    const [locationSelect, setLocationSelect] = React.useState(false);
+    const [languageSelect, setLanguageSelect] = React.useState(false);
+    const [statusSelect, setStatusSelect] = React.useState(false);
+
+    const MenuProps = {
+      PaperProps: {
+        style: {
+          maxHeight: 300,
+        },
+      },
+    };
 
     React.useEffect(() => {
       // Handle HTML filter update events by updating ag-grid.
@@ -367,6 +384,8 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
 
     const handleMultiVal = e => (!e.nativeEvent.target.dataset.value ? [] : e.target.value);
 
+    const closeIcon = <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+
     return (
       <>
         <FormControl variant="filled">
@@ -376,27 +395,49 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
         <FormControl variant="filled">
           <InputLabel shrink htmlFor="filter-category">Category</InputLabel>
           <Select
-            multiple
-            value={fCategory}
-            onChange={e => setFCategory(handleMultiVal(e))}
+            MenuProps={MenuProps}
             id="filter-category"
+            multiple
+            onChange={e => setFCategory(handleMultiVal(e))}
+            onClose={() => setCategorySelect(false)}
+            onOpen={() => setCategorySelect(true)}
+            open={categorySelect}
+            value={fCategory}
           >
-            <MenuItem value=""><em>All</em></MenuItem>
+            <MenuItem key="reset" value="" onClick={() => setCategorySelect(false)} dense>
+              <em>All</em>
+              <ListItemSecondaryAction>
+                <IconButton edge="end" aria-label="Close" onClick={() => setCategorySelect(false)} size="small">
+                  <SvgIcon fontSize="small">{closeIcon}</SvgIcon>
+                </IconButton>
+              </ListItemSecondaryAction>
+            </MenuItem>
             {% assign categories = site.data.credcatalog.initiatives | uniq: 'Solutions Categories' %}
             {% for category in categories %}
-              <MenuItem key="{{ category }}" value="{{ category }}">{{ category }}</MenuItem>
+              <MenuItem key="{{ category }}" value="{{ category }}" dense>{{ category }}</MenuItem>
             {% endfor %}
           </Select>
         </FormControl>
         <FormControl variant="filled">
           <InputLabel shrink htmlFor="filter-location">Location</InputLabel>
           <Select
-            multiple
-            value={fLocation}
+            MenuProps={MenuProps}
             id="filter-location"
+            multiple
             onChange={e => setFLocation(handleMultiVal(e))}
+            onClose={() => setLocationSelect(false)}
+            onOpen={() => setLocationSelect(true)}
+            open={locationSelect}
+            value={fLocation}
           >
-            <MenuItem value=""><em>All</em></MenuItem>
+            <MenuItem key="reset" value="" onClick={() => setLocationSelect(false)} dense>
+              <em>All</em>
+              <ListItemSecondaryAction>
+                <IconButton edge="end" aria-label="Close" onClick={() => setLocationSelect(false)} size="small">
+                  <SvgIcon fontSize="small">{closeIcon}</SvgIcon>
+                </IconButton>
+              </ListItemSecondaryAction>
+            </MenuItem>
             {% assign locations = site.data.credcatalog.initiatives | uniq: 'Location' %}
             {% for location in locations %}
               <MenuItem key="{{ location }}" value="{{ location }}">{{ location }}</MenuItem>
@@ -406,12 +447,23 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
         <FormControl variant="filled">
           <InputLabel shrink htmlFor="filter-language">Language</InputLabel>
           <Select
-            multiple
-            value={fLanguage}
+            MenuProps={MenuProps}
             id="filter-language"
+            multiple
             onChange={e => setFLanguage(handleMultiVal(e))}
+            onClose={() => setLanguageSelect(false)}
+            onOpen={() => setLanguageSelect(true)}
+            open={languageSelect}
+            value={fLanguage}
           >
-            <MenuItem value=""><em>All</em></MenuItem>
+            <MenuItem key="reset" value="" onClick={() => setLanguageSelect(false)} dense>
+              <em>All</em>
+              <ListItemSecondaryAction>
+                <IconButton edge="end" aria-label="Close" onClick={() => setLanguageSelect(false)} size="small">
+                  <SvgIcon fontSize="small">{closeIcon}</SvgIcon>
+                </IconButton>
+              </ListItemSecondaryAction>
+            </MenuItem>
             {% assign languages = site.data.credcatalog.initiatives | uniq: 'Languages-2' %}
             {% for language in languages %}
             <MenuItem key="{{ language }}" value="{{ language }}">{{ language }}</MenuItem>
@@ -421,10 +473,21 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
         <FormControl variant="filled">
           <InputLabel shrink htmlFor="filter-status">Status</InputLabel>
           <Select
+            MenuProps={MenuProps}
             id="filter-status"
             onChange={e => setFStatus(e.target.value)}
+            onClose={() => setStatusSelect(false)}
+            onOpen={() => setStatusSelect(true)}
+            open={statusSelect}
           >
-            <MenuItem value=""><em>All</em></MenuItem>
+            <MenuItem key="reset" value="" onClick={() => setStatusSelect(false)} dense>
+              <em>All</em>
+              <ListItemSecondaryAction>
+                <IconButton edge="end" aria-label="Close" onClick={() => setStatusSelect(false)} size="small">
+                  <SvgIcon fontSize="small">{closeIcon}</SvgIcon>
+                </IconButton>
+              </ListItemSecondaryAction>
+            </MenuItem>
             <MenuItem key="Active" value="Active">Active</MenuItem>
             <MenuItem key="Inactive" value="Inactive">Inactive</MenuItem>
           </Select>
