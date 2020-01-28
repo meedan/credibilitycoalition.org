@@ -1,0 +1,6 @@
+/* Material UI overrides */
+
+.MuiListItem-root.Mui-selected.MuiListItem-root.Mui-selected {
+  background-color: $background;
+  color: $web-blue;
+}
