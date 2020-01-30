@@ -59,6 +59,30 @@ module Jekyll
       }
     end
 
+
+    def location_options(locations)
+      #
+      # Return an ordered list of locations from the CredCatalog locations table.
+      # Assumes the locations table contains data organized top-down, i.e. root => leaves
+      #
+      locations
+        .select{ |loc| loc['Geographic Type'] && loc['Geographic Name'] }
+        .reduce([]) { |opts, loc|
+          name = loc['Geographic Name'].strip
+          n = opts.find_index(name)
+          if n.nil?
+            opts.push(name)
+            n = opts.length - 1
+          end
+          if loc['Initiatives'].nil? && loc['Direct Relationship'].nil?
+            opts.delete_at(n)
+          end
+          split_better(loc['Direct Relationship'], ',')
+            .each { |child| opts.insert(n+1, child) }
+          opts
+        }
+    end
+
     def _schema_hash(project)
       return Digest::MD5.hexdigest(
         project['Map Spectra: Theory'] +
