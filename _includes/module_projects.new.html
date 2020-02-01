@@ -340,6 +340,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
     IconButton,
     InputLabel,
     ListItemSecondaryAction,
+    ListSubheader,
     ListItemText,
     MenuItem,
     Select,
@@ -348,11 +349,6 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
   } = MaterialUI;
 
   function App() {
-
-    {% assign locations = site.data.credcatalog.locations | location_options %}
-    const allLocations = _.reject({{ locations | jsonify }}, o => o.value === 'Global');
-    const locationTypes = _.groupBy(allLocations, o => o.type);
-    const locationRegions = _.groupBy(allLocations, o => o.parent);
 
     const [fCategory, setFCategory] = React.useState([]);
     const [fFunder, setFFunder] = React.useState('');
@@ -366,6 +362,17 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
     const [languageSelect, setLanguageSelect] = React.useState(false);
     const [statusSelect, setStatusSelect] = React.useState(false);
 
+    {% assign locations = site.data.credcatalog.locations | location_options %}
+    const oldLocations = _.reject({{ locations | jsonify }}, o => o.value === 'Global');
+    const locationTypes = _.groupBy(oldLocations, o => o.type);
+    const locationRegions = _.groupBy(oldLocations, o => o.parent);
+
+    // const oldLocations =
+    // const allLocations =
+
+    console.log(oldLocations);
+    // console.log(allLocations);
+
     const MenuProps = {
       PaperProps: {
         style: {
@@ -374,27 +381,21 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
       },
     };
 
-    React.useEffect(() => {
-      console.group("Effect");
-
-      const arr = fLocation;
-      // check if intersects with globals
-      const globals = _.intersection(arr, locationTypes['Global'].map(el => el.value));
-      locationTypes['Region'].forEach(el => globals.includes(el.parent) ? arr.push(el.value) : null);
-
-      // check if intersects with regions
-      const regions = _.intersection(arr, locationTypes['Region'].map(el => el.value));
-      locationTypes['Subregion'].forEach(el => regions.includes(el.parent) ? arr.push(el.value) : null);
-
-      console.log(fLocation, locationTypes['Global']);
-      console.log(fLocation, locationTypes['Region']);
-      console.log({ globals });
-      console.log({ regions });
-      console.groupEnd();
-
-      setFLocation(arr);
-
-    }, [fLocation])
+    // React.useEffect(() => {
+    //   console.log("EFFECT");
+    //   // loop through all fLocations
+    //   fLocation.forEach(floc => {
+    //     // console.log(floc);
+    //     // loop through all locations
+    //     locations.forEach(loc => {
+    //       // console.log(loc);
+    //       if (floc === loc.parent) {
+    //         setFLocation([ ...fLocation, floc ]);
+    //         console.log('it’s a match!');
+    //       }
+    //     })
+    //   })
+    // }, [fLocation]);
 
     React.useEffect(() => {
       // Handle HTML filter update events by updating ag-grid.
@@ -406,16 +407,26 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
         fProject: fProject,
         fStatus: fStatus
       }
+      console.log({ agFilters });
       gridOptions.api.onFilterChanged();
     })
 
     const handleMultiVal = e => (!e.nativeEvent.target.dataset.value ? [] : e.target.value);
 
+    const handleLocation = str => {
+      let arr = fLocation;
+      if (arr.includes(str)) {
+        var index = arr.indexOf(str);
+        if (index !== -1) arr.splice(index, 1);
+      } else {
+        arr.push(str);
+      }
+      setFLocation(arr);
+    }
+
     const closeIcon = <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
 
-    // console.log(allLocations);
-    // console.log(locationTypes);
-    // console.log(locationRegions);
+    const locationOptions = null;
 
     return (
       <>
@@ -469,7 +480,9 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
                 </IconButton>
               </ListItemSecondaryAction>
             </MenuItem>
-            {allLocations.map(el => <MenuItem key={el.value} value={el.value}>{el.label}</MenuItem>)}
+            {oldLocations.map(loc => {
+              return <MenuItem key={loc.value}>{loc.label}</MenuItem>;
+            })}
           </Select>
         </FormControl>
         <FormControl variant="filled">
