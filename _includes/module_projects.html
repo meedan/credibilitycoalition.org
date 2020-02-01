@@ -440,7 +440,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             </MenuItem>
             {% assign locations = site.data.credcatalog.locations | location_options %}
             {% for location in locations %}
-              <MenuItem key="{{ location }}" value="{{ location }}">{{ location }}</MenuItem>
+              <MenuItem key="{{ location.value }}" value="{{ location.value }}">{{ location.label }} ({{ location.count }})</MenuItem>
             {% endfor %}
           </Select>
         </FormControl>

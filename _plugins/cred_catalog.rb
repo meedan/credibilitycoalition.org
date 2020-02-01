@@ -36,7 +36,7 @@ module Jekyll
           funder['Name'],
           funder['Type']
         ],
-        'ProjectsHTML' => split_better(funder['Initatives'], ',')
+        'ProjectsHTML' => split_better(funder['Initatives'], ',') # Typo 'Initatives' as per funders.json!!
           .map(&:strip)
           .map{ |p| '<a href="/credcatalog/project/%s">%s</a>' % [
             sanitize_filename(p),
@@ -59,28 +59,65 @@ module Jekyll
       }
     end
 
-
     def location_options(locations)
       #
-      # Return an ordered list of locations from the CredCatalog locations table.
+      # Return an ordered list of locations from the CredCatalog locations table,
+      # filtered by locations that contain any initiative.
+      #
       # Assumes the locations table contains data organized top-down, i.e. root => leaves
       #
+      child_indents = {
+        'Global' => '',
+        'Region' => '-- ',
+        'Subregion' => '---- '
+      }
       locations
         .select{ |loc| loc['Geographic Type'] && loc['Geographic Name'] }
         .reduce([]) { |opts, loc|
-          name = loc['Geographic Name'].strip
-          n = opts.find_index(name)
-          if n.nil?
-            opts.push(name)
-            n = opts.length - 1
+          value = loc['Geographic Name'].strip
+
+          # Find location index in the array.
+          if loc['Geographic Type'] == 'Global'
+            # For 'Global', it's the first element.
+            opts.push({
+              'label' => 'Global',
+              'value' => 'Global',
+              'parent' => nil,
+              'count' => 0
+            })
+            n = 0
+          else
+            # Other options should have already been added as children of previous locations
+            # but there can be bugs in the data...
+            n = opts.index { |opt| opt['value'] == value }
           end
-          if loc['Initiatives'].nil? && loc['Direct Relationship'].nil?
-            opts.delete_at(n)
+
+          if !n.nil?
+            # Update count of initiatives for this node and its parents.
+            projects = split_better(loc['Initiatives'], ',').length
+            node = opts[n]
+            while !node.nil?
+              node['count'] += projects
+              node = opts.find { |opt| opt['value'] == node['parent'] }
+            end
+
+            # Add the children of the current location.
+            split_better(loc['Direct Relationship'], ',')
+              .sort
+              .reverse
+              .each { |child|
+                opts.insert(n+1, {
+                  'label' => child_indents[loc['Geographic Type']] + child,
+                  'value' => child,
+                  'count' => 0,
+                  'parent' => loc['Geographic Type'] == 'Global' ? nil : value
+                })
+              }
           end
-          split_better(loc['Direct Relationship'], ',')
-            .each { |child| opts.insert(n+1, child) }
+
           opts
         }
+        .select{ |opt| opt['count'] > 0 }
     end
 
     def _schema_hash(project)
