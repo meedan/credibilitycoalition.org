@@ -234,7 +234,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
     }) && [
       { v: agFilters.fCategory, f: 'Solutions Categories'},
       { v: agFilters.fLanguage, f: 'Languages-2'},
-      { v: agFilters.fLocation, f: 'Location'},
+      { v: agFilters.fLocation, f: 'LocationFiltered'},
     ].every(filter => {
       const v = filter.v.map(str => str.toUpperCase());
       if (v && v.length > 0) {
