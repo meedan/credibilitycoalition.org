@@ -10,7 +10,8 @@ module Jekyll
       clean_locations = Jekyll.sites[0].data['credcatalog']['locations']
         .select { |loc| loc['Geographic Type'] && loc['Geographic Name'] }
         .map { |loc| loc.merge({
-          'Geographic Name' => loc['Geographic Name'].strip
+          'Geographic Name' => loc['Geographic Name'].strip,
+          'Direct Relationship' => split_better(loc['Direct Relationship'])
         })}
 
       # Augment the existing projects list with processed fields for display.
@@ -20,7 +21,7 @@ module Jekyll
           project['Name']
         ],
         'NameSlug' => sanitize_filename(project['Name']),
-        'FundersLinked' => split_better(project['Funders'], ',')
+        'FundersLinked' => split_better(project['Funders'])
           .select{ |f| f != '[needs more research]' }
           .map(&:strip)
           .map { |f| '<a href="/credcatalog/funder/%s">%s</a>' % [
@@ -29,15 +30,15 @@ module Jekyll
           ]}
           .join(', '),
         'Spectra' => _spectra(project, svg),
-        'CategoriesCleaned' => split_better(project['Solutions Categories'], ',').sort.join(', '),
-        'LocationCleaned' => split_better(project['Location'], ',').sort.join(', '),
-        'LocationFiltered' => split_better(project['Location'], ',')
+        'CategoriesCleaned' => split_better(project['Solutions Categories']).sort.join(', '),
+        'LocationCleaned' => split_better(project['Location']).sort.join(', '),
+        'LocationFiltered' => split_better(project['Location'])
           .reduce([]) { |locs, loc|
             locs.concat(_location_hierarchy(clean_locations, loc))
             locs
           }
           .uniq.sort.join(', '),
-        'LanguagesCleaned' => split_better(project['Languages-2'], ',').sort.join(', ')
+        'LanguagesCleaned' => split_better(project['Languages-2']).sort.join(', ')
       })}
     end
 
@@ -49,7 +50,7 @@ module Jekyll
       parent = locations.find { |loc| loc['Geographic Name'] == location }
       while !parent.nil?
         hierarchy.push(parent['Geographic Name'])
-        parent = locations.find { |loc| loc.dig('Direct Relationship')&.include? parent['Geographic Name'] }
+        parent = locations.find { |loc| loc['Direct Relationship'].include? parent['Geographic Name'] }
         parent = nil if parent&.dig('Geographic Name') == 'Global' # Don't go up to Global
       end
       hierarchy
@@ -64,7 +65,7 @@ module Jekyll
           funder['Name'],
           funder['Type']
         ],
-        'ProjectsHTML' => split_better(funder['Initatives'], ',') # Typo 'Initatives' as per funders.json!!
+        'ProjectsHTML' => split_better(funder['Initatives']) # Typo 'Initatives' as per funders.json!!
           .map(&:strip)
           .map { |p| '<a href="/credcatalog/project/%s">%s</a>' % [
             sanitize_filename(p),
@@ -121,7 +122,7 @@ module Jekyll
 
           if !n.nil?
             # Update count of initiatives for this node and its parents.
-            projects = split_better(loc['Initiatives'], ',').length
+            projects = split_better(loc['Initiatives']).length
             node = opts[n]
             while !node.nil?
               node['count'] += projects
@@ -131,7 +132,7 @@ module Jekyll
             end
 
             # Add the children of the current location.
-            split_better(loc['Direct Relationship'], ',')
+            split_better(loc['Direct Relationship'])
               .sort
               .reverse
               .each { |child|
