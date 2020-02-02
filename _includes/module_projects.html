@@ -361,6 +361,13 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
     const [languageSelect, setLanguageSelect] = React.useState(false);
     const [statusSelect, setStatusSelect] = React.useState(false);
 
+    React.useEffect(() => {
+      if (fCategory.length === 0) { setCategorySelect(false); }
+      if (fLanguage.length === 0) { setLanguageSelect(false); }
+      if (fLocation.length === 0) { setLocationSelect(false); }
+      if (fStatus.length === 0) { setStatusSelect(false); }
+    }, [fCategory, fLanguage, fLocation, fStatus])
+
     const MenuProps = {
       PaperProps: {
         style: {
