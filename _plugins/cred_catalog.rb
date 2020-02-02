@@ -97,8 +97,8 @@ module Jekyll
       #
       child_indents = {
         'Global' => '',
-        'Region' => '',
-        'Subregion' => ''
+        'Region' => '-- ',
+        'Subregion' => '---- '
       }
       locations
         .select { |loc| loc['Geographic Type'] && loc['Geographic Name'] }
@@ -140,8 +140,7 @@ module Jekyll
                   'label' => child_indents[loc['Geographic Type']] + child,
                   'value' => child,
                   'count' => 0,
-                  'parent' => loc['Geographic Type'] == 'Global' ? nil : value,
-                  'type' => loc['Geographic Type']
+                  'parent' => loc['Geographic Type'] == 'Global' ? nil : value
                 })
               }
           end

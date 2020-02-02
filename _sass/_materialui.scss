@@ -1,7 +1,6 @@
 /* Material UI overrides and customisations */
 
 // fix what non-existing reset.css does to these components
-.MuiListSubheader-root,
 .MuiListItem-container {
   padding-bottom: 0
 }
@@ -11,7 +10,3 @@
   background-color: $background;
   color: $web-blue;
 }
-
-.MuiMenuItem--Global { background-color: #e8e8e8 !important; }
-// .MuiMenuItem--Region { background-color: $background !important; }
-// .MuiMenuItem--Subregion { }

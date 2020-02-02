@@ -349,11 +349,6 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
 
   function App() {
 
-    {% assign locations = site.data.credcatalog.locations | location_options %}
-    const allLocations = _.reject({{ locations | jsonify }}, o => o.value === 'Global');
-    const locationTypes = _.groupBy(allLocations, o => o.type);
-    const locationRegions = _.groupBy(allLocations, o => o.parent);
-
     const [fCategory, setFCategory] = React.useState([]);
     const [fFunder, setFFunder] = React.useState('');
     const [fLanguage, setFLanguage] = React.useState([]);
@@ -375,35 +370,6 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
     };
 
     React.useEffect(() => {
-      console.group("Effect");
-
-      const arr = fLocation;
-      // check if intersects with globals
-      const globals = _.intersection(arr, locationTypes['Global'].map(el => el.value));
-      locationTypes['Region'].forEach(el => globals.includes(el.parent) ? arr.push(el.value) : null);
-
-      // check if intersects with regions
-      const regions = _.intersection(arr, locationTypes['Region'].map(el => el.value));
-      locationTypes['Subregion'].forEach(el => regions.includes(el.parent) ? arr.push(el.value) : null);
-
-      console.log(fLocation, locationTypes['Global']);
-      console.log(fLocation, locationTypes['Region']);
-      console.log({ globals });
-      console.log({ regions });
-      console.groupEnd();
-
-      setFLocation(arr);
-
-    }, [fLocation])
-
-    React.useEffect(() => {
-      if (fCategory.length === 0) { setCategorySelect(false); }
-      if (fLanguage.length === 0) { setLanguageSelect(false); }
-      if (fLocation.length === 0) { setLocationSelect(false); }
-      if (fStatus.length === 0) { setStatusSelect(false); }
-    }, [fCategory, fLanguage, fLocation, fStatus])
-
-    React.useEffect(() => {
       // Handle HTML filter update events by updating ag-grid.
       agFilters = {
         fCategory: fCategory,
@@ -419,10 +385,6 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
     const handleMultiVal = e => (!e.nativeEvent.target.dataset.value ? [] : e.target.value);
 
     const closeIcon = <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-
-    console.log(allLocations);
-    console.log(locationTypes);
-    console.log(locationRegions);
 
     return (
       <>
@@ -476,7 +438,10 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
                 </IconButton>
               </ListItemSecondaryAction>
             </MenuItem>
-            {allLocations.map(el => <MenuItem key={el.value} value={el.value} className={`${el.type === 'Region' ? `MuiMenuItem--Region` : ''}${el.type === 'Global' ? 'MuiMenuItem--Global' : ''}${el.type === 'Subregion' ? 'MuiMenuItem--Subregion' : ''}`}>{el.label}</MenuItem>)}
+            {% assign locations = site.data.credcatalog.locations | location_options %}
+            {% for location in locations %}
+              <MenuItem key="{{ location.value }}" value="{{ location.value }}">{{ location.label }} ({{ location.count }})</MenuItem>
+            {% endfor %}
           </Select>
         </FormControl>
         <FormControl variant="filled">
