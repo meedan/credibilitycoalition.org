@@ -397,6 +397,13 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
     }, [fLocation])
 
     React.useEffect(() => {
+      if (fCategory.length === 0) { setCategorySelect(false); }
+      if (fLanguage.length === 0) { setLanguageSelect(false); }
+      if (fLocation.length === 0) { setLocationSelect(false); }
+      if (fStatus.length === 0) { setStatusSelect(false); }
+    }, [fCategory, fLanguage, fLocation, fStatus])
+
+    React.useEffect(() => {
       // Handle HTML filter update events by updating ag-grid.
       agFilters = {
         fCategory: fCategory,
@@ -413,9 +420,9 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
 
     const closeIcon = <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
 
-    // console.log(allLocations);
-    // console.log(locationTypes);
-    // console.log(locationRegions);
+    console.log(allLocations);
+    console.log(locationTypes);
+    console.log(locationRegions);
 
     return (
       <>
@@ -435,7 +442,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             open={categorySelect}
             value={fCategory}
           >
-            <MenuItem key="reset" value="" onClick={() => setCategorySelect(false)} dense>
+            <MenuItem key="reset" value="" dense>
               <em>All</em>
               <ListItemSecondaryAction>
                 <IconButton edge="end" aria-label="Close" onClick={() => setCategorySelect(false)} size="small">
@@ -461,7 +468,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             open={locationSelect}
             value={fLocation}
           >
-            <MenuItem key="reset" value="" onClick={() => setLocationSelect(false)} dense>
+            <MenuItem key="reset" value="" dense>
               <em>All</em>
               <ListItemSecondaryAction>
                 <IconButton edge="end" aria-label="Close" onClick={() => setLocationSelect(false)} size="small">
@@ -469,7 +476,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
                 </IconButton>
               </ListItemSecondaryAction>
             </MenuItem>
-            {allLocations.map(el => <MenuItem key={el.value} value={el.value}>{el.label}</MenuItem>)}
+            {allLocations.map(el => <MenuItem key={el.value} value={el.value} className={`${el.type === 'Region' ? `MuiMenuItem--Region` : ''}${el.type === 'Global' ? 'MuiMenuItem--Global' : ''}${el.type === 'Subregion' ? 'MuiMenuItem--Subregion' : ''}`}>{el.label}</MenuItem>)}
           </Select>
         </FormControl>
         <FormControl variant="filled">
@@ -484,7 +491,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             open={languageSelect}
             value={fLanguage}
           >
-            <MenuItem key="reset" value="" onClick={() => setLanguageSelect(false)} dense>
+            <MenuItem key="reset" value="" dense>
               <em>All</em>
               <ListItemSecondaryAction>
                 <IconButton edge="end" aria-label="Close" onClick={() => setLanguageSelect(false)} size="small">
@@ -508,7 +515,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             onOpen={() => setStatusSelect(true)}
             open={statusSelect}
           >
-            <MenuItem key="reset" value="" onClick={() => setStatusSelect(false)} dense>
+            <MenuItem key="reset" value="" dense>
               <em>All</em>
               <ListItemSecondaryAction>
                 <IconButton edge="end" aria-label="Close" onClick={() => setStatusSelect(false)} size="small">

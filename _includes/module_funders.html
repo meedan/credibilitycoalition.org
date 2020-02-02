@@ -134,6 +134,10 @@
     };
 
     React.useEffect(() => {
+      if (fType.length === 0) { setTypeSelect(false); }
+    }, [fType])
+
+    React.useEffect(() => {
       // Handle HTML filter update events by updating ag-grid.
       agFilters = {
         fFunder: fFunder,
@@ -163,7 +167,7 @@
             open={typeSelect}
             value={fType}
           >
-            <MenuItem key="reset" value="" onClick={() => setTypeSelect(false)} dense>
+            <MenuItem key="reset" value="" dense>
               <em>All</em>
               <ListItemSecondaryAction>
                 <IconButton edge="end" aria-label="Close" onClick={() => setTypeSelect(false)} size="small">
