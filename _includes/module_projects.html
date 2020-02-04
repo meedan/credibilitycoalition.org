@@ -402,7 +402,14 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
         <FormControl variant="filled">
           <InputLabel shrink htmlFor="filter-category">Category</InputLabel>
           <Select
-            MenuProps={MenuProps}
+            MenuProps={
+              {
+                ...MenuProps,
+                anchorOrigin: { vertical: 'bottom', horizontal: 'center' },
+                transformOrigin: { vertical: 'top', horizontal: 'center' },
+                variant: 'menu',
+              }
+            }
             id="filter-category"
             multiple
             onChange={e => setFCategory(handleMultiVal(e))}
@@ -429,7 +436,14 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
         <FormControl variant="filled">
           <InputLabel shrink htmlFor="filter-location">Location</InputLabel>
           <Select
-            MenuProps={MenuProps}
+            MenuProps={
+              {
+                ...MenuProps,
+                anchorOrigin: { vertical: 'bottom', horizontal: 'center' },
+                transformOrigin: { vertical: 'top', horizontal: 'center' },
+                variant: 'menu',
+              }
+            }
             id="filter-location"
             multiple
             onChange={e => setFLocation(handleMultiVal(e))}
@@ -456,7 +470,14 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
         <FormControl variant="filled">
           <InputLabel shrink htmlFor="filter-language">Language</InputLabel>
           <Select
-            MenuProps={MenuProps}
+            MenuProps={
+              {
+                ...MenuProps,
+                anchorOrigin: { vertical: 'bottom', horizontal: 'center' },
+                transformOrigin: { vertical: 'top', horizontal: 'center' },
+                variant: 'menu',
+              }
+            }
             id="filter-language"
             multiple
             onChange={e => setFLanguage(handleMultiVal(e))}
@@ -483,7 +504,14 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
         <FormControl variant="filled">
           <InputLabel shrink htmlFor="filter-status">Status</InputLabel>
           <Select
-            MenuProps={MenuProps}
+            MenuProps={
+              {
+                ...MenuProps,
+                anchorOrigin: { vertical: 'bottom', horizontal: 'center' },
+                transformOrigin: { vertical: 'top', horizontal: 'center' },
+                variant: 'menu',
+              }
+            }
             id="filter-status"
             onChange={e => setFStatus(e.target.value)}
             onClose={() => setStatusSelect(false)}

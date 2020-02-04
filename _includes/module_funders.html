@@ -159,6 +159,14 @@
         <FormControl variant="filled">
           <InputLabel shrink htmlFor="filter-type">Funding Type</InputLabel>
           <Select
+            MenuProps={
+              {
+                ...MenuProps,
+                anchorOrigin: { vertical: 'bottom', horizontal: 'center' },
+                transformOrigin: { vertical: 'top', horizontal: 'center' },
+                variant: 'menu',
+              }
+            }
             id="filter-type"
             multiple
             onChange={e => setFType(handleMultiVal(e))}
