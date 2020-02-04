@@ -405,8 +405,6 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             MenuProps={
               {
                 ...MenuProps,
-                anchorOrigin: { vertical: 'bottom', horizontal: 'center' },
-                transformOrigin: { vertical: 'top', horizontal: 'center' },
                 variant: 'menu',
               }
             }
@@ -439,8 +437,6 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             MenuProps={
               {
                 ...MenuProps,
-                anchorOrigin: { vertical: 'bottom', horizontal: 'center' },
-                transformOrigin: { vertical: 'top', horizontal: 'center' },
                 variant: 'menu',
               }
             }
@@ -463,7 +459,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             </MenuItem>
             {% assign locations = site.data.credcatalog.locations | location_options %}
             {% for location in locations %}
-              <MenuItem key="{{ location.value }}" value="{{ location.value }}">{{ location.label }} ({{ location.count }})</MenuItem>
+              <MenuItem key="{{ location.value }}" value="{{ location.value }}" dense>{{ location.label }} ({{ location.count }})</MenuItem>
             {% endfor %}
           </Select>
         </FormControl>
@@ -473,8 +469,6 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             MenuProps={
               {
                 ...MenuProps,
-                anchorOrigin: { vertical: 'bottom', horizontal: 'center' },
-                transformOrigin: { vertical: 'top', horizontal: 'center' },
                 variant: 'menu',
               }
             }
@@ -497,7 +491,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             </MenuItem>
             {% assign languages = site.data.credcatalog.initiatives | uniq: 'Languages-2' %}
             {% for language in languages %}
-            <MenuItem key="{{ language }}" value="{{ language }}">{{ language }}</MenuItem>
+            <MenuItem key="{{ language }}" value="{{ language }}" dense>{{ language }}</MenuItem>
             {% endfor %}
           </Select>
         </FormControl>
@@ -507,8 +501,6 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             MenuProps={
               {
                 ...MenuProps,
-                anchorOrigin: { vertical: 'bottom', horizontal: 'center' },
-                transformOrigin: { vertical: 'top', horizontal: 'center' },
                 variant: 'menu',
               }
             }
@@ -526,8 +518,8 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
                 </IconButton>
               </ListItemSecondaryAction>
             </MenuItem>
-            <MenuItem key="Active" value="Active">Active</MenuItem>
-            <MenuItem key="Inactive" value="Inactive">Inactive</MenuItem>
+            <MenuItem key="Active" value="Active" dense>Active</MenuItem>
+            <MenuItem key="Inactive" value="Inactive" dense>Inactive</MenuItem>
           </Select>
         </FormControl>
         <FormControl variant="filled">

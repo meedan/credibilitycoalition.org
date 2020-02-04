@@ -162,8 +162,6 @@
             MenuProps={
               {
                 ...MenuProps,
-                anchorOrigin: { vertical: 'bottom', horizontal: 'center' },
-                transformOrigin: { vertical: 'top', horizontal: 'center' },
                 variant: 'menu',
               }
             }
@@ -186,7 +184,7 @@
             </MenuItem>
             {% assign types = site.data.credcatalog.funders | uniq: 'Type' %}
             {% for type in types %}
-            <MenuItem key="{{ type }}" value="{{ type }}">{{ type }}</MenuItem>
+            <MenuItem key="{{ type }}" value="{{ type }}" dense>{{ type }}</MenuItem>
             {% endfor %}
           </Select>
         </FormControl>
