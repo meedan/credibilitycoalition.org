@@ -409,6 +409,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             onClose={() => setCategorySelect(false)}
             onOpen={() => setCategorySelect(true)}
             open={categorySelect}
+            renderValue={values => values.join(', ')}
             value={fCategory}
           >
             <MenuItem key="reset" value="" dense>
@@ -435,6 +436,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             onClose={() => setLocationSelect(false)}
             onOpen={() => setLocationSelect(true)}
             open={locationSelect}
+            renderValue={values => values.join(', ')}
             value={fLocation}
           >
             <MenuItem key="reset" value="" dense>
@@ -461,6 +463,7 @@ list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid
             onClose={() => setLanguageSelect(false)}
             onOpen={() => setLanguageSelect(true)}
             open={languageSelect}
+            renderValue={values => values.join(', ')}
             value={fLanguage}
           >
             <MenuItem key="reset" value="" dense>

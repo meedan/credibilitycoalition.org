@@ -165,6 +165,7 @@
             onClose={() => setTypeSelect(false)}
             onOpen={() => setTypeSelect(true)}
             open={typeSelect}
+            renderValue={values => values.join(', ')}
             value={fType}
           >
             <MenuItem key="reset" value="" dense>
