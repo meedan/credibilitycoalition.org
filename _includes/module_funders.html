@@ -1,118 +1,198 @@
-<div id="viewFilters" class="view-filters">
-        <div class="mdc-text-field funders">
-          <input class="mdc-text-field__input" id="filter-text-funder" oninput="onFilterChanged()">
-          <div class="mdc-line-ripple"></div>
-          <label for="filter-text-funder" class="mdc-floating-label mdc-floating-label--float-above">Funder</label>
-        </div>
+<div id="react-filters" class="funders"></div>
 
-        <div class="mdc-select funding-type">
-          <i class="mdc-select__dropdown-icon"></i>
-          <select id="filter-list-type" class="mdc-select__native-control" onchange="onFilterChanged()">
-            <option value="">&nbsp;</option>
-          {% assign types = site.data.credcatalog.funders | uniq: 'Type' %}
-          {% for type in types %}
-            <option value="{{ type }}">{{ type }}</option>
-          {% endfor %}
-          </select>
-          <label class="mdc-floating-label mdc-floating-label--float-above">Funding Type</label>
-          <div class="mdc-line-ripple"></div>
-        </div>
-      </div>
+<section>
+  <div id="list-view" style="width: 100%;" class="ag-theme-material"></div>
+</section>
 
-      <section>
-        <div id="list-view" style="width: 100%;" class="ag-theme-material"></div>
+<script type="text/javascript" charset="utf-8">
 
-        <script type="text/javascript" charset="utf-8">
-          var rowData = {{ site.data.credcatalog.funders | credify_funders | jsonify}};
+  let agFilters = {
+    fFunder: '',
+    fType: [],
+  };
 
-          function renderHTML(params) {
-            // render the HTML verbatim
-            // https://stackoverflow.com/a/49624608/209184
-            return params.value ? params.value : '';
-          }
+  var rowData = {{ site.data.credcatalog.funders | credify_funders | jsonify}};
 
-          // specify the columns
-          var columnDefs = [
-            { headerName: 'Funder', field: 'FunderHTML', cellRenderer: renderHTML, sort: 'asc', autoHeight: true },
-            { headerName: 'Description', field: 'Funder Description', width: 400, autoHeight: true, cellClass: 'funder-description' },
-            { headerName: 'Projects', field: 'ProjectsHTML', cellRenderer: renderHTML  },
-          ];
+  function renderHTML(params) {
+    // render the HTML verbatim
+    // https://stackoverflow.com/a/49624608/209184
+    return params.value ? params.value : '';
+  }
 
-          // specify the columns for small viewports
-          var columnDefsSmall = [
-            { headerName: 'Funder', field: 'FunderHTML', cellRenderer: renderHTML, sort: 'asc', autoHeight: true }
-          ];
+  // specify the columns
+  var columnDefs = [
+    { headerName: 'Funder', field: 'FunderHTML', cellRenderer: renderHTML, sort: 'asc', autoHeight: true },
+    { headerName: 'Description', field: 'Funder Description', width: 400, autoHeight: true, cellClass: 'funder-description' },
+    { headerName: 'Projects', field: 'ProjectsHTML', cellRenderer: renderHTML },
+  ];
 
-          // let the grid know which columns and what data to use
-          var gridOptions = {
-            defaultColDef: {
-              sortable: true,
-              filter: true,
-              resizable: true
-            },
-            domLayout: 'autoHeight',
-            columnDefs: columnDefs,
-            rowData: rowData,
-            isExternalFilterPresent: isExternalFilterPresent,
-            doesExternalFilterPass: doesExternalFilterPass,
-            onGridReady: (event) => { 
-              if (window.innerWidth <= 480) {
-                event.api.setColumnDefs(columnDefsSmall);
-              } else {
-                event.api.setColumnDefs(columnDefs);
+  // specify the columns for small viewports
+  var columnDefsSmall = [
+    { headerName: 'Funder', field: 'FunderHTML', cellRenderer: renderHTML, sort: 'asc', autoHeight: true }
+  ];
+
+  // let the grid know which columns and what data to use
+  var gridOptions = {
+    defaultColDef: {
+      sortable: true,
+      filter: true,
+      resizable: true
+    },
+    domLayout: 'autoHeight',
+    columnDefs: columnDefs,
+    rowData: rowData,
+    isExternalFilterPresent: isExternalFilterPresent,
+    doesExternalFilterPass: doesExternalFilterPass,
+    onGridReady: (event) => {
+      if (window.innerWidth <= 480) {
+        event.api.setColumnDefs(columnDefsSmall);
+      } else {
+        event.api.setColumnDefs(columnDefs);
+      }
+      event.api.sizeColumnsToFit();
+      event.api.resetRowHeights();
+    }
+  };
+
+  // lookup the container we want the Grid to use
+  var eGridDiv = document.querySelector('#list-view');
+
+  // create the grid passing in the div to use together with the columns & data we want to use
+  new agGrid.Grid(eGridDiv, gridOptions);
+
+  function isExternalFilterPresent() {
+    return [agFilters.fFunder].some(el => el.trim().length >= 3) // at least 3 chars to activate filter
+    || [agFilters.fType].some(el => el.length > 0);
+  }
+
+  function doesExternalFilterPass(node) {
+    return [
+      { v: agFilters.fFunder, f: 'Name' }
+    ].every(filter => {
+      const v = filter.v.trim().toUpperCase();
+      return ((!v || v.length < 3) || (
+        node.data[filter.f] &&
+        node.data[filter.f].toUpperCase().includes(v)
+      ));
+    }) && [
+      { v: agFilters.fType, f: 'Type' },
+    ].every(filter => {
+      const v = filter.v.map(str => str.toUpperCase());
+      if (v && v.length > 0) {
+        if (node.data[filter.f]) {
+          const f = node.data[filter.f].toUpperCase();
+          // look for active filters in node data, (set: true if found)
+          return v.filter(str => f.includes(str)).length > 0 ? true : false;
+        } else {
+          // filter out all the nodes where node[filter.f] is null (set: false)
+          return false;
+        }
+      }
+      // otherwise just show the node (set: true)
+      return true;
+    });
+  }
+
+  window.addEventListener('resize', (event) => {
+    if (window.innerWidth <= 480) {
+      gridOptions.api.setColumnDefs(columnDefsSmall);
+    } else {
+      gridOptions.api.setColumnDefs(columnDefs);
+    }
+    gridOptions.api.sizeColumnsToFit();
+    gridOptions.api.resetRowHeights();
+  });
+</script>
+
+<script type="text/babel" charset="utf-8">
+
+  const {
+    FormControl,
+    IconButton,
+    InputLabel,
+    ListItemSecondaryAction,
+    ListItemText,
+    MenuItem,
+    Select,
+    SvgIcon,
+    TextField,
+  } = MaterialUI;
+
+  function App() {
+
+    const [fFunder, setFFunder] = React.useState('');
+    const [fType, setFType] = React.useState([]);
+
+    const [typeSelect, setTypeSelect] = React.useState(false);
+
+    const MenuProps = {
+      PaperProps: {
+        style: {
+          maxHeight: 300,
+        },
+      },
+    };
+
+    React.useEffect(() => {
+      if (fType.length === 0) { setTypeSelect(false); }
+    }, [fType])
+
+    React.useEffect(() => {
+      // Handle HTML filter update events by updating ag-grid.
+      agFilters = {
+        fFunder: fFunder,
+        fType: fType,
+      }
+      gridOptions.api.onFilterChanged();
+    })
+
+    const handleMultiVal = e => (!e.nativeEvent.target.dataset.value ? [] : e.target.value);
+
+    const closeIcon = <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+
+    return (
+      <>
+        <FormControl variant="filled">
+          <InputLabel shrink htmlFor="filter-funder">Funder</InputLabel>
+          <TextField id="filter-funder" variant="filled" onChange={(e) => setFFunder(e.currentTarget.value)} value={fFunder} />
+        </FormControl>
+        <FormControl variant="filled">
+          <InputLabel shrink htmlFor="filter-type">Funding Type</InputLabel>
+          <Select
+            MenuProps={
+              {
+                ...MenuProps,
+                anchorOrigin: { vertical: 'bottom', horizontal: 'center' },
+                transformOrigin: { vertical: 'top', horizontal: 'center' },
+                variant: 'menu',
               }
-              event.api.sizeColumnsToFit(); 
-              event.api.resetRowHeights(); 
             }
-          };
+            id="filter-type"
+            multiple
+            onChange={e => setFType(handleMultiVal(e))}
+            onClose={() => setTypeSelect(false)}
+            onOpen={() => setTypeSelect(true)}
+            open={typeSelect}
+            renderValue={values => values.join(', ')}
+            value={fType}
+          >
+            <MenuItem key="reset" value="" dense>
+              <em>All</em>
+              <ListItemSecondaryAction>
+                <IconButton edge="end" aria-label="Close" onClick={() => setTypeSelect(false)} size="small">
+                  <SvgIcon fontSize="small">{closeIcon}</SvgIcon>
+                </IconButton>
+              </ListItemSecondaryAction>
+            </MenuItem>
+            {% assign types = site.data.credcatalog.funders | uniq: 'Type' %}
+            {% for type in types %}
+            <MenuItem key="{{ type }}" value="{{ type }}">{{ type }}</MenuItem>
+            {% endfor %}
+          </Select>
+        </FormControl>
+      </>
+    )
+  };
+  ReactDOM.render(<App />, document.querySelector('#react-filters'));
 
-          // lookup the container we want the Grid to use
-          var eGridDiv = document.querySelector('#list-view');
-
-          // create the grid passing in the div to use together with the columns & data we want to use
-          new agGrid.Grid(eGridDiv, gridOptions);
-
-          function isExternalFilterPresent() {
-            return [
-              document.getElementById('filter-text-funder')
-            ].some(el => el.value.trim().length >= 3) // at least 3 chars to activate filter
-            || [
-              document.getElementById('filter-list-type'),
-            ].some(el => el.options[el.selectedIndex].value.length);
-          }
-
-          function doesExternalFilterPass(node) {
-            return [
-              { v: document.getElementById('filter-text-funder'), f: 'Name' },
-            ].every(filter => {
-              return (
-                node.data[filter.f] &&
-                node.data[filter.f].toUpperCase().includes(filter.v.value.trim().toUpperCase())
-              );
-            }) && [
-              { v: document.getElementById('filter-list-type'), f: 'Type' },
-            ].every(filter => {
-              return (
-                node.data[filter.f] &&
-                node.data[filter.f].toUpperCase().includes(filter.v.options[filter.v.selectedIndex].value.toUpperCase())
-              );
-            });
-          }
-          
-
-          window.addEventListener('resize', (event) => {
-            if (window.innerWidth <= 480) {
-            gridOptions.api.setColumnDefs(columnDefsSmall);
-            } else {
-                gridOptions.api.setColumnDefs(columnDefs);
-            }
-            gridOptions.api.sizeColumnsToFit();
-            gridOptions.api.resetRowHeights();
-          });
-
-          function onFilterChanged() {
-            // Update ag-Grid.
-            gridOptions.api.onFilterChanged();
-          }
-        </script>
-      </section>
+</script>

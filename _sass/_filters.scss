@@ -1,0 +1,41 @@
+#react-filters {
+  display: flex;
+  padding: 24px 0;
+  width: 100%;
+  & > * {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  * > *:last-child {
+    margin-right: 0;
+  }
+
+  &.projects {
+    @include when-larger-than(medium) {
+      & > * {
+        flex-basis: 100/6 * 1%;
+        padding-right: 8px;
+      }
+    }
+    @include when-smaller-than(medium) {
+      flex-direction: column;
+      & > * {
+        margin-bottom: 8px;
+      }
+    }
+  }
+  &.funders {
+    @include when-larger-than(medium) {
+      & > * {
+        flex-basis: 100/2 * 1%;
+        padding-right: 8px;
+      }
+    }
+    @include when-smaller-than(medium) {
+      flex-direction: column;
+      & > * {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
