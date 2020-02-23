@@ -1,0 +1,2002 @@
+[
+  {
+    "Geographic Name": "TV Today Network Ltd.",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": null,
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Global",
+    "Direct Relationship": "Africa,Asia,Americas,Oceania,Europe",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Global",
+    "Initiatives": "AFP Factual,Faking News: Fraudulent News and the Fight for Truth ,Climate Feedback,International Fact-Checking Network,Check - Meedan,Global Disinformation Index,Internet Health Report,Deep Freeze,Mozilla Information Trust Initiative,Web Literacy for Student Fact Checkers,First Draft News,W3C Credible Web Community Group,TrustServista,Global Council to Build Trust in Media and Fight Misinformation,NuzzleRank,rbutr,NewsFrames at Global Voices,The Pro-Truth Pledge,Civil,WikiTribune,Trive,Oxford Computational Propaganda Project,Trusted News,Hypothes.is,Schema.org Claim Review,Deepnews.ai,International Standard Content Code ,MyWOT,Buscador: An OSINT Linux Virtual Machine,Freedom on the Net ,YouTube Data Viewer (Amnesty International),Citizen Evidence Lab ,Journalism Trust Initiative,The Verification Handbook (EJC),Certified Content Coalition,Bellingcat's Digital Toolkit,Field Guide to Fake News ,Hoaxy,Facebook Flagging Fake,Captain Fact,Cortico,Trustium ,Content Blockchain Project,Marvelous,AP's global fact check team,United for News,Deeptrace,Serelay,Pop-Up Newsroom,Digital Forensic Research Lab,DROG,France 24 - Les Observateurs,Science Feedback,The Washington Post Fact-Checker,We Verify,Main Street One ,Detecteur Rumeurs,Truth or Fiction ,Health Feedback,News Provenance Project,Finding the Truth Amongst Fakes,SSRC Social Media Democracy Research Grants,Our.News,Twitter Elections Integrity Archive,Social Media Guide ,Polygraph (BBG),FactLink,Factmata,The Trust Project,Check Your Fact,Reality Check - BBC ,Credibility Coalition,Media Cloud,News Integrity Initiative ,Media Ownership Monitor,MisinfoCon,Memex,FakerFact,Hercule,Public Editor,NewsCheck,Full Fact,Video Verification Plugin (InVid),Image Verification Assistant (Reveal),InVid,BitPress,Duke Tech & Check Cooperative ,The Trusting News Project,Columbia Journalism Review,Internet Archive TV News Archive,Verity,NewsGuard,Twitter Trails,Nobias,Lead Stories,Media Well,Transparency Map,Emergent.info,Botslayer,NewsQ,Pressland"
+  },
+  {
+    "Geographic Name": "Africa",
+    "Direct Relationship": "Northern Africa,Sub-Saharan Africa",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Region",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Asia",
+    "Direct Relationship": "Western Asia,Southeast Asia,Eastern Asia,South Asia,Central Asia",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Region",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Americas",
+    "Direct Relationship": "North America,Latin America & The Caribbean",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Region",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Oceania",
+    "Direct Relationship": "Melanesia,Micronesia,Polynesia,Australia and New Zealand",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Region",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Europe",
+    "Direct Relationship": "Northern Europe,Southern Europe,Western Europe,Eastern Europe",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Region",
+    "Initiatives": "ARENA Project - London School of Economics,Reveal Project,EU DisinfoLab,The Journal.ie,SOMA (Social Observatory for Disinformation and Social Media Analysis),Fact Check EU,Debunk EU,Disinfo Portal,EU vs Disinformation"
+  },
+  {
+    "Geographic Name": null,
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Region",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": null,
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Region",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Northern Africa",
+    "Direct Relationship": "Algeria,Egypt,Libya,Morocco,Tunisia,Western Sahara,Sudan",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Sub-Saharan Africa",
+    "Direct Relationship": "Burundi,Comoros,Djibouti,Eritrea,Ethiopia,Malawi,Gambia,Côte d'Ivoire,Cape Verde,Burkina Faso,Kenya,Madagascar,Mauritius,Mayotte,Mozambique,Rwanda,Uganda,Benin,Swaziland,Somalia,South Africa,Namibia,Lesotho,Botswana,Sao Tome and Principe,Gabon,Equatorial Guinea,Democratic Republic of the Congo,Congo,Chad,Central African Republic,Cameroon,Angola,Middle Africa,Zimbabwe,Zambia,United Republic of Tanzania,Réunion,South Sudan,Nigeria",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": "Africa Check,Pesa Check"
+  },
+  {
+    "Geographic Name": "Western Asia",
+    "Direct Relationship": "Syria,United Arab Emirates,Saudi Arabia,Oman,Turkey,State of Palestine ,Lebanon,Kuwait,Jordan,Israel,Iraq,Georgia ,Cyprus,Bahrain,Azerbaijan ,Armenia ",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Central Asia",
+    "Direct Relationship": "Kazakhstan ,Kyrgyzstan ,Tajikistan ,Turkmenistan ,Uzbekistan ",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Eastern Asia",
+    "Direct Relationship": "China,Taiwan,South Korea,Mongolia,North Korea,Hong Kong,Japan",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "South Asia",
+    "Direct Relationship": "Sri Lanka,Pakistan,Nepal,Maldives,Iran ,India,Bhutan,Bangladesh,Afghanistan",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": "South Asia Check"
+  },
+  {
+    "Geographic Name": "Southeast Asia",
+    "Direct Relationship": "Viet Nam,Timor-Leste,Thailand,Singapore,Philippines,Myanmar,Malaysia,Laos (People's Democratic Republic),Indonesia,Cambodia,Brunei Darussalam",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "North America",
+    "Direct Relationship": "Greenland,United States of America,Canada,Bermuda\t",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Latin America & The Caribbean",
+    "Direct Relationship": "United States Virgin Islands,Trinidad and Tobago,Saint Vincent and the Grenadines,Saint Lucia,Puerto Rico,Netherlands Antilles,Martinique,Jamaica,Haiti,Guadeloupe,Grenada,Dominican Republic,Cuba,Barbados,Bahamas,Aruba,Venezuela ,Uruguay,Suriname,Peru,Paraguay,Guyana,French Guiana,Ecuador,Colombia,Chile,Brazil,Bolivia ,Argentina,Panama,Nicaragua,Mexico,Honduras,Guatemala,El Salvador,Costa Rica,Belize",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": "ObserLatInf,Veríficalo,Chequeado"
+  },
+  {
+    "Geographic Name": "Northern Europe",
+    "Direct Relationship": "Åland Islands,Guernsey,United Kingdom of Great Britain and Northern Ireland,Sweden,Svalbard and Jan Mayen Islands,Norway,Lithuania,Latvia,Isle of Man,Ireland,Iceland,Finland,Faroe Islands,Estonia,Denmark",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Southern Europe",
+    "Direct Relationship": "Albania,Spain,Slovenia,Serbia,San Marino,Portugal,North Macedonia,Montenegro,Malta,Italy,Vatican,Greece,Andorra,Bosnia and Herzegovina,Croatia,Gibraltar,Kosovo* ",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Western Europe",
+    "Direct Relationship": "Austria,Belgium,France,Germany,Liechtenstein,Luxembourg,Monaco,Netherlands,Switzerland",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Eastern Europe",
+    "Direct Relationship": "Ukraine,Slovakia,Russia,Romania,Moldova,Poland,Hungary,Czechia,Bulgaria,Belarus",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": "4Facts,Datalyrics,Myth Detector,Vistinomer"
+  },
+  {
+    "Geographic Name": "Micronesia",
+    "Direct Relationship": "Guam,Kiribati,Marshall Islands,Micronesia (Federated States of),Nauru,Northern Mariana Islands,Palau,United States Minor Outlying Islands",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Australia and New Zealand",
+    "Direct Relationship": "Australia,New Zealand",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Melanesia",
+    "Direct Relationship": "Fiji,New Caledonia,Papua New Guinea,Solomon Islands,Vanuatu",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Polynesia",
+    "Direct Relationship": "American Samoa,Cook Islands,French Polynesia,Niue,Pitcairn,Samoa,Tokelau,Tonga,Tuvalu,Wallis and Futuna Islands",
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Subregion",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "American Samoa",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Cook Islands",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "French Polynesia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Niue",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Pitcairn",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Samoa",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Tokelau",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Tonga",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Tuvalu",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Wallis and Futuna Islands",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Guam",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Kiribati",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Marshall Islands",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Micronesia (Federated States of)",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Nauru",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Northern Mariana Islands",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Palau",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "United States Minor Outlying Islands",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Fiji",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "New Caledonia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Papua New Guinea",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Solomon Islands",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Vanuatu",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Austria",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Belgium",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "France",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Fake off,Le Monde - Les Décodeur,Libération - CheckNews,Lui President"
+  },
+  {
+    "Geographic Name": "Germany",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "CORRECTIV.ORG,dpa-Faktencheck,FacktenFinder"
+  },
+  {
+    "Geographic Name": "Liechtenstein",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Luxembourg",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Monaco",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Netherlands",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "NuChekt"
+  },
+  {
+    "Geographic Name": "Switzerland",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Albania",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Andorra",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Bosnia and Herzegovina",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Istinomjer,Raskrinkavanje"
+  },
+  {
+    "Geographic Name": "Croatia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Faktograf.hr "
+  },
+  {
+    "Geographic Name": "Gibraltar",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Greece",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Ellinika Hoaxes"
+  },
+  {
+    "Geographic Name": "Vatican",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Italy",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "La Voce,Pagella Politica,Factcheckers"
+  },
+  {
+    "Geographic Name": "Malta",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Montenegro",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "North Macedonia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Portugal",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Observador Fact Check,Polígrafo"
+  },
+  {
+    "Geographic Name": "San Marino",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Serbia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Istinomer"
+  },
+  {
+    "Geographic Name": "Slovenia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Spain",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Maldito Bulo,Newtral,La Chistera,Poletika"
+  },
+  {
+    "Geographic Name": "Algeria",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Egypt",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Libya",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Morocco",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Tunisia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Western Sahara",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Burundi",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Comoros",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Djibouti",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Eritrea",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Ethiopia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Kenya",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Madagascar",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Malawi",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Mauritius",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Mayotte",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Mozambique",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Réunion",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Rwanda",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Somalia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Sudan",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Uganda",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "United Republic of Tanzania",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Zambia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Zimbabwe",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "ZimFact"
+  },
+  {
+    "Geographic Name": "Middle Africa",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Angola",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Cameroon",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Central African Republic",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Chad",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Congo",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Democratic Republic of the Congo",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Congo Check"
+  },
+  {
+    "Geographic Name": "Equatorial Guinea",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Gabon",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Sao Tome and Principe",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Botswana",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Lesotho",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Namibia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "South Africa",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Swaziland",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Benin",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Burkina Faso",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Cape Verde",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Côte d'Ivoire",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Gambia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "South Sudan",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Kazakhstan ",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Fact Check Kazakhstan "
+  },
+  {
+    "Geographic Name": "Kyrgyzstan ",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Tajikistan ",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Turkmenistan ",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Uzbekistan ",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "China",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Hong Kong",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "North Korea",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Mongolia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "South Korea",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Taiwan",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Taiwan FactCheck Center"
+  },
+  {
+    "Geographic Name": "Japan",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Afghanistan",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Bangladesh",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Bhutan",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "India",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "BOOM,Tattle,FACTLY ,FactChecker.in ,FactCrescendo,NewsMobile Fact Checker,India Today Fact Check,Vishvas News,Digital Eye India,WebQoof,TruthBuzz by ICFJ"
+  },
+  {
+    "Geographic Name": "Iran ",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Maldives",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Nepal",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Pakistan",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Sri Lanka",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Armenia ",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Azerbaijan ",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Bahrain",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Cyprus",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Georgia ",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Iraq",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Israel",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "The Whistle"
+  },
+  {
+    "Geographic Name": "Jordan",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Jordanian Media Credibility Monitor (AKEED)"
+  },
+  {
+    "Geographic Name": "Kuwait",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Lebanon",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "State of Palestine ",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Turkey",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Doğruluk Payı"
+  },
+  {
+    "Geographic Name": "Oman",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Saudi Arabia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "United Arab Emirates",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Syria",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Brunei Darussalam",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Cambodia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Indonesia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Hoaks Atau Fakta?,Cek Fakta - Liputan 6 ,Mafindo,TruthBuzz by ICFJ"
+  },
+  {
+    "Geographic Name": "Laos (People's Democratic Republic)",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Malaysia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Myanmar",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Philippines",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Rappler Fact Check,VERA Files Fact Check,Tsek"
+  },
+  {
+    "Geographic Name": "Singapore",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Thailand",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Timor-Leste",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Viet Nam",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Bermuda\t",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Canada",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "United States of America",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",American Press Institute Fact-Checking and Accountability Journalism Project,The Factual,NewsTracker,Trusted Times,Userfeeds,Dirt Protocol,\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",PolitiFact,Knight Prototype Fund on Misinformation,Snopes,Factba.se,Duke Share the Facts Widget,Information Disorder Lab,Quod,News Literacy Project,\"Knight Commission on Trust, Media and Democracy\",News Co/Lab,Factcheck.org,Open Technology Institute,Checkology,Fiskkit,Misinformation Solutions Forum,The Media Bias Chart,Blackbird,Executive Roundtable on Digital Journalism Ethics,Metafact,Markkula Center for Applied Ethics,Media Manipulation and Disinformation Online,Claim Buster,Truth Tests,The Nevada Independent Fact Checks,Voice of San Diego - Fact Check,TruthBuzz by ICFJ,Disinfo Portal,NYU Stern Center for Business and Human Rights"
+  },
+  {
+    "Geographic Name": "Greenland",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Aruba",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Bahamas",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Barbados",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Cuba",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Dominican Republic",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Grenada",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Guadeloupe",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Haiti",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Jamaica",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Martinique",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Netherlands Antilles",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Puerto Rico",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Saint Lucia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Saint Vincent and the Grenadines",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Trinidad and Tobago",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "United States Virgin Islands",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Belize",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Costa Rica",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "El Salvador",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Guatemala",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "ConPruebas,Redacción Fáctica"
+  },
+  {
+    "Geographic Name": "Honduras",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Mexico",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Verificado 2018,Verifica,El Sabueso"
+  },
+  {
+    "Geographic Name": "Nicaragua",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Panama",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Argentina",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Bolivia ",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Brazil",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Agência Lupa,Aos Fatos,Fatima ,O Truco,Estadão Verifica ,TruthBuzz by ICFJ"
+  },
+  {
+    "Geographic Name": "Chile",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Chile Check,Fact Checking Chile"
+  },
+  {
+    "Geographic Name": "Colombia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "El poder de elegir,Colombia Check ,Detector de Mentiras"
+  },
+  {
+    "Geographic Name": "Ecuador",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Ecuador Chequea"
+  },
+  {
+    "Geographic Name": "French Guiana",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Guyana",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Paraguay",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Bien Chequeado"
+  },
+  {
+    "Geographic Name": "Peru",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Ojo Bionico"
+  },
+  {
+    "Geographic Name": "Suriname",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Uruguay",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Venezuela ",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Servicio de Información Pública,Cocuyo Chequea"
+  },
+  {
+    "Geographic Name": "Fiji",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "French Polynesia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Guam",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Micronesia (Federated States of)",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "New Caledonia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Papua New Guinea",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Samoa",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Solomon Islands",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Tonga",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Vanuatu",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Belarus",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Bulgaria",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Czechia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Hungary",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Poland",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Demagog Association"
+  },
+  {
+    "Geographic Name": "Moldova",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "ProFact Moldova"
+  },
+  {
+    "Geographic Name": "Romania",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Russia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Factograph (BBG),Riddle,Hamilton 68 Dashboard,Combating Russian Disinformation,Disinfo Portal,EU vs Disinformation"
+  },
+  {
+    "Geographic Name": "Slovakia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Ukraine",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Stop Fake,Ukraine Crisis Media Center "
+  },
+  {
+    "Geographic Name": "Åland Islands",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Guernsey",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Jersey",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Sark",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Denmark",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Estonia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Faroe Islands",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Finland",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Faktabaari"
+  },
+  {
+    "Geographic Name": "Iceland",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Ireland",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Isle of Man",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Latvia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Lithuania",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Patikrinta 15min"
+  },
+  {
+    "Geographic Name": "Norway",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Faktisk"
+  },
+  {
+    "Geographic Name": "Svalbard and Jan Mayen Islands",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Sweden",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Dagens Nyheter,Viralgranskaren"
+  },
+  {
+    "Geographic Name": "United Kingdom of Great Britain and Northern Ireland",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "FactCheckNI,Channel 4 - Fact Check,\"Truth, Trust and Technology Commission - London School of Economics\""
+  },
+  {
+    "Geographic Name": "Australia",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "RMIT ABC Fact Check,The Conversation Australia,Australian Associated Press FactCheck,Claim Buster"
+  },
+  {
+    "Geographic Name": "New Zealand",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": null
+  },
+  {
+    "Geographic Name": "Kosovo* ",
+    "Direct Relationship": null,
+    "Notes": "*As of 27 July 2019, the Republic of Kosovo has received 115 diplomatic recognitions as an independent state, of which 12 have since been withdrawn. As of 17 August 2019, 100 out of 193 (52%) United Nations (UN) member states, 23 out of 28 (82%) European Union (EU) member states, 25 out of 29 (86%) NATO member states, and 34 out of 57 (60%) Organisation of Islamic Cooperation (OIC) member states have recognized Kosovo. ",
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Krypometri"
+  },
+  {
+    "Geographic Name": "Nigeria",
+    "Direct Relationship": null,
+    "Notes": null,
+    "Attachments": null,
+    "Geographic Type": "Country",
+    "Initiatives": "Dubawa,TruthBuzz by ICFJ"
+  }
+]

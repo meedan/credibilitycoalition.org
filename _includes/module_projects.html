@@ -1,70 +1,24 @@
-<div id="viewFilters" class="view-filters">
-    <div class="mdc-text-field project">
-        <input class="mdc-text-field__input" id="filter-text-project" oninput="onFilterChanged()">
-        <div class="mdc-line-ripple"></div>
-        <label for="filter-text-project" class="mdc-floating-label mdc-floating-label--float-above">Project</label>
-    </div>
+{% comment %}
+<!--
+Filters section
 
-    <div class="mdc-select category">
-        <i class="mdc-select__dropdown-icon"></i>
-        <select id="filter-list-category" class="mdc-select__native-control" onchange="onFilterChanged()">
-            <option value="">&nbsp;</option>
-            {% assign categories = site.data.credcatalog.initiatives | uniq: 'Solutions Categories' %}
-            {% for category in categories %}
-            <option value="{{ category }}">{{ category }}</option>
-            {% endfor %}
-        </select>
-        <label class="mdc-floating-label mdc-floating-label--float-above">Category</label>
-        <div class="mdc-line-ripple"></div>
-    </div>
+Using Material Design components from https://github.com/material-components/material-components-web
 
-    <div class="mdc-select location">
-        <i class="mdc-select__dropdown-icon"></i>
-        <select id="filter-list-located" class="mdc-select__native-control" onchange="onFilterChanged()">
-            <option value="">&nbsp;</option>
-            {% assign locations = site.data.credcatalog.initiatives | uniq: 'Location' %}
-            {% for location in locations %}
-            <option value="{{ location }}">{{ location }}</option>
-            {% endfor %}
-        </select>
-        <label class="mdc-floating-label mdc-floating-label--float-above">Location</label>
-        <div class="mdc-line-ripple"></div>
-    </div>
+Options data is read from data.credcatalog at the corresponding folder _data/credcatalog.
 
-    <div class="mdc-select language">
-        <i class="mdc-select__dropdown-icon"></i>
-        <select id="filter-list-language" class="mdc-select__native-control" onchange="onFilterChanged()">
-            <option value="">&nbsp;</option>
-            {% assign languages = site.data.credcatalog.initiatives | uniq: 'Languages-2' %}
-            {% for language in languages %}
-            <option value="{{ language }}">{{ language }}</option>
-            {% endfor %}
-        </select>
-        <label class="mdc-floating-label mdc-floating-label--float-above">Languages</label>
-        <div class="mdc-line-ripple"></div>
-    </div>
+-->
+{% endcomment %}
 
-    <div class="mdc-select status">
-        <i class="mdc-select__dropdown-icon"></i>
-        <select id="filter-list-active" class="mdc-select__native-control" onchange="onFilterChanged()">
-            <option value="" selected>&nbsp;</option>
-            <option value="Active">Active</option>
-            <option value="Inactive">Inactive</option>
-        </select>
-        <label class="mdc-floating-label mdc-floating-label--float-above">Status</label>
-        <div class="mdc-line-ripple"></div>
-    </div>
+<div id="react-filters" class="projects"></div>
 
-    <div class="mdc-text-field funder">
-        <input class="mdc-text-field__input" id="filter-text-funder" oninput="onFilterChanged()">
-        <div class="mdc-line-ripple"></div>
-        <label for="filter-text-funder" class="mdc-floating-label mdc-floating-label--float-above">Funders</label>
-    </div>
-</div>
-
+{% comment %}
+<!--
+Help and switch view section
+-->
+{% endcomment %}
 <div class="view-controls mdc-chip-set mdc-chip-set--choice">
     <div class="how-to-read-button">
-        <button id="how-to-read-button" onclick="showHelp()" class="active">
+        <button id="how-to-read-button" onclick="toggleHelp()" class="active">
             <span id="open-help">{% include icon_help.html %} How to read</span>
             <span id="close-help">{% include icon_close.html %} How to read</span>
         </button>
@@ -79,229 +33,502 @@
     </div>
 </div>
 
+{% comment %}
+<!--
+Main views: grid-view and list-view
+
+grid-view is a visual grid made of a flex-based <ul> list.
+
+list-view is an ag-grid component as per https://www.ag-grid.com/javascript-grid-reference-overview/#grid-interface
+
+-->
+{% endcomment %}
 <section>
     <div id="help" class="how-to-read-panel">
-        <div class="close">
-            <button onclick="showHelp()">{% include icon_no.html %}</button>
-        </div>
-        <div class="how-to-read">
-            {% include how-to-read.html %}
-        </div>
+      <div class="close">
+        <button onclick="toggleHelp()">{% include icon_no.html %}</button>
+      </div>
+      <div class="how-to-read">
+        {% include how-to-read.html %}
+      </div>
     </div>
     <div id="grid-view">
-        <ul class="projects grid-view">
-        </ul>
+      <ul class="projects grid-view"></ul>
     </div>
-
     <div id="list-view" style="display: none; width: 100%;" class="ag-theme-material"></div>
-
-    <script type="text/javascript" charset="utf-8">
-        {% capture svg %}{% include spectra.svg %}{% endcapture %}
-        var rowData = {{ site.data.credcatalog.initiatives | credify_projects: svg | jsonify}};
-
-        function renderHTML(params) {
-        // render the HTML verbatim
-        // https://stackoverflow.com/a/49624608/209184
-        return params.value ? params.value : '';
-        }
-
-        // specify the columns
-        var columnDefs = [
-        { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, autoHeight: true, sort: 'asc' },
-        { headerName: 'Category', field: 'CategoriesCleaned' },
-        { headerName: 'Location', field: 'LocationCleaned' },
-        { headerName: 'Languages', field: 'LanguagesCleaned' },
-        { headerName: 'Funders', field: 'FundersLinked', cellRenderer: renderHTML  },
-        ];
-
-        // specify the columns for small viewports
-        var columnDefsSmall = [
-            { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, autoHeight: true, sort: 'asc' }
-        ];
-        
-        // specify the columns for medium viewports
-        var columnDefsMedium = [
-            { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, autoHeight: true, sort: 'asc' },
-            { headerName: 'Location', field: 'LocationCleaned' },
-        ];
-
-        // specify the columns for large viewports
-        var columnDefsLarge = [
-            { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, autoHeight: true, sort: 'asc' },
-            { headerName: 'Category', field: 'CategoriesCleaned' },
-            { headerName: 'Location', field: 'LocationCleaned' },
-        ];
-
-        // let the grid know which columns and what data to use
-        var gridOptions = {
-        defaultColDef: {
-            sortable: true,
-            filter: true,
-            resizable: true
-        },
-        domLayout: 'autoHeight',
-        columnDefs: columnDefs,
-        rowData: rowData,
-        isExternalFilterPresent: isExternalFilterPresent,
-        doesExternalFilterPass: doesExternalFilterPass,
-        onGridReady: (event) => { 
-            if (window.innerWidth <= 480) {
-                event.api.setColumnDefs(columnDefsSmall);
-            } else if (window.innerWidth >= 481 && window.innerWidth <= 730) {
-                event.api.setColumnDefs(columnDefsMedium);
-            } else if (window.innerWidth >= 731 && window.innerWidth <= 896) { 
-                event.api.setColumnDefs(columnDefsLarge);
-            } else {
-                event.api.setColumnDefs(columnDefs);
-            }
-            event.api.sizeColumnsToFit(); 
-            event.api.resetRowHeights(); 
-        }
-        };
-
-        // lookup the container we want the Grid to use
-        var eGridDiv = document.querySelector('#list-view');
-
-        // create the grid passing in the div to use together with the columns & data we want to use
-        new agGrid.Grid(eGridDiv, gridOptions);
-        gridOptions.api.addEventListener('modelUpdated', onModelUpdated);
-        onModelUpdated(null);
-
-        function onModelUpdated(event) {
-        model = gridOptions.api.getModel();
-
-        // Update the spectral grid.
-        const ul = document.querySelector('#grid-view ul');
-        while (ul.firstChild) {
-            ul.removeChild(ul.firstChild);
-        }
-        model.rowsToDisplay.forEach(row => {
-            const project = row.data;
-            const li = document.createElement('li');
-            li.classList.add('project-block');
-            li.innerHTML = `
-            <a href="/credcatalog/project/${project['NameSlug']}">
-                ${project['Spectra']}
-                <div class="project-name">
-                ${project['Name']}
-                </div>
-            </a>
-            `;
-            ul.appendChild(li);
-        });
-        }
-
-        function isExternalFilterPresent() {
-        return [
-            document.getElementById('filter-text-project'),
-            document.getElementById('filter-text-funder')
-        ].some(el => el.value.trim().length >= 3) // at least 3 chars to activate filter
-        || [
-            document.getElementById('filter-list-located'),
-            document.getElementById('filter-list-language'),
-            document.getElementById('filter-list-category'),
-            document.getElementById('filter-list-active'),
-        ].some(el => el.options[el.selectedIndex].value.length);
-        }
-
-        function doesExternalFilterPass(node) {
-        // Filters passes the given node if
-        // - Filter is empty OR
-        // - Filter and node values match (field-dependent)
-        return [
-            { v: document.getElementById('filter-text-project'), f: 'Name' },
-            { v: document.getElementById('filter-text-funder'), f: 'Funders' },
-        ].every(filter => {
-            const v = filter.v.value.trim().toUpperCase();
-            return (
-            (
-                !v
-            ) || (
-                node.data[filter.f] &&
-                node.data[filter.f].toUpperCase().includes(v)
-            )
-            );
-        }) && [
-            { v: document.getElementById('filter-list-located'), f: 'Location' },
-            { v: document.getElementById('filter-list-category'), f: 'Solutions Categories' },
-            { v: document.getElementById('filter-list-language'), f: 'Languages-2' },
-        ].every(filter => {
-            const v = filter.v.options[filter.v.selectedIndex].value.toUpperCase();
-            return (
-            (
-                !v
-            ) || (
-                node.data[filter.f] &&
-                node.data[filter.f].toUpperCase().includes(v)
-            )
-            );
-        }) && [
-            { v: document.getElementById('filter-list-active'), f: 'Active/Inactive' },
-        ].every(filter => {
-            const v = filter.v.options[filter.v.selectedIndex].value.toUpperCase();
-            return (
-            (
-                !v
-            ) || (
-                node.data[filter.f] &&
-                node.data[filter.f].toUpperCase() == v
-            )
-            );
-        });
-        }
-
-        window.addEventListener('resize', () => {
-        if (window.innerWidth <= 480) {
-            gridOptions.api.setColumnDefs(columnDefsSmall);
-        } else if (window.innerWidth >= 481 && window.innerWidth <= 730) {
-            gridOptions.api.setColumnDefs(columnDefsMedium);
-        } else if (window.innerWidth >= 731 && window.innerWidth <= 896) { 
-            gridOptions.api.setColumnDefs(columnDefsLarge);
-        } else {
-            gridOptions.api.setColumnDefs(columnDefs);
-        }
-        gridOptions.api.sizeColumnsToFit();
-        gridOptions.api.resetRowHeights();
-        });
-
-        function onFilterChanged() {
-        // Update ag-Grid.
-        gridOptions.api.onFilterChanged();
-        }
-
-        function toggleView(view) {
-        [
-            'grid',
-            'list'
-        ].forEach(v => {
-            const div = document.getElementById(v + '-view');
-            div.style.display = view === v ? 'block' : 'none';
-            const chip = document.getElementById(v + '-chip');
-            chip.classList[ view === v ? 'add' : 'remove' ]('mdc-chip--selected');
-        });
-
-        if (view === 'list') {
-            gridOptions.api.sizeColumnsToFit();
-            gridOptions.api.resetRowHeights();
-        }
-        }
-
-        function showHelp() {
-        var btn = document.getElementById("how-to-read-button");
-        btn.classList.toggle('active');
-        var el = document.getElementById("help");
-        var oh = document.getElementById("open-help");
-        var ch = document.getElementById("close-help");
-        if (el.style.display === "none") {
-            el.style.display = "block";
-            ch.style.display = "flex";
-            oh.style.display = "none";
-        } else {
-            el.style.display = "none";
-            ch.style.display = "none";
-            oh.style.display = "flex";
-        }
-        }
-
-    </script>
 </section>
+
+<script type="text/javascript" charset="utf-8">
+
+  let agFilters = {
+    fCategory: [],
+    fFunder: '',
+    fLanguage: [],
+    fLocation: [],
+    fProject: '',
+    fStatus: '',
+  };
+
+  {% comment %}
+  //
+  // Construct the row data from the jekyll data files using jekyll plugin _plugins/cred_catalog.rb
+  //
+  // The idea is to pass the incoming data through a filter credify_projects then convert to json
+  // into the javascript variable.
+  //
+  // First we need to "capture" _includes/spectra.svg into a variable that will be passed to credify_projects.
+  //
+  {% endcomment %}
+  {% capture svg %}{% include spectra.svg %}{% endcapture %}
+  var rowData = {{ site.data.credcatalog.initiatives | credify_projects: svg | jsonify}};
+
+  // specify the columns
+  var columnDefs = [
+      { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, autoHeight: true, sort: 'asc' },
+      { headerName: 'Category', field: 'CategoriesCleaned' },
+      { headerName: 'Location', field: 'LocationCleaned' },
+      { headerName: 'Languages', field: 'LanguagesCleaned' },
+      { headerName: 'Funders', field: 'FundersLinked', cellRenderer: renderHTML  },
+  ];
+
+  // specify the columns for small viewports
+  var columnDefsSmall = [
+      { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, autoHeight: true, sort: 'asc' }
+  ];
+
+  // specify the columns for medium viewports
+  var columnDefsMedium = [
+      { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, autoHeight: true, sort: 'asc' },
+      { headerName: 'Location', field: 'LocationCleaned' },
+  ];
+
+  // specify the columns for large viewports
+  var columnDefsLarge = [
+      { headerName: 'Project', field: 'NameLinked', cellRenderer: renderHTML, autoHeight: true, sort: 'asc' },
+      { headerName: 'Category', field: 'CategoriesCleaned' },
+      { headerName: 'Location', field: 'LocationCleaned' },
+  ];
+
+  // let ag-grid know which columns and what data to use
+  var gridOptions = {
+      defaultColDef: {
+          sortable: true,
+          filter: true,
+          resizable: true
+      },
+      domLayout: 'autoHeight',
+      columnDefs: columnDefs,
+      rowData: rowData,
+      isExternalFilterPresent: isExternalFilterPresent,
+      doesExternalFilterPass: doesExternalFilterPass,
+      onGridReady: onResize,
+  };
+
+  // create the ag-grid component on list-view together with the grid info
+  new agGrid.Grid(document.querySelector('#list-view'), gridOptions);
+  gridOptions.api.addEventListener('modelUpdated', onModelUpdated);
+  onModelUpdated();
+
+  // Custom selects with Choices.js
+  const choiceSelects = document.querySelectorAll('.js-choice');
+  choiceSelects.forEach(choiceSelect => {
+      const choices = new Choices(choiceSelect, {
+          duplicateItemsAllowed: false,
+          itemSelectText: '',
+          paste: false,
+          placeholder: true,
+          position: 'auto',
+          removeItemButton: false,
+          renderSelectedChoices: 'always',
+          searchEnabled: false,
+          shouldSort: false,
+      });
+  })
+
+  // FUNCTIONS
+
+  // onModelUpdated()
+  //
+  // Update the data model for both grid-view and list-view.
+  //
+  // For list-view, ag-grid takes care of constructing the model
+  // using its API getModel() and the options above.
+  // This also applies the filters using ag-grid filtering system
+  // https://www.ag-grid.com/javascript-grid-filter-external/
+  //
+  // For grid-view, we hand-create the <li> elements dynamically
+  // by iterating on the filtered rows to display.
+  //
+  // Each <li> is a link anchor containing the project name
+  // and its spectrum (as svg element).
+  function onModelUpdated() {
+      // For list-view
+      model = gridOptions.api.getModel();
+
+      // For grid-view
+      const ul = document.querySelector('#grid-view ul');
+      while (ul.firstChild) {
+          ul.removeChild(ul.firstChild);
+      }
+      model.rowsToDisplay.forEach(row => {
+          // console.log({row});
+          const project = row.data;
+          const li = document.createElement('li');
+          li.classList.add('project-block');
+          li.innerHTML = `
+          <a href="/credcatalog/project/${project['NameSlug']}">
+              ${project['Spectra']}
+              <div class="project-name">
+              ${project['Name']}
+              </div>
+          </a>
+          `;
+          ul.appendChild(li);
+      });
+  }
+
+  // isExternalFilterPresent()
+  //
+  // ag-grid filter sensing function https://www.ag-grid.com/javascript-grid-filter-external/
+  //
+  // Returns true if ANY filter is active.
+  //
+  // We have two types of filters, each with a different method of assessing whether it's active:
+  // - text filters which must contain a string of length >= 3 chars
+  // - select filters which must have a non-empty selection
+  function isExternalFilterPresent() {
+      return [ agFilters.fProject, agFilters.fFunder ].some(el => el.trim().length >= 3) // at least 3 chars to activate filter
+      ||
+        [
+          agFilters.fStatus,
+          agFilters.fLanguage,
+          agFilters.fLocation,
+          agFilters.fCategory
+        ].some(el => el.length > 0);
+  }
+
+  // doesExternalFilterPass()
+  //
+  // ag-grid per-row filtering function https://www.ag-grid.com/javascript-grid-filter-external/
+  //
+  // Given a node (a row), determine if EVERY filter passes the node.
+  // A filter passes the node if
+  // - Filter is inactive OR
+  // - Filter value and corresponding node attribute match
+  //
+  // The second condition depends on the type of filter, in this case 3 types:
+  // - a text field that should contain a subset of the corresponding node attribute
+  // - a select field that should ALSO contain a subset of the node attribute,
+  //   because the node attribute may be a comma-separated textual list of values.
+  // - a select field that should be matched verbatim.
+  function doesExternalFilterPass(node) {
+    return [
+      { v: agFilters.fProject, f: 'Name' },
+      { v: agFilters.fFunder, f: 'Funders' }
+    ].every(filter => {
+      const v = filter.v.trim().toUpperCase();
+      return ((!v || v.length < 3) || (
+        node.data[filter.f] &&
+        node.data[filter.f].toUpperCase().includes(v)
+      ));
+    }) && [
+      { v: agFilters.fCategory, f: 'Solutions Categories'},
+      { v: agFilters.fLanguage, f: 'Languages-2'},
+      { v: agFilters.fLocation, f: 'LocationFiltered'},
+    ].every(filter => {
+      const v = filter.v.map(str => str.toUpperCase());
+      if (v && v.length > 0) {
+        if (node.data[filter.f]) {
+          const f = node.data[filter.f].toUpperCase();
+          // look for active filters in node data, (set: true if found)
+          return v.filter(str => f.includes(str)).length > 0 ? true : false;
+        } else {
+          // filter out all the nodes where node[filter.f] is null (set: false)
+          return false;
+        }
+      }
+      // otherwise just show the node (set: true)
+      return true;
+    }) && [
+      { v: agFilters.fStatus, f: 'Active/Inactive'}
+    ].every(filter => {
+      const { v } = filter;
+      if (v && v.length > 0) {
+        if (node.data[filter.f]) {
+          const f = node.data[filter.f].toUpperCase();
+          // look for active filters in node data, (set: true if found)
+          return v.toUpperCase() === f ? true : false;
+        } else {
+          // filter out all the nodes where node[filter.f] is null (set: false)
+          return false;
+        }
+      }
+      // otherwise just show the node (set: true)
+      return true;
+    });
+  }
+
+  // Handle grid resize event by choosing appropriate column definitions
+  // for window size.
+  function onResize(options) {
+      if (window.innerWidth <= 480) {
+          options.api.setColumnDefs(columnDefsSmall);
+      } else if (window.innerWidth >= 481 && window.innerWidth <= 730) {
+          options.api.setColumnDefs(columnDefsMedium);
+      } else if (window.innerWidth >= 731 && window.innerWidth <= 896) {
+          options.api.setColumnDefs(columnDefsLarge);
+      } else {
+          options.api.setColumnDefs(columnDefs);
+      }
+      options.api.sizeColumnsToFit();
+      options.api.resetRowHeights();
+  }
+
+  // Handle global resize event similarly.
+  window.addEventListener('resize', () => {
+      // Resize using global options.
+      onResize(gridOptions);
+  });
+
+  // Toggle view by show/hide and update active selection chip.
+  function toggleView(view) {
+      [
+          'grid',
+          'list'
+      ].forEach(v => {
+          const div = document.getElementById(v + '-view');
+          div.style.display = view === v ? 'block' : 'none';
+          const chip = document.getElementById(v + '-chip');
+          chip.classList[ view === v ? 'add' : 'remove' ]('mdc-chip--selected');
+      });
+
+      if (view === 'list') {
+          gridOptions.api.sizeColumnsToFit();
+          gridOptions.api.resetRowHeights();
+      }
+  }
+
+  function toggleHelp() {
+      var btn = document.getElementById("how-to-read-button");
+      btn.classList.toggle('active');
+      var el = document.getElementById("help");
+      var oh = document.getElementById("open-help");
+      var ch = document.getElementById("close-help");
+      if (el.style.display === "none") {
+          el.style.display = "block";
+          ch.style.display = "flex";
+          oh.style.display = "none";
+      } else {
+          el.style.display = "none";
+          ch.style.display = "none";
+          oh.style.display = "flex";
+      }
+  }
+
+  // Helper ag-grid function to render the HTML verbatim.
+  // https://stackoverflow.com/a/49624608/209184
+  function renderHTML(params) {
+      return params.value ? params.value : '';
+  }
+
+</script>
+
+<script type="text/babel" charset="utf-8">
+
+  const {
+    FormControl,
+    IconButton,
+    InputLabel,
+    ListItemSecondaryAction,
+    ListItemText,
+    MenuItem,
+    Select,
+    SvgIcon,
+    TextField,
+  } = MaterialUI;
+
+  function App() {
+
+    const [fCategory, setFCategory] = React.useState([]);
+    const [fFunder, setFFunder] = React.useState('');
+    const [fLanguage, setFLanguage] = React.useState([]);
+    const [fLocation, setFLocation] = React.useState([]);
+    const [fProject, setFProject] = React.useState('');
+    const [fStatus, setFStatus] = React.useState('');
+
+    const [categorySelect, setCategorySelect] = React.useState(false);
+    const [locationSelect, setLocationSelect] = React.useState(false);
+    const [languageSelect, setLanguageSelect] = React.useState(false);
+    const [statusSelect, setStatusSelect] = React.useState(false);
+
+    React.useEffect(() => {
+      if (fCategory.length === 0) { setCategorySelect(false); }
+      if (fLanguage.length === 0) { setLanguageSelect(false); }
+      if (fLocation.length === 0) { setLocationSelect(false); }
+      if (fStatus.length === 0) { setStatusSelect(false); }
+    }, [fCategory, fLanguage, fLocation, fStatus])
+
+    const MenuProps = {
+      PaperProps: {
+        style: {
+          maxHeight: 300,
+        },
+      },
+    };
+
+    React.useEffect(() => {
+      // Handle HTML filter update events by updating ag-grid.
+      agFilters = {
+        fCategory: fCategory,
+        fFunder: fFunder,
+        fLanguage: fLanguage,
+        fLocation: fLocation,
+        fProject: fProject,
+        fStatus: fStatus
+      }
+      gridOptions.api.onFilterChanged();
+    })
+
+    const handleMultiVal = e => (!e.nativeEvent.target.dataset.value ? [] : e.target.value);
+
+    const closeIcon = <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+
+    return (
+      <>
+        <FormControl variant="filled">
+          <InputLabel shrink htmlFor="filter-project">Project</InputLabel>
+          <TextField id="filter-project" variant="filled" onChange={(e) => setFProject(e.currentTarget.value)} value={fProject} />
+        </FormControl>
+        <FormControl variant="filled">
+          <InputLabel shrink htmlFor="filter-category">Category</InputLabel>
+          <Select
+            MenuProps={
+              {
+                ...MenuProps,
+                variant: 'menu',
+              }
+            }
+            id="filter-category"
+            multiple
+            onChange={e => setFCategory(handleMultiVal(e))}
+            onClose={() => setCategorySelect(false)}
+            onOpen={() => setCategorySelect(true)}
+            open={categorySelect}
+            renderValue={values => values.join(', ')}
+            value={fCategory}
+          >
+            <MenuItem key="reset" value="" dense>
+              <em>All</em>
+              <ListItemSecondaryAction>
+                <IconButton edge="end" aria-label="Close" onClick={() => setCategorySelect(false)} size="small">
+                  <SvgIcon fontSize="small">{closeIcon}</SvgIcon>
+                </IconButton>
+              </ListItemSecondaryAction>
+            </MenuItem>
+            {% assign categories = site.data.credcatalog.initiatives | uniq: 'Solutions Categories' %}
+            {% for category in categories %}
+              <MenuItem key="{{ category }}" value="{{ category }}" dense>{{ category }}</MenuItem>
+            {% endfor %}
+          </Select>
+        </FormControl>
+        <FormControl variant="filled">
+          <InputLabel shrink htmlFor="filter-location">Location</InputLabel>
+          <Select
+            MenuProps={
+              {
+                ...MenuProps,
+                variant: 'menu',
+              }
+            }
+            id="filter-location"
+            multiple
+            onChange={e => setFLocation(handleMultiVal(e))}
+            onClose={() => setLocationSelect(false)}
+            onOpen={() => setLocationSelect(true)}
+            open={locationSelect}
+            renderValue={values => values.join(', ')}
+            value={fLocation}
+          >
+            <MenuItem key="reset" value="" dense>
+              <em>All</em>
+              <ListItemSecondaryAction>
+                <IconButton edge="end" aria-label="Close" onClick={() => setLocationSelect(false)} size="small">
+                  <SvgIcon fontSize="small">{closeIcon}</SvgIcon>
+                </IconButton>
+              </ListItemSecondaryAction>
+            </MenuItem>
+            {% assign locations = site.data.credcatalog.locations | location_options %}
+            {% for location in locations %}
+              <MenuItem key="{{ location.value }}" value="{{ location.value }}" dense>{{ location.label }} ({{ location.count }})</MenuItem>
+            {% endfor %}
+          </Select>
+        </FormControl>
+        <FormControl variant="filled">
+          <InputLabel shrink htmlFor="filter-language">Language</InputLabel>
+          <Select
+            MenuProps={
+              {
+                ...MenuProps,
+                variant: 'menu',
+              }
+            }
+            id="filter-language"
+            multiple
+            onChange={e => setFLanguage(handleMultiVal(e))}
+            onClose={() => setLanguageSelect(false)}
+            onOpen={() => setLanguageSelect(true)}
+            open={languageSelect}
+            renderValue={values => values.join(', ')}
+            value={fLanguage}
+          >
+            <MenuItem key="reset" value="" dense>
+              <em>All</em>
+              <ListItemSecondaryAction>
+                <IconButton edge="end" aria-label="Close" onClick={() => setLanguageSelect(false)} size="small">
+                  <SvgIcon fontSize="small">{closeIcon}</SvgIcon>
+                </IconButton>
+              </ListItemSecondaryAction>
+            </MenuItem>
+            {% assign languages = site.data.credcatalog.initiatives | uniq: 'Languages-2' %}
+            {% for language in languages %}
+            <MenuItem key="{{ language }}" value="{{ language }}" dense>{{ language }}</MenuItem>
+            {% endfor %}
+          </Select>
+        </FormControl>
+        <FormControl variant="filled">
+          <InputLabel shrink htmlFor="filter-status">Status</InputLabel>
+          <Select
+            MenuProps={
+              {
+                ...MenuProps,
+                variant: 'menu',
+              }
+            }
+            id="filter-status"
+            onChange={e => setFStatus(e.target.value)}
+            onClose={() => setStatusSelect(false)}
+            onOpen={() => setStatusSelect(true)}
+            open={statusSelect}
+          >
+            <MenuItem key="reset" value="" dense>
+              <em>All</em>
+              <ListItemSecondaryAction>
+                <IconButton edge="end" aria-label="Close" onClick={() => setStatusSelect(false)} size="small">
+                  <SvgIcon fontSize="small">{closeIcon}</SvgIcon>
+                </IconButton>
+              </ListItemSecondaryAction>
+            </MenuItem>
+            <MenuItem key="Active" value="Active" dense>Active</MenuItem>
+            <MenuItem key="Inactive" value="Inactive" dense>Inactive</MenuItem>
+          </Select>
+        </FormControl>
+        <FormControl variant="filled">
+          <InputLabel shrink htmlFor="filter-funders">Funders</InputLabel>
+          <TextField id="filter-funders" variant="filled" onChange={(e) => setFFunder(e.currentTarget.value)} value={fFunder} />
+        </FormControl>
+      </>
+    )
+  };
+  ReactDOM.render(<App />, document.querySelector('#react-filters'));
+
+</script>

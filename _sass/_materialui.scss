@@ -1,0 +1,12 @@
+/* Material UI overrides and customisations */
+
+// fix what non-existing reset.css does to these components
+.MuiListItem-container {
+  padding-bottom: 0
+}
+
+// carry on
+.MuiListItem-root.Mui-selected.MuiListItem-root.Mui-selected {
+  background-color: $background;
+  color: $web-blue;
+}

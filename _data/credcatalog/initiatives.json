@@ -1,24 +1,5 @@
 [
   {
-    "Name": "4Facts",
-    "Active/Inactive": "Inactive",
-    "Description": "(Status: Inactive)\n",
-    "URL": "http://4facts.org/",
-    "Org Name": "Re:Baltica (Baltic Center for Research Journalism)",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "B Slightly",
-    "Map Spectra: Practice": "D Very",
-    "Map Spectra: Message": "D Very",
-    "Map Spectra: Infrastructure": "C Moderately",
-    "Solutions Categories": "Blockchain,Media Ecosystems",
-    "Funders": "Google DNI - The Digital News Initiative ",
-    "Location": "Eastern Europe",
-    "Potential Data Source": null,
-    "Languages-2": "English",
-    "Notes": "(Misinfocon list)\n\nFrom Latvia. More info here:\nhttps://newsinitiative.withgoogle.com/dnifund/dni-projects/4factsorg/",
-    "Contact information": null
-  },
-  {
     "Name": "2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy",
     "Active/Inactive": "Active",
     "Description": "\"Building off the findings from their recent American Views: Trust, Media and Democracy report, Gallup and the John S. and James L. Knight Foundation conducted a follow-up survey to probe more deeply into Americans' views of bias, inaccuracy and misinformation in news reporting.\" (Source: Organization/Initiative Website)\n",
@@ -34,8 +15,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "AFP Factual",
@@ -53,8 +33,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "French,English,Spanish,Portuguese,Indonesian,Arabic,Polish,Malayalam",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Africa Check",
@@ -72,8 +51,7 @@
     "Location": "Sub-Saharan Africa",
     "Potential Data Source": null,
     "Languages-2": "French,English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": "info@africacheck.org"
+    "Related Resources": null
   },
   {
     "Name": "Agência Lupa",
@@ -91,8 +69,7 @@
     "Location": "Brazil",
     "Potential Data Source": null,
     "Languages-2": "Portuguese",
-    "Notes": "IFCN Expired verified signatory",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "American Press Institute Fact-Checking and Accountability Journalism Project",
@@ -110,8 +87,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Aos Fatos",
@@ -129,8 +105,7 @@
     "Location": "Brazil",
     "Potential Data Source": null,
     "Languages-2": "Portuguese",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "AP's global fact check team",
@@ -148,8 +123,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "ARENA Project - London School of Economics",
@@ -167,8 +141,7 @@
     "Location": "Europe",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Australian Associated Press FactCheck",
@@ -186,8 +159,7 @@
     "Location": "Australia",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Bellingcat's Digital Toolkit",
@@ -205,8 +177,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Bien Chequeado",
@@ -224,8 +195,7 @@
     "Location": "Paraguay",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "BitPress",
@@ -243,8 +213,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": "Bootstrapped, Prelaunch; 2018?->\n\n(Misinfocon list)",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Blackbird",
@@ -262,8 +231,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "IBM Watson’s Hackathon in NYC.",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "BOOM",
@@ -281,8 +249,7 @@
     "Location": "India",
     "Potential Data Source": null,
     "Languages-2": "English,Hindi,Bengali",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": "Jency Jacob - jency@boomlive.in"
+    "Related Resources": null
   },
   {
     "Name": "Botslayer",
@@ -300,27 +267,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
-  },
-  {
-    "Name": "BS Detector",
-    "Active/Inactive": "Inactive",
-    "Description": "(Status: Inactive)\n\n",
-    "URL": "http://bsdetector.tech/",
-    "Org Name": "[SAME AS INITIATIVE]",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "F Unsure",
-    "Map Spectra: Practice": "F Unsure",
-    "Map Spectra: Message": "F Unsure",
-    "Map Spectra: Infrastructure": "F Unsure",
-    "Solutions Categories": null,
-    "Funders": "Self-Funding",
-    "Location": null,
-    "Potential Data Source": null,
-    "Languages-2": "English",
-    "Notes": " Inactive; 2016–2017 (Misinfocon list) Built on OpenSources (above), this plugin also seems to no longer be maintained.",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Buscador: An OSINT Linux Virtual Machine",
@@ -338,8 +285,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Captain Fact",
@@ -357,8 +303,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "(Misinfocon list)",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Cek Fakta - Liputan 6 ",
@@ -376,8 +321,7 @@
     "Location": "Indonesia",
     "Potential Data Source": null,
     "Languages-2": "Indonesian",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Certified Content Coalition",
@@ -395,8 +339,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "CCC does not answered requested info about Funders. ",
-    "Contact information": " scott@certifiedcontentcoalition.org  Scott Yates"
+    "Related Resources": null
   },
   {
     "Name": "Channel 4 - Fact Check",
@@ -414,8 +357,7 @@
     "Location": "United Kingdom of Great Britain and Northern Ireland",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Check - Meedan",
@@ -433,8 +375,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Check Your Fact",
@@ -452,8 +393,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories\n\nThe Daily Caller’s fact-checking team is funded by The Daily Caller’s general news budget, as well as revenue generated through advertising. The Daily Caller is a right leaning news site from the US",
-    "Contact information": "sivak@dailycaller.com"
+    "Related Resources": null
   },
   {
     "Name": "Checkology",
@@ -471,8 +411,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Chequeado",
@@ -490,8 +429,7 @@
     "Location": "Latin America & The Caribbean",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Chile Check",
@@ -509,8 +447,7 @@
     "Location": "Chile",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Citizen Evidence Lab ",
@@ -528,8 +465,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Civil",
@@ -547,8 +483,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Claim Buster",
@@ -566,8 +501,7 @@
     "Location": "United States of America,Australia",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Climate Feedback",
@@ -585,8 +519,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Cocuyo Chequea",
@@ -604,8 +537,7 @@
     "Location": "Venezuela ",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Colombia Check ",
@@ -623,8 +555,7 @@
     "Location": "Colombia",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Columbia Journalism Review",
@@ -642,8 +573,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Combating Russian Disinformation",
@@ -661,8 +591,7 @@
     "Location": "Russia",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Congo Check",
@@ -680,8 +609,7 @@
     "Location": "Democratic Republic of the Congo",
     "Potential Data Source": null,
     "Languages-2": "French",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "ConPruebas",
@@ -699,8 +627,7 @@
     "Location": "Guatemala",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Content Blockchain Project",
@@ -718,8 +645,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "CORRECTIV.ORG",
@@ -737,8 +663,7 @@
     "Location": "Germany",
     "Potential Data Source": null,
     "Languages-2": "English,German",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Cortico",
@@ -756,8 +681,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "501c3 in partnership with Lab for Social Machines\n",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Credibility Coalition",
@@ -775,8 +699,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": "(Misinfocon list)",
-    "Contact information": "Dwight Knell dwight@meedan.com"
+    "Related Resources": null
   },
   {
     "Name": "Dagens Nyheter",
@@ -794,8 +717,7 @@
     "Location": "Sweden",
     "Potential Data Source": null,
     "Languages-2": "Swedish",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Datalyrics",
@@ -813,27 +735,7 @@
     "Location": "Eastern Europe",
     "Potential Data Source": null,
     "Languages-2": "Czech,English,Polish,Hungarian",
-    "Notes": "Disinfo Portal Partner\nhttps://disinfoportal.org/partners/",
-    "Contact information": "editor@datalyrics.org "
-  },
-  {
-    "Name": "dBunk(r) ",
-    "Active/Inactive": "Inactive",
-    "Description": "\"dBunk(r) unlocks a user’s potential to share in the world’s deepest knowledge, clearest observations, and brightest thoughts.\" (Source: Organization/Initiative Website) (Status: Inactive)(Status: Inactive)",
-    "URL": "http://dbunkr.com/",
-    "Org Name": "[SAME AS INITIATIVE]",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "F Unsure",
-    "Map Spectra: Practice": "F Unsure",
-    "Map Spectra: Message": "F Unsure",
-    "Map Spectra: Infrastructure": "F Unsure",
-    "Solutions Categories": null,
-    "Funders": "[needs more research]",
-    "Location": null,
-    "Potential Data Source": null,
-    "Languages-2": null,
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Debunk EU",
@@ -851,27 +753,7 @@
     "Location": "Europe",
     "Potential Data Source": "checked",
     "Languages-2": "Lithuanian,English,Russian",
-    "Notes": null,
-    "Contact information": null
-  },
-  {
-    "Name": "Deep Freeze",
-    "Active/Inactive": "Inactive",
-    "Description": "\"DeepFreeze is a journalism reference resource, conceived to supply a reader with easily-digested information to determine the reliability of an individual writer or outlet. DeepFreeze strives, whenever possible, for maximum objectivity — supplying factual information so that readers can form an opinion on their own. For the time being, DeepFreeze is focused mostly on online game journalism, although mainstream press might be more carefully examined in the future.\"(Source: Organization/Initiative Website)(Status: Inactive)",
-    "URL": "http://deepfreeze.it/about.php",
-    "Org Name": "[SAME AS INITIATIVE]",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "A Not at all",
-    "Map Spectra: Practice": "E Extremely",
-    "Map Spectra: Message": "A Not at all",
-    "Map Spectra: Infrastructure": "C Moderately",
-    "Solutions Categories": "Media Ecosystems,Social & Community Based ",
-    "Funders": "[needs more research]",
-    "Location": "Global",
-    "Potential Data Source": null,
-    "Languages-2": "English",
-    "Notes": "(Misinfocon list)  Inactive; 2015–2017",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Deepnews.ai",
@@ -889,8 +771,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "(Misinfocon list)",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Deeptrace",
@@ -908,8 +789,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Demagog Association",
@@ -927,8 +807,7 @@
     "Location": "Poland",
     "Potential Data Source": null,
     "Languages-2": "Polish",
-    "Notes": "It is a IFCN Poynter signatory",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Detecteur Rumeurs",
@@ -946,8 +825,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "French",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Detector de Mentiras",
@@ -965,8 +843,7 @@
     "Location": "Colombia",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Digital Eye India",
@@ -984,8 +861,7 @@
     "Location": "India",
     "Potential Data Source": null,
     "Languages-2": "English,Kannada,Telugu",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/\n\nIFCN signatory",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Digital Forensic Research Lab",
@@ -1003,8 +879,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Disinfo Portal Partner\nhttps://disinfoportal.org/partners/",
-    "Contact information": "dfrlab@atlanticcouncil.org"
+    "Related Resources": null
   },
   {
     "Name": "Dirt Protocol",
@@ -1022,8 +897,7 @@
     "Location": "United States of America",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": "(Misinfocon list) Prelaunch; 2018->",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Disinfo Portal",
@@ -1041,27 +915,7 @@
     "Location": "Russia,United States of America,Europe",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "\"A website for tracking Russia’s disinformation campaigns... It is more like a fact-checking website than a strategy for dealing with the wider problem. A group of experts and journalists assessing individual articles and trends, basically a single issue media company itself.\"\n\n(Misinfocon list)\n\nSupported by Atlantic Council and others: https://disinfoportal.org/partners/",
-    "Contact information": null
-  },
-  {
-    "Name": "Dispute Finder",
-    "Active/Inactive": "Inactive",
-    "Description": "\"Not all information on the web is accurate or unbiased. Often one will read information on the web without realising that there are alternative points of view. The Dispute Finder Firefox Extension helps you know when information you read is disputed by highlighting snippets if they make a disputed claim.\" (Source: Organization/Initiative Website) (Status: Inactive)",
-    "URL": "http://ennals.org/rob/disputefinder.html",
-    "Org Name": "[SAME AS INITIATIVE]",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "A Not at all",
-    "Map Spectra: Practice": "A Not at all",
-    "Map Spectra: Message": "D Very",
-    "Map Spectra: Infrastructure": "E Extremely",
-    "Solutions Categories": "Tools,Social & Community Based ,Fact-Checking & Verification",
-    "Funders": "[needs more research]",
-    "Location": null,
-    "Potential Data Source": null,
-    "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Doğruluk Payı",
@@ -1079,8 +933,7 @@
     "Location": "Turkey",
     "Potential Data Source": null,
     "Languages-2": "Turkish",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "dpa-Faktencheck",
@@ -1098,8 +951,7 @@
     "Location": "Germany",
     "Potential Data Source": null,
     "Languages-2": "German",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "DROG",
@@ -1117,8 +969,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Disinfo Portal Partner\nhttps://disinfoportal.org/partners/",
-    "Contact information": "info@aboutbadnews.com"
+    "Related Resources": null
   },
   {
     "Name": "Dubawa",
@@ -1136,8 +987,7 @@
     "Location": "Nigeria",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Duke Share the Facts Widget",
@@ -1155,8 +1005,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Duke Tech & Check Cooperative ",
@@ -1174,8 +1023,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Ecuador Chequea",
@@ -1193,8 +1041,7 @@
     "Location": "Ecuador",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": "ecuadorchequea@gmail.com"
+    "Related Resources": null
   },
   {
     "Name": "El poder de elegir",
@@ -1212,8 +1059,7 @@
     "Location": "Colombia",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "El Sabueso",
@@ -1231,8 +1077,7 @@
     "Location": "Mexico",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Ellinika Hoaxes",
@@ -1250,27 +1095,7 @@
     "Location": "Greece",
     "Potential Data Source": null,
     "Languages-2": "Greek",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": "info@ellinikahoaxes.gr"
-  },
-  {
-    "Name": "Emergent.info",
-    "Active/Inactive": "Inactive",
-    "Description": "\"Emergent is a real-time rumor tracker. It's part of a research project with the Tow Center for Digital Journalism at Columbia University that focuses on how unverified information and rumor are reported in the media. It aims to develop best practices for debunking misinformation.\" (Source: Organization/Initiative Website)(Status: Inactive)",
-    "URL": "http://www.emergent.info/",
-    "Org Name": "Columbia University - Tow Center for Digital Journalism",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "A Not at all",
-    "Map Spectra: Practice": "A Not at all",
-    "Map Spectra: Message": "D Very",
-    "Map Spectra: Infrastructure": "E Extremely",
-    "Solutions Categories": null,
-    "Funders": "[needs more research]",
-    "Location": "Global",
-    "Potential Data Source": null,
-    "Languages-2": "English",
-    "Notes": "(Misinfocon list)  Inactive; 2015–2016?",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Estadão Verifica ",
@@ -1288,8 +1113,7 @@
     "Location": "Brazil",
     "Potential Data Source": null,
     "Languages-2": "Portuguese",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": "estadaoverifica@estadao.com"
+    "Related Resources": null
   },
   {
     "Name": "EU DisinfoLab",
@@ -1307,8 +1131,7 @@
     "Location": "Europe",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Disinfo Portal Partner\nhttps://disinfoportal.org/partners/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "EU vs Disinformation",
@@ -1326,8 +1149,7 @@
     "Location": "Russia,Europe",
     "Potential Data Source": null,
     "Languages-2": "English,Russian,German",
-    "Notes": "Disinfo Portal Partner\nhttps://disinfoportal.org/partners/",
-    "Contact information": "disinforeview@euvsdisinfo.eu"
+    "Related Resources": null
   },
   {
     "Name": "Executive Roundtable on Digital Journalism Ethics",
@@ -1345,8 +1167,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Facebook Flagging Fake",
@@ -1364,8 +1185,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "FacktenFinder",
@@ -1383,8 +1203,7 @@
     "Location": "Germany",
     "Potential Data Source": null,
     "Languages-2": "German",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Fact Check EU",
@@ -1402,8 +1221,7 @@
     "Location": "Europe",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Fact Check Kazakhstan ",
@@ -1421,8 +1239,7 @@
     "Location": "Kazakhstan ",
     "Potential Data Source": null,
     "Languages-2": "English,Kazakh,Russian",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/\n\nIFCN Signatory? ",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Fact Checking Chile",
@@ -1440,8 +1257,7 @@
     "Location": "Chile",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/ \n\nThe fundind source comes from the University itself",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Factba.se",
@@ -1459,8 +1275,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Factcheck.org",
@@ -1478,8 +1293,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "FactChecker.in ",
@@ -1497,8 +1311,7 @@
     "Location": "India",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories\n\nGovindraj Ethiraj, Founder: Govindraj is a television & print journalist and founder of Boom, a fact-checking initiative.",
-    "Contact information": "research@indiaspend.org"
+    "Related Resources": null
   },
   {
     "Name": "Factcheckers",
@@ -1516,8 +1329,7 @@
     "Location": "Italy",
     "Potential Data Source": null,
     "Languages-2": "Italian",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "FactCheckNI",
@@ -1535,8 +1347,7 @@
     "Location": "United Kingdom of Great Britain and Northern Ireland",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "FactCrescendo",
@@ -1554,27 +1365,7 @@
     "Location": "India",
     "Potential Data Source": null,
     "Languages-2": "Malayalam,Gujarati,Tamil,Marathi",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
-  },
-  {
-    "Name": "FactLink",
-    "Active/Inactive": "Inactive",
-    "Description": "\"Factlink is an open-source project with the mission to make the world more open and credible by discussing everything. Share your knowledge with the world. Use Factlink to discuss anything on the web. \" (Source: Organization/Initiative Website) (Status: Inactive)\n",
-    "URL": "https://factlink.com/",
-    "Org Name": "[SAME AS INITIATIVE]",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "A Not at all",
-    "Map Spectra: Practice": "D Very",
-    "Map Spectra: Message": "E Extremely",
-    "Map Spectra: Infrastructure": "B Slightly",
-    "Solutions Categories": "Data Collection Techniques/Methods",
-    "Funders": "[needs more research]",
-    "Location": "Global",
-    "Potential Data Source": null,
-    "Languages-2": "English",
-    "Notes": "Inactive; 2011–2014~ misinfocon list",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "FACTLY ",
@@ -1592,8 +1383,7 @@
     "Location": "India",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": "hi@factly.in"
+    "Related Resources": null
   },
   {
     "Name": "Factmata",
@@ -1611,8 +1401,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Factograph (BBG)",
@@ -1630,8 +1419,7 @@
     "Location": "Russia",
     "Potential Data Source": null,
     "Languages-2": "Russian",
-    "Notes": "Site is in Russian.",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Fake off",
@@ -1649,8 +1437,7 @@
     "Location": "France",
     "Potential Data Source": null,
     "Languages-2": "French,English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": "Mathilde Cousin fakeoff@20minutes.fr"
+    "Related Resources": null
   },
   {
     "Name": "FakerFact",
@@ -1668,8 +1455,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "(Misinfocon list)",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Faking News: Fraudulent News and the Fight for Truth ",
@@ -1687,8 +1473,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Faktabaari",
@@ -1706,8 +1491,7 @@
     "Location": "Finland",
     "Potential Data Source": null,
     "Languages-2": "Finnish",
-    "Notes": "Faktabaari won the award for the Best Journalism Act in the 2014 Finnish Bonnier journalism awards organized in March 2015. The European Public Communication Award 2014 was attributed to Faktabaari at the EuroPCom 2014 Conference in Brussels. 2018 it was awarded the Chydenius openness medal for its international transparency work.",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Faktisk",
@@ -1725,8 +1509,7 @@
     "Location": "Norway",
     "Potential Data Source": null,
     "Languages-2": "Norwegian",
-    "Notes": "Site is in Norwegian",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Faktograf.hr ",
@@ -1744,8 +1527,7 @@
     "Location": "Croatia",
     "Potential Data Source": null,
     "Languages-2": "Hungarian",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Fatima ",
@@ -1763,27 +1545,7 @@
     "Location": "Brazil",
     "Potential Data Source": null,
     "Languages-2": "Portuguese",
-    "Notes": null,
-    "Contact information": null
-  },
-  {
-    "Name": "FiB",
-    "Active/Inactive": "Inactive",
-    "Description": "\"In the current media landscape, control over distribution has become almost as important as the actual creation of content, and that has given Facebook a huge amount of power. The impact that Facebook newsfeed has in the formation of opinions in the real world is so huge that it potentially affected the 2016 election decisions, however these newsfeed were not completely accurate. Our solution? FiB because With 1.5 Billion Users, Every Single Tweak in an Algorithm Can Make a Change, and we dont stop at just one.\"(Source: Organization/Initiative Website)(Status: Inactive)\n\n",
-    "URL": "https://devpost.com/software/fib",
-    "Org Name": "[SAME AS INITIATIVE]",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "A Not at all",
-    "Map Spectra: Practice": "A Not at all",
-    "Map Spectra: Message": "D Very",
-    "Map Spectra: Infrastructure": "E Extremely",
-    "Solutions Categories": null,
-    "Funders": "[needs more research]",
-    "Location": null,
-    "Potential Data Source": null,
-    "Languages-2": "English",
-    "Notes": "Inactive; 2016. misinfocon list",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Field Guide to Fake News ",
@@ -1801,8 +1563,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Finding the Truth Amongst Fakes",
@@ -1820,8 +1581,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "First Draft News",
@@ -1839,8 +1599,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Fiskkit",
@@ -1858,8 +1617,7 @@
     "Location": "United States of America",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": "Encouraging evidence supported discussions? Online forum?  deliberation communities? (Misinfocon list)",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "France 24 - Les Observateurs",
@@ -1877,8 +1635,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English,French,Arabic,Persian",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories\n\nThe organization, as well as the fact checking initiative, is owned in full by the French state. ",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Freedom on the Net ",
@@ -1896,8 +1653,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Full Fact",
@@ -1915,8 +1671,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Global Council to Build Trust in Media and Fight Misinformation",
@@ -1934,8 +1689,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Global Disinformation Index",
@@ -1953,8 +1707,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Hamilton 68 Dashboard",
@@ -1972,8 +1725,7 @@
     "Location": "Russia",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Health Feedback",
@@ -1991,8 +1743,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Hercule",
@@ -2010,8 +1761,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Hoaks Atau Fakta?",
@@ -2029,8 +1779,7 @@
     "Location": "Indonesia",
     "Potential Data Source": null,
     "Languages-2": "Indonesian",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Hoaxy",
@@ -2048,8 +1797,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": "(Misinfocon list)",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Hypothes.is",
@@ -2067,27 +1815,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": "Encouraging evidence supported discussions? Online forum? ",
-    "Contact information": null
-  },
-  {
-    "Name": "Identifact",
-    "Active/Inactive": "Inactive",
-    "Description": "\"Identifact certifies news outlets based on their reporting accuracy, so readers can track the credibility of news sources.\" (Source: Organization/Initiative Website)(Status: Inactive)\n",
-    "URL": "https://twitter.com/IdentiFactOrg",
-    "Org Name": "[SAME AS INITIATIVE]",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "F Unsure",
-    "Map Spectra: Practice": "F Unsure",
-    "Map Spectra: Message": "F Unsure",
-    "Map Spectra: Infrastructure": "F Unsure",
-    "Solutions Categories": null,
-    "Funders": "[needs more research]",
-    "Location": null,
-    "Potential Data Source": null,
-    "Languages-2": null,
-    "Notes": "Site is down. (Misinfocon list)  Inactive; 2017–2018",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Image Verification Assistant (Reveal)",
@@ -2105,8 +1833,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "India Today Fact Check",
@@ -2124,8 +1851,7 @@
     "Location": "India",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": "factcheck@intoday.com"
+    "Related Resources": null
   },
   {
     "Name": "Information Disorder Lab",
@@ -2143,8 +1869,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "International Fact-Checking Network",
@@ -2162,8 +1887,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "International Standard Content Code ",
@@ -2181,8 +1905,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Internet Archive TV News Archive",
@@ -2200,8 +1923,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Internet Health Report",
@@ -2219,8 +1941,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "InVid",
@@ -2238,8 +1959,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Istinomer",
@@ -2257,8 +1977,7 @@
     "Location": "Serbia",
     "Potential Data Source": null,
     "Languages-2": "Serbian",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories\n\nNED funding",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Istinomjer",
@@ -2276,8 +1995,7 @@
     "Location": "Bosnia and Herzegovina",
     "Potential Data Source": null,
     "Languages-2": "Bosnian",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Jordanian Media Credibility Monitor (AKEED)",
@@ -2295,8 +2013,7 @@
     "Location": "Jordan",
     "Potential Data Source": null,
     "Languages-2": "Arabic,English",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Journalism Trust Initiative",
@@ -2314,8 +2031,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "This initiative was announced on April 2018. \nThere is not website or reports to check their work progress, ",
-    "Contact information": "Olaf Steenfadt osteenfadt@rsf.org"
+    "Related Resources": null
   },
   {
     "Name": "Knight Commission on Trust, Media and Democracy",
@@ -2333,8 +2049,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Knight Prototype Fund on Misinformation",
@@ -2352,8 +2067,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Krypometri",
@@ -2371,8 +2085,7 @@
     "Location": "Kosovo* ",
     "Potential Data Source": null,
     "Languages-2": "Albanian,Serbian",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "La Chistera",
@@ -2390,8 +2103,7 @@
     "Location": "Spain",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "La Voce",
@@ -2409,8 +2121,7 @@
     "Location": "Italy",
     "Potential Data Source": null,
     "Languages-2": "Italian",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": "@greta_ardito"
+    "Related Resources": null
   },
   {
     "Name": "Le Monde - Les Décodeur",
@@ -2428,8 +2139,7 @@
     "Location": "France",
     "Potential Data Source": "checked",
     "Languages-2": "French",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Lead Stories",
@@ -2447,8 +2157,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Libération - CheckNews",
@@ -2466,8 +2175,7 @@
     "Location": "France",
     "Potential Data Source": null,
     "Languages-2": "French",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Lui President",
@@ -2485,8 +2193,7 @@
     "Location": "France",
     "Potential Data Source": null,
     "Languages-2": "French",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/\n\nOn May 15, 2013, Lui was awarded the Google / Sciences Po prize for innovation in journalism , in the \"students\" category. ",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Mafindo",
@@ -2504,8 +2211,7 @@
     "Location": "Indonesia",
     "Potential Data Source": null,
     "Languages-2": "Indonesian",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Main Street One ",
@@ -2523,8 +2229,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "https://www.vanityfair.com/news/2019/06/can-democrats-win-back-the-internet-in-the-age-of-trump",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Maldito Bulo",
@@ -2542,8 +2247,7 @@
     "Location": "Spain",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories\n\nJournalists do this work Pro Bono. They do not receive any funding. ",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Markkula Center for Applied Ethics",
@@ -2561,8 +2265,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Marvelous",
@@ -2580,8 +2283,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": "\"We look forward to sharing our open data sets with the community.\" (From website)",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Media Cloud",
@@ -2599,8 +2301,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Media Manipulation and Disinformation Online",
@@ -2618,8 +2319,7 @@
     "Location": "United States of America",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Media Ownership Monitor",
@@ -2637,8 +2337,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": null,
-    "Notes": "The website says it is funded by the German government but fails to give any more information about it. ",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Media Well",
@@ -2656,8 +2355,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Memex",
@@ -2675,8 +2373,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "This is an annotation tool. Something like Diigo. ",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Metafact",
@@ -2694,8 +2391,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "MisinfoCon",
@@ -2713,8 +2409,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Misinformation Solutions Forum",
@@ -2732,8 +2427,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Mozilla Information Trust Initiative",
@@ -2751,8 +2445,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Myth Detector",
@@ -2770,8 +2463,7 @@
     "Location": "Eastern Europe",
     "Potential Data Source": null,
     "Languages-2": "English,Azerbaijani,Georgian,Armenian",
-    "Notes": "Disinfo Portal Partner\nhttps://disinfoportal.org/partners/",
-    "Contact information": "info@eurocommunicator.ge "
+    "Related Resources": null
   },
   {
     "Name": "MyWOT",
@@ -2789,8 +2481,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": "Red Flag  On November 2016, german news undercover that Wot Services was selling private navigation data from MyWOT users to german government agencies.   http://www.spiegel.de/netzwelt/web/web-of-trust-browser-add-on-spioniert-angeblich-nutzer-aus-a-1119236.html  https://www.heise.de/newsticker/meldung/Millionen-Surf-Profile-<-stammen-angeblich-auch-von-Browser-Addon-WOT-3453820.html",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "News Co/Lab",
@@ -2808,27 +2499,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
-  },
-  {
-    "Name": "News Cube",
-    "Active/Inactive": "Inactive",
-    "Description": "\"NewsCube automatically creates and promptly provides readers with multiple classified viewpoints on a news event of interest. As such, it effectively helps readers understand a fact from a plural of viewpoints and formulate their own, more balanced viewpoints. While media bias problem has been studied extensively in communications and social sciences, our work is the first to develop a news service as a solution and study its effect. We discuss the effect of the service through various user studies.\" (Source: Organization/Initiative Website) (Status: Inactive)\n",
-    "URL": "https://www.researchgate.net/publication/221519523_NewsCube_Delivering_multiple_aspects_of_news_to_mitigate_media_bias",
-    "Org Name": "Korea Advanced Institute for Science and Technology",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "F Unsure",
-    "Map Spectra: Practice": "F Unsure",
-    "Map Spectra: Message": "F Unsure",
-    "Map Spectra: Infrastructure": "F Unsure",
-    "Solutions Categories": "Tools",
-    "Funders": "[needs more research]",
-    "Location": null,
-    "Potential Data Source": null,
-    "Languages-2": null,
-    "Notes": "(Misinfocon list)",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "News Integrity Initiative ",
@@ -2846,8 +2517,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "News Literacy Project",
@@ -2865,8 +2535,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "News Provenance Project",
@@ -2884,8 +2553,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "NewsCheck",
@@ -2903,27 +2571,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": "(Misinfocon list)",
-    "Contact information": null
-  },
-  {
-    "Name": "NewsFrames at Global Voices",
-    "Active/Inactive": "Inactive",
-    "Description": "\"The NewsFrames community projects are working to uncover and report on frames. One aspect that the NewsFrames project is also trying to pay attention to is the way that fabricated and false news crosses borders.\" (Source: Organization/Initiative Website)\n (Status: Inactive)",
-    "URL": "https://newsframes.globalvoices.org/investigations/false-and-fabricated-news-international-dimensions/",
-    "Org Name": "Global Voices",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "D Very",
-    "Map Spectra: Practice": "E Extremely",
-    "Map Spectra: Message": "D Very",
-    "Map Spectra: Infrastructure": "B Slightly",
-    "Solutions Categories": "Trust in Media",
-    "Funders": "We Media,Institute for Connected Society (iFOCOS),European Journalism Centre (EJC),The Arca Foundation,The New World Foundation,Ars Electronica,McCormick Foundation,Matt Mullenweg,Adessium Foundation,Thomson Reuters Foundation,Media Development Investment Fund (MDIF),UNESCO,Knight Foundation,Hivos,Ford Foundation,Open Society Foundations,Omidyar Network,John D. and Catherine T. MacArthur Foundation",
-    "Location": "Global",
-    "Potential Data Source": null,
-    "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "NewsGuard",
@@ -2941,8 +2589,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "NewsGuard has been criticized for bias against conservative sites. https://mspoweruser.com/unlike-reality-newsguard-denies-a-bias-against-conservatives/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "NewsMobile Fact Checker",
@@ -2960,8 +2607,7 @@
     "Location": "India",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "NewsQ",
@@ -2979,27 +2625,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
-  },
-  {
-    "Name": "NewsTracker",
-    "Active/Inactive": "Inactive",
-    "Description": "\"We built NewsTracker to collect a variety of sources of misinformation on Facebook and aggregate the stories published so that we could have a clearer sense of the different types of misinformation out there. We wanted to know how frequently it was published and what strategies and narratives were employed to engage audiences on Facebook.\" (Source: Organization/Initiative Website)(Status: Inactive)\n\n",
-    "URL": "https://www.pbs.org/newshour/nation/what-is-the-newstracker",
-    "Org Name": "PBS Newshour",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "E Extremely",
-    "Map Spectra: Practice": "A Not at all",
-    "Map Spectra: Message": "A Not at all",
-    "Map Spectra: Infrastructure": "E Extremely",
-    "Solutions Categories": "Tools",
-    "Funders": "Knight Foundation",
-    "Location": "United States of America",
-    "Potential Data Source": null,
-    "Languages-2": "English",
-    "Notes": "The idea received a Knight Foundation grant in 2017. It is still in development.",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Newtral",
@@ -3017,8 +2643,7 @@
     "Location": "Spain",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Nobias",
@@ -3036,8 +2661,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "NuChekt",
@@ -3055,8 +2679,7 @@
     "Location": "Netherlands",
     "Potential Data Source": null,
     "Languages-2": "Dutch",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "NuzzleRank",
@@ -3074,8 +2697,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "This is more like a reputation ranking. Should we add that category? Or we may consider this  Credibility scoring?",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "O Truco",
@@ -3093,27 +2715,7 @@
     "Location": "Brazil",
     "Potential Data Source": null,
     "Languages-2": "Portuguese",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
-  },
-  {
-    "Name": "ObserLatInf",
-    "Active/Inactive": "Inactive",
-    "Description": "\"We are building an observatory of information disorder in Latin America.\" (Source: Organization/Initiative Website)(Status: Inactive)\n",
-    "URL": "http://obserlatinf.org/desinformacion",
-    "Org Name": "Observatorio de Desinformación LatAm",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "D Very",
-    "Map Spectra: Practice": "B Slightly",
-    "Map Spectra: Message": "C Moderately",
-    "Map Spectra: Infrastructure": "D Very",
-    "Solutions Categories": "Empirical Research & Data Analysis,Education & Research ",
-    "Funders": "The ISC Project",
-    "Location": "Latin America & The Caribbean",
-    "Potential Data Source": null,
-    "Languages-2": "Spanish,English",
-    "Notes": null,
-    "Contact information": "ipuyosa@obserlatinf.org"
+    "Related Resources": null
   },
   {
     "Name": "Observador Fact Check",
@@ -3131,8 +2733,7 @@
     "Location": "Portugal",
     "Potential Data Source": null,
     "Languages-2": "Portuguese",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Ojo Bionico",
@@ -3150,8 +2751,7 @@
     "Location": "Peru",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": "Ojo Publico won the following awards: \n\nData Journalism Award 2015, el tercer Premio Latinoamericano de Periodismo de Investigación en 2016; el premio Excelencia de la Sociedad Interamerica de Prensa de 2017, el Premio Nacional de Periodismo en 2017 y 2018, mención de honor en el LASA Media Award 2018",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Open Technology Institute",
@@ -3169,27 +2769,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
-  },
-  {
-    "Name": "OpenSources",
-    "Active/Inactive": "Inactive",
-    "Description": "(Status: Inactive)",
-    "URL": "http://www.opensources.co/",
-    "Org Name": "[SAME AS INITIATIVE]",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "F Unsure",
-    "Map Spectra: Practice": "F Unsure",
-    "Map Spectra: Message": "F Unsure",
-    "Map Spectra: Infrastructure": "F Unsure",
-    "Solutions Categories": null,
-    "Funders": "[needs more research]",
-    "Location": null,
-    "Potential Data Source": null,
-    "Languages-2": null,
-    "Notes": "Manually maintained by a now-inactive community, this project appears to be winding down.\n(Misinfocon list)   Inactive; 2016–2017",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Our.News",
@@ -3207,8 +2787,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Oxford Computational Propaganda Project",
@@ -3226,8 +2805,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Pagella Politica",
@@ -3245,8 +2823,7 @@
     "Location": "Italy",
     "Potential Data Source": null,
     "Languages-2": "Italian",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories\n\nPagella politica is a limited liability company (Srls) established at the end of 2013 by 10 partners: Pietro Curatolo, Daniele De Bernardin, Federica Fusi, Giorgio Gagnor, Amerigo Lombardi, Alexios Mantzarlis, Flavia Mi, Andrea Saviolo, Silvia Sommariva and Carlo Starace .",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Patikrinta 15min",
@@ -3264,8 +2841,7 @@
     "Location": "Lithuania",
     "Potential Data Source": null,
     "Languages-2": "Lithuanian",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories\n\n15min UAB is owned by Margus Linnamäe via AS Eesti Meedia and OU UP Invest.",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Pesa Check",
@@ -3283,8 +2859,7 @@
     "Location": "Sub-Saharan Africa",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Poletika",
@@ -3302,8 +2877,7 @@
     "Location": "Spain",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Polígrafo",
@@ -3321,8 +2895,7 @@
     "Location": "Portugal",
     "Potential Data Source": null,
     "Languages-2": "Portuguese",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "PolitiFact",
@@ -3340,8 +2913,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Polygraph (BBG)",
@@ -3359,8 +2931,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Changed name and URL. Now is named: U.S. Agency for Global Media. https://www.usagm.gov/                        \nDisinfo Portal Partner\nhttps://disinfoportal.org/partners/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Pop-Up Newsroom",
@@ -3378,8 +2949,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Pressland",
@@ -3397,8 +2967,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "ProFact Moldova",
@@ -3416,8 +2985,7 @@
     "Location": "Moldova",
     "Potential Data Source": null,
     "Languages-2": "Romanian; Moldovan,Russian",
-    "Notes": null,
-    "Contact information": "Amal Azimova - Program Officer- aazimova@icfj.org"
+    "Related Resources": null
   },
   {
     "Name": "Public Editor",
@@ -3435,27 +3003,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
-  },
-  {
-    "Name": "Quod",
-    "Active/Inactive": "Inactive",
-    "Description": "\"A new website that lets anyone report misinformation, anywhere online\" (Source: Organizaiton/Initiative Website)(Status: Inactive) ",
-    "URL": "https://www.quod.us/",
-    "Org Name": "[SAME AS INITIATIVE]",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "A Not at all",
-    "Map Spectra: Practice": "D Very",
-    "Map Spectra: Message": "D Very",
-    "Map Spectra: Infrastructure": "B Slightly",
-    "Solutions Categories": "Social & Community Based ,Data Collection Techniques/Methods",
-    "Funders": "[needs more research]",
-    "Location": "United States of America",
-    "Potential Data Source": null,
-    "Languages-2": "English",
-    "Notes": " Beta; 2018\n\n(Misinfocon list)",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Rappler Fact Check",
@@ -3473,8 +3021,7 @@
     "Location": "Philippines",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Raskrinkavanje",
@@ -3492,8 +3039,7 @@
     "Location": "Bosnia and Herzegovina",
     "Potential Data Source": null,
     "Languages-2": "Bosnian",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "rbutr",
@@ -3511,8 +3057,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": "rbutr does not appear in the Startup Chile accelerator database- but claim this funding\n\n(Misinfocon list)",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Reality Check - BBC ",
@@ -3530,8 +3075,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Redacción Fáctica",
@@ -3549,27 +3093,7 @@
     "Location": "Guatemala",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": null,
-    "Contact information": null
-  },
-  {
-    "Name": "Remarrk",
-    "Active/Inactive": "Inactive",
-    "Description": "(Status: Inactive)",
-    "URL": "https://twitter.com/remarrk",
-    "Org Name": "Twitter",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "F Unsure",
-    "Map Spectra: Practice": "F Unsure",
-    "Map Spectra: Message": "F Unsure",
-    "Map Spectra: Infrastructure": "F Unsure",
-    "Solutions Categories": null,
-    "Funders": "[needs more research]",
-    "Location": null,
-    "Potential Data Source": null,
-    "Languages-2": null,
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Reveal Project",
@@ -3587,8 +3111,7 @@
     "Location": "Europe",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Riddle",
@@ -3606,8 +3129,7 @@
     "Location": "Russia",
     "Potential Data Source": null,
     "Languages-2": "Russian,English",
-    "Notes": "Disinfo Portal Partner\nhttps://disinfoportal.org/partners/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "RMIT ABC Fact Check",
@@ -3625,8 +3147,7 @@
     "Location": "Australia",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Schema.org Claim Review",
@@ -3644,8 +3165,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Science Feedback",
@@ -3663,8 +3183,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Serelay",
@@ -3682,8 +3201,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Servicio de Información Pública",
@@ -3701,8 +3219,7 @@
     "Location": "Venezuela ",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Snopes",
@@ -3720,8 +3237,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Snopes recieved funding from Facebook and from the James Randi Educational Foundation in the past. \nI could not find funding information for 2018 and 2019. ",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Social Media Guide ",
@@ -3739,8 +3255,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English,Swedish",
-    "Notes": "This guide focus on hate speech and cyber-harassment. ",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "SOMA (Social Observatory for Disinformation and Social Media Analysis)",
@@ -3758,8 +3273,7 @@
     "Location": "Europe",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": "n.sarris [at]atc[dot]gr "
+    "Related Resources": null
   },
   {
     "Name": "South Asia Check",
@@ -3777,8 +3291,7 @@
     "Location": "South Asia",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "SSRC Social Media Democracy Research Grants",
@@ -3796,8 +3309,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Stop Fake",
@@ -3815,8 +3327,7 @@
     "Location": "Ukraine",
     "Potential Data Source": null,
     "Languages-2": "Ukrainian,Russian",
-    "Notes": "Disinfo Portal Partner\nhttps://disinfoportal.org/partners/\n\nRussian is the defaul language, but the site offers 11 languages.  Financial support for the Project in 2015–2017 was provided by the International Foundation “Vidrodzhennya”, “The National Endowment for Democracy”, the Ministry of Foreign Affairs of the Czech Republic and the British Embassy in Ukraine. \n",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Study: \"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"",
@@ -3834,8 +3345,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Taiwan FactCheck Center",
@@ -3853,8 +3363,7 @@
     "Location": "Taiwan",
     "Potential Data Source": null,
     "Languages-2": "Chinese",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Tattle",
@@ -3872,8 +3381,7 @@
     "Location": "India",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "The Conversation Australia",
@@ -3891,8 +3399,7 @@
     "Location": "Australia",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "The Factual",
@@ -3910,8 +3417,7 @@
     "Location": "United States of America",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "The Journal.ie",
@@ -3929,8 +3435,7 @@
     "Location": "Europe",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "The Media Bias Chart",
@@ -3948,27 +3453,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
-  },
-  {
-    "Name": "The Nevada Independent Fact Checks",
-    "Active/Inactive": "Inactive",
-    "Description": "The Nevada Independent newspaper's fact-checking initative for the 2018 election cycle. ",
-    "URL": "https://thenevadaindependent.com/articles/factchecks",
-    "Org Name": "The Nevada Independent",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "A Not at all",
-    "Map Spectra: Practice": "E Extremely",
-    "Map Spectra: Message": "E Extremely",
-    "Map Spectra: Infrastructure": "A Not at all",
-    "Solutions Categories": "Fact-Checking & Verification,Credible Content Production",
-    "Funders": "Private donations",
-    "Location": "United States of America",
-    "Potential Data Source": null,
-    "Languages-2": "English",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "The Pro-Truth Pledge",
@@ -3986,8 +3471,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "(Misinfocon list)",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "The Trust Project",
@@ -4005,8 +3489,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "The Trusting News Project",
@@ -4024,8 +3507,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "It does not address misinformation. It rather focuses on helping journalists to boost their image. ",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "The Verification Handbook (EJC)",
@@ -4043,8 +3525,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "The Washington Post Fact-Checker",
@@ -4062,8 +3543,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "The Whistle",
@@ -4081,8 +3561,7 @@
     "Location": "Israel",
     "Potential Data Source": null,
     "Languages-2": "Hebrew",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Transparency Map",
@@ -4100,8 +3579,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English,Spanish",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Trive",
@@ -4119,8 +3597,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Main advisor was a top-level Cambridge Analytica employee",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Trusted News",
@@ -4138,8 +3615,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Trusted Times",
@@ -4157,8 +3633,7 @@
     "Location": "United States of America",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Trustium ",
@@ -4176,8 +3651,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": "https://www.trustium.com/trustie-inc-renames-itself-trustium/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "TrustServista",
@@ -4195,8 +3669,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Truth or Fiction ",
@@ -4214,8 +3687,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/\n\nhttps://en.wikipedia.org/wiki/TruthOrFiction.com",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Truth Tests",
@@ -4233,8 +3705,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Truth, Trust and Technology Commission - London School of Economics",
@@ -4252,8 +3723,7 @@
     "Location": "United Kingdom of Great Britain and Northern Ireland",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "TruthBuzz by ICFJ",
@@ -4271,46 +3741,7 @@
     "Location": "Brazil,Indonesia,United States of America,India,Nigeria",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": "Oren Levine (olevine@icfj.org )"
-  },
-  {
-    "Name": "Trutheum",
-    "Active/Inactive": "Inactive",
-    "Description": "(Status: Inactive)\n",
-    "URL": "http://trutheum.com/",
-    "Org Name": "[SAME AS INITIATIVE]",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "F Unsure",
-    "Map Spectra: Practice": "F Unsure",
-    "Map Spectra: Message": "F Unsure",
-    "Map Spectra: Infrastructure": "F Unsure",
-    "Solutions Categories": null,
-    "Funders": "[needs more research]",
-    "Location": null,
-    "Potential Data Source": null,
-    "Languages-2": null,
-    "Notes": "Domain is for sale. Prelaunch; 2017?-> ",
-    "Contact information": null
-  },
-  {
-    "Name": "Tsek",
-    "Active/Inactive": "Inactive",
-    "Description": "\"Tsek.ph is a collaborative fact-checking project for the Philippines' 2019 elections. It is an initiative of academy and media to counter disinformation and provide the public with verified information.\" (Source: Organization/Initiative Website)(Status: Inactive)",
-    "URL": "https://tsek.ph/",
-    "Org Name": "De La Salle University,Ateneo University,University of the Philippines,Rappler,Vera Files,Probe,The Philippine Star,Minda News,Interaksyon,DZUP1602,CLTV 36,ABC-CBN News,Baguio Midland Courier,9 News",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "A Not at all",
-    "Map Spectra: Practice": "E Extremely",
-    "Map Spectra: Message": "E Extremely",
-    "Map Spectra: Infrastructure": "A Not at all",
-    "Solutions Categories": "Fact-Checking & Verification,Credible Content Production",
-    "Funders": "Meedan,Macaranas Journalism Grant,Facebook Journalism Project ",
-    "Location": "Philippines",
-    "Potential Data Source": null,
-    "Languages-2": "English",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Twitter Elections Integrity Archive",
@@ -4328,8 +3759,7 @@
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Twitter Trails",
@@ -4347,8 +3777,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Ukraine Crisis Media Center ",
@@ -4366,8 +3795,7 @@
     "Location": "Ukraine",
     "Potential Data Source": null,
     "Languages-2": "English,French,Italian,Russian,Spanish,Ukrainian",
-    "Notes": "Disinfo Portal Partner\nhttps://disinfoportal.org/partners/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "United for News",
@@ -4385,27 +3813,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Current members include the World Economic Forum, Internews, Bloomberg, GSMA, Vodafone, the News Integrity Initiative, the London School of Economics, the Global Forum for Media Development, the Media Development Investment Fund, Omidyar Network, AppNexus, GroupM, SembraMedia, Edelman, 50/50 Project, and WAN-IFRA.",
-    "Contact information": null
-  },
-  {
-    "Name": "Userfeeds",
-    "Active/Inactive": "Inactive",
-    "Description": "\"An Open Protocol for Establishing Information Relevance in Crypto-Economic Networks\" (Source: Organization/Initiative Website)(Status: Inactive)\n",
-    "URL": "https://blog.userfeeds.io/about",
-    "Org Name": "[SAME AS INITIATIVE]",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "F Unsure",
-    "Map Spectra: Practice": "F Unsure",
-    "Map Spectra: Message": "F Unsure",
-    "Map Spectra: Infrastructure": "F Unsure",
-    "Solutions Categories": "Blockchain",
-    "Funders": "[needs more research]",
-    "Location": "United States of America",
-    "Potential Data Source": null,
-    "Languages-2": "English",
-    "Notes": "Ended on June 2018 https://blog.userfeeds.io/part-i-the-end-of-the-journey-173f669d70bc (Misinfocon list)",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "VERA Files Fact Check",
@@ -4423,8 +3831,7 @@
     "Location": "Philippines",
     "Potential Data Source": null,
     "Languages-2": "English,Tagalog",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Verifica",
@@ -4442,27 +3849,7 @@
     "Location": "Mexico",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": "It was announced on July 2018, but it has not been activated.",
-    "Contact information": null
-  },
-  {
-    "Name": "Verificado 2018",
-    "Active/Inactive": "Inactive",
-    "Description": "\"#Verificado2018 aims to face these two phenomena: on the one hand fake news and other the other hand, unachievable promises or baseless criticism.\" (Source: Organization/Initiative Website)(Status: Inactive)",
-    "URL": "http://verificado2018.mx/",
-    "Org Name": "Meedan,Animal Politico,Al Jazeera Media Network ",
-    "\"Other\" Organizational Name": null,
-    "Map Spectra: Theory": "A Not at all",
-    "Map Spectra: Practice": "E Extremely",
-    "Map Spectra: Message": "E Extremely",
-    "Map Spectra: Infrastructure": "B Slightly",
-    "Solutions Categories": "Trust in Media,Fact-Checking & Verification",
-    "Funders": "Open Society Foundations,Google DNI - The Digital News Initiative ,Twitter,Facebook Journalism Project ",
-    "Location": "Mexico",
-    "Potential Data Source": null,
-    "Languages-2": "Spanish",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Veríficalo",
@@ -4480,8 +3867,7 @@
     "Location": "Latin America & The Caribbean",
     "Potential Data Source": null,
     "Languages-2": "Spanish",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Verity",
@@ -4499,8 +3885,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": " Live; 2018->\n\n(Misinfocon list)",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Video Verification Plugin (InVid)",
@@ -4518,8 +3903,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Viralgranskaren",
@@ -4537,8 +3921,7 @@
     "Location": "Sweden",
     "Potential Data Source": null,
     "Languages-2": "Swedish",
-    "Notes": "Expired  signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Vishvas News",
@@ -4556,8 +3939,7 @@
     "Location": "India",
     "Potential Data Source": null,
     "Languages-2": "Hindi,English,Urdu,Punjabi",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Vistinomer",
@@ -4575,8 +3957,7 @@
     "Location": "Eastern Europe",
     "Potential Data Source": null,
     "Languages-2": "English,Macedonian,Albanian",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Voice of San Diego - Fact Check",
@@ -4594,8 +3975,7 @@
     "Location": "United States of America",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "W3C Credible Web Community Group",
@@ -4613,8 +3993,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "List of W3C members \nhttps://www.w3.org/Consortium/Member/List",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "We Verify",
@@ -4632,8 +4011,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "Web Literacy for Student Fact Checkers",
@@ -4651,8 +4029,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "WebQoof",
@@ -4670,8 +4047,7 @@
     "Location": "India",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "Verified signatory of the IFCN code of principles.  https://ifcncodeofprinciples.poynter.org/signatories",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "WikiTribune",
@@ -4689,8 +4065,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English,Spanish",
-    "Notes": "English and Spanish version. Unique original content. ",
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "YouTube Data Viewer (Amnesty International)",
@@ -4708,8 +4083,7 @@
     "Location": "Global",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": null,
-    "Contact information": null
+    "Related Resources": null
   },
   {
     "Name": "ZimFact",
@@ -4727,7 +4101,420 @@
     "Location": "Zimbabwe",
     "Potential Data Source": null,
     "Languages-2": "English",
-    "Notes": "From Duke University's Reporters Lab: https://reporterslab.org/fact-checking/",
-    "Contact information": null
+    "Related Resources": null
+  },
+  {
+    "Name": "4Facts",
+    "Active/Inactive": "Inactive",
+    "Description": "(Status: Inactive)\n",
+    "URL": "http://4facts.org/",
+    "Org Name": "Re:Baltica (Baltic Center for Research Journalism)",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "B Slightly",
+    "Map Spectra: Practice": "D Very",
+    "Map Spectra: Message": "D Very",
+    "Map Spectra: Infrastructure": "C Moderately",
+    "Solutions Categories": "Blockchain,Media Ecosystems",
+    "Funders": "Google DNI - The Digital News Initiative ",
+    "Location": "Eastern Europe",
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "BS Detector",
+    "Active/Inactive": "Inactive",
+    "Description": "(Status: Inactive)\n\n",
+    "URL": "http://bsdetector.tech/",
+    "Org Name": "[SAME AS INITIATIVE]",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "F Unsure",
+    "Map Spectra: Practice": "F Unsure",
+    "Map Spectra: Message": "F Unsure",
+    "Map Spectra: Infrastructure": "F Unsure",
+    "Solutions Categories": null,
+    "Funders": "Self-Funding",
+    "Location": null,
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "dBunk(r) ",
+    "Active/Inactive": "Inactive",
+    "Description": "\"dBunk(r) unlocks a user’s potential to share in the world’s deepest knowledge, clearest observations, and brightest thoughts.\" (Source: Organization/Initiative Website) (Status: Inactive)(Status: Inactive)",
+    "URL": "http://dbunkr.com/",
+    "Org Name": "[SAME AS INITIATIVE]",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "F Unsure",
+    "Map Spectra: Practice": "F Unsure",
+    "Map Spectra: Message": "F Unsure",
+    "Map Spectra: Infrastructure": "F Unsure",
+    "Solutions Categories": null,
+    "Funders": "[needs more research]",
+    "Location": null,
+    "Potential Data Source": null,
+    "Languages-2": null,
+    "Related Resources": null
+  },
+  {
+    "Name": "Deep Freeze",
+    "Active/Inactive": "Inactive",
+    "Description": "\"DeepFreeze is a journalism reference resource, conceived to supply a reader with easily-digested information to determine the reliability of an individual writer or outlet. DeepFreeze strives, whenever possible, for maximum objectivity — supplying factual information so that readers can form an opinion on their own. For the time being, DeepFreeze is focused mostly on online game journalism, although mainstream press might be more carefully examined in the future.\"(Source: Organization/Initiative Website)(Status: Inactive)",
+    "URL": "http://deepfreeze.it/about.php",
+    "Org Name": "[SAME AS INITIATIVE]",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "A Not at all",
+    "Map Spectra: Practice": "E Extremely",
+    "Map Spectra: Message": "A Not at all",
+    "Map Spectra: Infrastructure": "C Moderately",
+    "Solutions Categories": "Media Ecosystems,Social & Community Based ",
+    "Funders": "[needs more research]",
+    "Location": "Global",
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "Dispute Finder",
+    "Active/Inactive": "Inactive",
+    "Description": "\"Not all information on the web is accurate or unbiased. Often one will read information on the web without realising that there are alternative points of view. The Dispute Finder Firefox Extension helps you know when information you read is disputed by highlighting snippets if they make a disputed claim.\" (Source: Organization/Initiative Website) (Status: Inactive)",
+    "URL": "http://ennals.org/rob/disputefinder.html",
+    "Org Name": "[SAME AS INITIATIVE]",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "A Not at all",
+    "Map Spectra: Practice": "A Not at all",
+    "Map Spectra: Message": "D Very",
+    "Map Spectra: Infrastructure": "E Extremely",
+    "Solutions Categories": "Tools,Social & Community Based ,Fact-Checking & Verification",
+    "Funders": "[needs more research]",
+    "Location": null,
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "Emergent.info",
+    "Active/Inactive": "Inactive",
+    "Description": "\"Emergent is a real-time rumor tracker. It's part of a research project with the Tow Center for Digital Journalism at Columbia University that focuses on how unverified information and rumor are reported in the media. It aims to develop best practices for debunking misinformation.\" (Source: Organization/Initiative Website)(Status: Inactive)",
+    "URL": "http://www.emergent.info/",
+    "Org Name": "Columbia University - Tow Center for Digital Journalism",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "A Not at all",
+    "Map Spectra: Practice": "A Not at all",
+    "Map Spectra: Message": "D Very",
+    "Map Spectra: Infrastructure": "E Extremely",
+    "Solutions Categories": null,
+    "Funders": "[needs more research]",
+    "Location": "Global",
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "FactLink",
+    "Active/Inactive": "Inactive",
+    "Description": "\"Factlink is an open-source project with the mission to make the world more open and credible by discussing everything. Share your knowledge with the world. Use Factlink to discuss anything on the web. \" (Source: Organization/Initiative Website) (Status: Inactive)\n",
+    "URL": "https://factlink.com/",
+    "Org Name": "[SAME AS INITIATIVE]",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "A Not at all",
+    "Map Spectra: Practice": "D Very",
+    "Map Spectra: Message": "E Extremely",
+    "Map Spectra: Infrastructure": "B Slightly",
+    "Solutions Categories": "Data Collection Techniques/Methods",
+    "Funders": "[needs more research]",
+    "Location": "Global",
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "FiB",
+    "Active/Inactive": "Inactive",
+    "Description": "\"In the current media landscape, control over distribution has become almost as important as the actual creation of content, and that has given Facebook a huge amount of power. The impact that Facebook newsfeed has in the formation of opinions in the real world is so huge that it potentially affected the 2016 election decisions, however these newsfeed were not completely accurate. Our solution? FiB because With 1.5 Billion Users, Every Single Tweak in an Algorithm Can Make a Change, and we dont stop at just one.\"(Source: Organization/Initiative Website)(Status: Inactive)\n\n",
+    "URL": "https://devpost.com/software/fib",
+    "Org Name": "[SAME AS INITIATIVE]",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "A Not at all",
+    "Map Spectra: Practice": "A Not at all",
+    "Map Spectra: Message": "D Very",
+    "Map Spectra: Infrastructure": "E Extremely",
+    "Solutions Categories": null,
+    "Funders": "[needs more research]",
+    "Location": null,
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "Identifact",
+    "Active/Inactive": "Inactive",
+    "Description": "\"Identifact certifies news outlets based on their reporting accuracy, so readers can track the credibility of news sources.\" (Source: Organization/Initiative Website)(Status: Inactive)\n",
+    "URL": "https://twitter.com/IdentiFactOrg",
+    "Org Name": "[SAME AS INITIATIVE]",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "F Unsure",
+    "Map Spectra: Practice": "F Unsure",
+    "Map Spectra: Message": "F Unsure",
+    "Map Spectra: Infrastructure": "F Unsure",
+    "Solutions Categories": null,
+    "Funders": "[needs more research]",
+    "Location": null,
+    "Potential Data Source": null,
+    "Languages-2": null,
+    "Related Resources": null
+  },
+  {
+    "Name": "News Cube",
+    "Active/Inactive": "Inactive",
+    "Description": "\"NewsCube automatically creates and promptly provides readers with multiple classified viewpoints on a news event of interest. As such, it effectively helps readers understand a fact from a plural of viewpoints and formulate their own, more balanced viewpoints. While media bias problem has been studied extensively in communications and social sciences, our work is the first to develop a news service as a solution and study its effect. We discuss the effect of the service through various user studies.\" (Source: Organization/Initiative Website) (Status: Inactive)\n",
+    "URL": "https://www.researchgate.net/publication/221519523_NewsCube_Delivering_multiple_aspects_of_news_to_mitigate_media_bias",
+    "Org Name": "Korea Advanced Institute for Science and Technology",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "F Unsure",
+    "Map Spectra: Practice": "F Unsure",
+    "Map Spectra: Message": "F Unsure",
+    "Map Spectra: Infrastructure": "F Unsure",
+    "Solutions Categories": "Tools",
+    "Funders": "[needs more research]",
+    "Location": null,
+    "Potential Data Source": null,
+    "Languages-2": null,
+    "Related Resources": null
+  },
+  {
+    "Name": "NewsFrames at Global Voices",
+    "Active/Inactive": "Inactive",
+    "Description": "\"The NewsFrames community projects are working to uncover and report on frames. One aspect that the NewsFrames project is also trying to pay attention to is the way that fabricated and false news crosses borders.\" (Source: Organization/Initiative Website)\n (Status: Inactive)",
+    "URL": "https://newsframes.globalvoices.org/investigations/false-and-fabricated-news-international-dimensions/",
+    "Org Name": "Global Voices",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "D Very",
+    "Map Spectra: Practice": "E Extremely",
+    "Map Spectra: Message": "D Very",
+    "Map Spectra: Infrastructure": "B Slightly",
+    "Solutions Categories": "Trust in Media",
+    "Funders": "We Media,Institute for Connected Society (iFOCOS),European Journalism Centre (EJC),The Arca Foundation,The New World Foundation,Ars Electronica,McCormick Foundation,Matt Mullenweg,Adessium Foundation,Thomson Reuters Foundation,Media Development Investment Fund (MDIF),UNESCO,Knight Foundation,Hivos,Ford Foundation,Open Society Foundations,Omidyar Network,John D. and Catherine T. MacArthur Foundation",
+    "Location": "Global",
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "NewsTracker",
+    "Active/Inactive": "Inactive",
+    "Description": "\"We built NewsTracker to collect a variety of sources of misinformation on Facebook and aggregate the stories published so that we could have a clearer sense of the different types of misinformation out there. We wanted to know how frequently it was published and what strategies and narratives were employed to engage audiences on Facebook.\" (Source: Organization/Initiative Website)(Status: Inactive)\n\n",
+    "URL": "https://www.pbs.org/newshour/nation/what-is-the-newstracker",
+    "Org Name": "PBS Newshour",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "E Extremely",
+    "Map Spectra: Practice": "A Not at all",
+    "Map Spectra: Message": "A Not at all",
+    "Map Spectra: Infrastructure": "E Extremely",
+    "Solutions Categories": "Tools",
+    "Funders": "Knight Foundation",
+    "Location": "United States of America",
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "ObserLatInf",
+    "Active/Inactive": "Inactive",
+    "Description": "\"We are building an observatory of information disorder in Latin America.\" (Source: Organization/Initiative Website)(Status: Inactive)\n",
+    "URL": "http://obserlatinf.org/desinformacion",
+    "Org Name": "Observatorio de Desinformación LatAm",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "D Very",
+    "Map Spectra: Practice": "B Slightly",
+    "Map Spectra: Message": "C Moderately",
+    "Map Spectra: Infrastructure": "D Very",
+    "Solutions Categories": "Empirical Research & Data Analysis,Education & Research ",
+    "Funders": "The ISC Project",
+    "Location": "Latin America & The Caribbean",
+    "Potential Data Source": null,
+    "Languages-2": "Spanish,English",
+    "Related Resources": null
+  },
+  {
+    "Name": "OpenSources",
+    "Active/Inactive": "Inactive",
+    "Description": "(Status: Inactive)",
+    "URL": "http://www.opensources.co/",
+    "Org Name": "[SAME AS INITIATIVE]",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "F Unsure",
+    "Map Spectra: Practice": "F Unsure",
+    "Map Spectra: Message": "F Unsure",
+    "Map Spectra: Infrastructure": "F Unsure",
+    "Solutions Categories": null,
+    "Funders": "[needs more research]",
+    "Location": null,
+    "Potential Data Source": null,
+    "Languages-2": null,
+    "Related Resources": null
+  },
+  {
+    "Name": "Quod",
+    "Active/Inactive": "Inactive",
+    "Description": "\"A new website that lets anyone report misinformation, anywhere online\" (Source: Organizaiton/Initiative Website)(Status: Inactive) ",
+    "URL": "https://www.quod.us/",
+    "Org Name": "[SAME AS INITIATIVE]",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "A Not at all",
+    "Map Spectra: Practice": "D Very",
+    "Map Spectra: Message": "D Very",
+    "Map Spectra: Infrastructure": "B Slightly",
+    "Solutions Categories": "Social & Community Based ,Data Collection Techniques/Methods",
+    "Funders": "[needs more research]",
+    "Location": "United States of America",
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "Remarrk",
+    "Active/Inactive": "Inactive",
+    "Description": "(Status: Inactive)",
+    "URL": "https://twitter.com/remarrk",
+    "Org Name": "Twitter",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "F Unsure",
+    "Map Spectra: Practice": "F Unsure",
+    "Map Spectra: Message": "F Unsure",
+    "Map Spectra: Infrastructure": "F Unsure",
+    "Solutions Categories": null,
+    "Funders": "[needs more research]",
+    "Location": null,
+    "Potential Data Source": null,
+    "Languages-2": null,
+    "Related Resources": null
+  },
+  {
+    "Name": "The Nevada Independent Fact Checks",
+    "Active/Inactive": "Inactive",
+    "Description": "The Nevada Independent newspaper's fact-checking initative for the 2018 election cycle. ",
+    "URL": "https://thenevadaindependent.com/articles/factchecks",
+    "Org Name": "The Nevada Independent",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "A Not at all",
+    "Map Spectra: Practice": "E Extremely",
+    "Map Spectra: Message": "E Extremely",
+    "Map Spectra: Infrastructure": "A Not at all",
+    "Solutions Categories": "Fact-Checking & Verification,Credible Content Production",
+    "Funders": "Private donations",
+    "Location": "United States of America",
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "Trutheum",
+    "Active/Inactive": "Inactive",
+    "Description": "(Status: Inactive)\n",
+    "URL": "http://trutheum.com/",
+    "Org Name": "[SAME AS INITIATIVE]",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "F Unsure",
+    "Map Spectra: Practice": "F Unsure",
+    "Map Spectra: Message": "F Unsure",
+    "Map Spectra: Infrastructure": "F Unsure",
+    "Solutions Categories": null,
+    "Funders": "[needs more research]",
+    "Location": null,
+    "Potential Data Source": null,
+    "Languages-2": null,
+    "Related Resources": null
+  },
+  {
+    "Name": "Tsek",
+    "Active/Inactive": "Inactive",
+    "Description": "\"Tsek.ph is a collaborative fact-checking project for the Philippines' 2019 elections. It is an initiative of academy and media to counter disinformation and provide the public with verified information.\" (Source: Organization/Initiative Website)(Status: Inactive)",
+    "URL": "https://tsek.ph/",
+    "Org Name": "De La Salle University,Ateneo University,University of the Philippines,Rappler,Vera Files,Probe,The Philippine Star,Minda News,Interaksyon,DZUP1602,CLTV 36,ABC-CBN News,Baguio Midland Courier,9 News",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "A Not at all",
+    "Map Spectra: Practice": "E Extremely",
+    "Map Spectra: Message": "E Extremely",
+    "Map Spectra: Infrastructure": "A Not at all",
+    "Solutions Categories": "Fact-Checking & Verification,Credible Content Production",
+    "Funders": "Meedan,Macaranas Journalism Grant,Facebook Journalism Project ",
+    "Location": "Philippines",
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "Userfeeds",
+    "Active/Inactive": "Inactive",
+    "Description": "\"An Open Protocol for Establishing Information Relevance in Crypto-Economic Networks\" (Source: Organization/Initiative Website)(Status: Inactive)\n",
+    "URL": "https://blog.userfeeds.io/about",
+    "Org Name": "[SAME AS INITIATIVE]",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "F Unsure",
+    "Map Spectra: Practice": "F Unsure",
+    "Map Spectra: Message": "F Unsure",
+    "Map Spectra: Infrastructure": "F Unsure",
+    "Solutions Categories": "Blockchain",
+    "Funders": "[needs more research]",
+    "Location": "United States of America",
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "Verificado 2018",
+    "Active/Inactive": "Inactive",
+    "Description": "\"#Verificado2018 aims to face these two phenomena: on the one hand fake news and other the other hand, unachievable promises or baseless criticism.\" (Source: Organization/Initiative Website)(Status: Inactive)",
+    "URL": "http://verificado2018.mx/",
+    "Org Name": "Meedan,Animal Politico,Al Jazeera Media Network ",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "A Not at all",
+    "Map Spectra: Practice": "E Extremely",
+    "Map Spectra: Message": "E Extremely",
+    "Map Spectra: Infrastructure": "B Slightly",
+    "Solutions Categories": "Trust in Media,Fact-Checking & Verification",
+    "Funders": "Open Society Foundations,Google DNI - The Digital News Initiative ,Twitter,Facebook Journalism Project ",
+    "Location": "Mexico",
+    "Potential Data Source": null,
+    "Languages-2": "Spanish",
+    "Related Resources": null
+  },
+  {
+    "Name": "NYU Stern Center for Business and Human Rights",
+    "Active/Inactive": "Active",
+    "Description": "\"Founded in 2013, the NYU Stern Center for Business and Human Rights is the first center dedicated to human rights at a business school. Led by Founder and Director Michael Posner - who served in the Obama Administration as Assistant Secretary of State for Democracy, Human Rights and Labor - the Center advances a pro-business, high standards model. Our staff members have backgrounds in public policy, law, scholarship, and journalism. We're united in our belief that companies should be profitable and competitive while benefiting the people who make their success possible. From the heart of the world's financial hub in New York City, we are helping to write a new playbook for business and human rights, renegotiating the responsibilities corporations have to the people and communities they touch.\" (Organization/Initiative Website) ",
+    "URL": "https://bhr.stern.nyu.edu/tech",
+    "Org Name": "[SAME AS INITIATIVE]",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "E Extremely",
+    "Map Spectra: Practice": "C Moderately",
+    "Map Spectra: Message": "B Slightly",
+    "Map Spectra: Infrastructure": "A Not at all",
+    "Solutions Categories": "Education & Research ,Empirical Research & Data Analysis,Policy & Regulation",
+    "Funders": "[needs more research],Private donations",
+    "Location": "United States of America",
+    "Potential Data Source": null,
+    "Languages-2": "English",
+    "Related Resources": null
+  },
+  {
+    "Name": "The Computational Propaganda Project",
+    "Active/Inactive": "Active",
+    "Description": "\"Since 2012, we have been investigating the use of algorithms, automation, and computational propaganda in public life. Political bots are manipulating public opinion over major social networking applications. This project enables a new team of social and information scientists to investigate the impact of automated scripts, commonly called bots, on social media. We study both the bot scripts and the people making such bots, and then work with computer scientists to improve the ways we catch and stop such bots. Experience suggests that political bots are most likely to appear during an international crisis, and are usually designed to promote the interests of a government in trouble. Political actors have used bots to manipulate conversations, demobilize opposition, and generate false support on popular sites like Twitter, Facebook, and Sina Weibo.\" (Source: Organization/Initiative Website) ",
+    "URL": "https://comprop.oii.ox.ac.uk/",
+    "Org Name": "Oxford Internet Institute,Reuters Institute for the Study of Journalism",
+    "\"Other\" Organizational Name": null,
+    "Map Spectra: Theory": "E Extremely",
+    "Map Spectra: Practice": "B Slightly",
+    "Map Spectra: Message": "B Slightly",
+    "Map Spectra: Infrastructure": "D Very",
+    "Solutions Categories": "Artificial Intelligence ,Education & Research ,Tools,Empirical Research & Data Analysis,Data Collection Techniques/Methods",
+    "Funders": "European Research Council,Oxford Martin School,National Science Foundation",
+    "Location": null,
+    "Potential Data Source": null,
+    "Languages-2": null,
+    "Related Resources": null
   }
 ]

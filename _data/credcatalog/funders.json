@@ -4,7 +4,7 @@
     "Type": null,
     "Funder Description": null,
     "URL": null,
-    "Initatives": "Certified Content Coalition,Quod,News Literacy Project,Faktograf.hr ,Factcheckers,Riddle,Emergent.info,Dispute Finder,Identifact,Remarrk,FiB,Trutheum,dBunk(r) ,OpenSources,News Cube,Deep Freeze,FactLink,EU DisinfoLab,Blackbird,Verity,Buscador: An OSINT Linux Virtual Machine,Trusted News,Trive,Trusted Times,Userfeeds,Markkula Center for Applied Ethics"
+    "Initatives": "Certified Content Coalition,Quod,News Literacy Project,Faktograf.hr ,Factcheckers,Riddle,Emergent.info,Dispute Finder,Identifact,Remarrk,FiB,Trutheum,dBunk(r) ,OpenSources,News Cube,Deep Freeze,FactLink,EU DisinfoLab,Blackbird,Verity,Buscador: An OSINT Linux Virtual Machine,Trusted News,Trive,Trusted Times,Userfeeds,Markkula Center for Applied Ethics,NYU Stern Center for Business and Human Rights"
   },
   {
     "Name": "500 Startups",
@@ -474,6 +474,13 @@
     "Funder Description": "\"Since 1992, the European Journalism Centre has been building a sustainable, ethical and innovative future for journalism through grants, events, training and media development. We are an international non-profit, headquartered in The Netherlands, that connects journalists with new ideas, skills and people.\" (Source: Website) ",
     "URL": "http://www.ejc.nl/",
     "Initatives": "NewsFrames at Global Voices,The Verification Handbook (EJC)"
+  },
+  {
+    "Name": "European Research Council",
+    "Type": "Other",
+    "Funder Description": "\"The ERC's mission is to encourage the highest quality research in Europe through competitive funding and to support investigator-driven frontier research across all fields, on the basis of scientific excellence.\" (Source: Organization Website) ",
+    "URL": "https://erc.europa.eu/",
+    "Initatives": "The Computational Propaganda Project"
   },
   {
     "Name": "European Space Agency",
@@ -1103,7 +1110,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"The National Science Foundation (NSF) is an independent federal agency created by Congress in 1950 \"to promote the progress of science; to advance the national health, prosperity, and welfare; to secure the national defense...\" NSF is vital because we support basic research and people to create knowledge that transforms the future.\" (Source: Website) ",
     "URL": "https://www.nsf.gov/awardsearch/",
-    "Initatives": "Hoaxy,Twitter Trails,Claim Buster"
+    "Initatives": "Hoaxy,Twitter Trails,Claim Buster,The Computational Propaganda Project"
   },
   {
     "Name": "New Media Alliance",
@@ -1183,6 +1190,13 @@
     "Initatives": "Detector de Mentiras,Ojo Bionico"
   },
   {
+    "Name": "Oxford Martin School",
+    "Type": "University/Academic",
+    "Funder Description": "\"Our academics work across more than 30 solutions-focused, pioneering research programmes that cut across disciplines to find solutions to the world's most urgent challenges. From renewable energy to ocean sustainability, and from the future of work to tackling inequality, we foster ground-breaking collaborations between researchers working at the frontiers of knowledge. The unifying theme is that the research must be of the highest academic calibre, tackle issues of global significance, and could not have been undertaken without our support.\" (Source: Organization Website) ",
+    "URL": "https://www.oxfordmartin.ox.ac.uk/",
+    "Initatives": "The Computational Propaganda Project"
+  },
+  {
     "Name": "Panos Network",
     "Type": "Foundation, Large",
     "Funder Description": "\"Globally and within nations, Panos works with media and other information actors to enable developing countries to shape and communicate their own development agendas through informed public debate.\" (Source: Website) ",
@@ -1208,7 +1222,7 @@
     "Type": "Other",
     "Funder Description": null,
     "URL": null,
-    "Initatives": "Snopes,La Voce,Taiwan FactCheck Center,Voice of San Diego - Fact Check,Health Feedback,The Nevada Independent Fact Checks,Climate Feedback,Science Feedback,The Whistle,Datalyrics,The Media Bias Chart,Captain Fact,WikiTribune"
+    "Initatives": "Snopes,La Voce,Taiwan FactCheck Center,Voice of San Diego - Fact Check,Health Feedback,The Nevada Independent Fact Checks,Climate Feedback,Science Feedback,The Whistle,Datalyrics,The Media Bias Chart,Captain Fact,WikiTribune,NYU Stern Center for Business and Human Rights"
   },
   {
     "Name": "PT Liputan Enam Dot Com",
