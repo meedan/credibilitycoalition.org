@@ -11,7 +11,7 @@
     "Organization Name": "[SAME AS INITIATIVE]",
     "Organization Description": "The initiative is the same as the organization ",
     "Home URL": null,
-    "Table 1": "BitPress,BS Detector,Captain Fact,Certified Content Coalition,Civil,dBunk(r) ,Global Disinformation Index,Dispute Finder,Dirt Protocol,Deepnews.ai,Deep Freeze,Full Fact,NewsGuard,FactLink,NewsCheck,Hypothes.is,The Verification Handbook (EJC),TrustServista,Verity,Deeptrace,Nobias,Fiskkit,Factmata,Metafact,Marvelous,Blackbird,Content Blockchain Project,FakerFact,First Draft News,Trive,The Trusting News Project,Servicio de Información Pública,Africa Check,BOOM,Datalyrics,DROG,CORRECTIV.ORG,Lead Stories,Dubawa,Aos Fatos,Congo Check,Demagog Association,Factcheckers,Science Feedback,Vistinomer,Faktabaari,Main Street One ,We Verify,Dagens Nyheter,Ukraine Crisis Media Center ,Riddle,Debunk EU,Ecuador Chequea,Fact Check Kazakhstan ,Identifact,La Voce,Mafindo,NewsMobile Fact Checker,Newtral,Observador Fact Check,OpenSources,Pagella Politica,Pesa Check,Poletika,Polígrafo,Quod,rbutr,Taiwan FactCheck Center,The Conversation Australia,The Journal.ie,The Whistle,Trusted Times,VERA Files Fact Check,Vishvas News,Web Literacy for Student Fact Checkers,Trutheum,Veríficalo,Ellinika Hoaxes,The Trust Project,The Factual,News Literacy Project,Serelay,SOMA (Social Observatory for Disinformation and Social Media Analysis),Trustium ,Userfeeds,Pressland,FiB,NYU Stern Center for Business and Human Rights",
+    "Table 1": "BitPress,BS Detector,Captain Fact,Certified Content Coalition,Civil,dBunk(r) ,Global Disinformation Index,Dispute Finder,Dirt Protocol,Deepnews.ai,Deep Freeze,Full Fact,NewsGuard,FactLink,NewsCheck,Hypothes.is,The Verification Handbook (EJC),TrustServista,Verity,Deeptrace,Nobias,Fiskkit,Factmata,Metafact,Marvelous,Blackbird,Content Blockchain Project,FakerFact,First Draft News,Trive,The Trusting News Project,Servicio de Información Pública,Africa Check,BOOM,Datalyrics,DROG,CORRECTIV.ORG,Lead Stories,Dubawa,Aos Fatos,Congo Check,Demagog Association,Factcheckers,Science Feedback,Vistinomer,Faktabaari,Main Street One ,We Verify,Dagens Nyheter,Ukraine Crisis Media Center ,Riddle,Debunk EU,Ecuador Chequea,Fact Check Kazakhstan ,Identifact,La Voce,Mafindo,NewsMobile Fact Checker,Newtral,Observador Fact Check,OpenSources,Pagella Politica,Pesa Check,Poletika,Polígrafo,Quod,rbutr,Taiwan FactCheck Center,The Conversation Australia,The Journal.ie,The Whistle,Trusted Times,VERA Files Fact Check,Vishvas News,Web Literacy for Student Fact Checkers,Trutheum,Veríficalo,Ellinika Hoaxes,The Trust Project,The Factual,News Literacy Project,Serelay,SOMA (Social Observatory for Disinformation and Social Media Analysis),Trustium ,Userfeeds,Pressland,FiB,NYU Stern Center for Business and Human Rights,DeepTrust Alliance",
     "Notes": null,
     "Name": null
   },
@@ -1051,7 +1051,7 @@
     "Organization Name": "Oxford Internet Institute",
     "Organization Description": "\"The Oxford Internet Institute is a multidisciplinary research and teaching department of the University of Oxford, dedicated to the social science of the Internet.\" (Source: Website) ",
     "Home URL": "https://www.oii.ox.ac.uk/",
-    "Table 1": "Oxford Computational Propaganda Project,The Computational Propaganda Project",
+    "Table 1": "Oxford Computational Propaganda Project",
     "Notes": null,
     "Name": null
   },
@@ -1195,7 +1195,7 @@
     "Organization Name": "Reuters Institute for the Study of Journalism",
     "Organization Description": "\"The Reuters Institute for the Study of Journalism is dedicated to exploring the future of journalism worldwide through debate, engagement, and research.\" (Source: Organization Website) ",
     "Home URL": "https://reutersinstitute.politics.ox.ac.uk/about",
-    "Table 1": "The Computational Propaganda Project",
+    "Table 1": null,
     "Notes": null,
     "Name": null
   },
@@ -1397,6 +1397,14 @@
     "Home URL": "https://ifcncodeofprinciples.poynter.org/application/public/factcheckerin/2B3B4EC7-2276-F648-15B5-3DCC4A10B596",
     "Table 1": "FactChecker.in ",
     "Notes": "Needs more research",
+    "Name": null
+  },
+  {
+    "Organization Name": "The Stanford History Education Group (SHEG) at Stanford’s Graduate School of Education",
+    "Organization Description": "\"The Stanford History Education Group is an award-winning research and development group that comprises Stanford faculty, staff, graduate students, post-docs, and visiting scholars. SHEG seeks to improve education by conducting research, working with school districts, and reaching directly into classrooms with free materials for teachers and students. SHEG’s Reading Like a Historian curriculum and Beyond the Bubble assessments have been downloaded more than 5 million times. SHEG 's current work focuses on how young people evaluate online content. In addition to our new assessments of Civic Online Reasoning, SHEG will soon be releasing materials to help students develop the skills needed to navigate our current digital landscape.\" (Source: Organization Website) ",
+    "Home URL": "https://sheg.stanford.edu/",
+    "Table 1": "Civic Online Reasoning",
+    "Notes": null,
     "Name": null
   },
   {

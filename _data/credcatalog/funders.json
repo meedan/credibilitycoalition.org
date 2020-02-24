@@ -4,7 +4,7 @@
     "Type": null,
     "Funder Description": null,
     "URL": null,
-    "Initatives": "Certified Content Coalition,Quod,News Literacy Project,Faktograf.hr ,Factcheckers,Riddle,Emergent.info,Dispute Finder,Identifact,Remarrk,FiB,Trutheum,dBunk(r) ,OpenSources,News Cube,Deep Freeze,FactLink,EU DisinfoLab,Blackbird,Verity,Buscador: An OSINT Linux Virtual Machine,Trusted News,Trive,Trusted Times,Userfeeds,Markkula Center for Applied Ethics,NYU Stern Center for Business and Human Rights"
+    "Initatives": "Certified Content Coalition,Quod,Faktograf.hr ,Factcheckers,Riddle,Emergent.info,Dispute Finder,Identifact,Remarrk,FiB,Trutheum,dBunk(r) ,OpenSources,News Cube,Deep Freeze,FactLink,EU DisinfoLab,Blackbird,Verity,Buscador: An OSINT Linux Virtual Machine,Trusted News,Trive,Trusted Times,Userfeeds,Markkula Center for Applied Ethics,NYU Stern Center for Business and Human Rights,DeepTrust Alliance"
   },
   {
     "Name": "500 Startups",
@@ -25,14 +25,14 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"Adessium Foundation aspires to a society that encourages people to live in harmony with each other and with their environments. We work to achieve a balanced society characterized by integrity, a balance between people and nature, and social harmony.\" (Source: Website) ",
     "URL": "http://www.adessium.org/index.php",
-    "Initatives": "NewsFrames at Global Voices,Bellingcat's Digital Toolkit"
+    "Initatives": "Bellingcat's Digital Toolkit"
   },
   {
     "Name": "Advertising",
     "Type": "Other",
     "Funder Description": "Including banners, sponsored hyperlinks, and other forms of ad sales revenue",
     "URL": null,
-    "Initatives": "Snopes,Hoaks Atau Fakta?,Detector de Mentiras,Cek Fakta - Liputan 6 ,Lead Stories,El Sabueso,Truth Tests,dpa-Faktencheck,Viralgranskaren,Dagens Nyheter,NuChekt"
+    "Initatives": "Snopes,Hoaks Atau Fakta?,Detector de Mentiras,Cek Fakta - Liputan 6 ,Lead Stories,El Sabueso,Truth Tests,dpa-Faktencheck,Viralgranskaren,Dagens Nyheter,NuChekt,PolitiFact"
   },
   {
     "Name": "African Media Initiative",
@@ -109,7 +109,7 @@
     "Type": "Other",
     "Funder Description": "\"Art, technology, society. Since 1979, Ars Electronica has sought out interlinkages and congruities, causes and effects. The ideas circulating here are innovative, radical, eccentric in the best sense of that term. They influence our everyday life—our lifestyle, our way of life, every single day.  The Festival as proving ground, the Prix as competition honoring excellence, the Center as a year-‘round setting for presentation & interaction, and the Futurelab and Ars Electronica Solutions as as in-house R&D facility extend their feelers throughout the realms of science and research, art and technology. Ars Electronica’s divisions inspire one another and put futuristic visions to the test in a unique, creative feedback loop. It’s an integrated organism continuously reinventing itself.\" (Source: Website) ",
     "URL": "http://www.aec.at/",
-    "Initatives": "NewsFrames at Global Voices"
+    "Initatives": null
   },
   {
     "Name": "AS Eesti Meedia",
@@ -123,7 +123,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"Ashoka identifies and supports the world's leading social entrepreneurs, learns from the patterns in their innovations, and mobilizes a global community that embraces these new frameworks to build an \"everyone a changemaker world.\" (Source: Website) ",
     "URL": "https://www.ashoka.org/en-ID/about-ashoka",
-    "Initatives": "O Truco"
+    "Initatives": null
   },
   {
     "Name": "Atlantic Council",
@@ -214,7 +214,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"In 2008, the Building Change Trust was established by the Big Lottery Fund with a National Lottery grant of £10million as an investment for community capacity building and promotion of the voluntary and community sector in Northern Ireland.\" (Source: Website) ",
     "URL": "https://www.buildingchangetrust.org/about-us",
-    "Initatives": "FactCheckNI"
+    "Initatives": null
   },
   {
     "Name": "Bureau of Democracy, Human Rights, and Labor",
@@ -242,14 +242,14 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"Established in 1911 by Andrew Carnegie to promote the advancement and diffusion of knowledge and understanding. In keeping with this mandate, the Corporation's work focuses on the issues that Andrew Carnegie considered of paramount importance: international peace, the advancement of education and knowledge, and the strength of our democracy.\" (Source: Website) ",
     "URL": "https://www.carnegie.org/about/",
-    "Initatives": "Checkology,News Literacy Project"
+    "Initatives": null
   },
   {
     "Name": "Center for Research, Transparency and Accountability (CRTA)",
     "Type": "Other",
     "Funder Description": "\"The CRTA gathers people who want to live in a modern and democratic society where citizens are free and equal before the law, where institutions protect the public interest, where the media are independent – in a society where accountability is the basis of all social and political relations.\" (Source: Website) ",
     "URL": "https://crta.rs/en/who-we-are/",
-    "Initatives": "Istinomer"
+    "Initatives": null
   },
   {
     "Name": "Center for the Promotion of Civil Society (CPCD)",
@@ -298,7 +298,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"The Climate and Land Use Alliance makes grants to support efforts in Brazil, Indonesia, Mexico and Central America, and at the global level, to realize the potential of forested and agricultural landscapes to mitigate climate change, benefit people, and protect the environment.\" (Source: Website) ",
     "URL": "http://www.climateandlandusealliance.org/grants/",
-    "Initatives": "O Truco"
+    "Initatives": null
   },
   {
     "Name": "Code for Africa",
@@ -340,14 +340,14 @@
     "Type": "Individual Donor, Large",
     "Funder Description": "\"I'm an old-school nerd, doing what I can to respect and support the people who fight to protect the values that America aspires to: fairness, opportunity and respect.\" (Source: Website) ",
     "URL": "https://craignewmarkphilanthropies.org/",
-    "Initatives": "Credibility Coalition,Duke Tech & Check Cooperative ,Factmata,First Draft News,MisinfoCon,News Integrity Initiative ,PolitiFact,The Trust Project,TruthBuzz by ICFJ,Combating Russian Disinformation,Information Disorder Lab,Executive Roundtable on Digital Journalism Ethics,Claim Buster,Botslayer,Journalism Trust Initiative"
+    "Initatives": "Credibility Coalition,Duke Tech & Check Cooperative ,Factmata,First Draft News,MisinfoCon,News Integrity Initiative ,The Trust Project,TruthBuzz by ICFJ,Combating Russian Disinformation,Information Disorder Lab,Executive Roundtable on Digital Journalism Ethics,Claim Buster,Botslayer,Journalism Trust Initiative,Columbia Journalism Review"
   },
   {
     "Name": "Craigslist Charitable Fund",
     "Type": "Foundation, Large",
     "Funder Description": "\"The craigslist Charitable Fund (CCF) provides millions of dollars each year in one-time and recurring grants to hundreds of partner organizations addressing four broad areas of interest.\" (Source: Website) ",
     "URL": "https://www.craigslist.org/about/charitable",
-    "Initatives": "Columbia Journalism Review"
+    "Initatives": null
   },
   {
     "Name": "Credibility Coalition ",
@@ -389,7 +389,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"The Democracy Fund invests in organizations working to ensure that our political system is able to withstand new challenges and deliver on its promise to the American people.\" (Source: Website) ",
     "URL": "https://www.democracyfund.org/",
-    "Initatives": "Check - Meedan,First Draft News,PolitiFact,Internet Archive TV News Archive,Knight Prototype Fund on Misinformation,Mozilla Information Trust Initiative,News Co/Lab,SSRC Social Media Democracy Research Grants,Media Well"
+    "Initatives": "Check - Meedan,First Draft News,Internet Archive TV News Archive,Knight Prototype Fund on Misinformation,Mozilla Information Trust Initiative,News Co/Lab,SSRC Social Media Democracy Research Grants,Media Well"
   },
   {
     "Name": "Democratic Empowerment - King Abdullah II Fund for Development",
@@ -424,7 +424,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"In nearly six decades, the Dow Jones News Fund has prepared thousands of journalists who have advanced to prestigious careers at respected American media and are pioneering the latest in digital media.\" (Source: Website) ",
     "URL": "https://dowjonesnewsfund.org/",
-    "Initatives": "Checkology,News Literacy Project"
+    "Initatives": null
   },
   {
     "Name": "Duke Reporters' Lab",
@@ -473,14 +473,14 @@
     "Type": "Other",
     "Funder Description": "\"Since 1992, the European Journalism Centre has been building a sustainable, ethical and innovative future for journalism through grants, events, training and media development. We are an international non-profit, headquartered in The Netherlands, that connects journalists with new ideas, skills and people.\" (Source: Website) ",
     "URL": "http://www.ejc.nl/",
-    "Initatives": "NewsFrames at Global Voices,The Verification Handbook (EJC)"
+    "Initatives": "The Verification Handbook (EJC)"
   },
   {
     "Name": "European Research Council",
     "Type": "Other",
     "Funder Description": "\"The ERC's mission is to encourage the highest quality research in Europe through competitive funding and to support investigator-driven frontier research across all fields, on the basis of scientific excellence.\" (Source: Organization Website) ",
     "URL": "https://erc.europa.eu/",
-    "Initatives": "The Computational Propaganda Project"
+    "Initatives": null
   },
   {
     "Name": "European Space Agency",
@@ -518,11 +518,18 @@
     "Initatives": "Checkology,News Literacy Project"
   },
   {
+    "Name": "Facebook",
+    "Type": "Corporation",
+    "Funder Description": "\"We build technologies to give people the power to connect with friends and family, find communities and grow businesses.\" (Source: Organization Website)",
+    "URL": "https://about.fb.com/",
+    "Initatives": "PolitiFact"
+  },
+  {
     "Name": "Facebook Journalism Project ",
     "Type": "Corporation",
     "Funder Description": "\"Working together with publishers around the world through trainings, programs, and partnerships, we can help strengthen communities by connecting people with meaningful journalism.\" (Source: Website) ",
     "URL": "https://www.facebook.com/facebookmedia/blog/introducing-the-facebook-journalism-project",
-    "Initatives": "Credibility Coalition,Facebook Flagging Fake,First Draft News,Full Fact,Verificado 2018,Colombia Check ,AFP Factual,Africa Check,BOOM,FactCheckNI,Faktograf.hr ,France 24 - Les Observateurs,Libération - CheckNews,Observador Fact Check,VERA Files Fact Check,Dubawa,Digital Forensic Research Lab,Agência Lupa,NewsQ,Tsek,Claim Buster,Fatima ,News Co/Lab,Duke Tech & Check Cooperative "
+    "Initatives": "Credibility Coalition,Facebook Flagging Fake,First Draft News,Full Fact,Verificado 2018,Colombia Check ,AFP Factual,Africa Check,BOOM,Faktograf.hr ,France 24 - Les Observateurs,Libération - CheckNews,Observador Fact Check,VERA Files Fact Check,Dubawa,Digital Forensic Research Lab,Agência Lupa,NewsQ,Tsek,Claim Buster,Fatima ,News Co/Lab,Duke Tech & Check Cooperative "
   },
   {
     "Name": "Factsquared",
@@ -571,7 +578,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"We believe that social movements are built upon individual leadership, strong institutions, and innovative, often high-risk ideas. While the specifics of what we work on have evolved over the years, investments in these three areas have remained the touchstones of everything we do and are central to our theory of how change happens in the world. These approaches have long distinguished the Ford Foundation, and they have had a profound cumulative impact.\" (Source: Website)",
     "URL": "https://www.fordfoundation.org/about/people/grant-makers/",
-    "Initatives": "First Draft News,NewsFrames at Global Voices,Oxford Computational Propaganda Project,PolitiFact,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",Columbia Journalism Review,Information Disorder Lab,Open Technology Institute,O Truco,Detector de Mentiras,Ojo Bionico,Redacción Fáctica,ConPruebas,Media Well"
+    "Initatives": "First Draft News,Oxford Computational Propaganda Project,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",Information Disorder Lab,Open Technology Institute,O Truco,Detector de Mentiras,Ojo Bionico,Redacción Fáctica,ConPruebas,Media Well"
   },
   {
     "Name": "Foundation Open Society – Macedonia",
@@ -613,7 +620,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"We seek to unlock the possibility inside every individual. We see equal value in all lives. And so we are dedicated to improving the quality of life for individuals around the world. From the education of students in Chicago, to the health of a young mother in Nigeria, we are catalysts of human promise everywhere.\" (Source: Website) ",
     "URL": "https://www.gatesfoundation.org/How-We-Work/General-Information/Grant-Opportunities",
-    "Initatives": "PolitiFact,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",Open Technology Institute,Africa Check"
+    "Initatives": "\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",Open Technology Institute,Africa Check"
   },
   {
     "Name": "Gates/Arabella New Venture Fund of Misinformation and Audience Trust",
@@ -648,7 +655,7 @@
     "Type": "Corporation",
     "Funder Description": "\"The Digital News Innovation Fund (DNI Fund) is a European programme that's part of the Google News Initiative, an effort to help journalism thrive in the digital age.\" (Source: Website) ",
     "URL": "https://newsinitiative.withgoogle.com/dnifund/",
-    "Initatives": "4Facts,Credibility Coalition,Deepnews.ai,First Draft News,Schema.org Claim Review,Verificado 2018,Freedom on the Net ,Debunk EU,Deeptrace"
+    "Initatives": "4Facts,Credibility Coalition,Deepnews.ai,First Draft News,Schema.org Claim Review,Verificado 2018,Freedom on the Net ,Debunk EU,Deeptrace,NewsFrames at Global Voices"
   },
   {
     "Name": "Google Jigsaw",
@@ -662,7 +669,7 @@
     "Type": "Foundation, Family",
     "Funder Description": "\"The Harman Family Foundation funds programs in Washington, DC that work at the intersection of arts and youth development, that improve and enrich educational  opportunities for middle to high school students, and that make post-secondary success possible for underserved youth in low-income communities.\" (Source: Website) ",
     "URL": "http://harman-foundation.org/",
-    "Initatives": "Checkology,News Literacy Project"
+    "Initatives": null
   },
   {
     "Name": "Heinrich Böll Foundation",
@@ -676,14 +683,14 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"The Hewlett Family and Foundation History   Our Guiding Principles   Our Programs   Board   People   Financials   Policies   The William and Flora Hewlett Foundation is a nonpartisan, private charitable foundation that advances ideas and supports institutions to promote a better world.\" (Source: Website) ",
     "URL": "https://hewlett.org/",
-    "Initatives": "ARENA Project - London School of Economics,SSRC Social Media Democracy Research Grants,Media Well"
+    "Initatives": "ARENA Project - London School of Economics,SSRC Social Media Democracy Research Grants,Media Well,Civic Online Reasoning"
   },
   {
     "Name": "Hivos",
     "Type": "Other",
     "Funder Description": "\"Based on a track record of 50 years of partnering with frontrunners in daring, innovative and impactful development programs, Hivos seeks new and creative solutions to persistent global problems; solutions created by people taking their lives into their own hands.  We offer a positive counterbalancing force against discrimination, inequality, abuse of power and the unsustainable use of our planet’s resources. Our mission is to innovate for social change. With smart projects in the right places, we work towards more open and green societies.\" (Source: Website) ",
     "URL": "http://www.hivos.nl/english",
-    "Initatives": "NewsFrames at Global Voices,Ojo Bionico,Redacción Fáctica"
+    "Initatives": "Ojo Bionico,Redacción Fáctica"
   },
   {
     "Name": "Ian Potter Foundation",
@@ -697,7 +704,7 @@
     "Type": "[Needs more research]",
     "Funder Description": "Needs more research",
     "URL": null,
-    "Initatives": "O Truco"
+    "Initatives": null
   },
   {
     "Name": "IBM",
@@ -725,7 +732,7 @@
     "Type": "Other",
     "Funder Description": "\"From 2006 to 2012, iFOCOS was an independent, non-profit, non-partisan center for research, education and action to improve the human experience in the digital world, led by We Media co-founders Andrew Nachison and Dale Peskin.\" (Source: Website) ",
     "URL": "https://wemedia.com/lab/",
-    "Initatives": "NewsFrames at Global Voices"
+    "Initatives": null
   },
   {
     "Name": "Instituto Bettye Jacob Lafer",
@@ -795,7 +802,7 @@
     "Type": "Other",
     "Funder Description": "\"The Internet Society encourages innovation and fresh thinking. We provide grants and awards to relevant initiatives and outreach efforts that address the humanitarian, educational, and societal contexts of online connectivity.\" (Source: Website) ",
     "URL": "https://www.internetsociety.org/grants-and-awards",
-    "Initatives": "Freedom on the Net "
+    "Initatives": null
   },
   {
     "Name": "Internews",
@@ -837,7 +844,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"The John D. and Catherine T. MacArthur Foundation supports creative people, effective institutions, and influential networks building a more just, verdant, and peaceful world. MacArthur is placing a few big bets that truly significant progress is possible on some of the world’s most pressing social challenges, including advancing global climate solutions, decreasing nuclear risk, promoting local justice reform in the U.S., and reducing corruption in Africa’s most populous country, Nigeria. In addition to the MacArthur Fellows Program and the global 100&Change competition, the Foundation continues its historic commitments to the role of journalism in a responsive democracy as well as the vitality of our headquarters city, Chicago.\" (Source: Website) ",
     "URL": "https://www.macfound.org/",
-    "Initatives": "NewsFrames at Global Voices"
+    "Initatives": null
   },
   {
     "Name": "Klarman Family Foundation",
@@ -851,7 +858,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"Knight Foundation is a national foundation with strong local roots. We invest in journalism, in the arts, and in the success of cities where brothers John S. and James L. Knight once published newspapers. Our goal is to foster informed and engaged communities, which we believe are essential for a healthy democracy.\" (Source: Website) ",
     "URL": "https://knightfoundation.org/programs",
-    "Initatives": "BitPress,Check - Meedan,Cortico,Credibility Coalition,Deepnews.ai,Duke Tech & Check Cooperative ,First Draft News,NewsFrames at Global Voices,\"Knight Commission on Trust, Media and Democracy\",MisinfoCon,NewsTracker,Oxford Computational Propaganda Project,PolitiFact,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",Internet Archive TV News Archive,Knight Prototype Fund on Misinformation,\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",SSRC Social Media Democracy Research Grants,Columbia Journalism Review,Information Disorder Lab,Combating Russian Disinformation,AP's global fact check team,Claim Buster,Media Well,Hypothes.is,Global Disinformation Index"
+    "Initatives": "BitPress,Check - Meedan,Cortico,Credibility Coalition,Deepnews.ai,Duke Tech & Check Cooperative ,First Draft News,\"Knight Commission on Trust, Media and Democracy\",MisinfoCon,NewsTracker,Oxford Computational Propaganda Project,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",Internet Archive TV News Archive,Knight Prototype Fund on Misinformation,\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",SSRC Social Media Democracy Research Grants,Information Disorder Lab,Combating Russian Disinformation,AP's global fact check team,Claim Buster,Media Well,Global Disinformation Index"
   },
   {
     "Name": "La Voz Publica",
@@ -872,7 +879,7 @@
     "Type": "Foundation, Family",
     "Funder Description": "\"Arnold Ventures is a philanthropy dedicated to tackling some of the most pressing problems in the United States. We invest in sustainable change, building it from the ground up based on research, deep thinking, and a strong foundation of evidence. We drive public conversation, craft policy, and inspire action through education and advocacy.\" (Source: Website) ",
     "URL": "https://www.arnoldfoundation.org/",
-    "Initatives": "SSRC Social Media Democracy Research Grants"
+    "Initatives": "SSRC Social Media Democracy Research Grants,Internet Archive TV News Archive"
   },
   {
     "Name": "Lerer Hippeau",
@@ -956,21 +963,28 @@
     "Type": "Other",
     "Funder Description": "Founding developer of WordPress.",
     "URL": "https://ma.tt/",
-    "Initatives": "NewsFrames at Global Voices"
+    "Initatives": null
   },
   {
     "Name": "Max and Victoria Dreyfus Foundation",
     "Type": "Foundation, Family",
     "Funder Description": "\"The Max and Victoria Dreyfus Foundation awards grants to organizations for whom a small amount of money can make a big difference.  ​  The Foundation welcomes requests for support from community-based non-profit organizations located in the United States.\" (Source: Website) ",
     "URL": "https://www.mvdreyfusfoundation.org/",
-    "Initatives": "Checkology,News Literacy Project"
+    "Initatives": null
   },
   {
     "Name": "McCormick Foundation",
     "Type": "Foundation, Large",
     "Funder Description": "\"The Robert R. McCormick Foundation works with communities in Chicagoland and across Illinois to develop educated, informed, and engaged citizens. Our aim is to assist communities, to strengthen democracy, and help ensure that all families and children have the opportunities they need to flourish.\" (Source: Website) ",
     "URL": "http://www.mccormickfoundation.org/",
-    "Initatives": "NewsFrames at Global Voices,Checkology,News Literacy Project"
+    "Initatives": null
+  },
+  {
+    "Name": "MDPI",
+    "Type": "Other",
+    "Funder Description": "\"MDPI is a pioneer in scholarly open access publishing and has supported academic communities since 1996.\" (Source: Organization Website) ",
+    "URL": "https://www.mdpi.com/",
+    "Initatives": "Hypothes.is"
   },
   {
     "Name": "Media Democracy Fund",
@@ -984,7 +998,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"MDIF is a not-for-profit investment fund for independent media in countries where access to free and independent media is under threat. We provide affordable debt and equity financing supported by technical assistance to media companies that provide the news, information and debate that people need to build free, thriving societies.\" (Source: Website) ",
     "URL": "https://www.mdif.org/",
-    "Initatives": "NewsFrames at Global Voices"
+    "Initatives": null
   },
   {
     "Name": "Media Impact Funders (MIF)",
@@ -1068,14 +1082,14 @@
     "Type": "Foundation, Family",
     "Funder Description": "\"The Morris and Gwendolyn Cafritz Foundation is committed to building a stronger community for residents of the Washington, DC metropolitan area through support of programs in the arts and humanities, community services, education, health and the environment.\" (Source: Website) ",
     "URL": "http://www.cafritzfoundation.org/",
-    "Initatives": "Checkology,News Literacy Project"
+    "Initatives": null
   },
   {
     "Name": "Mozilla Foundation/Corporation",
     "Type": "Foundation, Large",
     "Funder Description": "\"Established in 2003, guided by the Mozilla Manifesto, the Mozilla Foundation believes the Internet is a global public resource that must remain open and accessible to all.\" (Source: Website) ",
     "URL": "https://www.mozilla.org/en-CA/foundation/",
-    "Initatives": "Internet Health Report"
+    "Initatives": "Internet Health Report,Credibility Coalition"
   },
   {
     "Name": "Narodowy Instytut Wolności (FIO)",
@@ -1110,7 +1124,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"The National Science Foundation (NSF) is an independent federal agency created by Congress in 1950 \"to promote the progress of science; to advance the national health, prosperity, and welfare; to secure the national defense...\" NSF is vital because we support basic research and people to create knowledge that transforms the future.\" (Source: Website) ",
     "URL": "https://www.nsf.gov/awardsearch/",
-    "Initatives": "Hoaxy,Twitter Trails,Claim Buster,The Computational Propaganda Project"
+    "Initatives": "Hoaxy,Twitter Trails,Claim Buster,Internet Archive TV News Archive"
   },
   {
     "Name": "New Media Alliance",
@@ -1138,7 +1152,7 @@
     "Type": "Foundation, Family",
     "Funder Description": "\"The Becker Charitable Trust is dedicated to safeguarding democratic values and ensuring the future of the Jewish people and the State of Israel.\" (Source: Website) ",
     "URL": "http://powerbase.info/index.php/Newton_and_Rochelle_Becker_Charitable_Trust",
-    "Initatives": "Credibility Coalition,PolitiFact"
+    "Initatives": "Credibility Coalition"
   },
   {
     "Name": "OAK Foundation",
@@ -1159,7 +1173,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"We seek to create a more equitable economy, promote responsible technology that improves lives, expand human capability, and discover the emergent issues that will shape our future​.\" (Source: Website) ",
     "URL": "https://www.omidyar.com/",
-    "Initatives": "NewsFrames at Global Voices,CORRECTIV.ORG,Rappler Fact Check,SSRC Social Media Democracy Research Grants,Hypothes.is"
+    "Initatives": "CORRECTIV.ORG,Rappler Fact Check,SSRC Social Media Democracy Research Grants"
   },
   {
     "Name": "Online News Association",
@@ -1176,11 +1190,18 @@
     "Initatives": null
   },
   {
+    "Name": "Open Society Foundation",
+    "Type": null,
+    "Funder Description": null,
+    "URL": null,
+    "Initatives": null
+  },
+  {
     "Name": "Open Society Foundations",
     "Type": "Foundation, Large",
     "Funder Description": "\"The Open Society Foundations, founded by George Soros, are the world’s largest private funder of independent groups working for justice, democratic governance, and human rights. George Soros opened his first international foundation in Hungary in 1984. Today, the Open Society Foundations support a vast array of projects in more than 120 countries, providing thousands of grants every year through a network of national and regional foundations and offices.\" (Source: Website) ",
     "URL": "https://www.opensocietyfoundations.org/",
-    "Initatives": "First Draft News,NewsFrames at Global Voices,Oxford Computational Propaganda Project,Verificado 2018,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",Information Disorder Lab,Open Technology Institute,\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",El poder de elegir,Colombia Check ,Africa Check,O Truco,Detector de Mentiras,Redacción Fáctica,ConPruebas,Fact Check Kazakhstan ,Bellingcat's Digital Toolkit"
+    "Initatives": "First Draft News,Oxford Computational Propaganda Project,Verificado 2018,\"2017 Gallup/Knight Foundation Survey on Trust, Media and Democracy\",Information Disorder Lab,Open Technology Institute,\"Study: \"\"Trust, Facts and Democracy: Public attitudes about the role of information in society.\"\"\",El poder de elegir,Colombia Check ,Africa Check,Detector de Mentiras,Redacción Fáctica,ConPruebas,Fact Check Kazakhstan ,Bellingcat's Digital Toolkit"
   },
   {
     "Name": "Oxfam",
@@ -1194,7 +1215,7 @@
     "Type": "University/Academic",
     "Funder Description": "\"Our academics work across more than 30 solutions-focused, pioneering research programmes that cut across disciplines to find solutions to the world's most urgent challenges. From renewable energy to ocean sustainability, and from the future of work to tackling inequality, we foster ground-breaking collaborations between researchers working at the frontiers of knowledge. The unifying theme is that the research must be of the highest academic calibre, tackle issues of global significance, and could not have been undertaken without our support.\" (Source: Organization Website) ",
     "URL": "https://www.oxfordmartin.ox.ac.uk/",
-    "Initatives": "The Computational Propaganda Project"
+    "Initatives": null
   },
   {
     "Name": "Panos Network",
@@ -1215,7 +1236,7 @@
     "Type": "Other",
     "Funder Description": "\"Poynter is an instructor, innovator, convener and resource for anyone who aspires to engage and inform citizens. We serve not only 21st-century democracies, but those in corners of the globe where people who honor freedom and self-government struggle against tyrants and autocrats.\" (Source: Website) ",
     "URL": "https://www.poynter.org/about-us/our-mission-and-work",
-    "Initatives": "International Fact-Checking Network,PolitiFact,Doğruluk Payı"
+    "Initatives": "International Fact-Checking Network,Doğruluk Payı"
   },
   {
     "Name": "Private donations",
@@ -1237,6 +1258,13 @@
     "Funder Description": "The Public Data Lab seeks to facilitate research, democratic engagement and public debate around the future of the data society.  We want to develop and disseminate innovative research, teaching, design and participation formats for the creation and use of public data.  We work in collaboration with an interdisciplinary network of researchers, practitioners, journalists, civil society groups, designers, developers and public institutions across the world.",
     "URL": "http://publicdatalab.org/",
     "Initatives": null
+  },
+  {
+    "Name": "Puffin Foundation",
+    "Type": "Foundation, Large",
+    "Funder Description": "\"The Puffin Foundation Ltd. has sought to open the doors of artistic expression by providing grants to artists and art organizations who are often excluded from mainstream opportunities due to their race, gender, or social philosophy.\" (Source: Organization Website)",
+    "URL": "http://www.puffinfoundation.org/",
+    "Initatives": "Columbia Journalism Review"
   },
   {
     "Name": "Quebec Research Funds",
@@ -1292,28 +1320,28 @@
     "Type": "Foundation, Family",
     "Funder Description": "\"The Resilience Fund was created in early 2017 as a collaborative partnership of the Greater Washington Community Foundation, the Eugene and Agnes E. Meyer Foundation, and other foundation and individual contributors. It supports the critical needs of nonprofits who are responding to changes in federal policy and budget priorities, as well as the climate of intolerance and hate, both of which are disproportionately impacting local people of color, and immigrant and refugee communities.\" (Source: Website) ",
     "URL": "https://www.thecommunityfoundation.org/resiliencefund/",
-    "Initatives": "Checkology,News Literacy Project"
+    "Initatives": null
   },
   {
     "Name": "Reynolds Journalism Institute",
     "Type": "Other",
     "Funder Description": "\"RJI’s work crosses diverse specialties within journalism, including media convergence, editorial content and methods, the evolution of advertising, innovation in management and the impact of new technologies. It also includes varied fields on campus such as law, computer science, marketing, education and other disciplines.\" (Source: Website) ",
     "URL": "https://www.rjionline.org/fellowships",
-    "Initatives": "PolitiFact,The Trusting News Project"
+    "Initatives": "The Trusting News Project"
   },
   {
     "Name": "Rita Allen Foundation",
     "Type": "Foundation, Family",
     "Funder Description": "\"The Rita Allen Foundation invests in transformative ideas in their earliest stages to leverage their growth and promote breakthrough solutions to significant problems.\" (Source: Website) ",
     "URL": "http://ritaallen.org/apply/",
-    "Initatives": "Check - Meedan,Internet Archive TV News Archive,Mozilla Information Trust Initiative,Misinformation Solutions Forum,News Co/Lab,Knight Prototype Fund on Misinformation,Media Well"
+    "Initatives": "Check - Meedan,Internet Archive TV News Archive,Mozilla Information Trust Initiative,Misinformation Solutions Forum,News Co/Lab,Knight Prototype Fund on Misinformation,Media Well,Credibility Coalition"
   },
   {
     "Name": "Robert R. McCormick Foundation",
     "Type": "Foundation, Large",
     "Funder Description": "\"The Robert R. McCormick Foundation works with communities in Chicagoland and across Illinois to develop educated, informed, and engaged citizens. Our aim is to assist communities, to strengthen democracy, and help ensure that all families and children have the opportunities they need to flourish.\" (Source: Website) ",
     "URL": "https://donate.mccormickfoundation.org/about-us/values",
-    "Initatives": null
+    "Initatives": "Civic Online Reasoning"
   },
   {
     "Name": "Robert Wood Johnson Foundation",
@@ -1327,7 +1355,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"The Rockefeller Brothers Fund advances social change that contributes to a more just, sustainable, and peaceful world.\" (Source: Website) ",
     "URL": "https://www.rbf.org/",
-    "Initatives": "Istinomer"
+    "Initatives": "Istinomer,Columbia Journalism Review"
   },
   {
     "Name": "Ross Mason",
@@ -1358,6 +1386,13 @@
     "Initatives": "Public Editor"
   },
   {
+    "Name": "Schmidt Futures",
+    "Type": "Corporation",
+    "Funder Description": "\"As a venture facility for public benefit, we help people do more for others by imagining what’s possible, applying advanced science and computing thoughtfully, and working together in networks across fields\" (Source: Organization Website)",
+    "URL": "https://schmidtfutures.com/",
+    "Initatives": "Hypothes.is"
+  },
+  {
     "Name": "Self-Funding",
     "Type": "Other",
     "Funder Description": "Includes crowd-funding, bootstrapping and seed rounds / angel investment, and funding from owners or parent companies.",
@@ -1377,6 +1412,13 @@
     "Funder Description": "\"The purpose of SRT is to promote the values and principles of human rights, equality and the rule of law, and to preserve nature from further degradation. The Trust has a particular interest in the following overlapping regions and countries: Europe: particularly the Balkans and Central and Eastern Europe; The former Soviet Union; Lebanon and Turkey in the Eastern Mediterranean; Egypt, Morocco and Tunisia in North Africa; Kenya, South Africa and Zimbabwe in Sub-Saharan Africa\" (Source: Website) ",
     "URL": "https://www.sigrid-rausing-trust.org/",
     "Initatives": null
+  },
+  {
+    "Name": "Silver Giving Foundation",
+    "Type": "Foundation, Large",
+    "Funder Description": "\"The Silver Giving Foundation supports and learns from extraordinary educators, organizations, and advocates who are expanding educational opportunities for all children, beginning with those who need them most.\" (Source: Organization Website) ",
+    "URL": "https://silvergiving.org/",
+    "Initatives": "Civic Online Reasoning"
   },
   {
     "Name": "Skoll Foundation",
@@ -1421,6 +1463,13 @@
     "Initatives": "Fake off"
   },
   {
+    "Name": "Spencer Foundation",
+    "Type": "Foundation, Large",
+    "Funder Description": "\"The Spencer Foundation has been a leading funder of education research since 1971 and is the only national foundation focused exclusively on supporting education research.\" (Organization Website)",
+    "URL": "https://www.spencer.org/",
+    "Initatives": "Civic Online Reasoning"
+  },
+  {
     "Name": "StartupChile accelerator program",
     "Type": "Corporation",
     "Funder Description": "\"Start-Up Chile (SUP) is a public startup accelerator created by the Chilean Government for high-potential entrepreneurs to bootstrap their startups and use Chile as a foundation. Today, Start-Up Chile is the leading accelerator in LATAM, among the TOP 10 globally, and one of the biggest and most diverse startup communities in the world. Start-Up Chile has been a global game changer. After it was created, 50 countries followed suit and created similar programs.\" (Source: Website) ",
@@ -1453,7 +1502,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"The Arca Foundation is a private grantmaking foundation dedicated to advancing equity, justice and human rights. Arca believes that the pursuit of economic and racial justice, an inclusive democracy, human rights, and a clean environment requires an engaged citizenry that has access to information and free expression.\" (Source: Website) ",
     "URL": "http://www.arcafoundation.org/",
-    "Initatives": "NewsFrames at Global Voices"
+    "Initatives": null
   },
   {
     "Name": "The Center for Information Technology Research in the Interest of Society",
@@ -1488,7 +1537,7 @@
     "Type": "Corporation",
     "Funder Description": "\"The E. W. Scripps Company is an American broadcasting company founded in 1878 as a chain of daily newspapers by Edward Willis \"E. W.\" Scripps. It was also formerly a media conglomerate. The company is headquartered inside the Scripps Center in Cincinnati, Ohio.\" (Source: Wikipedia)",
     "URL": "https://en.wikipedia.org/wiki/E._W._Scripps_Company",
-    "Initatives": null
+    "Initatives": "PolitiFact"
   },
   {
     "Name": "The ISC Project",
@@ -1509,7 +1558,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"Our work aims to support leaders and organizations that advance democracy, protect community and build a humane social vision.\" (Source: Website) ",
     "URL": "http://newwf.org/",
-    "Initatives": "NewsFrames at Global Voices"
+    "Initatives": null
   },
   {
     "Name": "The New York Community Trust",
@@ -1530,7 +1579,7 @@
     "Type": "Foundation, Family",
     "Funder Description": "\"The Shuttleworth Foundation is a small social investor that provides funding to dynamic leaders who are at the forefront of social change. We look for social innovators who are helping to change the world for the better and could benefit from a social investment model with a difference. We identify amazing people, give them a fellowship grant, and multiply the money they put into their own projects by a factor of ten or more.\" (Source: Website) ",
     "URL": "https://www.shuttleworthfoundation.org/",
-    "Initatives": "Climate Feedback,Health Feedback,Science Feedback,Africa Check,Hypothes.is"
+    "Initatives": "Climate Feedback,Health Feedback,Science Feedback,Africa Check,Credibility Coalition"
   },
   {
     "Name": "The University of California Merced",
@@ -1544,7 +1593,7 @@
     "Type": "Foundation, Large",
     "Funder Description": "\"For over three decades, we have been informing, connecting and empowering people around the world through our free programmes and services.\" (Source: Website) ",
     "URL": "http://www.trust.org/",
-    "Initatives": "NewsFrames at Global Voices"
+    "Initatives": null
   },
   {
     "Name": "TV Today Network Ltd.",
@@ -1572,7 +1621,7 @@
     "Type": "Other",
     "Funder Description": "\"The United Nations Educational, Scientific and Cultural Organization is a specialized agency of the United Nations based in Paris, France.\" (Source:https://en.wikipedia.org/wiki/UNESCO) ",
     "URL": "https://en.unesco.org/",
-    "Initatives": "NewsFrames at Global Voices"
+    "Initatives": null
   },
   {
     "Name": "United Nations Development Program (UNDP)",
@@ -1656,7 +1705,7 @@
     "Type": "Other",
     "Funder Description": "\"We Media is a global innovation agency, publisher, studio and incubator for networked knowledge and culture.\" (Source: Website) ",
     "URL": "https://www.wemedia.com/about/",
-    "Initatives": "NewsFrames at Global Voices"
+    "Initatives": null
   },
   {
     "Name": "Wikimedia Foundation",
