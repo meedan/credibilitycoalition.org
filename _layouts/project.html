@@ -176,6 +176,31 @@ custom_css: page
           {% endunless %}
           {% endif %}
 
+          {% assign resources = page['Related Resources'] | trim | split_better: ',' %}
+          {% if resources.size > 0 %}
+          <div class="row page-details">
+            <div class="col col-a page-details-header">
+              <div class="cap"></div>
+              <h2>Related Resources</h2>
+              <div class="description"></div>
+            </div>
+            <div class="col col-b">
+              <div class="row list">
+                {% for resource in resources %}
+                <div class="col list-item">
+                  <a href="{{ site.data.credcatalog.resources | where: 'Name', resource | first | pluck: 'URL' }}" target="_blank" rel="noreferrer noopener">
+                    <h5>{{ resource }}</h5>
+                    <div class="list-item-footer prop type">
+                      {{ site.data.credcatalog.resources | where: "Name", resource | first | pluck: "Data Source" }}
+                    </div>
+                  </a>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
           {% assign similars = site.data.credcatalog.initiatives | similar_to: page %}
           {% if similars.size > 0 %}
           <div class="row page-details">
