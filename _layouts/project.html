@@ -19,6 +19,7 @@ custom_css: page
               {% if page['URL'] %}
                 <div class="page-meta">
                   <span>{% include icon_link.html %} <a target="_blank" rel="noopener noreferrer" href="{{ page['URL'] | strip }}">{{ page['URL'] | sanitize_url | truncate: 30 }}</a></span>
+                  <span>{% include share.html %}</span>
                 </div>
               {% endif %}
           </div>
