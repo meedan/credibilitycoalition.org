@@ -24,7 +24,7 @@ module Jekyll
 
     def split_better(text, separator = ',')
       require 'csv'
-      text.nil? ? [] : (CSV.parse_line(text, { :col_sep => separator })&.map{ |v| v.strip } || [])
+      text.nil? ? [] : (CSV.parse_line(text, **{ :col_sep => separator })&.map{ |v| v.strip } || [])
     end
 
     def linkify(text)
