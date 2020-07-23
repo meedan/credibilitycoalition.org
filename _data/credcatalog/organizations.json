@@ -12,7 +12,7 @@
     "Organization Name": "[SAME AS INITIATIVE]",
     "Organization Description": "The initiative is the same as the organization ",
     "Home URL": null,
-    "Table 1": "BitPress,BS Detector,Captain Fact,Certified Content Coalition,Civil,dBunk(r) ,Global Disinformation Index,Dispute Finder,Dirt Protocol,Deepnews.ai,Deep Freeze,Full Fact,NewsGuard,FactLink,NewsCheck,Hypothes.is,The Verification Handbook (EJC),TrustServista,Verity,Deeptrace,Nobias,Fiskkit,Factmata,Metafact,Marvelous,Blackbird,Content Blockchain Project,FakerFact,First Draft News,Trive,The Trusting News Project,Servicio de Información Pública,Africa Check,BOOM,Datalyrics,DROG,CORRECTIV.ORG,Lead Stories,Dubawa,Aos Fatos,Congo Check,Demagog Association,Factcheckers,Science Feedback,Vistinomer,Faktabaari,Main Street One ,We Verify,Dagens Nyheter,Ukraine Crisis Media Center ,Riddle,Debunk EU,Ecuador Chequea,Fact Check Kazakhstan ,Identifact,La Voce,Mafindo,NewsMobile Fact Checker,Newtral,Observador Fact Check,OpenSources,Pagella Politica,Pesa Check,Poletika,Polígrafo,Quod,rbutr,Taiwan FactCheck Center,The Conversation Australia,The Journal.ie,The Whistle,Trusted Times,VERA Files Fact Check,Vishvas News,Web Literacy for Student Fact Checkers,Trutheum,Veríficalo,Ellinika Hoaxes,The Trust Project,The Factual,News Literacy Project,Serelay,SOMA (Social Observatory for Disinformation and Social Media Analysis),Trustium ,Userfeeds,Pressland,FiB,NYU Stern Center for Business and Human Rights,DeepTrust Alliance",
+    "Table 1": "BitPress,BS Detector,Captain Fact,Certified Content Coalition,Civil,dBunk(r) ,Global Disinformation Index,Dispute Finder,Dirt Protocol,Deepnews.ai,Deep Freeze,Full Fact,NewsGuard,FactLink,NewsCheck,Hypothes.is,The Verification Handbook (EJC),TrustServista,Verity,Deeptrace,Nobias,Fiskkit,Factmata,Metafact,MarvelousAI,Blackbird,Content Blockchain Project,FakerFact,First Draft News,Trive,The Trusting News Project,Servicio de Información Pública,Africa Check,BOOM,Datalyrics,DROG,CORRECTIV.ORG,Lead Stories,Dubawa,Aos Fatos,Congo Check,Demagog Association,Factcheckers,Science Feedback,Vistinomer,Faktabaari,Main Street One ,We Verify,Dagens Nyheter,Ukraine Crisis Media Center ,Riddle,Debunk EU,Ecuador Chequea,Fact Check Kazakhstan ,Identifact,La Voce,Mafindo,NewsMobile Fact Checker,Newtral,Observador Fact Check,OpenSources,Pagella Politica,Pesa Check,Poletika,Polígrafo,Quod,rbutr,Taiwan FactCheck Center,The Conversation Australia,Fact Check - The Journal.ie,The Whistle,Trusted Times,VERA Files Fact Check,Vishvas News,Web Literacy for Student Fact Checkers,Trutheum,Veríficalo,Ellinika Hoaxes,The Trust Project,The Factual,News Literacy Project,Serelay,SOMA (Social Observatory for Disinformation and Social Media Analysis),Trustium ,Userfeeds,Pressland,FiB,NYU Stern Center for Business and Human Rights,DeepTrust Alliance,JournaList",
     "Notes": null,
     "Name": null,
     "Related Resources": null
@@ -75,7 +75,7 @@
     "Organization Name": "Agence France-Presse (AFP)",
     "Organization Description": "\"AFP is a global news agency delivering fast, accurate, in-depth coverage of the events shaping our world from conflicts to politics, economics, sports, entertainment and the latest breakthroughs in health, science and technology.\" (Source: Website) ",
     "Home URL": "https://www.afp.com/en",
-    "Table 1": "AFP Factual",
+    "Table 1": "AFP Factuel",
     "Notes": null,
     "Name": null,
     "Related Resources": null
@@ -147,7 +147,7 @@
     "Organization Name": "Aos Fatos",
     "Organization Description": "\"Journalists from Aos Fatos follow statements made by politicians and national public figures from diverse political backgrounds to verify if what they say is true. To do this, we have adopted a formula with 7 steps to complete our fact checks.\" (Source: Website)",
     "Home URL": "https://aosfatos.org/",
-    "Table 1": "Fatima ",
+    "Table 1": "Fátima",
     "Notes": null,
     "Name": null,
     "Related Resources": null
@@ -183,7 +183,7 @@
     "Organization Name": "Associated Press",
     "Organization Description": "\"The Associated Press is an independent, not-for-profit news cooperative headquartered in New York City. Our teams in over 100 countries tell the world’s stories, from breaking news to investigative reporting. We provide content and services to help engage audiences worldwide, working with companies of all types, from broadcasters to brands.\" (Source: Website) ",
     "Home URL": "https://www.ap.org/press-releases/2017/ap-to-enhance-fact-checks-with-245-000-from-knight",
-    "Table 1": "AP's global fact check team",
+    "Table 1": "AP Factcheck",
     "Notes": null,
     "Name": null,
     "Related Resources": null
@@ -523,9 +523,9 @@
   },
   {
     "Organization Name": "European External Action Service East Stratcom Task Force",
-    "Organization Description": "\"The Task Force was set up to address Russia's ongoing disinformation campaigns. In March 2015, the European Council tasked the High Representative in cooperation with EU institutions and Member States to submit an action plan on strategic communication.\" (Source: Website) ",
+    "Organization Description": "\"The Task Force was set up to address Russia's ongoing disinformation campaigns. In March 2015, the European Council tasked the High Representative in cooperation with EU institutions and Member States to submit an action plan on strategic communication.\" (Source: Organization Website) ",
     "Home URL": "https://eeas.europa.eu/headquarters/headquarters-homepage/2116/-questions-and-answers-about-the-east-stratcom-task-force_en",
-    "Table 1": "EU vs Disinformation,EU DisinfoLab",
+    "Table 1": "EU vs Disinformation",
     "Notes": null,
     "Name": null,
     "Related Resources": null
@@ -894,7 +894,7 @@
     "Organization Name": "Knight Prototype Fund",
     "Organization Description": "\"The Knight Prototype Fund helped media makers, technologists and tinkerers take ideas from concept to demo. With grants of $50,000, innovators were given nine months to research, test core assumptions and iterate before building out an entire project.\" (Source: Website) ",
     "Home URL": "https://knightfoundation.org/prototype/",
-    "Table 1": "Knight Prototype Fund on Misinformation",
+    "Table 1": "Knight Prototype Fund ",
     "Notes": null,
     "Name": null,
     "Related Resources": null
@@ -1389,7 +1389,7 @@
     "Organization Name": "Schema.org",
     "Organization Description": "\"Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.\" (Source: Website) ",
     "Home URL": "https://schema.org/",
-    "Table 1": "Schema.org Claim Review",
+    "Table 1": "Schema.org - Claim Review",
     "Notes": null,
     "Name": null,
     "Related Resources": null

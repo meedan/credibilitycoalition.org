@@ -22,6 +22,7 @@ custom_css: page
               {% endif %}
               {% if page['URL'] %}
                 <span>{% include icon_link.html %} <a target="_blank" rel="noopener noreferrer" href="{{ page['URL'] | strip }}">{{ page['URL'] | sanitize_url | truncate: 30 }}</a></span>
+                <span>{% include share.html %}</span>
               {% endif %}
           </div>
         </div>
