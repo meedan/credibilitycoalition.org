@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem 'jekyll', '~> 3.0'
 gem 'contentful_bootstrap'
 gem 'twitter-text'
+gem 'kramdown-parser-gfm'
 
 group :jekyll_plugins do
   gem "jekyll-contentful-data-import", git: "https://github.com/meedan/jekyll-contentful-data-import"
