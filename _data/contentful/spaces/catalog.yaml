@@ -1,45 +1,8 @@
 ---
 catalog:
 - sys:
-    id: 1c75P8dQXCqESLZ8epPSxt
-    created_at: !ruby/object:DateTime 2019-12-14 05:06:22.620000000 Z
-    updated_at: !ruby/object:DateTime 2019-12-14 05:06:22.620000000 Z
-    content_type_id: catalog
-    revision: 1
-  title: Funders
-  cap: CredCatalog
-  description: Based on external information we’ve been able to collect so far, these
-    are organizations, foundations and individuals funding credibility initiatives
-    in the CredCatalog database. More about how we found this information can be found
-    [here](https:////docs.google.com/document/d/19bXZOQ-KfzHtF4EJ8iKHgLDFHItT6A7D9766YkhmbB0/edit).
-  slug: funders
-  modules:
-  - sys:
-      id: 7ps7hSYdE9l3j3rsvGMN7d
-      created_at: !ruby/object:DateTime 2019-12-14 05:06:15.622000000 Z
-      updated_at: !ruby/object:DateTime 2019-12-14 05:06:15.622000000 Z
-      content_type_id: moduleFunders
-      revision: 1
-    title: CredCatalog Funders
-  footer:
-  - sys:
-      id: 6q1rCGbpxplkf1vuV4xPGB
-      created_at: !ruby/object:DateTime 2019-12-14 05:06:19.025000000 Z
-      updated_at: !ruby/object:DateTime 2019-12-14 05:06:19.025000000 Z
-      content_type_id: footer
-      revision: 1
-    content: |+
-      CredCatalog data is released under a [Creative Commons Attribution Non-Commercial License](https://creativecommons.org/licenses/by-nc/4.0/deed.en_GB) (CC BY-NC 4.0).
-
-      CredCatalog is currently optimized for desktop use only.
-
-      Many thanks to the [Tow-Knight Center for Entrepreneurial Journalism at CUNY’s Newmark Graduate School of Journalism](https://www.journalism.cuny.edu/centers/tow-knight-center-entrepreneurial-journalism/) for its support.
-
-      [![towknight-Locked-Short-White](//images.ctfassets.net/tlowcqj4pb76/hTmaaMDsD21Uds7Y2a8xB/aca54b7192a0ea8a221232d5d2f20e86/towknight-Locked-Short-White.png)](https://www.journalism.cuny.edu/centers/tow-knight-center-entrepreneurial-journalism/)
-
-- sys:
     id: 2AzvjngT2Ax1FoaYy4eybL
-    created_at: !ruby/object:DateTime 2019-12-14 05:06:31.360000000 Z
+    created_at: !ruby/object:DateTime 2019-12-14 02:52:16.727000000 Z
     updated_at: !ruby/object:DateTime 2019-12-14 05:06:31.360000000 Z
     content_type_id: catalog
     revision: 1
@@ -53,7 +16,7 @@ catalog:
   modules:
   - sys:
       id: Npanq8sJ9B92yVZMzpFSS
-      created_at: !ruby/object:DateTime 2019-12-14 05:06:28.822000000 Z
+      created_at: !ruby/object:DateTime 2019-12-14 02:43:21.931000000 Z
       updated_at: !ruby/object:DateTime 2019-12-14 05:06:28.822000000 Z
       content_type_id: moduleProjects
       revision: 1
@@ -67,16 +30,50 @@ catalog:
   footer:
   - sys:
       id: 6q1rCGbpxplkf1vuV4xPGB
-      created_at: !ruby/object:DateTime 2019-12-14 05:06:19.025000000 Z
-      updated_at: !ruby/object:DateTime 2019-12-14 05:06:19.025000000 Z
+      created_at: !ruby/object:DateTime 2019-12-14 03:52:58.824000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-20 00:22:44.329000000 Z
       content_type_id: footer
       revision: 1
     content: |+
       CredCatalog data is released under a [Creative Commons Attribution Non-Commercial License](https://creativecommons.org/licenses/by-nc/4.0/deed.en_GB) (CC BY-NC 4.0).
 
-      CredCatalog is currently optimized for desktop use only.
+      Many thanks to the [Tow-Knight Center for Entrepreneurial Journalism at CUNY’s Newmark Graduate School of Journalism](https://www.journalism.cuny.edu/centers/tow-knight-center-entrepreneurial-journalism/) for its support.
+
+      [![towknight-Locked-Short-White](//images.ctfassets.net/tlowcqj4pb76/hTmaaMDsD21Uds7Y2a8xB/aca54b7192a0ea8a221232d5d2f20e86/towknight-Locked-Short-White.png)](https://www.journalism.cuny.edu/centers/tow-knight-center-entrepreneurial-journalism/)
+
+- sys:
+    id: 1c75P8dQXCqESLZ8epPSxt
+    created_at: !ruby/object:DateTime 2019-12-14 03:25:38.611000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-14 05:06:22.620000000 Z
+    content_type_id: catalog
+    revision: 1
+  title: Funders
+  cap: CredCatalog
+  description: Based on external information we’ve been able to collect so far, these
+    are organizations, foundations and individuals funding credibility initiatives
+    in the CredCatalog database. More about how we found this information can be found
+    [here](https:////docs.google.com/document/d/19bXZOQ-KfzHtF4EJ8iKHgLDFHItT6A7D9766YkhmbB0/edit).
+  slug: funders
+  modules:
+  - sys:
+      id: 7ps7hSYdE9l3j3rsvGMN7d
+      created_at: !ruby/object:DateTime 2019-12-14 03:26:38.169000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-14 05:06:15.622000000 Z
+      content_type_id: moduleFunders
+      revision: 1
+    title: CredCatalog Funders
+  footer:
+  - sys:
+      id: 6q1rCGbpxplkf1vuV4xPGB
+      created_at: !ruby/object:DateTime 2019-12-14 03:52:58.824000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-20 00:22:44.329000000 Z
+      content_type_id: footer
+      revision: 1
+    content: |+
+      CredCatalog data is released under a [Creative Commons Attribution Non-Commercial License](https://creativecommons.org/licenses/by-nc/4.0/deed.en_GB) (CC BY-NC 4.0).
 
       Many thanks to the [Tow-Knight Center for Entrepreneurial Journalism at CUNY’s Newmark Graduate School of Journalism](https://www.journalism.cuny.edu/centers/tow-knight-center-entrepreneurial-journalism/) for its support.
 
       [![towknight-Locked-Short-White](//images.ctfassets.net/tlowcqj4pb76/hTmaaMDsD21Uds7Y2a8xB/aca54b7192a0ea8a221232d5d2f20e86/towknight-Locked-Short-White.png)](https://www.journalism.cuny.edu/centers/tow-knight-center-entrepreneurial-journalism/)
 
+...

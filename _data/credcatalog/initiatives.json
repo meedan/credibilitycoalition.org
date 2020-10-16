@@ -2999,7 +2999,7 @@
     "Map Spectra: Message": "E Extremely",
     "Map Spectra: Infrastructure": "B Slightly",
     "Solutions Categories": "Social & Community Based ,Trust in Media",
-    "Funders": "Membership,For-profit Funding",
+    "Funders": "McCune Foundation,Schmidt Futures",
     "Location": "Global",
     "Potential Data Source": "checked",
     "Languages-2": "English",
@@ -4536,9 +4536,9 @@
     "Related Resources": null
   },
   {
-    "Name": "JournaList",
+    "Name": "JournalList",
     "Active/Inactive": "Active",
-    "Description": "\"JournaList: A Networked List of News Publishers\nIf a group of news publishers makes its own group, the members of that group get to decide who is and is not in that group. The very fact of that association is a signal of trust, based on the other members of the group, and the actions of the group over time. JournalList is one thing: manager of the trust.txt framework, which makes it easy to build a machine-readable file showing the networked listing of all the publishers, and all the groups that they choose to belong to.\" (Source: Initiative/Organization Website)",
+    "Description": "\"JournalList: A Networked List of News Publishers\nIf a group of news publishers makes its own group, the members of that group get to decide who is and is not in that group. The very fact of that association is a signal of trust, based on the other members of the group, and the actions of the group over time. JournalList is one thing: manager of the trust.txt framework, which makes it easy to build a machine-readable file showing the networked listing of all the publishers, and all the groups that they choose to belong to.\" (Source: Initiative/Organization Website)",
     "URL": "https://journallist.net/",
     "Org Name": "[SAME AS INITIATIVE]",
     "\"Other\" Organizational Name": null,

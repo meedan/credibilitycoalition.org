@@ -2,7 +2,7 @@
 update:
 - sys:
     id: 1XZgPFjqG4yeWeo8Qsa06Y
-    created_at: !ruby/object:DateTime 2019-01-01 02:27:46.102000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 02:25:30.394000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 02:27:46.102000000 Z
     content_type_id: update
     revision: 1
@@ -13,7 +13,7 @@ update:
   link: https://misinfocon.com/summing-up-credibility-coalitions-july-strategy-meeting-a022cc2d091d
 - sys:
     id: 7iRvw7Gs5awaS6cyEeYyKS
-    created_at: !ruby/object:DateTime 2019-01-01 02:28:27.902000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 02:27:51.085000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 02:28:27.902000000 Z
     content_type_id: update
     revision: 1
@@ -24,7 +24,7 @@ update:
   link: https://misinfocon.com/whats-next-for-the-credibility-coalition-554d0588f2bf
 - sys:
     id: 2vS87P8yfKeayqmMuwyeGW
-    created_at: !ruby/object:DateTime 2019-01-01 02:29:13.812000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 02:28:32.688000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 02:34:46.563000000 Z
     content_type_id: update
     revision: 2
@@ -35,7 +35,7 @@ update:
   link: https://web.hypothes.is/blog/evaluating-credibility-on-the-web-with-annotation
 - sys:
     id: 3rB4OE6eFiciwqC4ia0k0u
-    created_at: !ruby/object:DateTime 2019-01-01 02:34:34.697000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 02:29:17.074000000 Z
     updated_at: !ruby/object:DateTime 2019-02-14 19:45:56.626000000 Z
     content_type_id: update
     revision: 2
@@ -46,7 +46,7 @@ update:
   link: https://misinfocon.com/knight-prototype-fund-supports-the-credibility-working-group-c3dcc6667569
 - sys:
     id: 5lNFlaXSbSU8qSSssSGQ8w
-    created_at: !ruby/object:DateTime 2019-01-01 02:36:50.505000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 02:35:01.819000000 Z
     updated_at: !ruby/object:DateTime 2019-02-14 19:45:24.533000000 Z
     content_type_id: update
     revision: 2
@@ -57,7 +57,7 @@ update:
   link: https://misinfocon.com/building-technical-standards-for-credibility-59ef9ee4ab73
 - sys:
     id: 3uYZYmfuwFZnHkygm0mW3S
-    created_at: !ruby/object:DateTime 2019-11-29 04:04:29.115000000 Z
+    created_at: !ruby/object:DateTime 2019-11-29 04:03:04.808000000 Z
     updated_at: !ruby/object:DateTime 2019-11-29 04:04:29.115000000 Z
     content_type_id: update
     revision: 1
@@ -69,7 +69,7 @@ update:
   link: https://misinfocon.com/wikicredcon-record-number-of-attendees-participate-in-6th-annual-wikiconference-north-america-212d8c54b127
 - sys:
     id: 707rWSFgZrlu1ZBldDsZR5
-    created_at: !ruby/object:DateTime 2019-11-29 04:06:46.645000000 Z
+    created_at: !ruby/object:DateTime 2019-11-29 04:06:04.997000000 Z
     updated_at: !ruby/object:DateTime 2019-11-29 04:06:46.645000000 Z
     content_type_id: update
     revision: 1

@@ -1,11 +1,406 @@
 ---
 page:
 - sys:
-    id: 5hozhxdFI4EUue4Sm4E4us
-    created_at: !ruby/object:DateTime 2019-01-01 02:19:07.224000000 Z
-    updated_at: !ruby/object:DateTime 2019-12-04 23:49:23.466000000 Z
+    id: 3G3nsDQ5OUKeoui2IeiUOa
+    created_at: !ruby/object:DateTime 2018-12-31 20:19:50.927000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-29 02:18:00.821000000 Z
     content_type_id: page
-    revision: 3
+    revision: 9
+  title: About
+  slug: about
+  summary: We are an interdisciplinary community committed to improving our information
+    ecosystems and media literacy through transparent and collaborative exploration.
+  modules:
+  - sys:
+      id: 6K4NkBgA6cU2oGMYS6Y6QM
+      created_at: !ruby/object:DateTime 2018-12-31 20:20:52.260000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-31 20:52:46.591000000 Z
+      content_type_id: moduleBodyText
+      revision: 3
+    content: |-
+      The proliferation of misinformation in online news and its amplification by automated feeds and social media are a growing concern.
+
+      Many solutions are being attempted, but the misinformation problem is so large that any single effort can only provide partial alleviation. Tackling it successfully will require a holistic approach, with reputation systems, fact-checking, media literacy, revenue models, and public feedback all helping to address the health of the information ecosystem.
+  - sys:
+      id: 1ex7BT7hymqE2YYmq6mMwu
+      created_at: !ruby/object:DateTime 2018-12-31 21:00:29.971000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-31 21:01:51.960000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: |+
+      ##     COLLABORATIVE EXPLORATION IS KEY
+
+      Together, as a coalition, we are interested in complementing these efforts by establishing ways of engagement, or *frameworks*, that encourage interdisciplinarity and cooperation. We think that this is key given the complicated nature of the problem.
+
+      Rather than jointly deciding whether an article is “credible” or “not credible” or endorsing any single index or evaluation of credibility, the Credibility Coalition fosters the development of frameworks around which credibility that foster the generation of better standards, rigorous research, and thoughtful application around information quality. [More about our frameworks can be found here](https://credibilitycoalition.org/approach/ "Approach").
+
+  - sys:
+      id: 5kr1aVuQ3SYQ8y48oa0IyM
+      created_at: !ruby/object:DateTime 2018-12-31 21:03:25.299000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-31 21:04:02.124000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: |-
+      ## OUR DRIVING QUESTIONS
+      Our efforts are currently directed by three main questions. Our energies are focused on how to:
+
+      - __Assess__: Can we agree on the indicators for reliable information online?
+      - __Scale__: Does assessment work at both small and large magnitudes?
+      - __Apply__: How can the implementation of credibility standards inform effectively?
+  - sys:
+      id: 1rriX6f1O8yEQK2ISEO8Yi
+      created_at: !ruby/object:DateTime 2018-12-31 21:05:37.172000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 23:04:59.248000000 Z
+      content_type_id: moduleBodyText
+      revision: 3
+    content: |
+      ## CONTACTS
+      - Nevin Thompson, Community Lead
+  - sys:
+      id: 4pyM7DHOmkmS6yYuMYKwG8
+      created_at: !ruby/object:DateTime 2018-12-31 21:06:18.322000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-31 21:07:37.416000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: |+
+      ## OUR HISTORY
+      The Credibility Coalition is an initiative co-founded by Meedan and Hacks/Hackers. We were incubated at the first [MisinfoCon](https://misinfocon.com/) in early 2017 and grew under a [Knight Prototype Fund Grant](https://knightfoundation.org/press/releases/knight-prototype-fund-awards-1-million-to-20-projects-to-improve-the-flow-of-accurate-information) focused on improving the flow of accurate information.
+
+      We have presented our initiative in a number of international venues to gain feedback and partners; recent examples include the [Mozilla Festival 2017](https://mozillafestival.org/), the [International Press Telecommunications Council Autumn 2017 Meeting](https://iptc.org/events/autumn-meeting-2017/), and [The Knight Commission on Trust, Media and Democracy](https://www.aspeninstitute.org/programs/communications-and-society-program/recap-palo-alto-ca-forum/).
+
+      In March 2018 we [announced the support](https://misinfocon.com/whats-next-for-the-credibility-coalition-554d0588f2bf) of Google News Lab, the Facebook Journalism Project, Craig Newmark Philanthropies and additional private donors.
+
+  - sys:
+      id: 4xMDr9kgDmM2eCAk4cM8qQ
+      created_at: !ruby/object:DateTime 2018-12-31 21:34:17.824000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-31 21:34:38.227000000 Z
+      content_type_id: moduleImage
+      revision: 1
+    caption: The Credibility Coalition was born during a late night creative studio
+      session at MisinfoCon, hosted at the Media MIT Lab.
+    image:
+      sys:
+        id: 4glDgcUtywwU6iYug4cgIi
+        created_at: !ruby/object:DateTime 2018-12-31 21:14:04.547000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-31 21:14:39.953000000 Z
+      title: MisinfoCon studio session
+      description: The Credibility Coalition was born during a late night creative
+        studio session at MisinfoCon, hosted at the Media MIT Lab.
+      url: "//images.ctfassets.net/tlowcqj4pb76/4glDgcUtywwU6iYug4cgIi/cd608596c18e83d051a36a1fd394522b/photo-2.jpg"
+    filter_image: true
+  - sys:
+      id: 6tD4rxq9VumEyaA2aequcG
+      created_at: !ruby/object:DateTime 2018-12-31 22:17:41.765000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 19:42:36.193000000 Z
+      content_type_id: moduleVideo
+      revision: 3
+    title: Connie Moon Sehat @ MisinfoCon DC
+    youtube_video_id: DFSZU19KAhI
+  - sys:
+      id: 3wRugMtCs0S0uEWWciMY4C
+      created_at: !ruby/object:DateTime 2019-01-01 01:21:05.726000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-14 19:30:37.341000000 Z
+      content_type_id: moduleProfiles
+      revision: 3
+    title: JOIN US!
+    description: |-
+      We value a diverse and inclusive membership and encourage broad participation. We especially invite individuals from historically underrepresented communities in technology and journalism to join our efforts, including women, people of color, people with disabilities and those who identify as LGBTQ.
+
+      Founding members of the coalition include the following individuals:
+    profiles:
+    - sys:
+        id: 3llG1cuubSgKAcgK4WQeAO
+    - sys:
+        id: 7gxPbBR7xYUMKwoc8GO4w8
+    - sys:
+        id: 18zxSa38yycoWsqOS6As6
+    - sys:
+        id: 74ldgrADYcSmkAQuQAKoOK
+    - sys:
+        id: 1hfwkdIBUQgCCoeSKeWecS
+    - sys:
+        id: 4JIQtSGfluYEEmSwu2oMk0
+    - sys:
+        id: 3JJWZylOMw6QUqEwEumOSA
+    - sys:
+        id: 62tQeMwfJeKmgu4UuSmgc4
+    - sys:
+        id: 1nRerFx95CiMma6WIscssI
+    - sys:
+        id: 6Ck7fQgfbqaMS2KwkUyQSC
+    - sys:
+        id: 5pKLfgFt1Cmwq0KkcamyYC
+    - sys:
+        id: 7F0hdiP3u882iUuI2KECqw
+    - sys:
+        id: 3jyFRuxgMwScOAOsUW6eQm
+    - sys:
+        id: 1ktBOuRQNiKgM8KoquGQ8O
+    - sys:
+        id: 4QYoH9zwxaU0M26CuuISo4
+    - sys:
+        id: 1fn5VBSZ0GYI0mgW00IIES
+    - sys:
+        id: 5XvDFHv6QoUcayCUSuY6Us
+    - sys:
+        id: 1sgsSvVkW4cw8Cuiokuosu
+    - sys:
+        id: 1YzRtCQOMQS2EaoeYsUymc
+    - sys:
+        id: 59Vpd1FubuiyY64sKIOCq6
+    - sys:
+        id: 66xU3w6tnG2kqsUsI4mKWS
+    - sys:
+        id: doDP5Bw1RmYckko0g4QSA
+    - sys:
+        id: wvVUbvbsS4OceaEQoG2kE
+    - sys:
+        id: 1zby6XS3M0mIOK2omGQkuw
+    - sys:
+        id: 6Ca4ExpvbyoCOo0AaAkac0
+    - sys:
+        id: 32kF8rzzVYyekwmcOk8Ekg
+    - sys:
+        id: eoXxKM8xriuk6coUYsWcQ
+    - sys:
+        id: 2Z5AHLpAKcgYKKc8KUAuo8
+- sys:
+    id: 6sVkzRBo7SoYUIACagmMia
+    created_at: !ruby/object:DateTime 2019-01-01 01:35:40.666000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-29 02:10:12.570000000 Z
+    content_type_id: page
+    revision: 1
+  title: Approach
+  slug: approach
+  summary: We work collaboratively and openly, developing frameworks that seek feedback
+    from diverse experiences and expertise and share the results of our distributed
+    tests and validations.
+  modules:
+  - sys:
+      id: 4WAYp9cVZ6WkM0SYUis2ke
+      created_at: !ruby/object:DateTime 2019-01-01 01:35:53.143000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 01:36:01.592000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: "*Frameworks* are structures, processes, and data that are necessary
+      to enable the participation of organizations, experts, and non-experts in issues
+      of information quality."
+  - sys:
+      id: 4uVSdCWMYUCmQku2gosQ6q
+      created_at: !ruby/object:DateTime 2019-01-01 01:36:09.886000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 01:37:16.414000000 Z
+      content_type_id: moduleImage
+      revision: 1
+    caption: This workflow outlines our current path for assessing news for credibility,
+      and contrasts the framework efforts of the Coalition as a whole (on the left)
+      from the role of *interpretation* (on the right) by researchers, platforms,
+      or automated systems — which may be carried out independently by Coalition members.
+    image:
+      sys:
+        id: irR6JMNWzC6WWCMuWewYW
+        created_at: !ruby/object:DateTime 2019-01-01 01:36:14.794000000 Z
+        updated_at: !ruby/object:DateTime 2019-01-01 01:36:47.114000000 Z
+      title: Credibility Coalition Frameworks
+      description: 
+      url: "//images.ctfassets.net/tlowcqj4pb76/irR6JMNWzC6WWCMuWewYW/c3777cf36705d2617bb203b89a1ae21e/credco-framework.png"
+    filter_image: false
+  - sys:
+      id: 7DS51VuV7qmWKAOsigQ468
+      created_at: !ruby/object:DateTime 2019-01-01 01:37:22.907000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-24 23:14:01.211000000 Z
+      content_type_id: moduleBodyText
+      revision: 2
+    content: Our frameworks — which aim to generate better standards, rigorous research,
+      and thoughtful application — are dynamic and under development all the time.
+  - sys:
+      id: 6xVzMVsxtmEMQuuukgGYWI
+      created_at: !ruby/object:DateTime 2019-01-01 01:37:41.553000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 01:37:59.147000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: |-
+      ## INDICATORS AND DATA
+
+      Recognizing the complexity of developing standards, the Credibility Coalition approaches them through rigorous research.
+
+      We have three major outputs: (1) an annotation guide that can be used for future studies and that can inform larger studies for annotation, (2) a developing, licensed data set of findings, and (3) a vocabulary document developed with the W3C Credible Web Community Group. Recognizing that our information landscape is constantly changing, each of these outputs is regularly updated and developed.
+  - sys:
+      id: 1hQqf08lYisiwEW4EqkgsC
+      created_at: !ruby/object:DateTime 2019-01-01 01:38:04.065000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-24 23:43:47.369000000 Z
+      content_type_id: moduleImage
+      revision: 2
+    caption: Lifecycle of indicator development
+    image:
+      sys:
+        id: 33nYEKfBMQA8cEOAi6Cwus
+        created_at: !ruby/object:DateTime 2019-01-01 01:38:08.372000000 Z
+        updated_at: !ruby/object:DateTime 2019-01-01 01:38:21.615000000 Z
+      title: CredCo-indicator-lifecycle
+      description: 
+      url: "//images.ctfassets.net/tlowcqj4pb76/33nYEKfBMQA8cEOAi6Cwus/8273783f0d26d2dd5b1aae5adfee9245/CredCo-indicator-lifecycle.png"
+    filter_image: false
+  - sys:
+      id: 2u6IoCAKoU0qg2gMWyiUCY
+      created_at: !ruby/object:DateTime 2019-01-01 01:39:10.239000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 01:39:43.570000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: |-
+      ## WORKSHOPS
+      We conduct a number of workshops in conferences throughout the world in order to further collective thinking on information disorder. People in attendance come from a variety of organizations representing government, research, advocacy, journalism, and academic groups, to share their thoughts and insights.
+
+      Examples of our workshops include:
+
+      - [Closed Messaging Spaces: Thinking About Best Practices and Ethics in a Global Environment](https://misinfocon.com/closed-messaging-spaces-thinking-about-best-practices-and-ethics-in-a-global-environment-10fc82191743)
+      - [Nutrition labels for the news: a way to support vibrant public discussion?](https://misinfocon.com/nutrition-labels-for-the-news-a-way-to-support-vibrant-public-discussion-20c64225637c)
+      - Memes, Images, and Misinformation
+  - sys:
+      id: 1qO9VoL1zayOO0yg60848Y
+      created_at: !ruby/object:DateTime 2019-01-01 01:39:50.165000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 06:37:12.681000000 Z
+      content_type_id: moduleImage
+      revision: 2
+    caption: "(Clockwise from upper right) Patricia Martin, Joel Schlosser and Connie
+      Moon Sehat discuss ideas during a breakout session at the 2017 New York working
+      group meeting. Photo courtesy the Brown Institute."
+    image:
+      sys:
+        id: 1agO7IAIlawy28wMEMQY0O
+        created_at: !ruby/object:DateTime 2019-01-01 01:40:04.597000000 Z
+        updated_at: !ruby/object:DateTime 2019-01-01 01:40:31.832000000 Z
+      title: 2017 New York working group meeting
+      description: 
+      url: "//images.ctfassets.net/tlowcqj4pb76/1agO7IAIlawy28wMEMQY0O/89516aa9296748a97058b287731e9f73/photo-1.jpg"
+    filter_image: true
+  - sys:
+      id: 46ytWjLMS4oUYI2wMK0Wk8
+      created_at: !ruby/object:DateTime 2019-01-01 01:41:01.957000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 01:41:24.192000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: |-
+      ## WORKING GROUPS
+      Fostering productive discussion and exploration around the assessment of credibility is the heart of our research community, and working groups serve as the heart of its participatory structure. A working group fosters discussions among community members in ways that grapple around the central questions of the Credibility Coalition. These small working groups gather around themes that are inherently interdisciplinary. We look for ideas that basically demand people of different expertises and backgrounds to come together and foster creative brainstorming around an issue or question.
+
+      Topics of our initial working groups include: *The UX of Credible Content, Health Misinformation, Do Indicators Translate (EN-ES)?, Economics of Misinformation*
+  - sys:
+      id: 3DwOeJNCPC2sIQ4KcM2U6w
+      created_at: !ruby/object:DateTime 2019-01-01 01:41:34.228000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 01:41:42.719000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: |-
+      ## MICROGRANTS
+      This new program launched in August 2018, with the goal of supporting independent research into the question: "Can we agree on scientific and systematic ways to assess reliable information, and whether they can be applied at scale?" Awards will be announced in early October.
+  - sys:
+      id: 6GauY43ni0YcGmiqWKo62c
+      created_at: !ruby/object:DateTime 2019-01-01 01:41:51.754000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 01:42:10.125000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: |-
+      ## STRATEGIC MAPPING OF EFFORTS ("MISINFOMAP")
+      A map of information disorder efforts can foster interdisciplinary thinking — helping content creators think longer term, with those building infrastructure and facilitating connections between cutting edge research and robust practice.
+
+      The map, with additional projects and efforts, has been further developed during [a number of workshops](https://misinfocon.com/our-toolkit-for-people-and-teams-tackling-misinformation-online-9e6d240f3136), including at the CUNY Graduate School of Journalism and with the W3C Credible Web Community Group.
+  - sys:
+      id: 6KUE5aDmjmIkSGEIowOa6k
+      created_at: !ruby/object:DateTime 2019-01-01 01:42:17.570000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-24 23:43:47.419000000 Z
+      content_type_id: moduleImage
+      revision: 2
+    caption: Stylized representation of the "MisinfoMap" AirTable effort
+    image:
+      sys:
+        id: 2bu47vux56Y4SIqcCqeMEc
+        created_at: !ruby/object:DateTime 2019-01-01 01:42:20.681000000 Z
+        updated_at: !ruby/object:DateTime 2019-01-01 01:42:34.462000000 Z
+      title: credco-misinfomap-stylized
+      description: 
+      url: "//images.ctfassets.net/tlowcqj4pb76/2bu47vux56Y4SIqcCqeMEc/e3a8b016c583904f6c74cf21920b5a00/credco-misinfomap-stylized.jpg"
+    filter_image: false
+- sys:
+    id: 3XfDADQyVygIaGm4mug62g
+    created_at: !ruby/object:DateTime 2019-01-01 02:02:58.676000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-28 22:43:06.574000000 Z
+    content_type_id: page
+    revision: 1
+  title: Definitions
+  slug: definitions
+  summary: Robust definitions of credibility and its indicators are required for effective
+    solutions, whether that's automated processing or improved media literacy.
+  modules:
+  - sys:
+      id: 60PFoIx2Bqo4EsKUqO4WQk
+      created_at: !ruby/object:DateTime 2019-01-01 02:03:11.996000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 02:03:18.634000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: Simply rating a story as “credible” because it comes from trusted providers
+      is no longer enough. We believe that it is crucial for researchers, journalists,
+      and the general public to understand what parts of a story are credible and
+      why. We also believe it is important to understand how to discuss credibility
+      effectively.
+  - sys:
+      id: 154y8qQHvS6iOG0YCSK8m2
+      created_at: !ruby/object:DateTime 2019-01-01 02:03:24.904000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 02:04:20.266000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: |-
+      ## WHAT IS CREDIBILITY?
+      Simply put, credibility is __information reliability__. While individual members of the Coalition may define the factors that make up information reliability with some variability, we believe that it is necessary and beneficial to work together in creating shared understandings.
+
+      This is because the assessment of reliability is *__complex__*. Credibility is not a boolean flag, or the simple answer to a "yes/no" question.
+
+      Credibility is related to *__accuracy__*. But our goal is not to weigh into, for example, disagreements among scientists on the precise pace of rising sea levels or historians who differ on the exact number of deaths resulting from genocidal events. There are a number of articles that are more credible than others, and these articles may be equally credible even if there’s disagreement among experts. The same applies for other items in the news, like breaking news in the wake of a natural disaster.
+
+      There is an aspect to credibility that is a *__negotiation__*, where publishers and authors seek to convey credibility while readers and platforms seek to better ascertain it. The factors that make up credibility are related to one another in ways that are intricate and not yet well understood.
+
+      This complexity is why we anticipate differences among particular interpretations of why one story is more credible than the next, but nonetheless believe that the structure — the relationships and signals of credibility — can be productively defined through a community effort. In fact, given the intricacies of information networks and negotiation, we believe that a collaborative and iterative approach is necessary.
+  - sys:
+      id: 5sSzkfjcIwEkq4iEQmSaMA
+      created_at: !ruby/object:DateTime 2019-01-01 02:04:25.590000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 02:04:48.662000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: |-
+      ## INDICATORS
+      Central to the Credibility Coalition's endeavor is the definition and refinement of signals, or indicators for credibility.
+
+      [Example indicators](https://credweb.org/cciv/r/1) include looking at advertisements and revenue models, the structure of an article, and how it quotes and represents outside experts and scientific literature, such as:
+  - sys:
+      id: 17PzJsjnXQ2KCAm6UOc4cy
+      created_at: !ruby/object:DateTime 2019-01-01 02:04:52.197000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 02:05:53.151000000 Z
+      content_type_id: moduleImage
+      revision: 2
+    caption: Draft Indicators for W3C Consideration
+    image:
+      sys:
+        id: 2iXHtTesv2E6gOOO4WQWgO
+        created_at: !ruby/object:DateTime 2019-01-01 02:04:55.427000000 Z
+        updated_at: !ruby/object:DateTime 2019-01-01 02:05:13.172000000 Z
+      title: webconf2018-draft-indicators
+      description: 
+      url: "//images.ctfassets.net/tlowcqj4pb76/2iXHtTesv2E6gOOO4WQWgO/55137f339a39a697e11686b804b8b6ef/webconf2018-draft-indicators.png"
+    filter_image: false
+  - sys:
+      id: 4cpQxYr2coAgMyMyKAQigA
+      created_at: !ruby/object:DateTime 2019-01-01 02:05:59.513000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-01 02:08:02.808000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: More indicators are available [here](https://credweb.org/cciv/), as they
+      undergo proposal, review, and refinement process through our [Indicators and
+      Data process](https://credibilitycoalition.org/approach/).
+- sys:
+    id: 5hozhxdFI4EUue4Sm4E4us
+    created_at: !ruby/object:DateTime 2019-01-01 02:08:37.904000000 Z
+    updated_at: !ruby/object:DateTime 2020-08-19 21:48:49.375000000 Z
+    content_type_id: page
+    revision: 6
   title: Research
   slug: research
   summary: By hosting the results of our efforts and current conclusions, we provide
@@ -14,7 +409,7 @@ page:
   modules:
   - sys:
       id: 2IByYgLqTSS8OAaOQy2sCi
-      created_at: !ruby/object:DateTime 2019-01-01 02:09:19.540000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 02:08:49.504000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 02:09:19.540000000 Z
       content_type_id: moduleBodyText
       revision: 1
@@ -23,12 +418,19 @@ page:
 
       Questions about ongoing research and data under development can be directed to hello [at] credibilitycoalition [dot] org.
   - sys:
+      id: 64mowWlk4tdOaHrfmntMqH
+      created_at: !ruby/object:DateTime 2020-01-27 19:20:40.330000000 Z
+      updated_at: !ruby/object:DateTime 2020-01-27 19:21:16.946000000 Z
+      content_type_id: moduleBodyText
+      revision: 2
+    content: "## Papers"
+  - sys:
       id: 1yVoA3OEhy0M8K8o4aiiEe
-      created_at: !ruby/object:DateTime 2019-01-01 02:18:22.950000000 Z
-      updated_at: !ruby/object:DateTime 2019-03-18 17:13:16.640000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 02:13:10.976000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-19 23:07:54.449000000 Z
       content_type_id: moduleCitation
-      revision: 4
-    title: PAPERS
+      revision: 7
+    title: "#1"
     citation: 'Amy Zhang, Aditya Ranganathan, Sarah Emlen Metz, Scott Appling, Connie
       Moon Sehat, Norman Gilmore, Nick B. Adams, Emmanuel Vincent, Jennifer 8. Lee,
       Martin Robbins, Ed Bice, Sandro Hawke, and David Karger. *A Structured Response
@@ -51,9 +453,52 @@ page:
 
 
 
+  - sys:
+      id: 1EkSedwdQU6DiYjSj7YhPi
+      created_at: !ruby/object:DateTime 2020-01-27 19:43:35.432000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-19 23:08:02.073000000 Z
+      content_type_id: moduleCitation
+      revision: 5
+    title: "#2"
+    citation: Md Momen Bhuiyan, Amy Zhang, Connie Moon Sehat, Tanushree Mitra. *Investigating
+      ‘Who’ in the Crowdsourcing of News Credibility*. Computation+Journalism Symposium,
+      March 2020.
+    description: |
+      Concerns about the spread of misinformation online via news articles have led to the development of many tools and processes involving human annotation of their credibility. However, much is still unknown about how different people judge news credibility or the quality or reliability of news credibility ratings from populations of varying expertise. In this work, we consider credibility ratings from two “crowd” populations: 1) students within journalism or media programs, and 2) crowd workers on UpWork, and compare them with the ratings of two sets of experts: journalists and climate scientists, on a set of 50 climate-science articles. We find that both groups’ credibility ratings have higher correlation to journalism experts compared to the science experts, with 10-15 raters to achieve convergence. We also find that raters’ gender and political leaning impact their ratings. Among article genre of news/opinion/analysis and article source leaning of left/center/right, crowd ratings were more similar to experts respectively with opinion and strong left sources.
+
+      Download the [paper](https://assets.ctfassets.net/tlowcqj4pb76/19HmmUXXQMXu4bTC51V1VU/a0bcaa1ba63c52a66e008dd020013102/CredCo_CplusJ_2020_paper_cameraready.pdf "Investigating “Who” in the Crowdsourcing of News Credibility"). PDF
+
+      #### Dataset
+      View [data](https://data.world/credibilitycoalition/credibility-factors2020/ "Credibility Factors 2020 Dataset")
+
+      #### Acknowledgements
+      This paper would not be possible without the valuable support of the Credibility Coalition, with special thanks to Caio Almeida, An Xiao Mina, Jennifer 8. Lee, Rick Weiss, Kara Laney, and especially Dwight Knell. Bhuiyan and Mitra were partly supported through National Science Foundation grant # IIS-1755547.
+  - sys:
+      id: 3CVy1ZgswiMJ0YQ0ksPe7l
+      created_at: !ruby/object:DateTime 2020-08-19 21:32:40.707000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-19 23:08:08.849000000 Z
+      content_type_id: moduleCitation
+      revision: 1
+    title: "#3"
+    citation: 'Md Momen Bhuiyan, Amy X. Zhang, Connie Moon Sehat, and Tanushree Mitra.
+      2020. Investigating Differencesin Crowdsourced News Credibility Assessment:
+      Raters, Tasks, and Expert Criteria. Proceedings of the ACM on Human-Computer
+      Interaction, Article 93, October 2020.'
+    description: |+
+      Misinformation about critical issues such as climate change and vaccine safety is oftentimes amplified on online social and search platforms. The crowdsourcing of content credibility assessment by laypeople has been proposed as one strategy to combat misinformation by attempting to replicate the assessments of experts at scale. In this work, we investigate news credibility assessments by crowds versus experts to understand when and how ratings between them differ. We gather a dataset of over 4,000 credibility assessments taken from 2 crowd groups—journalism students and Upwork workers—as well as 2 expert groups—journalists and scientists—on a varied set of 50 news articles related to climate science, a topic with widespread disconnect between public opinion and expert consensus. Examining the ratings, we find differences in performance due to the makeup of the crowd, such as rater demographics and political leaning, as well as the scope of the tasks that the crowd is assigned to rate, such as the genre of the article and partisanship of the publication. Finally, we find differences between expert assessments due to differing expert criteria that journalism versus science experts use—differences that may contribute to crowd discrepancies, but that also suggest a way to reduce the gap by designing crowd tasks tailored to specific expert criteria. From these findings, we outline future research directions to better design crowd processes that are tailored to specific crowds and types of content.
+
+      Download the [paper](https://assets.ctfassets.net/tlowcqj4pb76/3TXIYQf54lxMF8ylLqyPuE/ad0222fd424eac7d1764a404a68f9212/Investigating_Differences_in_Crowdsourced_News_Credibility_Assessment_Raters_Tasks_and_Expert_Criteria.pdf). PDF
+
+      #### Dataset
+      View [data](https://data.world/credibilitycoalition/credibility-factors2020/).
+
+      #### Acknowledgements
+      This paper would not be possible without the valuable support of the Credibility Coalition, with special thanks to Caio Almeida, An Xiao Mina, Jennifer 8. Lee, Rick Weiss, Kara Laney, and especially Dwight Knell. Bhuiyan and Mitra were partly supported through National Science Foundation grant # IIS-1755547.
+
+
 - sys:
     id: 2KLjKcpl4sYGOAUSkWyim6
-    created_at: !ruby/object:DateTime 2019-01-01 02:44:26.927000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 02:43:04.718000000 Z
     updated_at: !ruby/object:DateTime 2019-01-01 03:08:58.785000000 Z
     content_type_id: page
     revision: 2
@@ -64,7 +509,7 @@ page:
   modules:
   - sys:
       id: 3rChPt2zG86EuiYG82cQcc
-      created_at: !ruby/object:DateTime 2019-01-01 02:41:47.002000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 02:40:47.562000000 Z
       updated_at: !ruby/object:DateTime 2019-11-29 04:07:41.359000000 Z
       content_type_id: moduleUpdates
       revision: 4
@@ -86,7 +531,7 @@ page:
         id: 3uYZYmfuwFZnHkygm0mW3S
   - sys:
       id: 2KfAoJZLLyau4eyAiAaIay
-      created_at: !ruby/object:DateTime 2019-01-01 03:08:47.837000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 03:03:54.076000000 Z
       updated_at: !ruby/object:DateTime 2019-11-29 04:10:31.404000000 Z
       content_type_id: moduleMentions
       revision: 3
@@ -106,7 +551,7 @@ page:
         id: 4HSixCjvKEuUQiSWyYS60a
 - sys:
     id: 2kgBIdj0N2I2CwaI40ggK0
-    created_at: !ruby/object:DateTime 2019-01-01 03:25:38.405000000 Z
+    created_at: !ruby/object:DateTime 2019-01-01 03:22:19.412000000 Z
     updated_at: !ruby/object:DateTime 2019-12-05 23:08:58.800000000 Z
     content_type_id: page
     revision: 9
@@ -118,7 +563,7 @@ page:
   modules:
   - sys:
       id: 5Vww6XE3nOSWyeCoewY0Gu
-      created_at: !ruby/object:DateTime 2019-01-01 03:25:13.634000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 03:24:33.746000000 Z
       updated_at: !ruby/object:DateTime 2019-11-29 18:41:29.196000000 Z
       content_type_id: moduleBodyText
       revision: 2
@@ -132,7 +577,7 @@ page:
       Coalition’s core values are diversity, collaboration and thoughtfulness. \n"
   - sys:
       id: QZjJWCUkboSyiegDsVYf1
-      created_at: !ruby/object:DateTime 2019-11-29 18:44:46.886000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 18:43:40.134000000 Z
       updated_at: !ruby/object:DateTime 2019-11-29 18:44:46.886000000 Z
       content_type_id: moduleBodyText
       revision: 1
@@ -141,7 +586,7 @@ page:
       [Contact us](https://credibilitycoalition.org/contact-us) to learn more.
   - sys:
       id: 35VTPzg3EACSy0gMO6USIS
-      created_at: !ruby/object:DateTime 2019-01-01 03:34:52.132000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 03:31:40.367000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 03:34:52.132000000 Z
       content_type_id: moduleMentionsAsReviews
       revision: 1
@@ -155,7 +600,7 @@ page:
         id: 278BnOsNOMyiuIwOE0Eggw
   - sys:
       id: 4X33Es1sDKgwUqcSSU0EQg
-      created_at: !ruby/object:DateTime 2019-01-01 03:38:12.527000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 03:35:02.660000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 03:38:12.527000000 Z
       content_type_id: moduleLogos
       revision: 1
@@ -167,7 +612,7 @@ page:
         id: 1epfS47QHoQiO8oWCsY6Ie
   - sys:
       id: 5b4emw9NW0kC6OSi0YI2O6
-      created_at: !ruby/object:DateTime 2019-01-01 04:00:46.602000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 03:57:19.599000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 05:59:11.954000000 Z
       content_type_id: moduleLogos
       revision: 2
@@ -191,7 +636,7 @@ page:
         id: 1ol28xPmmcy2G24EEsAUM
   - sys:
       id: 4jZYbrRHBCu2gOcMIakac2
-      created_at: !ruby/object:DateTime 2019-01-01 04:05:05.428000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 04:01:05.880000000 Z
       updated_at: !ruby/object:DateTime 2019-01-30 23:43:07.217000000 Z
       content_type_id: moduleLogos
       revision: 4
@@ -221,24 +666,40 @@ page:
         id: 1VUFQo5aoAGGkSigGscQ0m
   - sys:
       id: 5wPfNqc0dqaIO4kU84Ouae
-      created_at: !ruby/object:DateTime 2019-01-01 03:53:55.786000000 Z
+      created_at: !ruby/object:DateTime 2019-01-01 03:53:35.122000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 03:53:55.786000000 Z
       content_type_id: moduleBodyText
       revision: 1
     content: We are proud recipients of a [2017 Knight Prototype Fund grant](https://knightfoundation.org/challenges/knight-prototype-fund).
 - sys:
-    id: 5OcJ4oon1PI7TnIQaflj2q
-    created_at: !ruby/object:DateTime 2019-11-29 02:04:36.263000000 Z
-    updated_at: !ruby/object:DateTime 2019-11-29 02:04:36.263000000 Z
+    id: 3VtjhMV52o0IWysS0IY2Ys
+    created_at: !ruby/object:DateTime 2019-01-01 06:08:06.491000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-28 22:44:36.522000000 Z
     content_type_id: page
-    revision: 1
-  title: Contact Us
-  slug: contact-us
-  summary: <hello@credibilitycoalition.org> • [@credcoalition](https://twitter.com/credcoalition
-    "Twitter")
+    revision: 4
+  title: Jobs
+  slug: jobs
+  summary: To apply for any listed jobs, please send a CV and statement of interest
+    to [jobs@meedan.com](mailto:jobs@meedan.com).
+  modules:
+  - sys:
+      id: 5x3dlXxnCcdGOBQMF8KQLk
+      created_at: !ruby/object:DateTime 2019-02-11 22:35:48.364000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-11 22:35:56.902000000 Z
+      content_type_id: moduleJobs
+      revision: 1
+    title: Current Openings
+    sort_by_date: true
+- sys:
+    id: 7ol2XO7w1t7ThBC9PUBH0o
+    created_at: !ruby/object:DateTime 2019-11-20 20:17:51.363000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-20 20:17:52.659000000 Z
+    content_type_id: page
+    revision: 0
+  slug: untitled-entry-2019-11-20-at-08-17-51
 - sys:
     id: YOWmZ5lZDqHldqmfIyvyx
-    created_at: !ruby/object:DateTime 2019-11-29 02:08:10.110000000 Z
+    created_at: !ruby/object:DateTime 2019-11-28 23:45:18.259000000 Z
     updated_at: !ruby/object:DateTime 2019-11-29 02:08:10.110000000 Z
     content_type_id: page
     revision: 1
@@ -250,7 +711,7 @@ page:
   modules:
   - sys:
       id: 5sfWlJuszqPvEkfOVke3MC
-      created_at: !ruby/object:DateTime 2019-11-29 02:07:30.221000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 00:01:35.279000000 Z
       updated_at: !ruby/object:DateTime 2019-12-11 15:34:04.077000000 Z
       content_type_id: moduleBodyText
       revision: 5
@@ -264,7 +725,7 @@ page:
       Credibility Coalition also organizes, supports, partners in, and joins regular gatherings and meetings around the world where people and organizations from diverse backgrounds discuss information credibility.
   - sys:
       id: UPCauCsLxEGOCwznwv6I7
-      created_at: !ruby/object:DateTime 2019-11-29 02:07:37.675000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 00:16:40.058000000 Z
       updated_at: !ruby/object:DateTime 2019-12-05 00:14:21.650000000 Z
       content_type_id: moduleBodyText
       revision: 7
@@ -281,7 +742,7 @@ page:
       guiding questions in a decentralized way. \n\n[Learn more about Working Groups](https://credibilitycoalition.org/working-groups)"
   - sys:
       id: RPgi4dGlSu2jV0CAvwXzj
-      created_at: !ruby/object:DateTime 2019-11-29 02:07:44.916000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 00:18:41.627000000 Z
       updated_at: !ruby/object:DateTime 2019-12-12 21:39:42.712000000 Z
       content_type_id: moduleBodyText
       revision: 4
@@ -298,7 +759,7 @@ page:
       consensus on how to identify and address misinformation.\n"
   - sys:
       id: 2SJDOo2J8tyRXL2jANv0w9
-      created_at: !ruby/object:DateTime 2019-11-29 02:07:50.985000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 01:39:52.193000000 Z
       updated_at: !ruby/object:DateTime 2019-11-29 02:07:50.985000000 Z
       content_type_id: moduleBodyText
       revision: 1
@@ -317,7 +778,7 @@ page:
       We support the ongoing development of indicators and signals in external projects such as CredWeb, a common specification or standard for credibility signals that is conversant with members of the W3C.
   - sys:
       id: 6NUizW89Cbqi2Y1EUrL9Pc
-      created_at: !ruby/object:DateTime 2019-11-29 02:07:55.924000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 01:48:20.088000000 Z
       updated_at: !ruby/object:DateTime 2019-11-29 02:07:55.924000000 Z
       content_type_id: moduleBodyText
       revision: 1
@@ -326,8 +787,18 @@ page:
       Contact us to learn how you can get involved with Credibility Coalition.
 
 - sys:
+    id: 5OcJ4oon1PI7TnIQaflj2q
+    created_at: !ruby/object:DateTime 2019-11-29 01:49:11.776000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-29 02:04:36.263000000 Z
+    content_type_id: page
+    revision: 1
+  title: Contact Us
+  slug: contact-us
+  summary: <hello@credibilitycoalition.org> • [@credcoalition](https://twitter.com/credcoalition
+    "Twitter")
+- sys:
     id: 7HpW85kf60LwspQXf2KVy7
-    created_at: !ruby/object:DateTime 2019-11-29 02:17:26.647000000 Z
+    created_at: !ruby/object:DateTime 2019-11-29 02:10:43.606000000 Z
     updated_at: !ruby/object:DateTime 2019-11-29 02:17:26.647000000 Z
     content_type_id: page
     revision: 1
@@ -339,7 +810,7 @@ page:
   modules:
   - sys:
       id: TR94w7Wwetp0qxdCtT73r
-      created_at: !ruby/object:DateTime 2019-11-29 02:17:10.901000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 02:15:28.619000000 Z
       updated_at: !ruby/object:DateTime 2019-12-05 23:10:17.960000000 Z
       content_type_id: moduleBodyText
       revision: 2
@@ -351,7 +822,7 @@ page:
       '
 - sys:
     id: 4n39wcrX0Vrjk3NSAHMaPH
-    created_at: !ruby/object:DateTime 2019-11-29 18:29:56.525000000 Z
+    created_at: !ruby/object:DateTime 2019-11-29 18:25:59.182000000 Z
     updated_at: !ruby/object:DateTime 2019-11-29 18:36:07.796000000 Z
     content_type_id: page
     revision: 2
@@ -362,7 +833,7 @@ page:
   modules:
   - sys:
       id: 71ZvBMtj7ZEZdCTpLpv8Y4
-      created_at: !ruby/object:DateTime 2019-11-29 18:36:02.020000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 18:26:47.473000000 Z
       updated_at: !ruby/object:DateTime 2019-11-29 18:36:02.020000000 Z
       content_type_id: moduleBodyText
       revision: 1
@@ -371,18 +842,16 @@ page:
       to come together and foster creative brainstorming around an issue or question.
   - sys:
       id: TIHIFhmNSqMBtTVnItkLv
-      created_at: !ruby/object:DateTime 2019-11-29 18:35:57.751000000 Z
-      updated_at: !ruby/object:DateTime 2019-11-29 18:54:40.159000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 18:33:25.989000000 Z
+      updated_at: !ruby/object:DateTime 2020-05-19 23:26:23.469000000 Z
       content_type_id: moduleBodyText
-      revision: 4
-    content: " \n__The UX of Credible Content__\n(Chair: Amy Zhang)\n \n__Health Misinformation__\n(Chair:
-      Adi Cohen)\n \n__MisinfoSec__ \n(Co-Chairs: Sara-Jayne Terp, Christopher R.
-      Walker)\n \n__Credibility Literacy__\n(Co-Chairs: Hyunjin Seo, Andrea Bras)\n\n__Responding
-      to Memes and Images__ \n(Chair: Oren Levine)\n\n__Do Indicators Translate?__
-      (This working group has concluded)\n"
+      revision: 5
+    content: " \n__The UX of Credible Content__\n(Chair: Amy Zhang)\n\n__MisinfoSec__
+      \n(This working group has concluded)\n \n__Do Indicators Translate?__ \n(This
+      working group has concluded)\n \n\n"
   - sys:
       id: LrSJ6Knk59knhEQUFamR4
-      created_at: !ruby/object:DateTime 2019-11-29 18:35:53.605000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 18:34:39.004000000 Z
       updated_at: !ruby/object:DateTime 2019-11-29 18:35:53.605000000 Z
       content_type_id: moduleBodyText
       revision: 1
@@ -391,7 +860,7 @@ page:
       As part of CredCo’s mission to incubate collaborative inquiry, we support cross-disciplinary working groups where members advance their own inquiries in response to our guiding questions in a decentralized way.
   - sys:
       id: 4BcJCs4Wj0PjYUtLkdwkfL
-      created_at: !ruby/object:DateTime 2019-11-29 18:35:48.398000000 Z
+      created_at: !ruby/object:DateTime 2019-11-29 18:35:21.095000000 Z
       updated_at: !ruby/object:DateTime 2019-11-29 18:35:48.398000000 Z
       content_type_id: moduleBodyText
       revision: 1
