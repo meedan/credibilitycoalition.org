@@ -634,7 +634,7 @@
     "Type": "Other",
     "Funder Description": null,
     "URL": null,
-    "Initatives": "NewsGuard,FACTLY ,Main Street One ,Agência Lupa,TrustServista,Pressland,AFP Factuel,Aos Fatos,Blackbird,Check Your Fact,Chequeado,Colombia Check ,dpa-Faktencheck,El Sabueso,Ellinika Hoaxes,Lead Stories,Nobias,NuzzleRank,Public Editor,The Factual"
+    "Initatives": "NewsGuard,FACTLY ,Main Street One ,Agência Lupa,TrustServista,Pressland,AFP Factuel,Aos Fatos,Blackbird,Check Your Fact,Chequeado,Colombia Check ,dpa-Faktencheck,El Sabueso,Ellinika Hoaxes,Lead Stories,Nobias,NuzzleRank,The Factual"
   },
   {
     "Name": "Ford Foundation",
@@ -1085,6 +1085,13 @@
     "Initatives": null
   },
   {
+    "Name": "McCune Foundation",
+    "Type": "Foundation, Large",
+    "Funder Description": "\"The McCune Foundation was established in 1990 by George D. McCune and Sara Miller McCune, the founders and principal management team (for 25 years) of SAGE Publications, Inc. The Foundation supports projects that address critical issues in Santa Barbara and Ventura Counties by empowering and mobilizing excluded populations. We support groups which are “doing with others” rather than “doing for others” – grassroots, bottom-up organizations in which “clients” are the initiators and involved in decision making.\" (Source: Website) ",
+    "URL": "http://mccunefoundation.org/",
+    "Initatives": "Public Editor"
+  },
+  {
     "Name": "MDPI",
     "Type": "Other",
     "Funder Description": "\"MDPI is a pioneer in scholarly open access publishing and has supported academic communities since 1996.\" (Source: Organization Website) ",
@@ -1131,7 +1138,7 @@
     "Type": "Other",
     "Funder Description": "This includes subscription-based membership",
     "URL": null,
-    "Initatives": "W3C Credible Web Community Group,Congo Check,Australian Associated Press FactCheck,Poletika,ConPruebas,Dagens Nyheter,Aos Fatos,JournaList,Columbia Journalism Review,CORRECTIV.ORG,Demagog Association,El Sabueso,Estadão Verifica ,FACTLY ,Public Editor"
+    "Initatives": "W3C Credible Web Community Group,Congo Check,Australian Associated Press FactCheck,Poletika,ConPruebas,Dagens Nyheter,Aos Fatos,JournalList,Columbia Journalism Review,CORRECTIV.ORG,Demagog Association,El Sabueso,Estadão Verifica ,FACTLY "
   },
   {
     "Name": "Miami Foundation",
@@ -1544,7 +1551,7 @@
     "Type": "Corporation",
     "Funder Description": "\"As a venture facility for public benefit, we help people do more for others by imagining what’s possible, applying advanced science and computing thoughtfully, and working together in networks across fields\" (Source: Organization Website)",
     "URL": "https://schmidtfutures.com/",
-    "Initatives": "Hypothes.is"
+    "Initatives": "Hypothes.is,Public Editor"
   },
   {
     "Name": "Schöpflin Foundation",
