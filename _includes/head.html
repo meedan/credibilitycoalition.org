@@ -3,7 +3,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta content="text/html; charset=UTF-8" name="Content-Type" />
-  <title>{% if page.title %}{{ page.title }}{% endif %}{{ site.title | escape | prepend: ' | ' }}</title>
+  
+  {% if page.path contains 'project/' or page.path contains 'funder/' %}
+    <title>{% if page.title %}{{ page.title | escape | append: ' | CredCatalog' }}{% endif %}</title>
+  {% else %}
+    <title>{{page.layout }}{% if page.title %}{{ page.title }}{% endif %}{{ site.title | escape | prepend: ' | ' }}</title>
+  {% endif %}
   {% seo title=false %}
   {% if page.path contains 'project/' or page.path contains 'funder/' %}
     <meta property="og:image" content="https://images.ctfassets.net/tlowcqj4pb76/32p8sE0rSZUhNGLPxi8bbu/4683ef049b96510aac78a9c6ab614aeb/tile-credcat.png" />

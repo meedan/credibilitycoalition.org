@@ -14,7 +14,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 03:36:32.041000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 03:36:56.681000000 Z
     title: Hacks/Hackers
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/4SZgZWefDqIiIEqqWCgMQC/7c93e2807420e0385ff6a0cfb7482797/hh.png"
   link: https://hackshackers.com/
 - sys:
@@ -31,7 +31,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 03:37:23.404000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 03:37:57.120000000 Z
     title: Meedan
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/2xUTbcWWp6k6KU8qeoCYwO/a8cb478ec65a22c793023f4133133a39/meedan.svg"
   logo_size: Square
   link: https://meedan.com/
@@ -49,7 +49,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 03:57:50.955000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 03:58:03.537000000 Z
     title: AP
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/cyIh6OPdx6kOuyCiee0u2/8a289e1fae445ed6d6ba5f98aa6357a4/ap.svg"
   logo_size: Square
   link: https://www.ap.org/
@@ -67,7 +67,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 03:59:09.870000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 03:59:37.120000000 Z
     title: Climate Feedback
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/2OB8XyH0xOMmEYO0ciMkiU/d2f26698f022887d071e5e57be7f5eae/climatefeedback.jpg"
   logo_size: Very wide
   link: https://climatefeedback.org/
@@ -85,7 +85,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 04:00:15.531000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 04:00:33.281000000 Z
     title: factmata
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/3g71B5Gs00oM8OKQemiGSE/21aeee6da1f3b5b737661602938632ef/factmata.svg"
   logo_size: Very wide
   link: https://factmata.com/
@@ -103,7 +103,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 04:01:48.285000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 04:02:07.728000000 Z
     title: Google News Initiative
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/52vl8ddkkwCgAwaMicEGOC/e66952c4696e372812347a490e192fee/gni.svg"
   link: https://newsinitiative.withgoogle.com/
 - sys:
@@ -120,7 +120,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 04:02:44.296000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 04:03:02.608000000 Z
     title: Facebook Journalism Project
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/3udnPO6i0giAMqcq2UU4gu/0acedb3342173e26be23017994f7976c/fbjp.png"
   logo_size: Tall
   link: https://www.facebook.com/facebookmedia/get-started/facebook-journalism-project
@@ -138,7 +138,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 04:03:43.283000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 04:03:56.137000000 Z
     title: Craig Newmark Philanthropies
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/or0GGowrBuOiI4i2sSGAC/e05ff40ca8907d4405f8652a10fb37fa/cnp.png"
   logo_size: Very wide
   link: http://craignewmarkphilanthropies.org/
@@ -156,7 +156,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 04:04:30.687000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 04:04:52.245000000 Z
     title: Knight Foundation
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/2zgtSW5DHmEceyUkIw8KOA/e81b17a5959ba5e71bf269e219949c7a/kf.svg"
   logo_size: Very wide
   link: http://www.knightfoundation.org/
@@ -174,7 +174,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 05:59:58.762000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 06:00:18.025000000 Z
     title: Rita Allen
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/2oYIpMhCwQ6iMo0y4k2GWa/4177db67599b0090bf4810c2075e9786/ra.png"
   link: http://ritaallen.org/
 - sys:
@@ -191,7 +191,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 05:54:25.575000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 05:54:46.752000000 Z
     title: Georgia Tech Research Institute
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/1MQzvhSS5O0Qe24QUCe6sc/e76ee0878dae9ba5e733e7ae99814f51/gtri.png"
   logo_size: Very wide
   link: https://gtri.gatech.edu
@@ -209,7 +209,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 05:55:26.388000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 05:55:42.619000000 Z
     title: Global Voices
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/2uLZnUlspicMgUo8IaMQQc/4855d06263a0df3b08ba300e5dbd6742/globalvoices.jpg"
   logo_size: Very wide
   link: https://globalvoices.org/
@@ -227,7 +227,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 05:56:29.949000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 05:56:46.515000000 Z
     title: Hypothesis
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/68jJcmQJ4AIYUGSSicGGGg/fa542e9ba8f9a49ad8684fb687ccdd3c/hypothesis.jpg"
   link: https://web.hypothes.is/
 - sys:
@@ -244,7 +244,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 05:57:33.856000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 05:57:43.837000000 Z
     title: Media Cloud
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/4Ap3dLGj20gES4G8A4OyMk/8045922bb8fa4b5b3cbe8b39ac3d4384/mediacloud.jpg"
   logo_size: Square
   link: https://mediacloud.org/
@@ -262,7 +262,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 05:58:37.704000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 05:58:48.357000000 Z
     title: Snopes
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/1W7yU5Bk7SYMSOOuAKoyE2/6b983854542b85ed9323acf3c2d0e1f5/snopes.jpg"
   link: https://www.snopes.com/
 - sys:
@@ -279,7 +279,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 06:02:25.553000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 06:02:35.457000000 Z
     title: Democracy Fund
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/3xpAVbE7hm2ysgyw8M0sA8/8a5791612c7ef829ba254074a08a47f1/df.png"
   link: http://www.democracyfund.org/
 - sys:
@@ -296,7 +296,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 06:03:23.421000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 06:03:51.042000000 Z
     title: MisinfoCon
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/4gQXaOB0GIsq0kGwkIMKC2/9d9cf98eb8e211d2b52f73fff1656def/mi.png"
   link: https://misinfocon.com/
 - sys:
@@ -313,7 +313,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 06:04:43.030000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 06:04:59.273000000 Z
     title: Mozilla
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/6yGfCM0i7SiaEAuuOiK2eu/4afe688b3c23eba33b9189dddd7ac879/mozilla.svg"
   link: http://mozilla.org/
 - sys:
@@ -330,7 +330,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-01 06:05:58.308000000 Z
       updated_at: !ruby/object:DateTime 2019-01-01 06:06:12.554000000 Z
     title: The Shuttleworth Foundation
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/5fQnpllmlyI2yC4u402csG/3bfafaab0d867ca49212a17abb24d388/shuttleworth.png"
   logo_size: Very wide
   link: https://www.shuttleworthfoundation.org/
@@ -348,7 +348,7 @@ organisation:
       created_at: !ruby/object:DateTime 2019-01-30 23:41:56.803000000 Z
       updated_at: !ruby/object:DateTime 2019-01-30 23:42:46.312000000 Z
     title: Twitter Logo
-    description: 
+    description:
     url: "//images.ctfassets.net/tlowcqj4pb76/BduIi8mm9Lr0PfCzukW8y/5b283afba5556550306509430a51aecf/Twitter_Logo_Blue.png"
   logo_size: Square
   link: https://twitter.com/

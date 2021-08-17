@@ -3,15 +3,19 @@ catalog:
 - sys:
     id: 2AzvjngT2Ax1FoaYy4eybL
     created_at: !ruby/object:DateTime 2019-12-14 02:52:16.727000000 Z
-    updated_at: !ruby/object:DateTime 2019-12-14 05:06:31.360000000 Z
+    updated_at: !ruby/object:DateTime 2021-07-14 20:34:59.133000000 Z
     content_type_id: catalog
-    revision: 1
+    revision: 4
   title: Projects
   cap: CredCatalog
-  description: Welcome to CredCatalog. This is an effort to compile projects and initiatives
-    that aim to improve information quality. We are collecting information on fact-checking
-    groups, technology tools, academic research institutions and so much more. Explore
-    our growing list of entries by geography, language, funders and solutions categories.
+  description: "## Contact Us\nIf you have feedback or would like to get contact,
+    please contact us at:\n\n__credcat (at) hackshackers.com__ \n\n### __About CredCatalog__\n\n__NOTE:__
+    CredCatalog is __not__ a membership directory. It is a resource and research tool.\n\nLaunched
+    in November, 2019, CredCatalog is a catalog of projects and initiatives that have
+    a stated aim to improve information quality. The catalog includes information
+    on fact-checking groups, technology tools, academic and research institutions,
+    and other initiatives. Entries are searchable according to geography, language,
+    funders, and solutions categories.\n"
   slug: "/"
   modules:
   - sys:
