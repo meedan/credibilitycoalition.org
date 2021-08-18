@@ -201,7 +201,7 @@ page:
         created_at: !ruby/object:DateTime 2019-01-01 01:36:14.794000000 Z
         updated_at: !ruby/object:DateTime 2019-01-01 01:36:47.114000000 Z
       title: Credibility Coalition Frameworks
-      description: 
+      description:
       url: "//images.ctfassets.net/tlowcqj4pb76/irR6JMNWzC6WWCMuWewYW/c3777cf36705d2617bb203b89a1ae21e/credco-framework.png"
     filter_image: false
   - sys:
@@ -237,7 +237,7 @@ page:
         created_at: !ruby/object:DateTime 2019-01-01 01:38:08.372000000 Z
         updated_at: !ruby/object:DateTime 2019-01-01 01:38:21.615000000 Z
       title: CredCo-indicator-lifecycle
-      description: 
+      description:
       url: "//images.ctfassets.net/tlowcqj4pb76/33nYEKfBMQA8cEOAi6Cwus/8273783f0d26d2dd5b1aae5adfee9245/CredCo-indicator-lifecycle.png"
     filter_image: false
   - sys:
@@ -270,7 +270,7 @@ page:
         created_at: !ruby/object:DateTime 2019-01-01 01:40:04.597000000 Z
         updated_at: !ruby/object:DateTime 2019-01-01 01:40:31.832000000 Z
       title: 2017 New York working group meeting
-      description: 
+      description:
       url: "//images.ctfassets.net/tlowcqj4pb76/1agO7IAIlawy28wMEMQY0O/89516aa9296748a97058b287731e9f73/photo-1.jpg"
     filter_image: true
   - sys:
@@ -317,7 +317,7 @@ page:
         created_at: !ruby/object:DateTime 2019-01-01 01:42:20.681000000 Z
         updated_at: !ruby/object:DateTime 2019-01-01 01:42:34.462000000 Z
       title: credco-misinfomap-stylized
-      description: 
+      description:
       url: "//images.ctfassets.net/tlowcqj4pb76/2bu47vux56Y4SIqcCqeMEc/e3a8b016c583904f6c74cf21920b5a00/credco-misinfomap-stylized.jpg"
     filter_image: false
 - sys:
@@ -383,7 +383,7 @@ page:
         created_at: !ruby/object:DateTime 2019-01-01 02:04:55.427000000 Z
         updated_at: !ruby/object:DateTime 2019-01-01 02:05:13.172000000 Z
       title: webconf2018-draft-indicators
-      description: 
+      description:
       url: "//images.ctfassets.net/tlowcqj4pb76/2iXHtTesv2E6gOOO4WQWgO/55137f339a39a697e11686b804b8b6ef/webconf2018-draft-indicators.png"
     filter_image: false
   - sys:
@@ -398,9 +398,9 @@ page:
 - sys:
     id: 5hozhxdFI4EUue4Sm4E4us
     created_at: !ruby/object:DateTime 2019-01-01 02:08:37.904000000 Z
-    updated_at: !ruby/object:DateTime 2020-08-19 21:48:49.375000000 Z
+    updated_at: !ruby/object:DateTime 2021-07-14 21:10:11.577000000 Z
     content_type_id: page
-    revision: 6
+    revision: 7
   title: Research
   slug: research
   summary: By hosting the results of our efforts and current conclusions, we provide
@@ -418,6 +418,91 @@ page:
 
       Questions about ongoing research and data under development can be directed to hello [at] credibilitycoalition [dot] org.
   - sys:
+      id: 2GnfiyTnshABsJBRolVjhH
+      created_at: !ruby/object:DateTime 2021-07-14 20:42:42.907000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-14 20:43:25.181000000 Z
+      content_type_id: moduleBodyText
+      revision: 2
+    content: "## Reports"
+  - sys:
+      id: 1euIQuWmR2Awe3OE3mh2Wu
+      created_at: !ruby/object:DateTime 2021-07-14 20:43:40.702000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-14 21:32:06.242000000 Z
+      content_type_id: moduleCitation
+      revision: 5
+    title: Bridging the Divide Between Local News and Online Platforms
+    citation: "The [Credibility Coalition](https://credibilitycoalition.org/ \"Credibility
+      Coalition\") and the [Nieman Foundation for Journalism at \nHarvard](https://nieman.harvard.edu/
+      \"Nieman Foundation for Journalism at Harvard\"). *Bridging the Divide Between
+      Local News and Online Platforms.* The Schema-Online Local News discussion series,
+      2021.\n\n[Download the report](//assets.contentful.com/tlowcqj4pb76/73kUL9ph6hWNdYnJNKBJJR/db81acad1fddf496f9483e59615dddee/Bridging_the_Divide_Between_Local_News_and_Online_Platforms.pdf)"
+    description: "As news increasingly moves online, search rankings, online traffic
+      metrics and website referrals matter a great deal to the bottom lines of many
+      local news operations. It is not only important that these local outlets get
+      credit for their reporting; ranking higher in search results can help justify
+      the resources they invest in newsgathering and reinforce their image as an authoritative,
+      trusted source for readers.\n\nFailing to surface their content has become another
+      setback for local news outlets already struggling with cutbacks, shrinking subscription
+      bases, and increasing pressure to produce more content with ever-dwindling resources.
+      A vibrant local news landscape plays a vital role in keeping the public informed
+      on issues that directly impact their lives. If local outlets can’t reach readers
+      online, the whole news ecosystem suffers.\n\nIn early 2021, the Credibility
+      Coalition, in partnership with the Nieman Foundation for Journalism at Harvard
+      convened a series of conversations aimed at both establishing a common vocabulary
+      for greater understanding between local news outlets and online platforms and
+      examining the way local news is surfaced online. \n\nThe project, which received
+      financial support from the Google News Initiative, is part of a wider effort
+      to empower journalists to better understand — and platforms to better execute
+      — the promotion of quality local journalism on news delivery platforms.\n\nThe
+      Schema-Online Local News discussion group consisted of journalists from a variety
+      of outlets (with majority representation from local news operations), and representatives
+      of several of the major tech platforms. \nOver the course of three meetings,
+      the group examined ways that journalists might better adapt local content to
+      effectively communicate with platform technologies. At the same time, they looked
+      at ways platforms might improve systems for identifying local news and tweaking
+      their algorithms to place local stories more prominently in front of readers.\n\nBridging
+      the Divide Between Local News and Online Platforms, by the Credibility Coalition
+      and the Nieman Foundation for Journalism at Harvard, captures some of the insights,
+      ideas, and suggestions that came out of these discussions.\n"
+  - sys:
+      id: 1OPVqALsFF7Dj2sDLpXUNf
+      created_at: !ruby/object:DateTime 2021-07-14 20:44:33.565000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-14 21:50:20.562000000 Z
+      content_type_id: moduleCitation
+      revision: 8
+    title: An Introduction to Schemas for Journalists
+    citation: "The [Credibility Coalition](https://credibilitycoalition.org/ \"Credibility
+      Coalition\"), the [Nieman Foundation for Journalism at \nHarvard](https://nieman.harvard.edu/
+      \"Nieman Foundation for Journalism at Harvard\"), and Samantha Sunne. *An Introduction
+      to Schemas for Journalists.* The Schema-Online Local News discussion series,
+      2021.\n\n[Download the report](//assets.contentful.com/tlowcqj4pb76/1edyyqNHwzMoj9dzNsoLTh/29733395d8f3be00f020f89a614acfc8/An_Introduction_to_Schemas_for_Journalists.pdf)\n"
+    description: |-
+      This document is meant to be used as a curriculum that empowers journalists to better understand — and help platforms to better execute — the discovery and ranking of quality local journalism on news delivery platforms.
+
+      Journalists from local news outlets and representatives from technology platforms participated in one introductory training module and three subsequent discussion sessions. Participants worked together in small groups to brainstorm ideas, processes or mechanisms they think platforms should adopt to better surface local news. At the end of the discussion series, these ideas were refined and submitted to platforms for consideration.
+
+      In order to facilitate these conversations, both journalists and platform representatives needed to be able to understand and use common vocabulary around news algorithms. This vocabulary, and in particular the way it represents how online information is organized and processed, can be known as a “schema.” Schemas are unfamiliar to many journalists, but nonetheless have a huge impact on their work and how it is distributed.
+
+      __What This Curriculum Covers__
+
+      This document provides a hands-on introduction to practical applications of schemas for online news, including:
+
+      - Structured data
+      - Rich snippets
+      - Schemas for online news articles
+      - Applying schema markup and Schema.org markup
+      - New initiatives to markup news content
+      - Signals, indicators, and ranking factors
+      - Labels
+
+      Additional resources for further exploring how local news is distributed online
+      An Introduction to Schemas for Journalists was developed as part of the Schema-Online Local News discussion series that was convened over several months in 2021, by the Credibility Coalition and the Nieman Foundation for Journalism at Harvard, and with financial support from the Google News Initiative. The purpose of this discussion series was to establish a common vocabulary for understanding between local news outlets and online platforms by convening regular, structured conversations between journalists and representatives of technology platforms.
+
+      #### Acknowledgements
+
+      We would like to acknowledge the assistance and insights of Mark Stencel,
+      Joel Luther, Beck Levy, Scott Yates, Momen Bhuiyan, and Kate Harloe.
+  - sys:
       id: 64mowWlk4tdOaHrfmntMqH
       created_at: !ruby/object:DateTime 2020-01-27 19:20:40.330000000 Z
       updated_at: !ruby/object:DateTime 2020-01-27 19:21:16.946000000 Z
@@ -427,10 +512,9 @@ page:
   - sys:
       id: 1yVoA3OEhy0M8K8o4aiiEe
       created_at: !ruby/object:DateTime 2019-01-01 02:13:10.976000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-19 23:07:54.449000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-19 23:14:55.091000000 Z
       content_type_id: moduleCitation
       revision: 7
-    title: "#1"
     citation: 'Amy Zhang, Aditya Ranganathan, Sarah Emlen Metz, Scott Appling, Connie
       Moon Sehat, Norman Gilmore, Nick B. Adams, Emmanuel Vincent, Jennifer 8. Lee,
       Martin Robbins, Ed Bice, Sandro Hawke, and David Karger. *A Structured Response
@@ -456,10 +540,9 @@ page:
   - sys:
       id: 1EkSedwdQU6DiYjSj7YhPi
       created_at: !ruby/object:DateTime 2020-01-27 19:43:35.432000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-19 23:08:02.073000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-19 23:14:59.558000000 Z
       content_type_id: moduleCitation
       revision: 5
-    title: "#2"
     citation: Md Momen Bhuiyan, Amy Zhang, Connie Moon Sehat, Tanushree Mitra. *Investigating
       ‘Who’ in the Crowdsourcing of News Credibility*. Computation+Journalism Symposium,
       March 2020.
@@ -476,13 +559,12 @@ page:
   - sys:
       id: 3CVy1ZgswiMJ0YQ0ksPe7l
       created_at: !ruby/object:DateTime 2020-08-19 21:32:40.707000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-19 23:08:08.849000000 Z
+      updated_at: !ruby/object:DateTime 2020-08-20 00:13:19.306000000 Z
       content_type_id: moduleCitation
-      revision: 1
-    title: "#3"
+      revision: 2
     citation: 'Md Momen Bhuiyan, Amy X. Zhang, Connie Moon Sehat, and Tanushree Mitra.
-      2020. Investigating Differencesin Crowdsourced News Credibility Assessment:
-      Raters, Tasks, and Expert Criteria. Proceedings of the ACM on Human-Computer
+      2020. *Investigating Differencesin Crowdsourced News Credibility Assessment:
+      Raters, Tasks, and Expert Criteria.* Proceedings of the ACM on Human-Computer
       Interaction, Article 93, October 2020.'
     description: |+
       Misinformation about critical issues such as climate change and vaccine safety is oftentimes amplified on online social and search platforms. The crowdsourcing of content credibility assessment by laypeople has been proposed as one strategy to combat misinformation by attempting to replicate the assessments of experts at scale. In this work, we investigate news credibility assessments by crowds versus experts to understand when and how ratings between them differ. We gather a dataset of over 4,000 credibility assessments taken from 2 crowd groups—journalism students and Upwork workers—as well as 2 expert groups—journalists and scientists—on a varied set of 50 news articles related to climate science, a topic with widespread disconnect between public opinion and expert consensus. Examining the ratings, we find differences in performance due to the makeup of the crowd, such as rater demographics and political leaning, as well as the scope of the tasks that the crowd is assigned to rate, such as the genre of the article and partisanship of the publication. Finally, we find differences between expert assessments due to differing expert criteria that journalism versus science experts use—differences that may contribute to crowd discrepancies, but that also suggest a way to reduce the gap by designing crowd tasks tailored to specific expert criteria. From these findings, we outline future research directions to better design crowd processes that are tailored to specific crowds and types of content.
@@ -789,13 +871,13 @@ page:
 - sys:
     id: 5OcJ4oon1PI7TnIQaflj2q
     created_at: !ruby/object:DateTime 2019-11-29 01:49:11.776000000 Z
-    updated_at: !ruby/object:DateTime 2019-11-29 02:04:36.263000000 Z
+    updated_at: !ruby/object:DateTime 2021-07-14 20:36:19.633000000 Z
     content_type_id: page
-    revision: 1
+    revision: 2
   title: Contact Us
   slug: contact-us
-  summary: <hello@credibilitycoalition.org> • [@credcoalition](https://twitter.com/credcoalition
-    "Twitter")
+  summary: "\n<credcat@credibilitycoalition.org>\n\n<hello@credibilitycoalition.org>
+    \n\n[@credcoalition](https://twitter.com/credcoalition \"Twitter\")"
 - sys:
     id: 7HpW85kf60LwspQXf2KVy7
     created_at: !ruby/object:DateTime 2019-11-29 02:10:43.606000000 Z
@@ -868,3 +950,102 @@ page:
       ## Contact Us
 
       [Contact us](https://credibilitycoalition.org/contact-us) to learn more about Working Groups.
+- sys:
+    id: 4t5tuD48MWyvM1WHIY7GFi
+    created_at: !ruby/object:DateTime 2021-07-14 21:10:35.190000000 Z
+    updated_at: !ruby/object:DateTime 2021-07-14 21:41:15.523000000 Z
+    content_type_id: page
+    revision: 4
+  title: Bridging the Divide Between Local News and Online Platforms
+  slug: bridging-the-divide-between-local-news-and-online-platforms
+  summary: Produced in partnership by the [Credibility Coalition](https://credibilitycoalition.org/
+    "The Credibility Coalition") and the [Nieman Foundation for Journalism at Harvard](https://nieman.harvard.edu/
+    "The Nieman Foundation for Journalism at Harvard").
+  modules:
+  - sys:
+      id: 51xd5OWpffhHEpEGQFi6gO
+      created_at: !ruby/object:DateTime 2021-07-14 21:12:15.617000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-14 22:11:26.763000000 Z
+      content_type_id: moduleBodyText
+      revision: 9
+    content: "[Download *Bridging the Divide Between Local News and Online Platforms*](//assets.contentful.com/tlowcqj4pb76/73kUL9ph6hWNdYnJNKBJJR/db81acad1fddf496f9483e59615dddee/Bridging_the_Divide_Between_Local_News_and_Online_Platforms.pdf)\n\nIn
+      2021, the Credibility Coalition, in partnership with the Nieman Foundation for
+      Journalism at Harvard convened a series of conversations aimed at establishing
+      greater understanding between local news outlets and online platforms, and examining
+      how local news is surfaced online.\n\n*Bridging the Divide Between Local News
+      and Online Platforms* captures insights and ideas from these discussions.\n\nAs
+      news increasingly moves online, search rankings, online traffic metrics and
+      website referrals matter a great deal to the bottom lines of many local news
+      operations. It is not only important that these local outlets get credit for
+      their reporting; ranking higher in search results can help justify the resources
+      they invest in newsgathering and reinforce their image as an authoritative,
+      trusted source for readers.\n\nFailing to surface their content has become another
+      setback for local news outlets already struggling with cutbacks, shrinking subscription
+      bases, and increasing pressure to produce more content with ever-dwindling resources.
+      A vibrant local news landscape plays a vital role in keeping the public informed
+      on issues that directly impact their lives. If local outlets can’t reach readers
+      online, the whole news ecosystem suffers.\n\nThe Schema-Online Local News discussion
+      series, which received financial support from the Google News Initiative, is
+      part of a wider effort to empower journalists to better understand — and platforms
+      to better execute — the promotion of quality local journalism on news delivery
+      platforms.\n\nThe Schema discussion series group consisted of journalists from
+      a variety of outlets (with majority representation from local news operations),
+      and representatives of several of the major tech platforms. \n\nOver the course
+      of three meetings, the group examined ways that journalists might better adapt
+      local content to effectively communicate with platform technologies. At the
+      same time, they looked at ways platforms might improve systems for identifying
+      local news and tweaking their algorithms to place local stories more prominently
+      in front of readers.\n\nBridging the Divide Between Local News and Online Platforms,
+      by the Credibility Coalition and the Nieman Foundation for Journalism at Harvard,
+      captures some of the insights, ideas, and suggestions that came out of these
+      discussions.\n\n### Acknowledgements\n\nWe would like to acknowledge the assistance
+      and insights of Mark Stencel,\nJoel Luther, Beck Levy, Scott Yates, Momen Bhuiyan,
+      and Kate Harloe."
+- sys:
+    id: 4g1YsZ0Fyz3JcuO8cXgDCK
+    created_at: !ruby/object:DateTime 2021-07-14 21:17:53.858000000 Z
+    updated_at: !ruby/object:DateTime 2021-07-14 21:17:59.905000000 Z
+    content_type_id: page
+    revision: 0
+  slug: untitled-entry-2021-07-14-at-21-17-53
+- sys:
+    id: 15QMgUmkQ4SnkYwrrgLWSO
+    created_at: !ruby/object:DateTime 2021-07-14 21:33:12.534000000 Z
+    updated_at: !ruby/object:DateTime 2021-07-14 21:52:10.167000000 Z
+    content_type_id: page
+    revision: 2
+  title: An Introduction to Schemas for Journalists
+  slug: an-introduction-to-schemas-for-journalists
+  summary: Produced in partnership by the [Credibility Coalition](https://credibilitycoalition.org/
+    "The Credibility Coalition") and the [Nieman Foundation for Journalism at Harvard](https://nieman.harvard.edu/
+    "The Nieman Foundation for Journalism at Harvard") and written by Samantha Sunne.
+  modules:
+  - sys:
+      id: ygGOsXgrqDsDhTkphjjfZ
+      created_at: !ruby/object:DateTime 2021-07-14 21:34:37.973000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-14 21:40:22.218000000 Z
+      content_type_id: moduleBodyText
+      revision: 1
+    content: |-
+      [Download *An Introduction to Schemas for Journalists*](//assets.ctfassets.net/tlowcqj4pb76/1edyyqNHwzMoj9dzNsoLTh/29733395d8f3be00f020f89a614acfc8/An_Introduction_to_Schemas_for_Journalists.pdf)
+
+      This document is meant to be used as a curriculum that empowers journalists to better understand — and help platforms to better execute — the discovery and ranking of quality local journalism on news delivery platforms.
+
+      Journalists from local news outlets and representatives from technology platforms participated in one introductory training module and three subsequent discussion sessions. Participants worked together in small groups to brainstorm ideas, processes or mechanisms they think platforms should adopt to better surface local news. At the end of the discussion series, these ideas were refined and submitted to platforms for consideration.
+
+      In order to facilitate these conversations, both journalists and platform representatives needed to be able to understand and use common vocabulary around news algorithms. This vocabulary, and in particular the way it represents how online information is organized and processed, can be known as a “schema.” Schemas are unfamiliar to many journalists, but nonetheless have a huge impact on their work and how it is distributed.
+
+      __What This Curriculum Covers__
+
+      This document provides a hands-on introduction to practical applications of schemas for online news, including:
+
+      - Structured data
+      - Rich snippets
+      - Schemas for online news articles
+      - Applying schema markup and Schema.org markup
+      - New initiatives to markup news content
+      - Signals, indicators, and ranking factors
+      - Labels
+
+      Additional resources for further exploring how local news is distributed online
+      An Introduction to Schemas for Journalists was developed as part of the Schema-Online Local News discussion series that was convened over several months in 2021, by the Credibility Coalition and the Nieman Foundation for Journalism at Harvard, and with financial support from the Google News Initiative. The purpose of this discussion series was to establish a common vocabulary for understanding between local news outlets and online platforms by convening regular, structured conversations between journalists and representatives of technology platforms.

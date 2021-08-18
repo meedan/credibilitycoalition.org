@@ -53,7 +53,7 @@ module Jekyll
         # override page title for catalog pages
         if template == "catalog"
           self.data['short_title'] = data['title']
-          data['title'] = data['title'] + " – CredCatalog"
+          data['title'] = "CredCatalog"
         end
     
         # populating description

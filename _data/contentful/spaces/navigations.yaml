@@ -3,9 +3,9 @@ navigation:
 - sys:
     id: 1g4BxCOWyI0kK6M6aMy8KS
     created_at: !ruby/object:DateTime 2019-01-01 01:48:04.112000000 Z
-    updated_at: !ruby/object:DateTime 2019-12-12 20:37:11.982000000 Z
+    updated_at: !ruby/object:DateTime 2021-07-14 20:36:52.166000000 Z
     content_type_id: navigation
-    revision: 12
+    revision: 13
   title: Main Navigation
   pages:
   - sys:
@@ -149,9 +149,9 @@ navigation:
   - sys:
       id: 5hozhxdFI4EUue4Sm4E4us
       created_at: !ruby/object:DateTime 2019-01-01 02:08:37.904000000 Z
-      updated_at: !ruby/object:DateTime 2020-08-19 21:48:49.375000000 Z
+      updated_at: !ruby/object:DateTime 2021-07-14 21:10:11.577000000 Z
       content_type_id: page
-      revision: 6
+      revision: 7
     title: Research
     slug: research
     summary: By hosting the results of our efforts and current conclusions, we provide
@@ -160,6 +160,12 @@ navigation:
     modules:
     - sys:
         id: 2IByYgLqTSS8OAaOQy2sCi
+    - sys:
+        id: 2GnfiyTnshABsJBRolVjhH
+    - sys:
+        id: 1euIQuWmR2Awe3OE3mh2Wu
+    - sys:
+        id: 1OPVqALsFF7Dj2sDLpXUNf
     - sys:
         id: 64mowWlk4tdOaHrfmntMqH
     - sys:
@@ -197,14 +203,4 @@ navigation:
     modules:
     - sys:
         id: 5x3dlXxnCcdGOBQMF8KQLk
-  - sys:
-      id: 5OcJ4oon1PI7TnIQaflj2q
-      created_at: !ruby/object:DateTime 2019-11-29 01:49:11.776000000 Z
-      updated_at: !ruby/object:DateTime 2019-11-29 02:04:36.263000000 Z
-      content_type_id: page
-      revision: 1
-    title: Contact Us
-    slug: contact-us
-    summary: <hello@credibilitycoalition.org> • [@credcoalition](https://twitter.com/credcoalition
-      "Twitter")
   type: Global

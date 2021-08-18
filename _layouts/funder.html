@@ -14,7 +14,7 @@ custom_css: page
           <div class="cap"><a href="/credcatalog/funders">Funder</a></div>
           <h1>{{ page['Name'] }}</h1>
           {% if page['Funder Description'] %}
-          <div class="page-description"><p>{{ page['Funder Description'] | linkify | markdownify }}</p></div>
+          <div class="page-description"><p>{{ page['Funder Description'] | markdownify }}</p></div>
           {% endif %}
           <div class="page-meta">
               {% if page['Type'] %}

@@ -27,10 +27,6 @@ module Jekyll
       text.nil? ? [] : (CSV.parse_line(text, **{ :col_sep => separator })&.map{ |v| v.strip } || [])
     end
 
-    def linkify(text)
-      require 'twitter-text'
-      Twitter::TwitterText::Autolink.auto_link_urls(text, { target_blank: true })
-    end
   end
 end
 
